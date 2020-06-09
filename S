@@ -1770,7 +1770,7 @@ html:not(.ns) .im-create_classic,html:not(.ns) .im-page_classic .im-page--dialog
 .im-page_classic,.im-page_classic .im-page--history{height:100%!important}
 .im-page_classic .im-page--history{overflow:hidden;position:unset!important;top:unset!important;bottom:unset!important;border-radius:0!important}
 .im-page.im-page_classic .im-page--dialogs{overflow:hidden;position:unset!important;margin-top:48px;padding:0}
-.im-page:before{content:'';display:block;position:absolute;width:100%;top:0;height:100%;z-index:-1}
+.im-page:before{content:'';display:block;position:absolute;width:100%;top:0;height:100%}
 .im-page_classic:before{position:sticky;width:550px;top:57px;height:calc(100vh - 72px);margin-bottom:calc(-100vh + 72px);background:linear-gradient(var(--n15e),var(--n15e)) fixed}
 .im-page_group:not(.im-page_history-show):before{top:122px;height:calc(100vh - 137px);margin-bottom:calc(-100vh + 137px)}
 .im-group-online,.im-page_classic.im-page_cropped{overflow:visible!important}
