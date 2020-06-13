@@ -344,7 +344,7 @@ html.nl #wk_box,html.nl #mv_box,html.nl #pv_box:before,body.author_page_body,.au
 .wikiTable th,.PageBlock__header,.GroupOrderDetails__label,.ItemsVariantsModal__columnProperty1,.ItemsVariantsModal__columnProperty2,.ItemsVariantsModal__hint,.MarketAdminTable__tableHeader .MarketAdminTable__tableCell,.MarketAdminTable__tableRow:hover .MarketAdminTable__tableCell,.VideoPlaylistItem__thumbWrap,.video_item_thumb_wrap,.stories_upload_bottom_cont,.TableColumnsSettings__selectedColumnsItem,.ui_table_row.header,.paginated_table_header,.ads_table_header,.ads_retargeting_menu_header,.exchange_table th,.exchange_table tr.even,.BulkEdit__preview th,.Dropdown__item:first-child,.StaticRanges__label:hover,.video_upload__thumb_wrap,.video_tc_item,.thumbed_link:last-child,.article_ed_layer .article_ed_layer__list_item.article_ed_layer__list_item--selected,.stat_cont_browse_filter_item:hover,.stats_cont_browse_tile_desc,.post_event_info,.mv_chat_new_messages_btn,.im-navigation__button,.replies_side,.groups_edit_event_log_item_wrap_more_wrap:hover,.rdrEndEdge,.rdrSelected,.rdrStartEdge,.rdrDayEndPreview,.rdrDayInPreview,.rdrDayStartPreview,.rdrDay:hover,.groups_edit_event_log_item_wrap:hover>.groups_edit_event_log_item_main,.groups_edit_event_log_item_wrap_focused,.docs_choose_upload_area,.docs_choose_upload_area_drop,.photos_choose_upload_area,.photos_choose_upload_area_drop,.video_choose_upload_area,.video_choose_upload_area_drop,#gtop_admin_tips.gtop_complex_message,.group_edit_admin_tips_item:hover,.poster-uploader__drop-box:hover,.groups_edit_cover_wrap_main_wrap:hover,.groups_edit_cover_wrap_live_upload_placeholder_enabled:hover,#page_wall_posts .page_block[style^="background-color"],.groups_edit_cover_wrap_live_upload_placeholder_disabled,.ArchiveRequestForm__section__meta-wrap:hover,.ArchiveRequestForm__page-wrap:hover,.market_add_new_item_area,.im-mess.im-mess_gift,.im-mess.im-mess_gift.im-mess_selected,.im-mess.im-mess_gift.im-mess_selected:hover,.medadd_c_linkimg_container,.Avatar--online.Avatar--mobile:after,.post_like:hover,.post_reply:hover,.post_share:hover,.ok_msg,.info_msg,.wall_module .like_tt_bottom_page_friend_reply,.like_tt_bottom_page_friend_reply,.photos_container_albums .photos_album_thumb,table.natives-list tr:nth-child(odd),.modal table tr:nth-child(odd),.vk-input{
 	background-color:var(--n22e)!important
 }
-.StickersPanel__tab:hover,.feedback_group_loadmore_button:hover,.vk_app_modal_btn--deny,.cal_table .day:hover:not(.inactive_day),.landing_transparencyArchive_auth-needed .landing_transparencyArchive__button:hover,.landing_transparencyArchive_download-mvk-disabled .landing_transparencyArchive__button:hover,.landing_transparencyArchive_wait .landing_transparencyArchive__button:hover,.bookmark_page_item .bookmark_page_item__actions .ui_actions_menu_icons,.ChatSettingsInfo__photoRemove,.index_new_user_row .index_user_ph{
+.BugreportComment__metaContent,.StickersPanel__tab:hover,.feedback_group_loadmore_button:hover,.vk_app_modal_btn--deny,.cal_table .day:hover:not(.inactive_day),.landing_transparencyArchive_auth-needed .landing_transparencyArchive__button:hover,.landing_transparencyArchive_download-mvk-disabled .landing_transparencyArchive__button:hover,.landing_transparencyArchive_wait .landing_transparencyArchive__button:hover,.bookmark_page_item .bookmark_page_item__actions .ui_actions_menu_icons,.ChatSettingsInfo__photoRemove,.index_new_user_row .index_user_ph{
 	background-color:var(--n29f)
 }
 .photos_choose_upload_area:hover,.video_choose_upload_area:hover,.docs_choose_upload_area:hover,.web_cam_photo:hover,.video_add_external:hover,.AuthorPageDraftCell__cover,.audio_block_small_item__img,.Table__Button,.ads_stat_date_range,.groups_menu_item_image,.left_count_wrap{
@@ -869,7 +869,7 @@ input.ui_search_field{
 .List--border,.ChatSettingsMembersWidget,.Button--mobile{
 	box-shadow:0 1px 0 var(--n22e),0 -1px 0 var(--n22e)
 }
-.landing_testing_form,.bt_report_cmt_meta_content,.im-page_classic.im-page .im-page--chat-body-abs{
+.BugreportComment__metaContent,.landing_testing_form,.bt_report_cmt_meta_content,.im-page_classic.im-page .im-page--chat-body-abs{
 	box-shadow:0 1px 0 0 var(--n22e),0 0 0 1px var(--n22e)
 }
 .post_top_info_wall_podcast,.post_top_info_wall_vkgo,.post_top_info_wall_guide,.post_top_info_wall_mention,.post_top_info_wall_reply,.post_top_info_wall_like,.blog_product{
@@ -1107,7 +1107,7 @@ html.rb .search_auto_rows.page_block,html.rb .search_results.search_auto_results
 	margin-top:-111px!important;
 	padding-top:111px!important
 }
-#page_layout .audio_section__all .CatalogSection__my,#page_layout .audio_section__all .CatalogSection__user_list,#page_layout .audio_section__all .CatalogBlock--divided:first-child,#page_layout .audio_section__search .CatalogBlock--divided:first-child,#page_layout .audio_section__recoms .CatalogBlock--divided:first-child,#page_layout .audio_section__recoms_audio .CatalogBlock--divided:first-child{
+#page_layout .audio_section__all .CatalogSection__my,#page_layout .audio_section__all .CatalogSection__user_list,#page_layout .audio_section__all .CatalogSection__group_list,#page_layout .audio_section__all .CatalogBlock--divided:first-child,#page_layout .audio_section__search .CatalogBlock--divided:first-child,#page_layout .audio_section__recoms .CatalogBlock--divided:first-child,#page_layout .audio_section__recoms_audio .CatalogBlock--divided:first-child{
 	margin-top:-111px!important;
 	padding-top:126px!important
 }
@@ -1539,6 +1539,7 @@ body[style*="/images/error404"]:before{
 	filter:var(--icon);
 	background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="hsla(0,0%,50%,0.5)" d="M8 0v16A8 8 0 1 1 8 0z"/><path fill="hsl(0,0%,50%)" d="M8 0v16A8 8 0 1 0 8 0z"/></svg>')!important
 }
+.photos_period_delimiter_fixed{left:unset!important;margin:42px 0 0 0}
 .cp_ex{padding:20px 0 0 48px}
 .cp_ex a{display: block;padding:0 0 5px 0;font-size:16px;text-decoration:none}
 .cp_ex div{float:left;width:38px;height:38px;margin:2px 0 0 -48px;border-radius:8px;background:url('//sun9-2.userapi.com/c850608/v850608177/15cb5e/HgNovglFofc.jpg') left/cover}
@@ -1574,7 +1575,7 @@ html.s #cp,.cp_e,#cp_bc.a,#pv_more_act_bg,#mv_more_act_bg,.video_no_actions .vid
 .cp_fg{background:var(--bg);filter:var(--bge);transition:background .9s;padding:0 0 1px;box-sizing:content-box;background-clip:content-box}
 .cp_fg+div{position:relative;width:100vw;height:100vh;box-shadow:var(--bgv)}
 @media (min-aspect-ratio:16/9){.cp_fg iframe{height:300%;top:-100%}}
-@media (max-aspect-ratio:16/9){.cp_fg iframe{width:300%;left:-100%}}
+@media (max-aspect-ratio:1600/901){.cp_fg iframe{width:300%;left:-100%}}
 #cp{transform:translateX(310px);user-select:none;box-shadow:rgba(0, 0, 0, 0.1) 0 0 0 1px,rgba(0, 0, 0, 0.2) -2px 2px 8px 0;box-sizing:border-box;position:fixed;top:0;right:0;width:300px;height:100vh;padding:42px 10px 10px;font-size:13px;line-height:1.154;z-index:1500;overflow-y:overlay;overscroll-behavior-y:contain}
 #cp:before{content:'';display:block;position:fixed;top:0;right:0;width:300px;height:100vh;background:var(--n15b);z-index:-1}
 html.s #cp{transform:none;scrollbar-width:none}
