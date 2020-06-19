@@ -151,6 +151,11 @@ a.dd_link,.dd_menu_header div:after,.idd_arrow{background-image:url('data:image/
 .button_action_light_add.activated:before,.button_action_light_done:before{background-image:url('data:image/svg+xml,<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg"><path stroke="${l7}" d="M4 12.5l5 5L20.5 6" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"/></svg>')}
 .mv_added_icon,#mv_subscribed_btn:before,.author_page__subscribe_btn.secondary .author_page__subscribe_icon,.mention_tt_subscr.secondary .mention_tt_subscr_icon,.wk_subscribe_btn.secondary .wk_subscribe_icon,.feed_asc_user_subscribe_btn.secondary .feed_asc_user_subscribe_icon{background-image:url('data:image/svg+xml,<svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path stroke="${k2t}" d="M4 12.5l5 5L20.5 6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" fill="none"/></svg>')!important}
 .ui_tooltipMenu__item.selected>.ui_tooltipMenu__link:after{background-image:url('data:image/svg+xml,<svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke="${g2}" d="M4 12.5l5 5L20.5 6" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" fill="none"/></svg>')!important}
+//arrow rounded
+.ui_gallery .ui_gallery__arrow.ui_gallery__arrow_left,
+.PhotoCarousel__arrowWrapper--left .PhotoCarousel__arrow{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 21" style="filter:drop-shadow(0 0 3px %23000b)"><circle cx="10.5" cy="10.5" fill="${n15}" r="6.5"/><path d="M11.25 8.25l-2.25 2.25m0 0l2.25 2.25" stroke="${g2}" stroke-linecap="round"/></svg>')!important}
+.ui_gallery .ui_gallery__arrow.ui_gallery__arrow_right,
+.PhotoCarousel__arrowWrapper--right .PhotoCarousel__arrow{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 21" style="filter:drop-shadow(0 0 3px %23000b)"><circle cx="10.5" cy="10.5" fill="${n15}" r="6.5"/><path d="M9.25 8.25l2.25 2.25m0 0l-2.25 2.25" stroke="${g2}" stroke-linecap="round"/></svg>')!important}
 //arrow
 .eltt.feature_intro_blue_tt .eltt_arrow{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="9" height="20"><path fill="${n15}" d="M0 20l7.8-8.5c.7-.9.7-2.2 0-3L0 0z"/></svg>')!important}
 //up
@@ -522,7 +527,7 @@ body #system_msg[style*="background-color: rgb(255, 180, 163)"],.ui_tab_count.ui
 .market_row_new_badge,.apps_feedRightAppsBlock__badge{
 	background-color:#f00
 }
-.pe_filter_amount_slider .slider_amount,.pe_filter_amount_slider .slider_handler,.article_snippet .article_snippet__action_btn{
+.pe_filter_amount_slider .slider_amount,.pe_filter_amount_slider .slider_handler,.article_snippet .article_snippet__action_btn,#card_iframe{
 	background-color:#fff!important
 }
 .stories_preview:after{
