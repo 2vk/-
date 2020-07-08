@@ -316,7 +316,7 @@ html.s #cp,.cp_e,#cp_bc.a,#pv_more_act_bg,#mv_more_act_bg,.video_no_actions:not(
 .cp_bg{display:block;position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:-99}
 .cp_bg>f{animation:var(--bfha);display:block;width:100%;height:100%}
 .cp_fg,.cp_fg video,.cp_fg iframe,.cp_hb video{object-fit:var(--obf);object-position:var(--obp);position:absolute;top:0;left:0;width:100%;height:100%;border:none;pointer-events:none}
-.cp_fg{background:var(--bg);transform:var(--bgt);filter:var(--bge);transition:background .9s;padding:0 0 1px;box-sizing:content-box;background-clip:content-box}
+.cp_fg{background:var(--bg);transform:var(--bgt);filter:var(--bge);transition:background .9s}
 .cp_fg+div{position:relative;width:100vw;height:100vh;box-shadow:var(--bgv)}
 @media (min-aspect-ratio:16/9){.cp_fg iframe{height:300%;top:-100%}}
 @media (max-aspect-ratio:1600/901){.cp_fg iframe{width:300%;left:-100%}}
