@@ -331,11 +331,9 @@ html,.cp_fg{
 .Loading__overlay,#retargeting_group_pixel,.photos_cancel_move,.stl_active.over_fast #stl_bg,.article_layer.article_layer__hover_left .article_layer__up,body.dev .stl_active.over_fast #stl_bg,.prefix_input_wrap,.survey_page-ugcform .survey_textfield,.survey_page-ugcform .survey_textarea,.EditableUnionName__inputWrapper,.FormulaInput,.Inputs__input,input.dark,input.big_text,input.file,input.search,input.text,input[type=button],input[type=password],input[type=search],input[type=submit],input[type=text],input[type=email],input[type=password],input[type=search],input[type=text],textarea{
 	background-color:var(--n158)
 }
-.box_controls{
+.box_controls,.stats_flash_wrap [style*="background: white"]{
 	background-color:var(--n158)!important
 }
-#stats_cont [style*="background: white"]{background-color:var(--n158)!important}
-
 .PageBlock,.GamesCatalogProfileBlock,#page_layout .CatalogBlock--divided,#page_layout .audio_section__all,#page_layout .audio_section__playlists,#page_layout .audio_section__updates,.paginated_table_row.even_row,.paginated_table_row.even_row td,.ads_schedule_cell,.PageFooterWrap,.Office__main,.AudioPlaylistSnippet,.stats_cont_browse_tile,.faq_search_form,#stat_group_postsreach_table td,.page_block,.audio_promo,.ChatSettingsMembersWidget__add:before,.article_layer:before,.article_ed_layer,.media_voting,.photos_choose_more,.photos_choose_more_albums,html.mb #side_bar_inner,.im-page:before,.im-aside-notice,.SubmitArea,.mv_live_gifts_arrow_left,.mv_live_gifts_arrow_right,.photos_choose_upload_area_cont.fixed .choose_search_cont input,.bt_member_activity_reports_title,.bt_generic_popup,.pva_period_fixed,.video_donate_widget_offline,.Select__menu,.apps_edit_cont_row.active>.apps_edit_cont_name_c>input,.ace-tm,.ace-tm .ace_gutter,.apps_edit_cont_row .ace-tm .ace_gutter,.flist_sel,.login_about_mobile,.blog_products_page .blog_about_company_stats,.blog_products_page .blog_about_press,.wke_page_title_cont,.wke_controls,.wk_extpage_footer_wrap,.graffiti_wrap,.graffiti_tools,.disabled.selector_container,.audio_pl_edit_box .ape_header,.fans_fan_bl_wrap,.gifts_box_header,.market_item_content,.wpost_post,.fc_msgs,.photos_container .photos_row ,.wl_post_reply_form_forbidden,.pv_cont .pv_reply_form_wrap,.friends_photo_img,.friends_photo_img:before,.article_ed_layer .article_ed_guide .article_ed_guide__slide,.photos_period_delimiter_fixed,.privacy_dropdown .l_item,.privacy_dropdown .l_item_sel,.privacy_dropdown .l_header,.privacy_dropdown .l_header .l_header_label,.oauth_centered,.payments_box_wide,#payments_box_right_col,.apps_i_wrap,.bd_day_cell,.page_media_poll_wrap,.market_item_photo_container,.help_table_question_sa.help_table_question_visible,.wall_comments_header,.privacy_dropdown .body,#payments_box .payments_about_votes,.payments_about_votes,.ui_tab_group_items,.im_stickers_bl_wrap,.apps_options_bar,.paginated_table_footer,.ads_unions_list .table_footer td,#add_place_data,#exchange_post_msg,.Table__Cell,.DesktopWrapper,.pv_white_bg,.owner_photo_additional,.video_upload_separator_text,.im-chat-input .im-chat-input--txt-wrap,.ui_grey_block,#dev_left_nav,.dev_section_methods_wrap,#dev_page_wrap1,.dev_page_block,.bugs_new_cont,#mv_publish,#mv_warning,.mv_is_in_progress,.mv_chat,.audio_pl_edit_box .ape_list_header,.bottom_row,.dd_menu_rows a,.pretty-card,.DesktopRoot,.lead_forms_view_form_wrap,.friends_dropdown__list,.friends_dropdown__list_content,#wk_box.landing_wk_box_calls,#profile_class_hint .content,.feedback_unread_bar,#apps_edit_admins,.Dropdown__in{
 	background-color:var(--n15e)
 }
@@ -726,7 +724,7 @@ html.mg #side_bar .left_label,html.mc #side_bar .left_label{
 .group_edit_invite_link_url,.mv_chat_new_messages_btn,.im-navigation__button,.replies_side,.article_post_convert.round_button,.video_upload_progress,.fakeinput:focus,div[contenteditable=true]:focus,input.big_text:focus,input.dark:focus,input.search:focus,input.text:focus,textarea:focus,.emoji_shop:hover .emoji_shop_icon_badge,.box_error,.info_msg,.box_msg,.box_msg_gray,.msg,.ok_msg,.fc_msgs_out .fc_msgs,.ui_search.ui_search_fixed,.error{
 	border-color:var(--n39e)!important
 }
-.ui_progress .ui_progress_back,#stats_cont [style*="border: 1px"]{
+.ui_progress .ui_progress_back,.stats_flash_wrap [style*="border: 1px"]{
 	border-color:var(--n444)!important
 }
 .landing_ads_tabs .ui_tab.ui_tab_sel{
@@ -2004,8 +2002,9 @@ html.nl #box_layer_bg,html.nl #layer_bg,html.nl #stories_layers_background{backg
 .cp_c.s1 div:after{content:attr(data-s);padding-left:.4ch;top:.65em}
 .cp_c.s2 div:after{content:attr(data-s);padding-left:.4ch;bottom:.65em}
 .cp_c.d:after{content:attr(data-d);display:block;font-size:var(--d)!important;filter:var(--ds)}
-#cp_c3{width:calc(50% - 53px)!important}
-#cp_c4{margin:-13px 5px -14px 0!important}
+#cp_c3,#cp_cd{width:calc(50% - 53px)!important}
+#cp_c3{float:left;margin-top:-17px!important}
+#cp_c4{margin:-23px 5px -14px 0!important}
 #cp_c6:not(.on)+input,#cp_c8:not(.on)+div,#cp_ca:not(.a)+#cp_cb{display:none}
 #cp_cb{margin:-10px 0 -10px 5px!important;width:50%;float:right}
 
