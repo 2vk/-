@@ -1443,7 +1443,7 @@ input.text.ts_input,body.dev input.dev_top_input{
 [dir] .emoji_cats_title_helper{padding:0}
 [dir] .emoji_cats_title_helper .emoji_cat_title{padding:10px 8px 6px}
 [dir] .emoji{vertical-align:calc(6px + -9px * var(--emoji_size));width:calc(16px * var(--emoji_size));height:calc(16px * var(--emoji_size))}
-[dir] ._im_page_peer_name .emoji,[dir] .im-mess-stack--lnk .emoji,[dir] .ui_rmenu_subitem .emoji,[dir] ._im_dialog_link .emoji,[dir] .im-mess .im-mess--post .post_author .emoji,[dir] .im-right-menu--text .emoji,[dir] .CovidStatus__wrapper .emoji{width:16px;height:16px;vertical-align:-3px}
+[dir] ._im_page_peer_name .emoji,[dir] .im-mess-stack--lnk .emoji,[dir] .ui_rmenu_subitem .emoji,[dir] ._im_dialog_link .emoji,[dir] .im-mess .im-mess--post .post_author .emoji,[dir] .im-right-menu--text .emoji,[dir] .CovidStatus__wrapper .emoji{width:14px;height:14px;vertical-align:-3px}
 [dir] .emoji_smile_cont .emoji{vertical-align:-3px;width:16px;height:16px}
 [dir] .emoji_smiles_row{display:inline}
 [dir] .emoji_tabs_wrap{width:calc(var(--emoji_tt_size) * 290px - 72px)}
@@ -1656,16 +1656,16 @@ body[style*="/images/error404"]:before{
 	filter:none!important
 }
 .video_upload__progress_bar{
-	background-image:url('data:image/svg+xml,<svg width="51" height="72" viewBox="0 0 51 72" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h51v36H0z" fill="hsla(108,100%,50%,.06)"/><path d="M18 0h25L33 36H8z" fill="hsla(108,100%,50%,.1)"/><path d="M0 36h51v36H0z" fill="hsla(0,100%,50%,.06)"/><path d="M18 36h25L33 72H8z" fill="hsla(0,100%,50%,.1)"/></svg>')
+	background-image:url('data:image/svg+xml,<svg width="51" height="72" viewBox="0 0 51 72" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h51v36H0z" fill="hsla(108,100%,50%,.06)"/><path d="M18 0h25L33 36H8z" fill="hsla(108,100%,50%,.1)"/><path d="M0 36h51v36H0z" fill="hsla(0,100%,50%,.06)"/><path d="M18 36h25L33 72H8z" fill="hsla(0,100%,50%,.1)"/></svg>')!important
 }
 .author_page_close,.article_layer .article_layer__close{
-	background-image:url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 48 48'><path stroke='%23fff' stroke-width='2' d='M13,35 L35,13' stroke-linecap='round'/><path stroke='%23fff' stroke-width='2' d='M13,13 L35,35' stroke-linecap='round'/></svg>")
+	background-image:url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 48 48'><path stroke='%23fff' stroke-width='2' d='M13,35 L35,13' stroke-linecap='round'/><path stroke='%23fff' stroke-width='2' d='M13,13 L35,35' stroke-linecap='round'/></svg>")!important
 }
 .audio_pl_item .audio_pl__cover{
-	background-image:url("data:image/svg+xml,<svg width='72' height='72' viewBox='687 319 72 72' xmlns='http://www.w3.org/2000/svg'><g fill='none' fill-rule='evenodd'><path d='M687 319h72v72h-72'/><path d='M739 371c0 4.42-3.58 8-8 8s-8-3.58-8-8 3.58-8 8-8c1.9 0 3.63.66 5 1.75V340.7c0-1.1.87-2.22 1.94-2.5l8.12-2c1.08-.28 1.94.4 1.94 1.5v5c0 1.1-.87 2.22-1.94 2.5l-7.06 1.75V371zm-40-30.5c0-.83.67-1.5 1.5-1.5h29c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5h-29c-.83 0-1.5-.67-1.5-1.5zm0 9c0-.83.67-1.5 1.5-1.5h29c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5h-29c-.83 0-1.5-.67-1.5-1.5zm0 9c0-.83.67-1.5 1.5-1.5h21c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5h-21c-.83 0-1.5-.67-1.5-1.5z' fill='%23ccc'/></g></svg>")
+	background-image:url("data:image/svg+xml,<svg width='72' height='72' viewBox='687 319 72 72' xmlns='http://www.w3.org/2000/svg'><g fill='none' fill-rule='evenodd'><path d='M687 319h72v72h-72'/><path d='M739 371c0 4.42-3.58 8-8 8s-8-3.58-8-8 3.58-8 8-8c1.9 0 3.63.66 5 1.75V340.7c0-1.1.87-2.22 1.94-2.5l8.12-2c1.08-.28 1.94.4 1.94 1.5v5c0 1.1-.87 2.22-1.94 2.5l-7.06 1.75V371zm-40-30.5c0-.83.67-1.5 1.5-1.5h29c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5h-29c-.83 0-1.5-.67-1.5-1.5zm0 9c0-.83.67-1.5 1.5-1.5h29c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5h-29c-.83 0-1.5-.67-1.5-1.5zm0 9c0-.83.67-1.5 1.5-1.5h21c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5h-21c-.83 0-1.5-.67-1.5-1.5z' fill='%23ccc'/></g></svg>")!important
 }
 .video_upload_tc_wrap .video_tc_upload_btn{
-	background-image:url("data:image/svg+xml,<svg width='16px' height='16px' viewBox='0 0 10 10' xmlns='http://www.w3.org/2000/svg'><polyline points='0,5 5,5 5,0 5,5 10,5 5,5 5,10' fill='none' stroke='%23888' stroke-width='2'/></svg>")
+	background-image:url("data:image/svg+xml,<svg width='16px' height='16px' viewBox='0 0 10 10' xmlns='http://www.w3.org/2000/svg'><polyline points='0,5 5,5 5,0 5,5 10,5 5,5 5,10' fill='none' stroke='%23888' stroke-width='2'/></svg>")!important
 }
 .article_stat .article_stat__funnel_legend_median,.article_stat .article_stat__funnel_legend_this{
 	filter:url(#hue);
