@@ -305,6 +305,8 @@ body *{
 	font-family:var(--f,inherit)!important;
 	font-weight:var(--w,400)
 }
+.ui_rmenu_item_sel,.nim-dialog--name{--w:500}
+.left_count_wrap,strong,b{--w:bold}
 #mv_main_info .ui_actions_menu_wrap.shown .ui_actions_menu{
 	display:flex!important;
 	flex-direction:column-reverse
@@ -1341,7 +1343,7 @@ input.disabled,textarea.disabled,input.validation_readonly{color:var(--777)!impo
 #side_bar ol li .left_row,.left_menu_nav,.left_restore_link{
 	color:var(--mc)!important
 }
-.videoplayer,.ShortVideoGrid,.media_voting_bg_tile,.media_voting_bg_photo,.media_voting_bg_gradient{
+.BannerItem,.videoplayer,.ShortVideoGrid,.media_voting_bg_tile,.media_voting_bg_photo,.media_voting_bg_gradient{
 	--white:#eee
 }
 .media_voting_bg_gradient .media_voting_option_count,.media_voting_bg_photo .media_voting_option_count,.media_voting_bg_tile .media_voting_option_count{
@@ -1432,9 +1434,9 @@ input.disabled,textarea.disabled,input.validation_readonly{color:var(--777)!impo
 }
 .article_anchor_fsymbol{font-size:0!important}
 input.text.ts_input,body.dev input.dev_top_input{
-	border-left:none;
-	padding-left:27px;
-	background-position-x:8px
+	border-left:none!important;
+	padding-left:27px!important;
+	background-position-x:8px!important
 }
 
 [dir] .emoji_tt_wrap{width:calc(290px * var(--emoji_tt_size))!important}
