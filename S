@@ -2055,7 +2055,7 @@ html.nl #box_layer_bg,html.nl #layer_bg,html.nl #stories_layers_background{backg
 	--page-block-shadow:0 1px 0 0 var(--n29e),0 0 0 1px var(--n29e);
 	--highlight-background:var(--n33f);
 }
-.apps_featured_slider,.DownloadedGamesCatalogBanner,.VkPayBanner,.DownloadedGameItem__badge,.DownloadedGameItem__button,.article_snippet,.stories_layer,.mv_layer--vertical,.BannerItem,.videoplayer,.ShortVideoGrid,.short_video_item,.media_voting_bg_tile,.media_voting_bg_photo,.media_voting_bg_gradient,.emoji_shop_icon_badge,.chat_tab_counter{
+.GamesCatalogCollections,.apps_featured_slider,.DownloadedGamesCatalogBanner,.VkPayBanner,.DownloadedGameItem__badge,.DownloadedGameItem__button,.article_snippet,.stories_layer,.mv_layer--vertical,.BannerItem,.videoplayer,.ShortVideoGrid,.short_video_item,.media_voting_bg_tile,.media_voting_bg_photo,.media_voting_bg_gradient,.emoji_shop_icon_badge,.chat_tab_counter{
 	--white:#eee
 }
 .DownloadedGameItem__badge--exclusive{
