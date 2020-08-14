@@ -1758,7 +1758,7 @@ html.vo .top_audio_player .top_audio_player_title{position:fixed;text-align:cent
 html.vo .audio_layer_container .audio_page_content_block_wrap{height:calc(100vh - 106px)!important}
 html.vo #audio_layer_tt{position:fixed!important;top:0!important;left:calc(50% - 330px)!important}
 #feed_filters[data-op]>:last-child{position:relative;opacity:.001}
-#feed_filters .r53{top:40px!important}.r53{opacity:.001!important;position:fixed!important;top:40px!important;z-index:10!important}
+#feed_filters .r53{top:40px!important}.r53{opacity:.001!important;position:fixed!important;bottom:0!important;z-index:10!important}
 .r53:not(.r52):after,#feed_filters[data-op]>:last-child:after{content:'';position:absolute;top:0;left:0;right:0;bottom:0}
 .r53:not(.r52):hover:after,#feed_filters[data-op]>:last-child:hover:after{z-index:10000}
 .r53:not(.r52){top:unset!important;bottom:0!important;left:0!important}
@@ -2122,7 +2122,7 @@ html.nl #box_layer_bg,html.nl #layer_bg,html.nl #stories_layers_background{backg
 .PopupHeader__title,#pg_fixed,.mv_layer--vertical,.mv_playlist{
 	--white:var(--eee)
 }
-.nim-dialog_selected,.photos_container .pr,.places_map .pr,.VideoPreview__title,.video_thumb_label,.GamesCatalogPromoContent,.CatalogBlock__banner,.stories_feed_preview_live_badge,#pv_fullscreen,.VideoPlaylistItem__info,.page_doc_photo_href,.dev_main_featured,.GamesCatalogCollections,.apps_featured_slider,.VkPayBanner,.DownloadedGameItem__badge,.DownloadedGameItem__button,.article_snippet,.stories_layer,.BannerItem,.videoplayer,.ShortVideoGrid,.short_video_item,.media_voting_bg_tile,.media_voting_bg_photo,.media_voting_bg_gradient,.emoji_shop_icon_badge,.chat_tab_counter{
+.nim-dialog_selected,.photos_container .pr,.places_map .pr,.pr_baw,.VideoPreview__title,.video_thumb_label,.GamesCatalogPromoContent,.CatalogBlock__banner,.stories_feed_preview_live_badge,#pv_fullscreen,.VideoPlaylistItem__info,.page_doc_photo_href,.dev_main_featured,.GamesCatalogCollections,.apps_featured_slider,.VkPayBanner,.DownloadedGameItem__badge,.DownloadedGameItem__button,.article_snippet,.stories_layer,.BannerItem,.videoplayer,.ShortVideoGrid,.short_video_item,.media_voting_bg_tile,.media_voting_bg_photo,.media_voting_bg_gradient,.emoji_shop_icon_badge,.chat_tab_counter{
 	--white:#eee
 }
 .DownloadedGameItem__badge--exclusive{
