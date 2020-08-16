@@ -428,9 +428,9 @@ html,.cp_fg{
 .Button--primary:hover,.Button--primary:not(.Button--disabled):hover,.Button--primary:not(.Button--disabled):focus,.Button--primary:not(.Button--disabled):active,.button_blue button.hover,.button_blue button:hover,.button_blue button.active,.button_blue button:active,.media_voting_footer_button:hover{
 	background-color:var(--k1h)!important
 }
-#market_search_wrap .ui_search_custom_ctrl .market_cart_button_icon:not(:empty){
-	background-color:var(--k1t);
-	color:var(--k1)
+.pr.inv .pr_bt,.flat_button .pr_bt,#market_search_wrap .ui_search_custom_ctrl .market_cart_button_icon:not(:empty){
+	background-color:var(--k1t)!important;
+	color:var(--k1)!important
 }
 .apps_install_header .apps_i_phone_button:hover,.apps_install_header .apps_share_button:hover,.button_light_gray button,.button_gray button,.flat_button.secondary_dark,.flat_button.black,.flat_button.secondary.black,.landing_testing_form .flat_button,.mv_donate_button,.vk-button,.article_ed__caredit .article_ed__caredit_cancel{
 	background-color:var(--k2)!important;
