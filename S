@@ -1168,7 +1168,8 @@ html.rb .search_results.search_video_results{
 .ShortVideoPage .page_block_h2{position:relative;z-index:2}
 .ShortVideoPost:first-child{
 	padding-top:70px!important;
-	margin-top:-55px!important
+	margin-top:-55px!important;
+	content-visibility:unset
 }
 .wall_module .wall_posts>.page_block.wall_archive_link_block{padding-top:60px!important}
 .wall_module .wall_posts>.page_block.no_posts{padding-top:81px!important}
