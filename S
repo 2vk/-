@@ -694,7 +694,7 @@ html.mg #side_bar .left_label,html.mc #side_bar .left_label{
 .dropbox_area{
 	border-width:1px
 }
-.Select__control,.tt_w:not(.profile_intro_side_tt):not(.like_tt):not(.voting_tt):after,.tt_w:not(.like_tt):not(.voting_tt):not(.tt_default_right):before,*[style*="border"],.olist_item_photo,.ymaps-2-1-64-float-button,.ymaps-2-1-64-float-button-icon,.ui_actions_menu_top .ui_actions_menu:after,.ui_actions_menu_top .ui_actions_menu:before,.ui_scroll_default_theme>.ui_scroll_bar_container,.eltt_arrow,.eltt_arrow_back{
+.nim-dialog,.Select__control,.tt_w:not(.profile_intro_side_tt):not(.like_tt):not(.voting_tt):after,.tt_w:not(.like_tt):not(.voting_tt):not(.tt_default_right):before,*[style*="border"],.olist_item_photo,.ymaps-2-1-64-float-button,.ymaps-2-1-64-float-button-icon,.ui_actions_menu_top .ui_actions_menu:after,.ui_actions_menu_top .ui_actions_menu:before,.ui_scroll_default_theme>.ui_scroll_bar_container,.eltt_arrow,.eltt_arrow_back{
 	border-color:transparent!important
 }
 .add_community_app_group_app img{
