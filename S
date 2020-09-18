@@ -236,7 +236,7 @@ html:not(.pc) .page_actions_dd_label,.profile_actions .page_actions_dd_label,.pa
 .MarketCart__itemRemoveQuantity{background-image:url('data:image/svg+xml,<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg"><rect fill="${k2t}" height="2" rx="1" width="12" x="6" y="11"/></svg>')!important}
 .MarketCart__itemTrashQuantity{background-image:url('data:image/svg+xml,<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path fill="${k2t}" d="M10 6a1 1 0 011-1h2a1 1 0 011 1h3a1 1 0 011 1v1H6V7a1 1 0 011-1h3zM7 9h10v9a1 1 0 01-1 1H8a1 1 0 01-1-1V9z"/></svg>')!important}
 //clip
-.fc_tab_attach .media_selector .ms_item_more,.pv_comments_list .ms_item_more,.pv_reply_form .ms_item_more{background:url('data:image/svg+xml,<svg viewBox="0 0 12 24" xmlns="http://www.w3.org/2000/svg"><path stroke="${l9}" fill="none" stroke-width="2" d="M11 9v8a5 5 0 0 1-5 5 5 5 0 0 1-5-5V6a3 4 90 0 1 3-3 3 4 90 0 1 4 3v10c0 1-1 2-2 2a2 2 0 0 1-2-2V9" stroke-linecap="round"/></svg>') no-repeat!important}
+.ms_items_more_wrap_vector .ms_item_more_label,.fc_tab_attach .media_selector .ms_item_more,.pv_comments_list .ms_item_more,.pv_reply_form .ms_item_more{background:url('data:image/svg+xml,<svg viewBox="0 0 12 24" xmlns="http://www.w3.org/2000/svg"><path stroke="${l9}" fill="none" stroke-width="2" d="M11 9v8a5 5 0 0 1-5 5 5 5 0 0 1-5-5V6a3 4 90 0 1 3-3 3 4 90 0 1 4 3v10c0 1-1 2-2 2a2 2 0 0 1-2-2V9" stroke-linecap="round"/></svg>') no-repeat!important}
 .reply_box_more_attaches:before,.reply_fake_more_attaches,.im-page-wrapper .ms_item_more_label{background-image:url('data:image/svg+xml,<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke="${l9}" fill="none" stroke-width="1.8" d="M20 15l-5.4 5.3a6.6 6.6 0 0 1-9.2-.1 6.7 6.7 0 0 1 0-9.5l8-8a4.5 4.5 0 0 1 6.4 0 4.6 4.6 0 0 1 0 6.5l-8.1 8.1c-.9.9-2.2 1-3.2.2l-.1-.1a2 2 0 0 1-.2-3l5.5-5.7" stroke-linecap="round"/></svg>')!important}
 .ShortVideoStub{
 	--stub-iphone-link-icon:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="135" height="40" fill="${g2}"><path d="M23.1 8.7a4.9 4.9 0 01-1 3.5 4.1 4.1 0 01-3.3 1.5 4.6 4.6 0 011.1-3.3 5 5 0 013.2-1.7zm4 7.5a5 5 0 00-2.3 4.1 4.8 4.8 0 002.9 4.4 11 11 0 01-1.5 3.1c-1 1.3-1.9 2.6-3.4 2.7-.7 0-1.1-.2-1.6-.4-.6-.3-1-.5-2-.5-.8 0-1.4.2-2 .5-.4.2-.9.4-1.5.4-1.4 0-2.5-1.4-3.4-2.8-1.9-2.7-3.4-7.6-1.4-11a5.3 5.3 0 014.5-2.7c.8 0 1.5.3 2.2.6.5.2 1 .4 1.4.4l1.3-.4A6.2 6.2 0 0123 14a5 5 0 014 2.2z"/><text x="38" y="26" font-size="16" font-weight="bold" font-family="arial">App Store</text></svg>');
@@ -432,22 +432,22 @@ html,.cp_fg{
 .CovidLogo__hashtag,.landing_transparencyHeader__title,.landing_transparencyHeader__navItem a,.PageNavigation__navBar .ui_tab,.PageNavigation__navBar .ui_tab.ui_tab_sel,.HeaderSectionSwitcher__button,.HeaderBudget__link,.HeaderBudget__button a,.share_head .share_user_link,.share_head .share_logout_link,.bugtracker_logo .top_home_logo:after,#dev_top_nav a.dev_home_link,#dev_top_nav a.dev_top_link,.dev .dev_top_input_wrap .input_back_content,.dev input.dev_top_input,.dev input.dev_top_input:focus,input.text.ts_input,input.text.ts_input::-webkit-input-placeholder,input.text.ts_input:focus,.ts_wrap .input_back_content,.top_nav_link,.top_audio_player_title{
 	color:var(--ht)!important
 }
-.Button--primary,.button_blue button,.flat_button.button_bright_blue,.flat_button.mv_live_preparation_publish_btn,.article_ed__caredit .article_ed__caredit_save,.landings-expired-messages__more,.media_voting_footer_button:not([style]),.podcast_snippet__button,.wk_like_count,.DownloadedGamesCatalogBanner__button{
+.mv_layer--vertical .flat_button,.Button--primary,.button_blue button,.flat_button.button_bright_blue,.flat_button.mv_live_preparation_publish_btn,.article_ed__caredit .article_ed__caredit_save,.landings-expired-messages__more,.media_voting_footer_button:not([style]),.podcast_snippet__button,.wk_like_count,.DownloadedGamesCatalogBanner__button{
 	background-color:var(--k1)!important;
 	color:var(--k1t)!important
 }
-.Button--primary:hover,.Button--primary:not(.Button--disabled):hover,.Button--primary:not(.Button--disabled):focus,.Button--primary:not(.Button--disabled):active,.button_blue button.hover,.button_blue button:hover,.button_blue button.active,.button_blue button:active,.media_voting_footer_button:hover{
+.mv_layer--vertical .flat_button:hover,.Button--primary:hover,.Button--primary:not(.Button--disabled):hover,.Button--primary:not(.Button--disabled):focus,.Button--primary:not(.Button--disabled):active,.button_blue button.hover,.button_blue button:hover,.button_blue button.active,.button_blue button:active,.media_voting_footer_button:hover{
 	background-color:var(--k1h)!important
 }
 .pr.inv .pr_bt,.flat_button .pr_bt,#market_search_wrap .ui_search_custom_ctrl .market_cart_button_icon:not(:empty){
 	background-color:var(--k1t)!important;
 	color:var(--k1)!important
 }
-.apps_install_header .apps_i_phone_button:hover,.apps_install_header .apps_share_button:hover,.button_light_gray button,.button_gray button,.flat_button.secondary_dark,.flat_button.black,.flat_button.secondary.black,.landing_testing_form .flat_button,.mv_donate_button,.vk-button,.article_ed__caredit .article_ed__caredit_cancel{
+.mv_layer--vertical .flat_button.secondary,.apps_install_header .apps_i_phone_button:hover,.apps_install_header .apps_share_button:hover,.button_light_gray button,.button_gray button,.flat_button.secondary_dark,.flat_button.black,.flat_button.secondary.black,.landing_testing_form .flat_button,.mv_donate_button,.vk-button,.article_ed__caredit .article_ed__caredit_cancel{
 	background-color:var(--k2)!important;
 	color:var(--k2t)!important
 }
-.market_item_controls button.tertiary:not(:disabled):focus,.market_item_controls button.tertiary:not(:disabled):hover,.mv_donate_button:hover,.vk-button:hover,.button_gray button.hover,.button_gray button:hover,.flat_button.secondary_dark:hover{
+.mv_layer--vertical .flat_button.secondary:hover,.market_item_controls button.tertiary:not(:disabled):focus,.market_item_controls button.tertiary:not(:disabled):hover,.mv_donate_button:hover,.vk-button:hover,.button_gray button.hover,.button_gray button:hover,.flat_button.secondary_dark:hover{
 	background-color:var(--k2h)!important
 }
 .StickersButtonPrice--regular:after{background-color:var(--k2t)!important}
@@ -2147,6 +2147,9 @@ html.nl #box_layer_bg,html.nl #layer_bg,html.nl #stories_layers_background{backg
 	--gray_900:#222;
 	--black:#000;
 	--white:#eee
+}
+.mv_layer--vertical{
+	--gray_800:var(--n29e)
 }
 .BugreportComment,.BugreportCommentMeta{
 	--page-block-shadow:0 1px 0 0 var(--n29e),0 0 0 1px var(--n29e);
