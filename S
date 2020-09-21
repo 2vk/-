@@ -1812,11 +1812,6 @@ html.vo .top_audio_player .top_audio_player_btn{padding:0!important}
 html.vo .top_audio_player .top_audio_player_title{position:fixed;text-align:center;width:100vw;height:100vh;font-weight:100;font-size:5vh!important;color:var(--eee)!important;letter-spacing:-.05em;text-shadow:0 0 8px rgba(0, 0, 0, 1);display:grid;align-items:center;z-index:-1}
 html.vo .audio_layer_container .audio_page_content_block_wrap{height:calc(100vh - 106px)!important}
 html.vo #audio_layer_tt{position:fixed!important;top:0!important;left:calc(50% - 330px)!important}
-#feed_filters[data-op]>:last-child{position:relative;opacity:.001}
-.r53{opacity:.001!important;position:fixed!important;left:0!important;bottom:0!important;z-index:9!important}
-.r53:after,#feed_filters[data-op]>:last-child:after{content:'';position:absolute;top:0;left:0;right:0;bottom:0}
-.r53:hover:after,#feed_filters[data-op]>:last-child:hover:after{z-index:10000}
-html.Pl .r53{left:unset!important;right:0!important}
 
 .page_cover .v{position:absolute;width:30px;height:30px;background:url('data:image/svg+xml,<svg width="8" height="4" viewBox="0 0 80 40" xmlns="http://www.w3.org/2000/svg"><path d="M7,7 40,33 73,7" fill="none" stroke="white" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/></svg>') no-repeat 50%;filter:drop-shadow(0 0 1px #000);transform:rotate(180deg);opacity:0;cursor:pointer}
 .page_cover:hover .v{opacity:1}
@@ -2016,6 +2011,7 @@ html.Pl #stl_left{right:0;left:unset}
 html.Pl #stl_bg{float:right}
 html.Pl #stl_text{margin:0 19px 0 0;background-position:right 0}
 html.Pl #stl_left .down{background-position:right -15px}
+html.Pl .r53{left:unset!important;right:0!important}
 
 html.sl .wall_module .wall_text{padding-bottom:5px}
 html.sl .media_link:last-child,html.sl .thumbed_link:last-child,html.sl .wall_text .vk2017_snippet,html.sl .wall_text .page_media_thumbed_link:last-child,html.sl .wall_text .audio_artist_snippet:last-child,html.sl .wall_text .audio_pl_snippet2:last-child{margin-bottom:-5px!important}
@@ -2149,7 +2145,8 @@ html.nl #box_layer_bg,html.nl #layer_bg,html.nl #stories_layers_background{backg
 	--white:#eee
 }
 .mv_layer--vertical{
-	--gray_800:var(--n29e)
+	--gray_800:var(--n29e);
+	--link-color:var(--g2)
 }
 .BugreportComment,.BugreportCommentMeta{
 	--page-block-shadow:0 1px 0 0 var(--n29e),0 0 0 1px var(--n29e);
