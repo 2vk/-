@@ -543,7 +543,7 @@ body #system_msg[style*="background-color: rgb(255, 180, 163)"],.ui_tab_count.ui
 .pe_filter_amount_slider .slider_slide{
 	background-color:#444!important
 }
-.friends_find_user_remove,.stories_preview:after{
+.market_item_bigph,.friends_find_user_remove,.stories_preview:after{
 	background-color:#222!important
 }
 .eltt.article_anchor_tooltip{
