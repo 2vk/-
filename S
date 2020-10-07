@@ -1833,9 +1833,8 @@ html.pc .page_cover+.page_cover_info .my_current_info:hover .current_text{color:
 .theme:hover+.page_cover_info,.theme+.page_cover_info:hover{opacity:1!important}
 
 #side_bar ol{margin:0!important;padding:0 0 10px!important}
-#side_bar .left_count_wrap{height:calc(var(--left-menu-counter-height) - 4px)!important;line-height:calc(var(--left-menu-counter-height) - 2px)!important}
-#side_bar .left_fixer{margin:0 0 0 -5px!important;padding:0 0 0 5px!important}
-html.Pl #side_bar .left_fixer{margin:0 -5px 0 0!important;padding:0 5px 0 0!important}
+#side_bar .left_count_wrap{height:calc(var(--left-menu-counter-height) - 4px)!important;line-height:unset!important;display:flex;align-items:center}
+#side_bar .left_count{height:unset!important}
 html.mb .left_menu_nav_wrap{padding:14px 0 10px 0}
 html.mb .left_settings{margin:-28px 0 0 -32px}
 html.mb #side_bar_inner{border-radius:3px;padding:10px 5px 0px 15px;margin:57px 0 0 -20px}
