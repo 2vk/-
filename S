@@ -325,7 +325,7 @@ body *{
 .PhotoEditorFontStyle--retro,.PhotoEditorFontStyle--retro *{font-family:'Rodchenko'!important}
 
 .left_count[title]:before, a.left_count_wrap:before{display:block!important;content:attr(title)}
-.left_count[title]{max-height:16px;overflow:hidden}
+.left_count[title]{overflow:hidden}
 a.left_count_wrap{text-decoration:none}
 a.left_count_wrap[title] span{display:none!important}
 #mv_main_info .ui_actions_menu_wrap.shown .ui_actions_menu{
@@ -1832,8 +1832,7 @@ html.pc .page_cover+.page_cover_info .my_current_info:hover .current_text{color:
 .theme:hover+.page_cover_info,.theme+.page_cover_info:hover{opacity:1!important}
 
 #side_bar ol{margin:0!important;padding:0 0 10px!important}
-#side_bar .left_count_wrap{height:calc(var(--left-menu-counter-height) - 4px)!important;line-height:unset!important;display:flex;align-items:center}
-#side_bar .left_count{height:unset!important}
+#side_bar .left_count_wrap{height:calc(var(--left-menu-counter-height) - 4px)!important;line-height:calc(var(--left-menu-counter-height) - 4px)!important}
 html.mb .left_menu_nav_wrap{padding:14px 0 10px 0}
 html.mb .left_settings{margin:-28px 0 0 -32px}
 html.mb #side_bar_inner{border-radius:3px;padding:10px 5px 0px 15px;margin:57px 0 0 -20px}
