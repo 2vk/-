@@ -368,10 +368,6 @@ body *{
 .PhotoEditorFontStyle--poster,.PhotoEditorFontStyle--poster *{font-family:'DinPE'!important}
 .PhotoEditorFontStyle--retro,.PhotoEditorFontStyle--retro *{font-family:'Rodchenko'!important}
 
-.left_count[title]:before, a.left_count_wrap:before{display:block!important;content:attr(title)}
-.left_count[title]{overflow:hidden}
-a.left_count_wrap{text-decoration:none}
-a.left_count_wrap[title] span{display:none!important}
 #mv_main_info .ui_actions_menu_wrap.shown .ui_actions_menu{
 	display:flex!important;
 	flex-direction:column-reverse
@@ -1341,7 +1337,7 @@ input.disabled,textarea.disabled,input.validation_readonly{color:var(--777)!impo
 .cal_month_sel,.cal_table .month .year,.cal_table .daysofweek,.cal_table .day.sel,.cal_table .day.sel:hover,.vk_app_modal_btn--success,.landing_transparencyArchive_download .landing_transparencyArchive__button,.landing_transparencySection__counter,.help_table_question_act.help_table_question_act_do,.help_table_question_act.help_table_question_act_ok,.article_layer .article_stat .article_stat__funnel_text_part:last-child,.Modal__header--blue .Modal__headerTitle,.box_title .back,.box_title .divider:before,.box_title .tab_link,.box_title .toggle,.box_title .toggle a,.box_title,.box_title_wrap,.mail_box_header_link{
 	color:var(--eef)!important
 }
-#side_bar ol li .left_row,.left_menu_nav,.left_restore_link{
+#side_bar ol li .left_row,.left_menu_nav,.left_restore_link,.left_label{
 	color:var(--mc)!important
 }
 .article_snippet__author,.article_anchor_tooltip,.page_album_title,.photos_album_title_wrap,.tt_w.like_tt,.tt_w.voting_tt,.page_story_photo_caption,.PeerTagsItem,.PeerProfileTagsListItem,.ShortVideoFeedBlock__itemViews,.stories_feed_preview_author_name,.Button--positive,.Button--negative,.owner_photo_bubble,.im_sticker_bl_promo,.post_doc_thumb_label_content,.videoplayer_autoplay_timer,.stories_send_form .placeholder .ph_input .ph_content,.nim-dialog.nim-dialog_failed .nim-dialog--unread,.top_result_baloon a,.upload_video_error_label,.videoplayer_title_link,.notify_tt_text,.slider_hint,.tt_black .tt_text,.footer_nav,.login_mobile_header,.login_mobile_info,.quick_login .label,.quick_login .quick_forgot,.quick_login .checkbox,.ui_tab_count.ui_tab_count_red{
@@ -1994,6 +1990,11 @@ html.imb .group_l_photo_img,html.imb .group_l_title,html.imb .StatsDonutEventsTa
 
 #cp_orc,#cp_glc{width:19px;height:19px;float:right;margin:17px 8px 0 0;cursor:pointer}
 
+.left_count[title]:before, a.left_count_wrap:before{display:block!important;content:attr(title);padding:0 6px}
+.left_count[title]{overflow:hidden}
+a.left_count_wrap{text-decoration:none}
+a.left_count_wrap[title] span{display:none!important}
+
 html.mm .top_home_ny_logo:not(.bugtracker_logo) .top_home_logo{margin-left:114px}
 html.mb.mm .top_home_link:not(.bugtracker_logo) .top_home_logo{margin-left:112px}
 html:not(.ns).mb.mm .top_home_ny_logo:not(.bugtracker_logo) .top_home_logo{margin-left:106px}
@@ -2012,8 +2013,8 @@ html.mm #side_bar ol li{margin-left:0}
 html.mm #side_bar .left_icon{margin-left:-1px}
 html.mf #side_bar{position:sticky;top:0!important}
 
+body:not(.new_header_design) #side_bar .left_count_wrap{height:calc(var(--left-menu-counter-height) - 4px)!important;line-height:calc(var(--left-menu-counter-height) - 4px)!important}
 #side_bar ol{margin:0!important;padding:0 0 10px!important}
-#side_bar .left_count_wrap,.new_header_design #side_bar .left_count_wrap:before{height:calc(var(--left-menu-counter-height) - 4px)!important;line-height:calc(var(--left-menu-counter-height) - 4px)!important}
 html.mb .left_menu_nav_wrap{padding:14px 0 10px 0}
 html.mb .left_settings{margin:-28px 0 0 -32px}
 
