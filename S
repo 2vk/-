@@ -1990,7 +1990,7 @@ html.imb .group_l_photo_img,html.imb .group_l_title,html.imb .StatsDonutEventsTa
 
 #cp_orc,#cp_glc{width:19px;height:19px;float:right;margin:17px 8px 0 0;cursor:pointer}
 
-.left_count[title]:before, a.left_count_wrap:before{display:block!important;content:attr(title);padding:0 6px}
+.left_count[title]:before, a.left_count_wrap[title]:before{display:block!important;content:attr(title);padding:0 6px}
 .left_count[title]{overflow:hidden}
 a.left_count_wrap{text-decoration:none}
 a.left_count_wrap[title] span{display:none!important}
