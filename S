@@ -2232,10 +2232,10 @@ html.nl #box_layer_bg,html.nl #layer_bg,html.nl #stories_layers_background{backg
 	--page-block-shadow:0 1px 0 0 var(--n29e),0 0 0 1px var(--n29e);
 	--highlight-background:var(--n33f);
 }
-.PopupHeader__title,#pg_fixed,.mv_layer--vertical,.mv_playlist{
+.new_header_design .left_count_wrap,.PopupHeader__title,#pg_fixed,.mv_layer--vertical,.mv_playlist{
 	--white:var(--eee)
 }
-.new_header_design .left_count_wrap,.MarketCatalogGroup__goodsItemCounter,.FacebookLogin__button:before,.ShortVideoPost__preview,.nim-dialog_selected,.page_post_video_play_inline_loading .pr,.photos_container .pr,.places_map .pr,.pr_baw,.VideoPreview__title,.video_thumb_label,.CatalogBlock__banner,.stories_feed_preview_live_badge,#pv_fullscreen,.VideoPlaylistItem__info,.page_doc_photo_href,.dev_main_featured,.GamesCatalogCollections,.apps_featured_slider,.VkPayBanner,.DownloadedGameItem__badge,.DownloadedGameItem__button,.article_snippet,.stories_layer,.BannerItem,.video_box_wrap,.videoplayer,.ShortVideoGrid,.short_video_item,.media_voting_bg_tile,.media_voting_bg_photo,.media_voting_bg_gradient,.emoji_shop_icon_badge,.chat_tab_counter{
+.MarketCatalogGroup__goodsItemCounter,.FacebookLogin__button:before,.ShortVideoPost__preview,.nim-dialog_selected,.page_post_video_play_inline_loading .pr,.photos_container .pr,.places_map .pr,.pr_baw,.VideoPreview__title,.video_thumb_label,.CatalogBlock__banner,.stories_feed_preview_live_badge,#pv_fullscreen,.VideoPlaylistItem__info,.page_doc_photo_href,.dev_main_featured,.GamesCatalogCollections,.apps_featured_slider,.VkPayBanner,.DownloadedGameItem__badge,.DownloadedGameItem__button,.article_snippet,.stories_layer,.BannerItem,.video_box_wrap,.videoplayer,.ShortVideoGrid,.short_video_item,.media_voting_bg_tile,.media_voting_bg_photo,.media_voting_bg_gradient,.emoji_shop_icon_badge,.chat_tab_counter{
 	--white:#eee
 }
 .DownloadedGameItem__badge--exclusive{
