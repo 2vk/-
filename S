@@ -1223,6 +1223,7 @@ html.rb .search_results.search_video_results{
 	margin-top:-111px!important;
 	padding-top:111px!important
 }
+#page_layout .audio_section__search .CatalogBlock--divided:first-child,
 #page_layout .audio_section__recoms .CatalogBlock--divided:first-child,
 #page_layout .audio_section__explore .CatalogSection__explore .CatalogBlock--divided:first-child,
 #page_layout .audio_section__explore .CatalogSection__user_list,
@@ -1254,6 +1255,7 @@ html.rb .search_results.search_video_results{
 }
 #page_layout .CatalogSection--header_section,
 #page_layout .audio_section__ .CatalogSection,
+#page_layout .audio_section__search .CatalogSection,
 #page_layout .audio_section__recoms .CatalogSection,
 #page_layout .audio_section__explore .CatalogSection:not(.CatalogSection__user_list),
 #page_layout .audio_section__artist .CatalogSection,
