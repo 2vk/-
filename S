@@ -1916,7 +1916,7 @@ html.ns .im-page:not(.im-page_classic) .im-page--dialogs-settings{margin:13px}
 html.ns ._im_dialogs_settings .msg_mark_read_icon{margin:10px 10px 0}
 html.ns .vk_msg_info_icon{margin:12px 10px 0}
 html.ns .im-create{top:0;bottom:0}
-html.ns .im-page_group:not(.im-page_history-show):before{top:90px}
+html.ns .im-page_group:not(.im-page_history-show):before{top:calc(48px + var(--header-height))}
 html.ns .im-page_classic .im-page--chat-input{bottom:0!important}
 html.ns .im-page_classic .im-page--chat-header,html.ns .im-page_classic .im-page--header,html.ns .im-page_classic.im-page .im-page--header,html.ns .im-create.im-create_classic{top:var(--header-height)!important}
 html.ns .im-right-menu{margin-left:550px}
@@ -1927,7 +1927,7 @@ html.ns .wide_column_left .wide_column_wrap{margin-right:230px}
 html.ns .feed_reposts_more_link{margin:0;width:100%;border-radius:0}
 html.ns .GamesCatalogProfileBlock{width:50%}
 html.ns .page_block,html.ns .ShortVideoPost,html.ns #page_layout .CatalogBlock--divided,html.ns #page_layout .audio_section,html.ns .theme:after,html.ns .faq_search_form,html.ns .im-group-online--inner,html.ns .wall_module .wall_posts.all>.all,html.ns .wall_module .wall_posts.own>.own{border-radius:0!important}
-html.ns #page_header,html.ns #page_layout,html.ns .im-page_classic.im-page_group .im-group-online{padding:0}
+html.ns #page_header,html.ns #page_layout,html.ns .im-page_classic.im-page_group .im-group-online{padding:0!important}
 
 #pv_box:before,.box_layout:before,.box_layout:before,.audio_page_content_block_wrap,#page_layout .audio_section,#page_layout .CatalogSection,#page_layout .CatalogBlock--divided,.im-page:before,.ShortVideoPost,.feed_row_unshown+.feed_row .page_block,.post_videos.has_before_block,.wall_module .wall_posts.all>.all,.wall_module .wall_posts.own>.own,.wall_archive_link_block,.im-page--back-btn,.pc .page_cover{
 	border-radius:4px!important}
