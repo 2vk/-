@@ -1270,7 +1270,7 @@ html.rb .search_results.search_video_results{
 #apps{
 	padding-bottom:54px!important;overflow:hidden
 }
-.apps_footer,.apps_options_bar_bottom{margin-top:-54px!important;position:relative}
+.apps_footer:not(.wall_module),.apps_options_bar_bottom{margin-top:-54px!important;position:relative}
 .im-audio-message-input .audio-msg-player .audio-msg-track--duration{
 	margin-top:-3px;line-height:15px
 }
