@@ -1228,6 +1228,7 @@ html.rb .search_results.search_video_results{
 #page_layout .audio_section__recoms .CatalogBlock--divided:first-child,
 #page_layout .audio_section__explore .CatalogSection__explore .CatalogBlock--divided:first-child,
 #page_layout .audio_section__explore .CatalogSection__user_list,
+#page_layout .audio_section__recoms_audio .CatalogSection.CatalogSection__user_list,
 #page_layout .audio_section__updates .CatalogSection,
 #page_layout .audio_section__playlists .CatalogSection,
 #page_layout .audio_section__all .CatalogSection{
@@ -1245,6 +1246,7 @@ html.rb .search_results.search_video_results{
 	margin-top:-55px!important;
 	padding-top:70px!important
 }
+#page_layout .audio_section__recoms_audio .CatalogSection,
 #page_layout .audio_section__artist_block .CatalogSection__artist_audios{
 	margin-top:-55px!important;
 	padding-top:55px!important
@@ -1258,6 +1260,7 @@ html.rb .search_results.search_video_results{
 #page_layout .audio_section__ .CatalogSection,
 #page_layout .audio_section__search .CatalogSection,
 #page_layout .audio_section__recoms .CatalogSection,
+#page_layout .audio_section__recoms_audio .CatalogBlock--divided:first-child,
 #page_layout .audio_section__explore .CatalogSection:not(.CatalogSection__user_list),
 #page_layout .audio_section__artist .CatalogSection,
 #page_layout .audio_section__recoms_block .CatalogSection,
