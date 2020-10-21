@@ -1272,7 +1272,7 @@ html.rb .search_results.search_video_results{
 	box-shadow:none!important
 }
 #apps:not(.VKMiniAppWithoutBorder){padding-bottom:54px!important}
-.apps_footer:not(.wall_module),.apps_options_bar_bottom{margin-top:-54px!important;position:relative}
+.apps_footer:not(.wall_module),#content .apps_options_bar_bottom{margin-top:-54px!important;position:relative}
 .im-audio-message-input .audio-msg-player .audio-msg-track--duration{
 	margin-top:-3px;line-height:15px
 }
@@ -2227,7 +2227,7 @@ html.nl #box_layer_bg,html.nl #layer_bg,html.nl #stories_layers_background{backg
 	--button-secondary-background-color-active:var(--k2h);
 	--button-secondary-text-color:var(--k2t);
 }
-.AppsCatalogFeaturedBanner,.EditorCanvas,.CallModal,.CallWidget,.videoplayer,.ShortVideoGridItem:before,.ChatSettingsRoundedIcon,.feedback_photo_icon,.settings_separated_row_iconed:before,.GamesCatalogPromoContent{
+.VideoTrackWrapper,.AppsCatalogFeaturedBanner,.EditorCanvas,.CallModal,.CallWidget,.videoplayer,.ShortVideoGridItem:before,.ChatSettingsRoundedIcon,.feedback_photo_icon,.settings_separated_row_iconed:before,.GamesCatalogPromoContent{
 	--blue_bright:#5c9ce6;
 	--steel_gray_80:#e7e8ec;
 	--steel_gray_200:#aeb7c2;
@@ -2249,7 +2249,7 @@ html.nl #box_layer_bg,html.nl #layer_bg,html.nl #stories_layers_background{backg
 .new_header_design .left_count_wrap,.PopupHeader__title,#pg_fixed,.mv_layer--vertical,.mv_playlist{
 	--white:var(--eee)
 }
-.MarketCatalogGroup__goodsItemCounter,.FacebookLogin__button:before,.ShortVideoPost__preview,.nim-dialog_selected,.page_post_video_play_inline_loading .pr,.photos_container .pr,.places_map .pr,.pr_baw,.VideoPreview__title,.video_thumb_label,.CatalogBlock__banner,.stories_feed_preview_live_badge,#pv_fullscreen,.VideoPlaylistItem__info,.page_doc_photo_href,.dev_main_featured,.GamesCatalogCollections,.apps_featured_slider,.VkPayBanner,.DownloadedGameItem__badge,.DownloadedGameItem__button,.article_snippet,.stories_layer,.BannerItem,.video_box_wrap,.videoplayer,.ShortVideoGrid,.short_video_item,.media_voting_bg_tile,.media_voting_bg_photo,.media_voting_bg_gradient,.emoji_shop_icon_badge,.chat_tab_counter{
+.MarketCatalogGroup__goodsItemCounter,.FacebookLogin__button:before,.ShortVideoPost__preview,.nim-dialog_selected,.page_post_video_play_inline_loading .pr,.photos_container .pr,.places_map .pr,.pr_baw,.VideoPreview__title,.video_thumb_label,.CatalogBlock__banner,.stories_feed_preview_live_badge,#pv_fullscreen,.VideoPlaylistItem__info,.page_doc_photo_href,.dev_main_featured,.GamesCatalogCollections,.apps_featured_slider,.VkPayBanner,.DownloadedGameItem__badge,.DownloadedGameItem__button,.article_snippet,.stories_layer,.BannerItem,.video_box_wrap,.ShortVideoGrid,.short_video_item,.media_voting_bg_tile,.media_voting_bg_photo,.media_voting_bg_gradient,.emoji_shop_icon_badge,.chat_tab_counter{
 	--white:#eee
 }
 .DownloadedGameItem__badge--exclusive{
