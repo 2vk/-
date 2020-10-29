@@ -279,7 +279,7 @@ html:not(.pc) .page_actions_dd_label,.profile_actions .page_actions_dd_label,.pa
 .ads_news_notification_inline .ads_news_notification_close:after,.notifier_close_wrap:before,.video_upload__progress_cancel{background:url('data:image/svg+xml,<svg viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg"><path stroke="${l9}" d="M1 1L9 9M1 9L9 1" stroke-width="2" stroke-linecap="round"/></svg>')!important}
 .Token__Closer,.TokenInput__remove{background-image:url('data:image/svg+xml,<svg width="10" height="10" xmlns="http://www.w3.org/2000/svg"><path stroke="${g2}" d="M1 1L9 9M1 9L9 1" stroke-width="2" stroke-linecap="round"/></svg>')!important}
 //trash
-#cp_imc>.t,#cp_orc,#cp_glc,.ads_general_info_status_delete,.ads_schedule_clear{background:url('data:image/svg+xml,<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path fill="${l9}" d="M4 15h8l1-1v-9h-10v9l1 1zm10-13h-4v-1h-4v1h-4v2h12v-2z"/></svg>') no-repeat 50%}
+#cp_imc>.t,#cp_orc,#cp_glc,.ads_general_info_status_delete,.ads_schedule_clear{background:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path fill="${l9}" d="M18.7 8.75v8.92a3.82 3.82 0 01-3.82 3.83H8.91a3.82 3.82 0 01-3.82-3.83V8.75h-.6a1.1 1.1 0 01-1.1-1.1V6.41a2.34 2.34 0 012.34-2.34h1.4A2.55 2.55 0 019.35 2.8h5.1a2.55 2.55 0 012.2 1.27h1.41a2.34 2.34 0 012.34 2.34v1.24a1.1 1.1 0 01-1.1 1.1h-.6zm-.85-1.7h.85v-.64a.64.64 0 00-.64-.64H16.1a.85.85 0 01-.83-.63.85.85 0 00-.82-.64h-5.1a.85.85 0 00-.82.64.85.85 0 01-.83.63H5.74a.64.64 0 00-.64.64v.64h12.75zM6.8 8.75v8.92a2.13 2.13 0 002.12 2.13h5.95A2.13 2.13 0 0017 17.67V8.75H6.8z"/></svg>') no-repeat 50%}
 .market_cart_button_icon:empty{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" ><path fill="${k2t}" d="M4 4a4 4 0 118 0h1q2 0 2 2v8q0 2-2 2H3q-2 0-2-2V6q0-2 2-2h1m2 0h4a2 2 0 10-4 0"/></svg>')!important}
 .MarketCart__itemAddQuantity{background-image:url('data:image/svg+xml,<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg"><path fill="${k2t}" d="m13 11h4a1 1 0 0 1 0 2h-4v4a1 1 0 1 1 -2 0v-4h-4a1 1 0 0 1 0-2h4v-4a1 1 0 0 1 2 0z"/></svg>')!important}
 .MarketCart__itemRemoveQuantity{background-image:url('data:image/svg+xml,<svg height="24" width="24" xmlns="http://www.w3.org/2000/svg"><rect fill="${k2t}" height="2" rx="1" width="12" x="6" y="11"/></svg>')!important}
@@ -2227,8 +2227,9 @@ html.nl #box_layer_bg,html.nl #layer_bg,html.nl #stories_layers_background{backg
 	--button-secondary-background-color-active:var(--k2h);
 	--button-secondary-text-color:var(--k2t);
 }
-.VideoTrackWrapper,.AppsCatalogFeaturedBanner,.EditorCanvas,.CallModal,.CallWidget,.videoplayer,.ShortVideoGridItem:before,.ChatSettingsRoundedIcon,.feedback_photo_icon,.settings_separated_row_iconed:before,.GamesCatalogPromoContent{
+.tag_faded,.tag_frame_handle,.VideoTrackWrapper,.AppsCatalogFeaturedBanner,.EditorCanvas,.CallModal,.CallWidget,.videoplayer,.ShortVideoGridItem:before,.ChatSettingsRoundedIcon,.feedback_photo_icon,.settings_separated_row_iconed:before,.GamesCatalogPromoContent{
 	--blue_bright:#5c9ce6;
+	--steel_gray_60:#edeef0;
 	--steel_gray_80:#e7e8ec;
 	--steel_gray_200:#aeb7c2;
 	--steel_gray_300:#99a2ad;
