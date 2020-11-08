@@ -434,7 +434,7 @@ body:not(.stories_layer_shown):not(.layers_shown):not(.vk__page_app):not(.z_open
 .cp_hb .x,.cp_hf .x,.cp_hb .c,.cp_hf .c{position:absolute;top:0;right:0;border-radius:0 0 0 2px;padding:9px;transition:.2s;background:rgba(29,32,34,.6) url('data:image/svg+xml,<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path stroke="hsla(0,0%,100%,.85)" stroke-width="1.5" d="M5 5l6 6m-6 0l6-6" stroke-linecap="round"/></svg>')}
 .cp_hb .c,.cp_hf .c{right:unset;left:0;border-radius:0 0 2px 0;background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path stroke="hsla(0,0%,100%,.85)" d="M4 10V3h6M6 13h6V5.5H6z" stroke-linejoin="round" fill="none"/></svg>')}
 .cp_hf{transition:.2s;width:120px;height:40px;padding:5px;line-height:22px;text-align:center}
-.cp_hf .w{position:absolute;right:0;bottom:0;opacity:.5;line-height:12px;font-size:12px!important;padding:2px 4px;border-radius:4px 0 0 0;background:var(--n15)}
+.cp_hf .w,.cp_hf .f{position:absolute;right:0;bottom:0;opacity:.5;line-height:12px;font-size:12px!important;padding:2px 4px;border-radius:4px 0 0 0;background:var(--n15)}.cp_hf .f{left:0;right:unset}
 .cp_hf:hover{background-color:var(--n29f)}
 #cp_s:hover,#cp_af:hover,#cp_gs:hover{opacity:1}
 .cp_z{position:fixed;top:0;right:0;width:130px;margin:4px 50px 0 0;padding:10px;background-color:var(--g2f);color:var(--n15);border-radius:5px;z-index:1502;box-shadow:10px 10px 30px rgba(0,0,0,.5)}
