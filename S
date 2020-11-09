@@ -293,11 +293,7 @@ html:not(.pc) .page_actions_dd_label,.profile_actions .page_actions_dd_label,.pa
 //clip
 .ms_items_more_wrap_vector .ms_item_more_label,.fc_tab_attach .media_selector .ms_item_more,.pv_comments_list .ms_item_more,.pv_reply_form .ms_item_more{background:url('data:image/svg+xml,<svg viewBox="0 0 12 24" xmlns="http://www.w3.org/2000/svg"><path stroke="${l9}" fill="none" stroke-width="2" d="M11 9v8a5 5 0 0 1-5 5 5 5 0 0 1-5-5V6a3 4 90 0 1 3-3 3 4 90 0 1 4 3v10c0 1-1 2-2 2a2 2 0 0 1-2-2V9" stroke-linecap="round"/></svg>') no-repeat!important}
 .reply_box_more_attaches:before,.reply_fake_more_attaches,.im-page-wrapper .ms_item_more_label{background-image:url('data:image/svg+xml,<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke="${l9}" fill="none" stroke-width="1.8" d="M20 15l-5.4 5.3a6.6 6.6 0 0 1-9.2-.1 6.7 6.7 0 0 1 0-9.5l8-8a4.5 4.5 0 0 1 6.4 0 4.6 4.6 0 0 1 0 6.5l-8.1 8.1c-.9.9-2.2 1-3.2.2l-.1-.1a2 2 0 0 1-.2-3l5.5-5.7" stroke-linecap="round"/></svg>')!important}
-.ShortVideoStub,.ShortVideoTopInfo__qrCodeIcon{
-	--stub-iphone-link-icon:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="135" height="40" fill="${g2}"><path d="M23.1 8.7a4.9 4.9 0 01-1 3.5 4.1 4.1 0 01-3.3 1.5 4.6 4.6 0 011.1-3.3 5 5 0 013.2-1.7zm4 7.5a5 5 0 00-2.3 4.1 4.8 4.8 0 002.9 4.4 11 11 0 01-1.5 3.1c-1 1.3-1.9 2.6-3.4 2.7-.7 0-1.1-.2-1.6-.4-.6-.3-1-.5-2-.5-.8 0-1.4.2-2 .5-.4.2-.9.4-1.5.4-1.4 0-2.5-1.4-3.4-2.8-1.9-2.7-3.4-7.6-1.4-11a5.3 5.3 0 014.5-2.7c.8 0 1.5.3 2.2.6.5.2 1 .4 1.4.4l1.3-.4A6.2 6.2 0 0123 14a5 5 0 014 2.2z"/><text x="38" y="26" font-size="16" font-weight="bold" font-family="arial">App Store</text></svg>');
-	--stub-android-link-icon:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="135" height="40" fill="${g2}"><path d="M26.5 15.7L11.7 7.3c-.2-.2-.5-.3-.7-.3l12 12.1 3.5-3.4zM11 33c.2 0 .5 0 .7-.2l14.8-8.5L23 21 10.9 33zm22.2-13c0-.3-.3-.7-.8-1l-5-2.8-3.6 3.8 3.7 3.8 4.9-2.8c.5-.3.8-.7.8-1zM10 32.3a1.6 1.6 0 01-.1-.6V8.2v-.5L22.4 20 10.1 32.3z"/><text x="38" y="25" font-size="16" font-weight="bold" font-family="arial">Google Play</text></svg>');
-	--stub-qr-link-icon:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" fill="${g2}"><defs><path id="a" d="M4.4 2h4C9.9 2 11 3.1 11 4.5v4C11 9.9 9.9 11 8.5 11h-4A2.5 2.5 0 012 8.5v-4C2 3.1 3.1 2 4.5 2zm.3 1.8a1 1 0 00-1 1v3.5c0 .5.4 1 1 1h3.5c.5 0 1-.5 1-1V4.7c0-.5-.5-1-1-1zm1 1.5h1.5c.2 0 .5.2.5.5v1.5c0 .2-.3.5-.5.5H5.8a.5.5 0 01-.5-.5V5.8c0-.3.2-.5.5-.5z"/></defs><path d="M19.5 19H21c.3 0 .5.2.5.5V21c0 .3-.2.5-.5.5h-1.5a.5.5 0 01-.5-.5v-1.5c0-.3.2-.5.5-.5zM14 19h1.5c.3 0 .5.2.5.5V21c0 .3-.2.5-.5.5H14a.5.5 0 01-.5-.5v-1.5c0-.3.2-.5.5-.5zm2.8-2.8h1.4c.3 0 .6.3.6.6v1.4c0 .3-.3.6-.6.6h-1.4a.5.5 0 01-.6-.6v-1.4c0-.3.3-.6.6-.6zm2.7-2.7H21c.3 0 .5.2.5.5v1.5c0 .3-.2.5-.5.5h-1.5a.5.5 0 01-.5-.5V14c0-.3.2-.5.5-.5zm-5.5 0h1.5c.3 0 .5.2.5.5v1.5c0 .3-.2.5-.5.5H14a.5.5 0 01-.5-.5V14c0-.3.2-.5.5-.5"/><use href="%23a"/><use href="%23a" y="11"/><use href="%23a" x="11"/></svg>')
-}
+.ShortVideoStub,.ShortVideoTopInfo__qrCodeIcon{--stub-qr-link-icon:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" fill="${g2}"><defs><path id="a" d="M4.4 2h4C9.9 2 11 3.1 11 4.5v4C11 9.9 9.9 11 8.5 11h-4A2.5 2.5 0 012 8.5v-4C2 3.1 3.1 2 4.5 2zm.3 1.8a1 1 0 00-1 1v3.5c0 .5.4 1 1 1h3.5c.5 0 1-.5 1-1V4.7c0-.5-.5-1-1-1zm1 1.5h1.5c.2 0 .5.2.5.5v1.5c0 .2-.3.5-.5.5H5.8a.5.5 0 01-.5-.5V5.8c0-.3.2-.5.5-.5z"/></defs><path d="M19.5 19H21c.3 0 .5.2.5.5V21c0 .3-.2.5-.5.5h-1.5a.5.5 0 01-.5-.5v-1.5c0-.3.2-.5.5-.5zM14 19h1.5c.3 0 .5.2.5.5V21c0 .3-.2.5-.5.5H14a.5.5 0 01-.5-.5v-1.5c0-.3.2-.5.5-.5zm2.8-2.8h1.4c.3 0 .6.3.6.6v1.4c0 .3-.3.6-.6.6h-1.4a.5.5 0 01-.6-.6v-1.4c0-.3.3-.6.6-.6zm2.7-2.7H21c.3 0 .5.2.5.5v1.5c0 .3-.2.5-.5.5h-1.5a.5.5 0 01-.5-.5V14c0-.3.2-.5.5-.5zm-5.5 0h1.5c.3 0 .5.2.5.5v1.5c0 .3-.2.5-.5.5H14a.5.5 0 01-.5-.5V14c0-.3.2-.5.5-.5"/><use href="%23a"/><use href="%23a" y="11"/><use href="%23a" x="11"/></svg>')}
 .ShortVideoTopInfo__qrCodeIcon{background-image:var(--stub-qr-link-icon)!important}
 .reply_box_photo{background-image:url('data:image/svg+xml,<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g stroke="${l9}" fill="none" stroke-width="1.7"><path d="M14.13 3.65c.86 0 1.46.28 2 .9 0 .02.49.6.65.81.23.28.68.54.95.54h.4C20.57 5.9 22 7.46 22 9.95v5.85c0 2.24-2 4.2-4.27 4.2H6.27a4.3 4.3 0 0 1-4.22-4.2V9.95c0-2.5 1.4-4.05 3.81-4.05h.41c.27 0 .72-.26.95-.54l.66-.81a2.4 2.4 0 0 1 1.99-.9h4.26z"/><circle cx="12" cy="12" r="3.85"/></g></svg>')!important}
 .emoji_smile_icon,.emoji_smile_icon_vector{background-image:url('data:image/svg+xml,<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="${l9}" d="M2 12a10 10 0 1 1 20 0 10 10 0 0 1-20 0zm18.3 0a8.3 8.3 0 1 0-16.6 0 8.3 8.3 0 0 0 16.6 0zm-11.05-.5a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm5.5 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/><path stroke="${l9}" fill="none" stroke-width="1.7" d="M9 14.8c.8.8 1.8 1.2 3 1.2s2.2-.4 3-1.1" stroke-linecap="round"/></svg>')!important}
@@ -1565,6 +1561,12 @@ body[style*="/images/error404"]:before{
 	margin:0 0 -2px -20px;
 	background:url(https://vk.com/images/icons/filter_add.png) no-repeat
 }
+.ShortVideoStub__link{position:relative;background-image:unset!important}
+.ShortVideoStub__link:before{
+	content:'';position:absolute;top:0;left:0;width:100%;height:100%;filter:invert(.5) url(#hue);
+	background:var(--stub-android-link-icon)}
+.ShortVideoStub__link--iphone:before{
+	background:var(--stub-iphone-link-icon)}
 .video_empty_placeholder.no_rows:after{
 	content:'';
 	position:absolute;
@@ -2236,7 +2238,7 @@ html.nl #box_layer_bg,html.nl #layer_bg,html.nl #stories_layers_background{backg
 	--button-secondary-background-color-active:var(--k2h);
 	--button-secondary-text-color:var(--k2t);
 }
-.round_button_large_white,.apps_i_run_box,.tag_faded,.tag_frame_handle,.VideoTrackWrapper,.AppsCatalogFeaturedBanner,.EditorCanvas,.CallModal,.CallWidget,.videoplayer,.ShortVideoGridItem:before,.ChatSettingsRoundedIcon,.feedback_photo_icon,.settings_separated_row_iconed:before,.GamesCatalogPromoContent{
+.PhotoCarousel,.round_button_large_white,.apps_i_run_box,.tag_faded,.tag_frame_handle,.VideoTrackWrapper,.AppsCatalogFeaturedBanner,.EditorCanvas,.CallModal,.CallWidget,.videoplayer,.ShortVideoGridItem:before,.ChatSettingsRoundedIcon,.feedback_photo_icon,.settings_separated_row_iconed:before,.GamesCatalogPromoContent{
 	--blue_bright:#5c9ce6;
 	--steel_gray_40:#f0f2f5;
 	--steel_gray_60:#edeef0;
