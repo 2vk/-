@@ -1300,7 +1300,7 @@ html.rb .search_results.search_video_results{
 
 .share_head{padding:0px 40px}
 .shorten_qr_wrapper svg,.VideoLayerPopup__qrCode{padding:5px 2px 2px 5px;border-radius:15px}
-.shorten_list_qr_preview_container svg,.vk_app_modal_container--qr>svg,.apps_install_header__qr>svg,.payments_money_transfer_qr_box>svg{padding:3px 2px 2px 3px;border-radius:10px}
+.shorten_list_qr_preview_container svg,.vk_app_modal_container--qr>svg,.apps_install_header__qr>svg,.payments_money_transfer_qr_box>svg{padding:3px 2px 2px 3px;border-radius:10px!important}
 .group_box_row{
 	padding:15px 0;
 	line-height:21px
@@ -1707,7 +1707,7 @@ body[style*="/images/error404"]:before{
 ::-webkit-scrollbar-button{width:0;height:0;display:none}
 ::-webkit-scrollbar-corner{background-color:transparent}
 html.s,html.bo{scrollbar-width:none}
-html.s body::-webkit-scrollbar,html.bo::-webkit-scrollbar{width:0}
+html.s body::-webkit-scrollbar,html.bo body::-webkit-scrollbar{width:0}
 body{overflow-y:overlay!important;overflow-x:hidden!important}
 html.a body{overflow-x:auto!important}
 html.s body{overflow:auto!important}
