@@ -1735,10 +1735,6 @@ html.eye,html.vo body,body[style*="overflow: hidden"],#apps,#flash_api_external_
 	backdrop-filter:none!important;
 	box-shadow:none!important
 }
-.im_sticker_bl{
-	content-visibility:auto;
-	contain-intrinsic-size:238px
-}
 html.s #cp,.cp_e,#cp_bc.a,#pv_more_act_bg,#mv_more_act_bg,.video_no_actions .video_thumb_actions{display:block}
 .cp_bg{display:block;position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:-99}
 .cp_bg>f{animation:var(--bfha);display:block;width:100%;height:100%}
