@@ -2237,7 +2237,7 @@ html.nl #box_layer_bg,html.nl #layer_bg,html.nl #stories_layers_background{backg
 	--button-secondary-background-color-active:var(--k2h);
 	--button-secondary-text-color:var(--k2t);
 }
-.page_doc_photo_href,.page_pics_preview,.PhotoCarousel,.round_button_large_white,.apps_i_run_box,.tag_faded,.tag_frame_handle,.VideoTrackWrapper,.AppsCatalogFeaturedBanner,.EditorCanvas,.CallModal,.CallWidget,.videoplayer,.ShortVideoGridItem:before,.ChatSettingsRoundedIcon,.feedback_photo_icon,.settings_separated_row_iconed:before,.GamesCatalogPromoContent{
+.media_desc_soft,.page_pics_preview,.PhotoCarousel,.round_button_large_white,.apps_i_run_box,.tag_faded,.tag_frame_handle,.VideoTrackWrapper,.AppsCatalogFeaturedBanner,.EditorCanvas,.CallModal,.CallWidget,.videoplayer,.ShortVideoGridItem:before,.ChatSettingsRoundedIcon,.feedback_photo_icon,.settings_separated_row_iconed:before,.GamesCatalogPromoContent{
 	--blue_bright:#5c9ce6;
 	--steel_gray_40:#f0f2f5;
 	--steel_gray_60:#edeef0;
