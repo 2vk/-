@@ -1991,7 +1991,7 @@ html:not(.ns) .im-create_classic,html:not(.ns) .im-page_classic .im-page--dialog
 .im-page.im-page_classic .im-page--dialogs--group-status{margin-top:111px;padding:0!important}
 .ns .im-page_classic .im-page--dialogs--group-status{margin-top:96px}
 .ns .im-page_classic .im-page--chat-body-wrap-inner{padding-bottom:0!important}
-.im-page_classic .im-page--chat-body-wrap-inner{padding-top:63px!important}
+.im-page_classic .im-page--chat-body-wrap-inner{padding-top:115px!important}
 .im-page_group .im-page--chat-body-wrap-inner{padding-top:181px!important}
 .im-page_classic .im-page--chat-header,.im-page_classic .im-page--header{height:auto;top:calc(var(--header-height) + 15px)!important;margin:0!important;border:0!important}
 .im-page_group .im-page--top-date-bar-wrap{top:unset!important;bottom:-37px}
