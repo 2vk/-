@@ -1968,10 +1968,10 @@ html.rm .im-page:not(.im-page_classic) .im-page--history{margin-left:0!important
 html.rm .nim-dialog_selected{box-shadow:inset 3px 0 0 0 var(--g3)}
 
 html:not(.ns) .search_auto_rows+.search_auto_results{margin-top:15px}
-html:not(.ns) .im-create_classic,html:not(.ns) .im-page_classic .im-page--dialogs-footer{bottom:15px}
+html:not(.ns) .im-create_classic,html:not(.ns) .im-page_classic .im-page--dialogs-footer{bottom:15px!important}
 .im-page{padding:0!important;margin-top:15px}
 .im-page_classic{display:inline-block}
-.im-page_classic.im-page_cropped{max-height:calc(100vh - 60px)}
+.im-page_classic.im-page_cropped{max-height:calc(100vh - var(--header-height) - 30px)}
 .im-page_classic,.im-page_classic .im-page--history{height:100%!important}
 .im-page_classic .im-page--history{overflow:hidden;position:unset!important;top:unset!important;bottom:unset!important;border-radius:0!important}
 .im-page.im-page_classic .im-page--dialogs{overflow:hidden;position:unset!important;margin-top:48px;padding:0}
@@ -1980,7 +1980,7 @@ html:not(.ns) .im-create_classic,html:not(.ns) .im-page_classic .im-page--dialog
 .layers_shown .im-page_classic:before{z-index:0}
 .im_chat-input--buttons{z-index:11!important}
 .im-page_group:not(.im-page_history-show):before{top:122px;height:calc(100vh - 137px);margin-bottom:calc(-100vh + 137px)}
-.im-page_classic.im-page_creating:before{position:fixed;height:calc(100vh - var(--header-height) - 15px)}
+.im-page_classic.im-page_creating:before{position:fixed;height:calc(100vh - var(--header-height) - 30px)}
 .im-page_classic.im-page_creating{padding-bottom:0!important}
 .im-create{top:0}
 .im-create.im-create_material{bottom:0}
@@ -1992,7 +1992,7 @@ html:not(.ns) .im-create_classic,html:not(.ns) .im-page_classic .im-page--dialog
 .ns .im-page_classic .im-page--dialogs--group-status{margin-top:96px}
 .ns .im-page_classic .im-page--chat-body-wrap-inner{padding-bottom:0!important}
 .im-page_classic .im-page--chat-header,.im-page_classic .im-page--header{height:auto;top:calc(var(--header-height) + 15px)!important;margin:0!important;border:0!important}
-.im-page_group .im-page--top-date-bar-wrap{top:unset;bottom:-37px}
+.im-page_group .im-page--top-date-bar-wrap{top:unset!important;bottom:-37px}
 .im-page_classic .im-page--chat-input{top:unset!important;bottom:15px!important;margin:0;border:0!important}
 
 .im-page .im-page--dialogs-search{width:calc(100% - 32px);float:left}
