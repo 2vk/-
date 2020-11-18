@@ -1388,7 +1388,7 @@ input.disabled,textarea.disabled,input.validation_readonly{color:var(--777)!impo
 #side_bar ol li .left_row,.left_menu_nav,.left_restore_link,.left_label{
 	color:var(--mc)!important
 }
-.MusicAuthorSnippet__title,.article_snippet__author,.article_anchor_tooltip,.page_album_title,.photos_album_title_wrap,.tt_w.like_tt,.tt_w.voting_tt,.page_story_photo_caption,.PeerTagsItem,.PeerProfileTagsListItem,.ShortVideoFeedBlock__itemViews,.stories_feed_preview_author_name,.Button--positive,.Button--negative,.owner_photo_bubble,.im_sticker_bl_promo,.post_doc_thumb_label_content,.videoplayer_autoplay_timer,.stories_send_form .placeholder .ph_input .ph_content,.nim-dialog.nim-dialog_failed .nim-dialog--unread,.top_result_baloon a,.upload_video_error_label,.videoplayer_title_link,.notify_tt_text,.slider_hint,.tt_black .tt_text,.footer_nav,.login_mobile_header,.login_mobile_info,.quick_login .label,.quick_login .quick_forgot,.quick_login .checkbox,.ui_tab_count.ui_tab_count_red{
+.MusicAuthorSnippet__title,.article_snippet__author,.article_anchor_tooltip,.page_album_title,.photos_album_title_wrap,.tt_w.like_tt,.tt_w.voting_tt,.page_story_photo_caption,.PeerTagsItem,.PeerProfileTagsListItem,.ShortVideoFeedBlock__itemViews,.stories_feed_preview_author_name,.Button--positive,.Button--negative,.owner_photo_bubble,.im_sticker_bl_promo,.videoplayer_autoplay_timer,.stories_send_form .placeholder .ph_input .ph_content,.nim-dialog.nim-dialog_failed .nim-dialog--unread,.top_result_baloon a,.upload_video_error_label,.videoplayer_title_link,.notify_tt_text,.slider_hint,.tt_black .tt_text,.footer_nav,.login_mobile_header,.login_mobile_info,.quick_login .label,.quick_login .quick_forgot,.quick_login .checkbox,.ui_tab_count.ui_tab_count_red{
 	color:#eee!important
 }
 .story_feed_active_live .stories_feed_preview_author_name{
@@ -2237,7 +2237,7 @@ html.nl #box_layer_bg,html.nl #layer_bg,html.nl #stories_layers_background{backg
 	--button-secondary-background-color-active:var(--k2h);
 	--button-secondary-text-color:var(--k2t);
 }
-.PhotoCarousel,.round_button_large_white,.apps_i_run_box,.tag_faded,.tag_frame_handle,.VideoTrackWrapper,.AppsCatalogFeaturedBanner,.EditorCanvas,.CallModal,.CallWidget,.videoplayer,.ShortVideoGridItem:before,.ChatSettingsRoundedIcon,.feedback_photo_icon,.settings_separated_row_iconed:before,.GamesCatalogPromoContent{
+.page_doc_photo_href,.page_pics_preview,.PhotoCarousel,.round_button_large_white,.apps_i_run_box,.tag_faded,.tag_frame_handle,.VideoTrackWrapper,.AppsCatalogFeaturedBanner,.EditorCanvas,.CallModal,.CallWidget,.videoplayer,.ShortVideoGridItem:before,.ChatSettingsRoundedIcon,.feedback_photo_icon,.settings_separated_row_iconed:before,.GamesCatalogPromoContent{
 	--blue_bright:#5c9ce6;
 	--steel_gray_40:#f0f2f5;
 	--steel_gray_60:#edeef0;
@@ -2261,7 +2261,7 @@ html.nl #box_layer_bg,html.nl #layer_bg,html.nl #stories_layers_background{backg
 .new_header_design .left_count_wrap,.PopupHeader__title,#pg_fixed,.mv_layer--vertical,.mv_playlist{
 	--white:var(--eee)
 }
-.audio_pl__new,.MarketCatalogGroup__goodsItemCounter,.FacebookLogin__button:before,.ShortVideoPost__preview,.nim-dialog_selected,.page_post_video_play_inline_loading .pr,.photos_container .pr,.places_map .pr,.pr_baw,.VideoPreview__title,.video_thumb_label,.CatalogBlock__banner,.stories_feed_preview_live_badge,#pv_fullscreen,.VideoPlaylistItem__info,.page_doc_photo_href,.dev_main_featured,.GamesCatalogCollections,.apps_featured_slider,.VkPayBanner,.DownloadedGameItem__badge,.DownloadedGameItem__button,.article_snippet,.stories_layer,.BannerItem,.video_box_wrap,.ShortVideoGrid,.short_video_item,.media_voting_bg_tile,.media_voting_bg_photo,.media_voting_bg_gradient,.emoji_shop_icon_badge,.chat_tab_counter{
+.audio_pl__new,.MarketCatalogGroup__goodsItemCounter,.FacebookLogin__button:before,.ShortVideoPost__preview,.nim-dialog_selected,.page_post_video_play_inline_loading .pr,.photos_container .pr,.places_map .pr,.pr_baw,.VideoPreview__title,.video_thumb_label,.CatalogBlock__banner,.stories_feed_preview_live_badge,#pv_fullscreen,.VideoPlaylistItem__info,.dev_main_featured,.GamesCatalogCollections,.apps_featured_slider,.VkPayBanner,.DownloadedGameItem__badge,.DownloadedGameItem__button,.article_snippet,.stories_layer,.BannerItem,.video_box_wrap,.ShortVideoGrid,.short_video_item,.media_voting_bg_tile,.media_voting_bg_photo,.media_voting_bg_gradient,.emoji_shop_icon_badge,.chat_tab_counter{
 	--white:#eee
 }
 .DownloadedGameItem__badge--exclusive{
