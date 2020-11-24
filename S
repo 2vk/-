@@ -216,7 +216,7 @@ a.dd_link,.dd_menu_header div:after,.idd_arrow{background-image:url('data:image/
 .eltt.feature_intro_blue_tt .eltt_arrow{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="9" height="20"><path fill="${g2}" d="M0 20l7.8-8.5c.7-.9.7-2.2 0-3L0 0z"/></svg>')!important}
 .FeedbackTooltip:after{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="9"><path fill="${n15}" d="M0 0l8.5 7.8c.9.7 2.2.7 3 0L20 0z"/></svg>')!important}
 //up
-.MarketCatalogHint .Tooltip__in:before{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="9"><path fill="${g2}" d="M0 9l8.5-7.8c.9-.7 2.2-.7 3 0L20 9"/></svg>')!important}
+.MarketCatalogHint .Tooltip__in:before{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="23" height="9"><path fill="${g2}" d="M0 9l8.5-7.8c.9-.7 2.2-.7 3 0L20 9"/></svg>')!important}
 .replies_deep_collapse_icon,.replies_side{background-image:url('data:image/svg+xml,<svg width="12" height="14" viewBox="0 0 12 14" xmlns="http://www.w3.org/2000/svg"><path stroke="${g2}" d="M1 6l5-5v12V1l5 5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" fill="none"/></svg>')!important}
 .replies_wrap_deep .replies_next.replies_prev{background-image:url('data:image/svg+xml,<svg width="12" height="12" viewBox="0 0 6 6" xmlns="http://www.w3.org/2000/svg"><path stroke="${g2}" stroke-linecap="round" d="M3 1v4M1 3l2-2m0 0l2 2" opacity=".5"/></svg>')!important}
 //down
