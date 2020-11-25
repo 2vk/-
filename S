@@ -1944,7 +1944,7 @@ html.rb .MarketCatalogBreadcrumbs,html.rb .MarketCatalogTabs,html.rb .MarketCata
 	border-radius:20px 20px 0 0!important}
 html.rb .chat_onl_inner,html.rb .fc_tab_head{
 	border-radius:10px 10px 0 0!important}
-html.rb .MarketCatalogOrderListItem:first-child,html.rb .apps_options_bar_bottom,html.rb .tickets_thank_you_form,html.rb .im-page_group .im-page--dialogs,html.rb .GamesCatalogSearchMainContent,html.rb .page_block_info,html.rb .bt_comment_form_unavailable,html.rb .bt_report_footer,html.rb .apps_i_policy,html.rb #audio_layer_tt,html.rb #top_notify_wrap,html.rb .top_notify_show_all,html.rb .TableColumnsSettingsModal__footer,html.rb .box_no_buttons,html.rb .box_controls,html.rb .wall_module .reply_box,html.rb .wall_module .reply_fakebox_wrap,html.rb .feed_search_shown .feed_found_photos,html.rb .settings_block_footer,html.rb .feed_notifications .more_link,html.rb .wall_module .page_wall_posts .page_block.unshown+.page_block,html.rb.pc .page_cover+.page_cover_info,html.rb .theme:before,html.rb .flat_button.ui_load_more_btn,html.rb .wall_module .page_wall_posts .page_block:first-child,html.rb .search_statuses_results .page_block:first-child{
+html.rb .MarketCatalogOrderListItem:first-child,html.rb .apps_options_bar_bottom,html.rb .tickets_thank_you_form,html.rb .im-page_group .im-page--dialogs,html.rb .GamesCatalogSearchMainContent,html.rb .page_block_info,html.rb .bt_comment_form,html.rb .bt_comment_form_unavailable,html.rb .bt_report_footer,html.rb .apps_i_policy,html.rb #audio_layer_tt,html.rb #top_notify_wrap,html.rb .top_notify_show_all,html.rb .TableColumnsSettingsModal__footer,html.rb .box_no_buttons,html.rb .box_controls,html.rb .wall_module .reply_box,html.rb .wall_module .reply_fakebox_wrap,html.rb .feed_search_shown .feed_found_photos,html.rb .settings_block_footer,html.rb .feed_notifications .more_link,html.rb .wall_module .page_wall_posts .page_block.unshown+.page_block,html.rb.pc .page_cover+.page_cover_info,html.rb .theme:before,html.rb .flat_button.ui_load_more_btn,html.rb .wall_module .page_wall_posts .page_block:first-child,html.rb .search_statuses_results .page_block:first-child{
 	border-radius:0 0 20px 20px!important}
 html.rb .mention_tt_actions,html.rb .fc_tab,html.rb #fc_ctabs_cont{
 	border-radius:0 0 10px 10px!important}
@@ -1960,7 +1960,7 @@ html.rb .pv_cont .pv_reply_form_wrap,html.rb .im-chat-input{
 	border-radius:0 0 20px 0!important}
 html.rb .groups_edit_event_log_title,html.rb .audio_layer_container .page_block,html.ns .im-page:before,.im-page--dcontent,html .im-page .page_block{
 	border-radius:0!important}
-html.rb .im-page:not(.im-page_classic) .im-page--dialogs,html.rb.rm .im-page:not(.im-page_classic) .im-page--history,html.rb .im-create,html.rb .box_title .back{
+html.rb .im-page:not(.im-page_classic) .im-page--dialogs,html.rb.rm .im-page:not(.im-page_classic) .im-page--history,html.rb .im-create,html.rb .box_title .back,html.rb .PopupHeader__backBtn{
 	border-radius:20px 0 0 20px!important}
 html.rb .im-page:not(.im-page_classic) .im-page--history,html.rb.rm .im-page:not(.im-page_classic) .im-page--dialogs,html.rb.rm .im-create{
 	border-radius:0 20px 20px 0!important}
@@ -2044,7 +2044,7 @@ html.mb.mm .new_header_design #side_bar_inner{margin:63px 0 0 -20px}
 html.mb .new_header_design #side_bar_inner{margin:63px 0 0 -24px}
 html.mm .vk_menu_block{margin-left:35px}
 html.mm .left_count_wrap{position:absolute;top:2px;right:35px}
-html.mb.mm .left_count_wrap{right:45px}
+html.mb.mm .left_count_wrap{right:42px}
 html.mm #side_bar ol li{margin-left:0}
 html.mm #side_bar .left_icon{margin-left:-1px}
 html.mf #side_bar{position:sticky;top:0!important}
@@ -2076,7 +2076,7 @@ html.Pl.ns.mb #side_bar_inner:before{left:0;right:unset}
 html.mm .new_header_design #side_bar ol{margin:0 16px 10px -1px!important}
 
 html.mm .new_header_design #side_bar .left_row{width:20px!important}
-html.mm .new_header_design .left_count_wrap{top:8px;max-width:unset!important}
+html.mm .new_header_design .left_count_wrap{top:6px;max-width:unset!important}
 html.mm .new_header_design #side_bar .more_div{padding:0!important}
 
 html.mm .top_home_logo{margin-left:114px}
@@ -2100,7 +2100,7 @@ html.Pr .chat_onl_wrap{left:10px;right:unset}
 html.Pl #page_body{float:left}
 html.Pl #side_bar{float:right}
 html.Pl.mm .left_count_wrap{left:35px;right:unset}
-html.Pl.mb.mm .left_count_wrap{left:45px}
+html.Pl.mb.mm .left_count_wrap{left:39px}
 html.Pl.ns .im-right-menu:before,html.Pl.ns .wide_column_left .narrow_column:before{left:unset;right:0}
 html.Pl.mm .head_nav{padding-right:110px}
 html.Pl .top_home_link{width:34px;margin:0 10px 0 0}
