@@ -28,7 +28,7 @@ img[src*="/images/camera_"],[style*="/images/camera_"]{background:var(--n29f) ur
 //+
 .prettyCard__button:before{background:url('data:image/svg+xml,<svg width="24" height="24" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg"><path stroke="${lf}" stroke-linecap="round" d="M6 3v6m3-3h-6"/></svg>') no-repeat 50%!important}
 //round checbox
-.Icon_check:before,.filter_peer_wrap .inline_item_selected .ii_body:before,.uMailWrite__SVGIcon_accept{background:var(--g2) url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11 11"><path d="M3 6l1.5 1.5m0 0l3.5-3.5" stroke-linecap="round" stroke="${n15}"/></svg>')!important}
+.Icon_check:before,.filter_peer_wrap .inline_item_selected .ii_body:before,.uMailWrite__SVGIcon_accept{border-radius:50%;background:var(--g2) url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11 11"><path d="M3 6l1.5 1.5m0 0l3.5-3.5" stroke-linecap="round" stroke="${n15}"/></svg>')!important}
 .checkbox.on:before{background:var(--g2) url('data:image/svg+xml,<svg viewBox="0 0 9 9" xmlns="http://www.w3.org/2000/svg"><path stroke="${n15}" stroke-linecap="round" d="M2.3 4.4l1.5 1.5m0 0l2.7-3.3"/></svg>')!important}
 //arrow up
 .Icon_whiteArrowTop:before{background:url('data:image/svg+xml,<svg width="24" height="24" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg"><path stroke="${n15}" stroke-linecap="round" d="M6 3v7m3-4-3-3m0 0-3 3"/></svg>') no-repeat 50%!important}
@@ -256,6 +256,9 @@ html,.cp_fg{
 .article{
 	color:var(--ccc)!important
 }
+#cp_u{
+	color:var(--n999)!important
+}
 .zpv_bottom .item_likes_me .v_like{
 	color:var(--lc)!important
 }
@@ -270,7 +273,7 @@ html,.cp_fg{
 .tt_black .tt_text{color:#fff;padding:4px 7px 5px;white-space:nowrap}
 
 #cp .checkbox:before{display:block;content:'';float:left;margin:0 7px 0 0;width:15px;height:15px}
-.dark{border:1px solid;font-size:13px;box-sizing:border-box;padding:5px;-webkit-appearance:none}
+.dark{border:1px solid var(--n29e);font-size:13px;box-sizing:border-box;padding:5px;-webkit-appearance:none}
 html.s{scrollbar-width:none}
 html.s body::-webkit-scrollbar,html.vo body::-webkit-scrollbar{width:0}
 html.s #cp,.cp_e,#cp_bc.a,#pv_more_act_bg,#mv_more_act_bg,.video_no_actions:not(.video_active_live) .video_thumb_actions{display:block}
@@ -424,6 +427,8 @@ body:not(.stories_layer_shown):not(.layers_shown):not(.vk__page_app):not(.z_open
 	--text_action_counter:var(--n999);
 	--text_placeholder:var(--n999);
 	--field_text_placeholder:var(--n999);
+	--icon_medium:var(--n777);
+	--icon_tertiary:var(--n777);
 	--text_secondary:var(--n777);
 	--icon_secondary:var(--n999);
 	--search_bar_field_tint:var(--n999);
