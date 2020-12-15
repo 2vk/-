@@ -1153,6 +1153,7 @@ a.dd_link{
 .im-page .im-page--history-new-bar:after,.im-page .im-page--history-new-bar:before{
 	width:30%
 }
+.HeaderLogo{background-size:25px!important;background-position:50%!important}
 .share_head .share_logo{width:25px;height:25px}
 .quick_login{padding:10px 5px!important;margin:0 0 0 -10px!important}
 .im-page--dialogs-settings{
