@@ -450,7 +450,7 @@ html,.cp_fg{
 .ConvoPicker__radio--selected:after,.thumbed_link__badge,.landing_transparencyArchive_download .landing_transparencyArchive__button,.flist_list_radio .flist_item_wrap:hover.flist_item_checked .flist_item_action:before,.notify_sources_tt_content .line_cell .cell_add_source_icon,.audio_progress,.nim-dialog.nim-dialog_starred:before,.MessageForward__radio--selected:after,.WaitDots.blue .dot,.wk_voting_option_bar_inner,.flist_sel_showed_all,#dev_left_nav_mark,#like_body .like_wrap:hover,.mv_chat_admin_message .mv_chat_message_author_name,.mv_chat_like,.video_upload_tc_wrap .video_tc_upload_progress .video_tc_upload_progress_bar,.graffiti_slider,.graffiti_slider_thumb,.graffiti_slider_thumb:before,.ui_tabs.ui_tabs_sliding .ui_tabs_slider,.im-popular--unread,.pay-card_type_vk [type=checkbox]:checked+.credit-card-form__input-icon,.flist_sel_showed_all:hover,.ui_rmenu_sliding .ui_rmenu_slider,.ui_rmenu_count,.apps_frtt_level,.apps_cat_header_icon,.im-page-pinned--media-bar .im-page-pinned--media-bar_progress,.im-money-request-snippet__bar .im-money-request-snippet__progress,.Tabs__divider{
 	background-color:var(--g2)
 }
-.medadd_poll_background_preview:before,.medadd_poll_background_preview:after,.scrollbar_inner:hover,.gtop_header .new,.ui_rmenu_extra_label_badge_new,.audio_page_player_play:hover .icon,.slider_amount,.slider_handler,.eltt.eltt_blue,.eltt.feature_intro_blue_tt,.eltt.feature_info_tooltip{
+.nim-dialog .nim-dialog--unread,.medadd_poll_background_preview:before,.medadd_poll_background_preview:after,.scrollbar_inner:hover,.gtop_header .new,.ui_rmenu_extra_label_badge_new,.audio_page_player_play:hover .icon,.slider_amount,.slider_handler,.eltt.eltt_blue,.eltt.feature_intro_blue_tt,.eltt.feature_info_tooltip{
 	background-color:var(--g2)!important
 }
 .im-navigation--label-in,.cp_t.a .w .t:after,.ui_toggler.on:after,.ads_edit_easy_promote_box__expected-reach-bar-value,.round_tab.selected,.round_tab.selected:hover,.ads_schedule_preset_selected,.ads_schedule_preset_selected:hover,.ads_no_office_list_item:before,.SelectButtons__option input:checked+.SelectButtons__label,.verification_received,.Intro__navItem--active,.exchange_subtab1.active,.rdrEndEdge,.rdrStartEdge,.audio_page_player_play .icon,.cal_table>thead,.cal_table .day.sel,.cal_table .day.sel:hover,.vk_app_modal_btn--success,.landing_transparencyArchive_download .landing_transparencyArchive__button:hover,.landing_transparencySection__counter,.wikiSubHeader:before,.flist_list_radio .flist_item_wrap.flist_item_checked .flist_item_action:before,.PredictionProgressBar__first,.videoplayer_quality_select_label_hd_icon,.blog_about_link_pic,.apps_access_icon,.bt_member_activity_lines.selection .bt_member_activity_item.selected.empty,#like_body .like_wrap,.dev_roadmap_timeline .dev_roadmap_timeline_past .dev_roadmap_timeline_row_marker,.group_activity_new_replies>b,.feed_new_posts>b,.scrollbar_inner,.ui_scroll_bar_inner{
@@ -2036,7 +2036,6 @@ html.mm.mb #side_bar ol li,html.ns:not(.mb) #side_bar ol li{margin-left:-2px!imp
 
 .left_menu_nav_wrap{margin:0!important;padding:14px 5px 10px 5px!important}
 html.mb .left_settings{margin:calc(-1*var(--left-menu-row-height)) 0 0 -32px}
-
 
 html.Pl.mm #side_bar_inner{right:unset}
 html.Pl.mm #side_bar_inner{margin:calc(var(--header-height) + 7px) 0 0 -15px!important}
