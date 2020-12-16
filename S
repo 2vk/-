@@ -2032,7 +2032,7 @@ html.ns.mm #side_bar_inner{margin:var(--header-height) 0 0 -6px!important}
 html.mm .left_count_wrap{position:absolute;top:6px;max-width:unset!important;right:35px}
 html.mb.mm .left_count_wrap{right:42px}
 #side_bar ol{margin:0!important;padding:0!important}
-html.mb #side_bar ol li,html.ns:not(.mb) #side_bar ol li{margin-left:-2px!important}
+html.mm.mb #side_bar ol li,html.ns:not(.mb) #side_bar ol li{margin-left:-2px!important}
 
 .left_menu_nav_wrap{margin:0!important;padding:14px 5px 10px 5px!important}
 html.mb .left_settings{margin:calc(-1*var(--left-menu-row-height)) 0 0 -32px}
