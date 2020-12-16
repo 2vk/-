@@ -2023,23 +2023,23 @@ a.left_count_wrap[title] span{display:none!important}
 html.mf #side_bar{position:sticky;top:0!important}
 #side_bar_inner{margin:calc(var(--header-height) + 7px) 0 0 -15px!important;padding:8px 5px 1px 6px!important}
 html.ns #side_bar_inner{margin:var(--header-height) 0 0 -10px!important}
-html.mb #side_bar_inner{margin:calc(var(--header-height) + 15px) 0 0 -23px!important;border-radius:4px}
+html.mb #side_bar_inner{margin:calc(var(--header-height) + 15px) 0 0 -25px!important;border-radius:4px}
 html.mm #side_bar_inner{margin:calc(var(--header-height) + 7px) 0 0 -12px!important;padding:8px 5px 8px 6px!important;position:relative;right:-130px;width:30px}
 html.ns.mb #side_bar_inner{margin:var(--header-height) 0 0 -10px!important;position:relative;border-radius:0 0 0 20px}
 html.ns.mb #side_bar_inner:before{content:'';position:absolute;bottom:-20px;right:0;width:20px;height:20px}
-html.mb.mm #side_bar_inner{margin:calc(var(--header-height) + 15px) 0 0 -19px!important;}
+html.mb.mm #side_bar_inner{margin:calc(var(--header-height) + 15px) 0 0 -21px!important;}
 html.ns.mm #side_bar_inner{margin:var(--header-height) 0 0 -6px!important}
 html.mm .left_count_wrap{position:absolute;top:6px;max-width:unset!important;right:35px}
 html.mb.mm .left_count_wrap{right:42px}
 #side_bar ol{margin:0!important;padding:0!important}
-html.mm.mb #side_bar ol li,html.ns:not(.mb) #side_bar ol li{margin-left:-2px!important}
+html.mm.mb #side_bar ol li,html.ns:not(.mb) #side_bar ol li,html.Pl.ns #side_bar ol li{margin-left:-2px!important}
 
 .left_menu_nav_wrap{margin:0!important;padding:14px 5px 10px 5px!important}
 html.mb .left_settings{margin:calc(-1*var(--left-menu-row-height)) 0 0 -32px}
 
 html.Pl.mm #side_bar_inner{right:unset}
-html.Pl.mm #side_bar_inner{margin:calc(var(--header-height) + 7px) 0 0 -15px!important}
-html.Pl.mb #side_bar_inner{margin:calc(var(--header-height) + 15px) 0 0 0!important}
+html.Pl.mm #side_bar_inner{margin:calc(var(--header-height) + 7px) 0 0 -16px!important}
+html.Pl.mb #side_bar_inner{margin:calc(var(--header-height) + 15px) 0 0 -1px!important}
 html.Pl.ns #side_bar_inner{margin:var(--header-height) 0 0 -16px!important;border-radius:0 0 20px 0}
 html.Pl.ns.mb #side_bar_inner:before{left:0;right:unset}
 
@@ -2050,10 +2050,10 @@ html.mm #side_bar .more_div{padding:0!important}
 html.ns .top_home_logo{margin-left:-2px!important}
 html.mb .top_home_logo{margin-left:-15px!important}
 html.mm .top_home_logo,html.Pl .top_home_logo{margin-left:128px!important;width:24px!important;background-size:auto!important}
-html.Pl .top_home_logo{margin:0 0 0 8px!important}
-html.mb.mm .top_home_logo{margin-left:119px!important}
+html.mb.mm .top_home_logo{margin-left:117px!important}
 html.ns.mb .top_home_logo{margin-left:-2px!important}
 html.ns.mm .top_home_logo{margin-left:132px!important}
+html.Pl .top_home_logo,html.Pl.mm .top_home_logo,html.Pl.ns .top_home_logo{margin:0 0 0 8px!important}
 html .bugtracker_logo .top_home_logo{margin-left:0!important}
 
 #page_header,#page_layout,#dev_top_nav{margin-left:var(--Pl,auto)!important;margin-right:var(--Pr,auto)!important}
