@@ -2021,10 +2021,10 @@ a.left_count_wrap{text-decoration:none}
 a.left_count_wrap[title] span{display:none!important}
 
 html.mf #side_bar{position:sticky;top:0!important}
-#side_bar_inner{margin:calc(var(--header-height) + 7px) 0 0 -15px!important;padding:8px 5px 1px 6px!important}
+#side_bar_inner{margin:calc(var(--header-height) + 7px) 0 0 -15px!important;padding:8px 5px 8px 6px!important}
 html.ns #side_bar_inner{margin:var(--header-height) 0 0 -10px!important}
 html.mb #side_bar_inner{margin:calc(var(--header-height) + 15px) 0 0 -25px!important;border-radius:4px}
-html.mm #side_bar_inner{margin:calc(var(--header-height) + 7px) 0 0 -12px!important;padding:8px 5px 8px 6px!important;position:relative;right:-130px;width:30px}
+html.mm #side_bar_inner{margin:calc(var(--header-height) + 7px) 0 0 -12px!important;position:relative;right:-130px;width:30px}
 html.ns.mb #side_bar_inner{margin:var(--header-height) 0 0 -10px!important;position:relative;border-radius:0 0 0 20px}
 html.ns.mb #side_bar_inner:before{content:'';position:absolute;bottom:-20px;right:0;width:20px;height:20px}
 html.mb.mm #side_bar_inner{margin:calc(var(--header-height) + 15px) 0 0 -21px!important;}
@@ -2034,7 +2034,7 @@ html.mb.mm .left_count_wrap{right:42px}
 #side_bar ol{margin:0!important;padding:0!important}
 html.mm.mb #side_bar ol li,html.ns:not(.mb) #side_bar ol li,html.Pl.ns #side_bar ol li{margin-left:-2px!important}
 
-.left_menu_nav_wrap{margin:0!important;padding:14px 5px 10px 5px!important}
+.left_menu_nav_wrap{margin:0!important;padding:14px 5px 2px 5px!important}
 html.mb .left_settings{margin:calc(-1*var(--left-menu-row-height)) 0 0 -32px}
 
 html.Pl.mm #side_bar_inner{right:unset}
