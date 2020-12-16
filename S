@@ -932,7 +932,7 @@ input.ui_search_field{
 	box-shadow:inset 0 0 3px 0 rgba(0,0,0,.5)!important
 }
 .audio_page_player_play .icon,.audio_row__cover,.audio_page_player__cover,.friends_user_row .online:after{
-	box-shadow:inset 0 0 5px 0 rgba(0,0,0,.5)!important
+	box-shadow:inset 0 0 5px 0 rgba(0,0,0,.3)!important
 }
 .GroupOrdersTableSettings__item,.PropertiesModal__property,.ItemsVariantsModal__hint,.wide_column .groups_chats .module_body .line_cell,.GameGifts__gameItem,.group_edit_admin_tips_item:not(:last-child),.groups_cover_box .groups_edit_cover_header,.wk_address_content .addresses_wrap .address .address_wrap,.modal,.page-row{
 	box-shadow:inset 0 -1px 0 0 var(--n33e)!important
