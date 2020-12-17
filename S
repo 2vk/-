@@ -1527,6 +1527,7 @@ body[style*="/images/error404"]:before{
 	background:url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'><g fill='none'><rect width='24' height='24'/><path fill='%23888' d='M10.5,16.7 C10.1,18.1 10.6,18.4 11.6,17.4 L15.4,12.9 C16.3,11.8 16.1,11.0 14.8,10.7 L12.9,10.4 L12.9,10.4 C12.8,10.4 12.8,10.3 12.8,10.2 C12.8,10.2 12.8,10.2 12.8,10.2 L13.5,7.2 C13.8,5.8 13.3,5.6 12.4,6.6 C11.2,7.9 10.2,9 9.6,9.7 C9.4,9.9 9,10.3 8.5,10.8 C7.4,12.1 8,12.9 9.3,13.1 L11,13.5 L11,13.5 C11.2,13.5 11.2,13.6 11.2,13.7 C11.2,13.7 11.2,13.7 11.2,13.7 L10.5,16.7 Z'/></g></svg>") no-repeat 5px 4px;
 	filter:var(--icon0)
 }
+.top_audio_play__button{display:block!important;top:unset!important}
 .emoji_tt_wrap,.im-navigation__button:before,body.dev .page_header_cont,.left_menu_nav_wrap:not(:last-child),.feed_is_empty .stories_feed_wrap,.top_audio_play__button:after,.im-mess:before,#Container,#block_optoins,.article>pre>br,.mv_info .ui_actions_menu_item_sublist,html.bo body>*,html.vo .top_audio_player_title>*,html.vo #stl_left,html.vo #page_layout,html.vo .HeaderNav__item>*:not(#top_audio_player):not(#top_audio_layer_place):not(#top_audio_btn_group),html.vo #top_notify_btn,html.vo .back,html.vo #page_header_cont:before,html.vo #top_audio_play,html.vo #pg_fixed,#album-168874636_0,.im-chat-history-resize,.page_cover.theme .v,.none,#vk-backgrounds-block,.article_layer__dark,html.mm #side_bar .left_label,html.mm .left_settings,html.mm .side_bar [id$="_left"],html.mm .left_menu_nav_wrap{
 	display:none!important
 }
