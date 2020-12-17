@@ -2058,6 +2058,7 @@ html.ns.mm .top_home_logo{margin-left:132px!important}
 html.Pl .top_home_logo,html.Pl.mm .top_home_logo,html.Pl.ns .top_home_logo{margin:0 0 0 8px!important}
 :root .bugtracker_logo .top_home_logo{margin-left:0!important}
 
+.ny_2020_logo .top_home_logo:before{display:none}
 .ny_2020_logo .top_home_logo{margin-left:-15px!important}
 html.ns .ny_2020_logo .top_home_logo{margin-left:-11px!important}
 html.mb .ny_2020_logo .top_home_logo{margin-left:-24px!important}
