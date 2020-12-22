@@ -465,7 +465,7 @@ html,.cp_fg{
 .WideScreenAppBack__link:hover,.HeaderSectionSwitcher__button:focus,.HeaderSectionSwitcher__button:hover,.HeaderSectionSwitcher__button--open,.HeaderBudget:focus,.HeaderBudget:hover,.HeaderProfile:focus,.HeaderProfile:hover,.dev_top_link.sel,.dev_top_link.sel:hover,.dev_home_link:hover,.dev_top_link:hover,.top_nav_link.active,.top_nav_link:hover,.top_nav_btn.active,.top_nav_btn:hover,.top_audio_player.active,.top_audio_player:hover,#ts_input,#ts_input:focus,.dev_top_input{
 	background-color:var(--hc2)!important
 }
-.WideScreenAppBack__link,.CovidLogo__hashtag,.landing_transparencyHeader__title,.landing_transparencyHeader__navItem a,.PageNavigation__navBar .ui_tab,.PageNavigation__navBar .ui_tab.ui_tab_sel,.HeaderSectionSwitcher__button,.HeaderBudget__link,.HeaderBudget__button a,.share_head .share_user_link,.share_head .share_logout_link,.bugtracker_logo .top_home_logo:after,#dev_top_nav a.dev_home_link,#dev_top_nav a.dev_top_link,.dev .dev_top_input_wrap .input_back_content,.dev input.dev_top_input,.dev input.dev_top_input:focus,#ts_input,#ts_input::-webkit-input-placeholder,#ts_input:focus,.TopSearch .input_back_content,.top_nav_link,.top_audio_player_title{
+.WideScreenAppBack__link,.CovidLogo__hashtag,.landing_transparencyHeader__title,.landing_transparencyHeader__navItem a,.PageNavigation__navBar .ui_tab,.PageNavigation__navBar .ui_tab.ui_tab_sel,.HeaderSectionSwitcher__button,.HeaderBudget__link,.HeaderBudget__button a,.share_head .share_user_link,.share_head .share_logout_link,.TopHomeLink.bugtracker_logo:after,#dev_top_nav a.dev_home_link,#dev_top_nav a.dev_top_link,.dev .dev_top_input_wrap .input_back_content,.dev input.dev_top_input,.dev input.dev_top_input:focus,#ts_input,#ts_input::-webkit-input-placeholder,#ts_input:focus,.TopSearch .input_back_content,.top_nav_link,.top_audio_player_title{
 	color:var(--ht)!important
 }
 .mv_layer--vertical .flat_button,.Button--primary,.button_blue button,.flat_button.button_bright_blue,.flat_button.mv_live_preparation_publish_btn,.article_ed__caredit .article_ed__caredit_save,.landings-expired-messages__more,.media_voting_footer_button:not([style]),.podcast_snippet__button,.wk_like_count,.DownloadedGamesCatalogBanner__button{
@@ -2048,15 +2048,15 @@ html.Pl.ns.mb #side_bar_inner:before{left:0;right:unset}
 html.mm #side_bar .left_row{width:20px!important}
 html.mm #side_bar .more_div{padding:0!important}
 
-.top_home_logo{margin-left:-6px!important}
-html.ns .top_home_logo{margin-left:-2px!important}
-html.mb .top_home_logo{margin-left:-15px!important}
-html.mm .top_home_logo,html.Pl .top_home_logo{margin-left:128px!important;width:24px!important;background-size:auto!important}
-html.mb.mm .top_home_logo{margin-left:117px!important}
-html.ns.mb .top_home_logo{margin-left:-2px!important}
-html.ns.mm .top_home_logo{margin-left:132px!important}
-html.Pl .top_home_logo,html.Pl.mm .top_home_logo,html.Pl.ns .top_home_logo{margin:0 0 0 8px!important}
-:root .bugtracker_logo .top_home_logo{margin-left:0!important}
+.TopHomeLink{margin-left:-6px!important}
+html.ns .TopHomeLink{margin-left:-2px!important}
+html.mb .TopHomeLink{margin-left:-15px!important}
+html.mm .TopHomeLink,html.Pl .TopHomeLink{margin-left:128px!important;width:24px!important;background-size:auto!important}
+html.mb.mm .TopHomeLink{margin-left:117px!important}
+html.ns.mb .TopHomeLink{margin-left:-2px!important}
+html.ns.mm .TopHomeLink{margin-left:132px!important}
+html.Pl .TopHomeLink,html.Pl.mm .TopHomeLink,html.Pl.ns .TopHomeLink{margin:0 0 0 8px!important}
+:root .TopHomeLink.bugtracker_logo{margin-left:0!important}
 
 .TopHomeLink--ny2021logo svg{display:none}
 .TopHomeLink--ny2021logo{margin-left:-15px!important}
@@ -2067,7 +2067,7 @@ html.mb.mm .TopHomeLink--ny2021logo{margin-left:108px!important}
 html.ns.mb .TopHomeLink--ny2021logo{margin-left:-11px!important}
 html.ns.mm .TopHomeLink--ny2021logo{margin-left:121px!important}
 html.Pl .TopHomeLink--ny2021logo,html.Pl.mm .TopHomeLink--ny2021logo,html.Pl.ns .TopHomeLink--ny2021logo{margin:0 0 0 -3px!important}
-:root .bugtracker_logo .TopHomeLink--ny2021logo{margin-left:0!important}
+:root .TopHomeLink--ny2021logo.bugtracker_logo{margin-left:0!important}
 
 #page_header,#page_layout,#dev_top_nav{margin-left:var(--Pl,auto)!important;margin-right:var(--Pr,auto)!important}
 html.Pr #content .cp_eq{left:-400px}
