@@ -1741,7 +1741,7 @@ html.s #cp,.cp_e,#cp_bc.a,#pv_more_act_bg,#mv_more_act_bg,.video_no_actions .vid
 @media (max-aspect-ratio:1600/901){.cp_fg iframe{width:300%;left:-100%}}
 #cp{transform:translateX(310px);user-select:none;box-sizing:border-box;position:fixed;top:0;right:0;width:300px;height:100vh;padding:48px 10px 10px;font-size:13px;line-height:1.154;z-index:1500;overflow-y:overlay;overscroll-behavior-y:contain}
 #cp:before{content:'';display:block;position:fixed;top:0;right:0;width:300px;height:100vh;background:var(--n15b);box-shadow:rgba(0, 0, 0, 0.1) 0 0 0 1px,rgba(0, 0, 0, 0.2) -2px 2px 8px 0;z-index:-1}
-.firefox #cp{background:var(--n15b)}.firefox #cp:before{display:none}
+.firefox #cp{background:var(--n15b);box-shadow:rgba(0, 0, 0, 0.1) 0 0 0 1px,rgba(0, 0, 0, 0.2) -2px 2px 8px 0}.firefox #cp:before{display:none}
 html.s #cp{transform:none;scrollbar-width:none}
 html.s #cp::-webkit-scrollbar{width:0}
 body:not(.stories_layer_shown):not(.layers_shown) #cp_s,html.s #cp_s{display:block;position:fixed;right:0;z-index:1501}
