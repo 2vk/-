@@ -1907,7 +1907,7 @@ html.pc .page_cover+.page_cover_info .my_current_info:hover .current_text{color:
 .theme+.page_cover_info{opacity:0}
 .theme:hover+.page_cover_info,.theme+.page_cover_info:hover{opacity:1!important}
 
-html.ns .page_block,html.ns .page_block:last-child,html.ns .ShortVideoPage,html.ns .ShortVideoPost{margin:0}
+html.ns .page_block,html.ns .page_block:last-child,html.ns .ShortVideoPage,html.ns .ShortVideoPost,html.ns .DonutCatalogPromo,html.ns .RightMenuBlock{margin:0}
 html.ns .page_block.post,html.ns ._playlist_page_content_block,html.ns .faq_search_form,html.ns .audio_promo{margin:0!important}
 html.ns .theme{margin-bottom:2px!important}
 html.ns #page_layout .CatalogBlock--divided:not(:first-child),html.ns .GamesCatalogProfileBlockList{margin-top:0}
@@ -1918,7 +1918,7 @@ html.ns .im-page_group:not(.im-page_history-show):before{top:calc(48px + var(--h
 html.ns .im-page_classic .im-page--chat-input{bottom:0!important}
 html.ns .im-page_classic .im-page--chat-header,html.ns .im-page_classic .im-page--header,html.ns .im-page_classic.im-page .im-page--header,html.ns .im-create.im-create_classic{top:var(--header-height)!important}
 html.ns .im-right-menu{margin-left:550px}
-html.ns .im-right-menu .ui_rmenu,html.ns .wide_column_left .narrow_column>:last-child .page_block:last-child,html.ns .wide_column_left .narrow_column>.page_block:last-child{border-radius:0 0 20px 0!important}
+html.ns .im-page:not(.im-page_group)+.im-right-menu .ui_rmenu,html.ns .RightMenuBlock,html.ns .wide_column_left .narrow_column>:last-child .page_block:last-child,html.ns .wide_column_left .narrow_column>.page_block:last-child{border-radius:0 0 20px 0!important}
 html.ns .im-right-menu:before,html.ns .wide_column_left .narrow_column:before{content:'';position:absolute;bottom:-20px;left:0px;width:20px;height:20px}
 html.ns .wide_column_right .wide_column_wrap{margin-left:230px}
 html.ns .wide_column_left .wide_column_wrap{margin-right:230px}
