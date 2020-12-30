@@ -1239,6 +1239,7 @@ html.rb .search_results.search_video_results{
 #page_layout .audio_section__artist .CatalogBlock--divided:first-child,
 #page_layout .audio_section__recoms_block .CatalogBlock--divided:first-child,
 #page_layout .CatalogSection__recoms_recent_audios .CatalogBlock--divided:first-child,
+#page_layout .CatalogSection__recommended_playlists .CatalogBlock--divided:first-child,
 #page_layout .audio_section__artist_block .CatalogSection,
 #page_layout .CatalogSection__artists_playlists .CatalogBlock--divided:first-child,
 #page_layout .CatalogSection__redaction_playlists .CatalogBlock--divided:first-child,
