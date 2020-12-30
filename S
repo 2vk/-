@@ -1224,7 +1224,7 @@ html.rb .search_results.search_video_results{
 #page_layout .audio_section__search .CatalogBlock--divided:first-child,
 #page_layout .audio_section__recoms .CatalogBlock--divided:first-child,
 #page_layout .audio_section__for_you .CatalogBlock--divided:first-child,
-#page_layout .audio_section__new_year .CatalogBlock--divided:first-child,
+#page_layout .CatalogSection__new_year .CatalogBlock--divided:first-child,
 #page_layout .audio_section__explore .CatalogSection__explore .CatalogBlock--divided:first-child,
 #page_layout .audio_section__explore .CatalogSection__user_list,
 #page_layout .audio_section__recoms_audio .CatalogSection.CatalogSection__user_list,
@@ -1240,6 +1240,8 @@ html.rb .search_results.search_video_results{
 #page_layout .audio_section__recoms_block .CatalogBlock--divided:first-child,
 #page_layout .CatalogSection__recoms_recent_audios .CatalogBlock--divided:first-child,
 #page_layout .audio_section__artist_block .CatalogSection,
+#page_layout .CatalogSection__artists_playlists .CatalogBlock--divided:first-child,
+#page_layout .CatalogSection__redaction_playlists .CatalogBlock--divided:first-child,
 #page_layout .audio_section__all .CatalogSection__my_playlists,
 #page_layout .audio_section__curator .CatalogBlock--divided:first-child,
 .MarketCatalogTabs+.MarketCatalogSkeleton .MarketCatalogSkeleton__block:first-child,.MarketCatalogTabs+.MarketCatalogBlocks .MarketCatalogBlockBanner:first-child,.MarketCatalogTabs+.MarketCatalogBlocks .MarketCatalogBlockList:first-child,.MarketCatalogTabs+.MarketCatalogBlockMyProducts{
