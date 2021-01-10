@@ -1156,7 +1156,7 @@ a.dd_link{
 }
 .HeaderLogo{background-size:25px!important;background-position:50%!important}
 .share_head .share_logo{width:25px;height:25px}
-.quick_login{padding:10px 5px!important;margin:0 0 0 -10px!important}
+.quick_login{padding:10px 5px!important;margin:0!important}
 .im-page--dialogs-settings{
 	margin-bottom:10px!important
 }
