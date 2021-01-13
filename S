@@ -1230,10 +1230,8 @@ html.rb .search_results.search_video_results{
 #page_layout .audio_section__recoms_audio .CatalogSection.CatalogSection__user_list,
 #page_layout .audio_section__updates .CatalogSection,
 #page_layout .audio_section__playlists .CatalogSection,
-#page_layout .audio_section__all .CatalogSection{
-	margin-top:-111px!important;
-	padding-top:126px!important
-}
+#page_layout .audio_section__all .CatalogSection,
+
 #page_layout .audio_section__ .CatalogBlock--divided:first-child,
 #page_layout .audio_section__explore .CatalogBlock--divided:first-child,
 #page_layout .audio_section__artist .CatalogBlock--divided:first-child,
@@ -1243,8 +1241,12 @@ html.rb .search_results.search_video_results{
 #page_layout .audio_section__artist_block .CatalogSection,
 #page_layout .CatalogSection__artists_playlists .CatalogBlock--divided:first-child,
 #page_layout .CatalogSection__redaction_playlists .CatalogBlock--divided:first-child,
-#page_layout .audio_section__all .CatalogSection__my_playlists,
 #page_layout .audio_section__curator .CatalogBlock--divided:first-child,
+#page_layout .audio_section__all .CatalogSection__my_playlists{
+	margin-top:-111px!important;
+	padding-top:126px!important
+}
+#page_layout .CatalogSection__curator .CatalogBlock--divided:first-child,
 .MarketCatalogTabs+.MarketCatalogSkeleton .MarketCatalogSkeleton__block:first-child,.MarketCatalogTabs+.MarketCatalogBlocks .MarketCatalogBlockBanner:first-child,.MarketCatalogTabs+.MarketCatalogBlocks .MarketCatalogBlockList:first-child,.MarketCatalogTabs+.MarketCatalogBlockMyProducts{
 	margin-top:-55px!important;
 	padding-top:70px!important
