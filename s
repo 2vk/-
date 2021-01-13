@@ -85,7 +85,7 @@ html:not(.s) #cp_s,#cp_af,#cp_hc,#cp_ht,#cp_bt,#cp_bc,#cp_mc,#cp_mb,#cp_mm,#cp_m
 html,.cp_fg{
 	background-color:var(--n00)!important
 }
-.OrderDetails__section,.OrderList__item,.basis__content .al_loading,.notify_item,.friendsRecommendedSliderWrap,.SliderTabs.SliderTabs_light,.dark,.pcont.apps_gameSettingsPage,.AudioShowcase,.vk__page_mail .basis,.loginHistory__main,.loginHistory__logoutButton,.BookmarksItem,.vk__page_search .head_panel.qsearch_wrap,.vk__page_search .PageBlock .summary,.vk__page_search .results:not(.type_statuses),.vk__page_search .filter_panel,.Pad,.PageBlock,.slim_header.slim_header_block_top,.results,.summary,.pagination,.gift_balance,.installApp, .audioPlaylist, .AudioSerp, .basisDialogs, .blog_post, .FeedItem, .GroupsInvite, .GroupsNear, .GroupsSearch, .MainMenu__splashScreen, .new_post_container, .pageAttachMoney, .pageAttachMoneyAbout, .pageMoneyTransfer, .recommends_link, .StoriesFeedBlock, .StoriesFeedBlock:after, .StoriesSearchBlock, .upanel.thumbs_list, .wall_item,.SkeletonStoriesBlock,.SkeletonNewPostBlock,.SkeletonWallBlock,.SkeletonSearchBlock,.SkeletonChatBlock,.SkeletonNotifications__info,.SkeletonNotificationBlock{
+.OrderDetails__section,.OrderList__item,.basis__content .al_loading,.notify_item,.friendsRecommendedSliderWrap,.SliderTabs.SliderTabs_light,.dark,.pcont.apps_gameSettingsPage,.AudioShowcase,.vk__page_mail .basis .messenger__content,.loginHistory__main,.loginHistory__logoutButton,.BookmarksItem,.vk__page_search .head_panel.qsearch_wrap,.vk__page_search .PageBlock .summary,.vk__page_search .results:not(.type_statuses),.vk__page_search .filter_panel,.Pad,.PageBlock,.slim_header.slim_header_block_top,.results,.summary,.pagination,.gift_balance,.installApp, .audioPlaylist, .AudioSerp, .basisDialogs, .blog_post, .FeedItem, .MainMenu__splashScreen, .new_post_container, .pageAttachMoney, .pageAttachMoneyAbout, .pageMoneyTransfer, .recommends_link, .StoriesFeedBlock, .StoriesFeedBlock:after, .StoriesSearchBlock, .upanel.thumbs_list, .wall_item,.SkeletonStoriesBlock,.SkeletonNewPostBlock,.SkeletonWallBlock,.SkeletonSearchBlock,.SkeletonChatBlock,.SkeletonNotifications__info,.SkeletonNotificationBlock{
 	background-color:var(--n15e)!important
 }
 .leftMenu__header,.basis__header,.zpv_header,.zpv_bottom_body{
@@ -146,7 +146,7 @@ html,.cp_fg{
 	.layout__header{
 		background-color:var(--hc)!important
 	}
-	.basis__header{
+	.basis__header,.leftMenu__header,.mailHat{
 		background-color:unset!important
 	}
 	.vk_header_tabs .PageBlock{margin:10px 0;padding:0}
@@ -157,6 +157,14 @@ html,.cp_fg{
 	::-webkit-scrollbar-thumb:hover{background-color:var(--g2)}
 	::-webkit-scrollbar-button{width:0;height:0;display:none}
 	::-webkit-scrollbar-corner{background-color:transparent}
+	.messenger__content{
+		padding:0!important;margin:10px 0 0!important
+	}	
+}
+@media (max-width: 881px){
+	.Groups__search .head_panel:first-child,.messenger__content{
+		margin:0!important
+	}	
 }
 .zpv_close_btn:hover,.zpv_close_btn.active,.zpv_close_btn.hover{
 	background:linear-gradient(var(--n15e),transparent)!important
@@ -459,6 +467,7 @@ body:not(.stories_layer_shown):not(.layers_shown):not(.vk__page_app):not(.z_open
 	--gray_200:var(--n444);
 	--gray_300:var(--ccc);
 	--gray_400:var(--n999);
+	--gray_450:var(--n999);
 	--gray_500:var(--n999);
 	--gray_600:var(--n777);
 	--gray_700:var(--n777);
