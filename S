@@ -1234,7 +1234,6 @@ html.rb .search_results.search_video_results{
 
 #page_layout .audio_section__ .CatalogBlock--divided:first-child,
 #page_layout .audio_section__explore .CatalogBlock--divided:first-child,
-#page_layout .audio_section__artist .CatalogBlock--divided:first-child,
 #page_layout .audio_section__recoms_block .CatalogBlock--divided:first-child,
 #page_layout .CatalogSection__recoms_recent_audios .CatalogBlock--divided:first-child,
 #page_layout .CatalogSection__recommended_playlists .CatalogBlock--divided:first-child,
@@ -1246,15 +1245,16 @@ html.rb .search_results.search_video_results{
 	margin-top:-111px!important;
 	padding-top:126px!important
 }
+#page_layout .audio_section__recoms_audio .CatalogSection,
+#page_layout .audio_section__artist_block .CatalogSection__artist_audios{
+	margin-top:-111px!important;
+	padding-top:111px!important
+}
+#page_layout .audio_section__artist .CatalogBlock--divided:first-child,
 #page_layout .CatalogSection__curator .CatalogBlock--divided:first-child,
 .MarketCatalogTabs+.MarketCatalogSkeleton .MarketCatalogSkeleton__block:first-child,.MarketCatalogTabs+.MarketCatalogBlocks .MarketCatalogBlockBanner:first-child,.MarketCatalogTabs+.MarketCatalogBlocks .MarketCatalogBlockList:first-child,.MarketCatalogTabs+.MarketCatalogBlockMyProducts{
 	margin-top:-55px!important;
 	padding-top:70px!important
-}
-#page_layout .audio_section__recoms_audio .CatalogSection,
-#page_layout .audio_section__artist_block .CatalogSection__artist_audios{
-	margin-top:-55px!important;
-	padding-top:55px!important
 }
 #page_layout .CatalogSection,#page_layout .CatalogBlock--divided,#page_layout ._playlist_page_content_block{
 	background-color:var(--n15e)!important;
