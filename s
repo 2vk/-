@@ -394,6 +394,10 @@ body:not(.stories_layer_shown):not(.layers_shown):not(.vk__page_app):not(.z_open
 #cp_r{width:100%;padding:5px 0;text-align:center}
 #cp_r:after{content:'';display:block;height:16px;width:120px;margin:5px auto}
 .cp_t,.cp_t *,#cp_r,.cp_hf{font-size:16px!important}
+.PageBottomBanner{
+	--white:var(--n15);
+	--white_alpha60:var(--n15);
+}
 :root body{
 	--background_content:var(--n15e);
 	--tabbar_background:var(--n15b);
@@ -450,6 +454,7 @@ body:not(.stories_layer_shown):not(.layers_shown):not(.vk__page_app):not(.z_open
 	--button_secondary_background:var(--k2);
 	--button_secondary_foreground:var(--k2t);
 	--media_overlay_button_background:var(--k1);
+	--media_overlay_button_foreground:var(--k1t);
 	--accent:var(--g2);
 	--azure_100_muted:var(--g2);
 	--azure_300:var(--g2);
