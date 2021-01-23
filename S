@@ -1260,7 +1260,7 @@ html.rb .search_results.search_video_results{
 .Header__right{
 	padding-right:42px
 }
-html.rb .ProfileActions .page_actions_item{
+html.rb .page_actions_expanded .page_actions_item{
 	margin:0 -10px!important;
 	padding:0 10px!important;
 	border-radius:15px!important}
