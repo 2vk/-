@@ -1668,7 +1668,7 @@ body[style*="/images/error404"]:before{
 	filter:var(--icon);
 	background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="hsla(0,0%,50%,0.5)" d="M8 0v16A8 8 0 1 1 8 0z"/><path fill="hsl(0,0%,50%)" d="M8 0v16A8 8 0 1 0 8 0z"/></svg>')!important
 }
-.landing_wk_box_author_guide #wk_content,.landing_wk_box_group_week_stat #wk_content,.landing_wk_box_trending_results #wk_content{width:900px!important}
+.landing_wk_wrap_group_week_stat,.landing_wk_box_group_week_stat #wk_content{width:800px!important}
 .landing_author_guide_header__background{
 	-webkit-mask:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900"><path d="M0 900a8547 8547 0 01900 0V0H0"/></svg>') bottom
 }
@@ -1929,7 +1929,7 @@ html.rb .VerticalVideoLayerInfo__mainInfoWrap{
 	border-radius:0 20px 0 0!important}
 html.rb .pv_cont .pv_reply_form_wrap,html.rb .im-chat-input{
 	border-radius:0 0 20px 0!important}
-html.rb .groups_edit_event_log_title,html.rb .audio_layer_container .page_block,html.ns .im-page:before,.im-page--dcontent,html .im-page .page_block{
+html.rb .groups_edit_event_log_title,html.rb .audio_layer_container .page_block,html.ns .im-page:before,.im-page--dcontent,html .im-page .page_block,html.rb .wall_module .wl_reply_form_fixed .reply_box{
 	border-radius:0!important}
 html.rb .im-page:not(.im-page_classic) .im-page--dialogs,html.rb.rm .im-page:not(.im-page_classic) .im-page--history,html.rb .im-create,html.rb .box_title .back,html.rb .PopupHeader__backBtn{
 	border-radius:20px 0 0 20px!important}
