@@ -1510,7 +1510,7 @@ body[style*="/images/error404"]:before{
 .emoji_tt_wrap,.im-navigation__button:before,body.dev .page_header_cont,.left_menu_nav_wrap:not(:last-child),.feed_is_empty .stories_feed_wrap,.top_audio_play__button:after,.im-mess:before,#Container,#block_optoins,.article>pre>br,.mv_info .ui_actions_menu_item_sublist,html.bo body>*,html.vo .top_audio_player_title>*,html.vo #stl_left,html.vo #page_layout,html.vo .HeaderNav__item>*:not(#top_audio_player):not(#top_audio_layer_place):not(#top_audio_btn_group),html.vo #top_notify_btn,html.vo .back,html.vo #page_header_cont:before,html.vo #top_audio_play,html.vo #pg_fixed,#album-168874636_0,.im-chat-history-resize,.page_cover.theme .v,.none,#vk-backgrounds-block,.article_layer__dark,html.mm #side_bar .left_label,html.mm .left_settings,html.mm .side_bar [id$="_left"],html.mm .left_menu_nav_wrap{
 	display:none!important
 }
-.emoji_tt_shown{
+.emoji_tt_shown,.settings_separated_row_type_browser{
 	display:block!important
 }
 #top_notify_wrap{
