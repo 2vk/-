@@ -1514,7 +1514,7 @@ body[style*="/images/error404"]:before{
 #top_notify_wrap{
 	content-visibility:hidden!important
 }
-#top_notify_btn.active #top_notify_wrap{
+#top_notify_btn.TopNavBtn--active #top_notify_wrap{
 	content-visibility:unset!important
 }
 .page_album_title_text{
