@@ -2010,7 +2010,8 @@ html.imb .post_img:not([data-post-id^="-"]),html.imb .author:not([data-from-id^=
 
 #cp_orc,#cp_glc{width:19px;height:19px;float:right;margin:17px 8px 0 0;cursor:pointer}
 
-.left_count[title]:before,a.left_count_wrap[title]:before{padding:0 6px;content:attr(title)}
+.left_count[title]{padding:0!important}
+.left_count[title]:before,a.left_count_wrap[title]:before{display:block;padding:0 6px;content:attr(title)}
 .left_count[title]{overflow:hidden}
 a.left_count_wrap{text-decoration:none}
 a.left_count_wrap[title] span{display:none!important}
