@@ -1672,7 +1672,7 @@ body[style*="/images/error404"]:before{
 	-webkit-mask:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900"><path d="M0 900a8547 8547 0 01900 0V0H0"/></svg>') bottom
 }
 
-.im_msg_media_audiomsg{position:relative}
+.im_msg_media_doc{position:relative}
 .im_msg_audiomsg_button{display:none;position:absolute;background:var(--n29e) no-repeat center;border-radius:10px;top:14px;right:-30px;width:30px;height:22px;cursor:pointer}
 .im_msg_audiomsg_transcript{display:none;color:var(--eee);padding:3px 0 3px 10px;box-shadow:inset 2px 0 0 var(--n29e)}
 .Aa .im_msg_audiomsg_button,.Aa.a .im_msg_audiomsg_transcript{display:block}
