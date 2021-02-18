@@ -1248,6 +1248,8 @@ html.rb .search_results.search_video_results{
 	backdrop-filter:none!important;
 	box-shadow:none!important
 }
+.apps_page_block_before_footer{padding-bottom:54px!important}
+.apps_options_bar_bottom{margin-top:-54px!important;position:relative}
 .im-audio-message-input .audio-msg-player .audio-msg-track--duration{
 	margin-top:-3px;line-height:15px
 }
@@ -1924,7 +1926,7 @@ html.rb .chat_expand .chat_onl_inner{
 	border-radius:25px 25px 0 0!important}
 html.rb .chat_tab_wrap:first-child .chat_tab_img{
 	border-top-right-radius:50%!important;border-top-left-radius:50%!important}
-html.rb .media_voting.media_voting_board,html.rb .StickerPackPreview__header,html.rb .landing_author_guide_header__background,html.rb .MarketCatalogBreadcrumbs,html.rb .MarketCatalogTabs,html.rb .MarketCatalogBlockList__title,html.rb .AppsCatalogHeader,html.rb .PageBlock__header,html.rb .ui_tabs_header,html.rb .apps_feedRightAppsBlock.apps_feedRightAppsBlock_single_app .apps_feedRightAppsBlock__ava,html.rb .app_edit_block_header,html.rb .apps_edit_nav_header,html.rb #apps_layer .apps_header,html.rb .ui_tabs.ui_tabs_box,html.rb .box_no_title,html.rb .Modal__header--blue,html.rb .box_title_wrap,html.rb .PopupHeader,html.rb .poster_wall-creating .poster__image-wrapper,html.rb .apps_options_bar,html.rb .group_activity_new_replies,html.rb .feed_new_posts,html.rb .away_head,html.rb .feed_wrap:not(.feed_submit_only_shown) .feed_search_wrap,html.rb .feed_is_empty .feed_search_wrap,html.rb .page_block.page_block_header_outer,html.rb .faq_tabs.ui_tabs,html.rb .page_block_header,html.rb .wall_module>.page_block:first-child{
+html.rb .media_voting.media_voting_board,html.rb .StickerPackPreview__header,html.rb .landing_author_guide_header__background,html.rb .MarketCatalogBreadcrumbs,html.rb .MarketCatalogTabs,html.rb .MarketCatalogBlockList__title,html.rb .AppsCatalogHeader,html.rb .PageBlock__header,html.rb .ui_tabs_header,html.rb .apps_feedRightAppsBlock.apps_feedRightAppsBlock_single_app .apps_feedRightAppsBlock__ava,html.rb .app_edit_block_header,html.rb .apps_edit_nav_header,html.rb #apps_layer .apps_header,html.rb .ui_tabs.ui_tabs_box,html.rb .box_no_title,html.rb .Modal__header--blue,html.rb .box_title_wrap,html.rb .PopupHeader,html.rb .poster_wall-creating .poster__image-wrapper,html.rb .apps_options_bar,html.rb .group_activity_new_replies,html.rb .feed_new_posts,html.rb .away_head,html.rb .feed_wrap:not(.feed_submit_only_shown) .feed_search_wrap,html.rb .feed_is_empty .feed_search_wrap,html.rb .page_block.page_block_header_outer,html.rb .faq_tabs.ui_tabs,html.rb .page_block_header,html.rb .wall_module>.page_block:first-child,html.rb .apps_main_header_at_bottom .vk_app_modal_outer{
 	border-radius:20px 20px 0 0!important}
 html.rb .chat_onl_inner,html.rb .fc_tab_head{
 	border-radius:10px 10px 0 0!important}
