@@ -26,7 +26,7 @@ img[src*="/images/camera_"],[style*="/images/camera_"]{background:var(--n29f) ur
 //dots
 .audioPlaylistSnippet__link:before,.Audio__menuButton,.ai_menu_toggle_button{background:url('data:image/svg+xml,<svg width="24" height="24" viewBox="0 0 6 6" xmlns="http://www.w3.org/2000/svg"><path stroke="${g2}" d="m1.25 3zm1.75 0zm1.75 0z" stroke-linecap="round"/></svg>') no-repeat 50%!important}
 //+
-.prettyCard__button:before{background:url('data:image/svg+xml,<svg width="24" height="24" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg"><path stroke="${lf}" stroke-linecap="round" d="M6 3v6m3-3h-6"/></svg>') no-repeat 50%!important}
+.prettyCard__button:before{background:url('data:image/svg+xml,<svg width="24" height="24" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg"><path stroke="${n15}" stroke-linecap="round" d="M6 3v6m3-3h-6"/></svg>') no-repeat 50%!important}
 //round checbox
 .Icon_check:before,.filter_peer_wrap .inline_item_selected .ii_body:before,.uMailWrite__SVGIcon_accept{border-radius:50%;background:var(--g2) url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11 11"><path d="M3 6l1.5 1.5m0 0l3.5-3.5" stroke-linecap="round" stroke="${n15}"/></svg>')!important}
 .checkbox.on:before{background:var(--g2) url('data:image/svg+xml,<svg viewBox="0 0 9 9" xmlns="http://www.w3.org/2000/svg"><path stroke="${n15}" stroke-linecap="round" d="M2.3 4.4l1.5 1.5m0 0l2.7-3.3"/></svg>')!important}
