@@ -293,7 +293,7 @@ body *{
 	font-family:var(--f,inherit)!important;
 	font-weight:var(--w,400)
 }
-.ui_rmenu_item_sel,.nim-dialog--name,.audio_page_player_title_song,.audio_row__title{--w:500}
+.ui_rmenu_item_sel,.nim-dialog--name,.audio_page_player_title_song,.audio_row__title,.audio_page_player_play_rate{--w:500}
 .landing_author_guide_header__title-group,.friends_field_title,.top_nav_link,.wk_sub_sub_header,.left_count_wrap,strong,b{--w:bold}
 
 .PhotoEditorFontStyle--classic,.PhotoEditorFontStyle--classic *{font-family:'RobotoPE'!important}
@@ -1355,7 +1355,7 @@ input.disabled,textarea.disabled,input.validation_readonly{color:var(--777)!impo
 .SideOfficeMenu__linkIcon,.im-page--back-btn,.ui_rmenu_item{
 	color:var(--n999)
 }
-.post_top_info_caption,.chat_onl,.FeedbackTooltip__wrapper,.landing_transparencySection__description,.landing_safetyStats__period,.Suggestion__ItemDescription,.PredictionItem__helper,.PredictionWidget__footer,.exchange_table_hint,#exchange_comm_search_count,.ads_edit_link_type_card_description,.Table__Tip,.medadd_h,.button_action_light:hover,.no_rows,.WeekStat__BlockFooter,.page_actions_expanded .page_actions_item,.nim-dialog_selected .nim-dialog--who,.nim-dialog_selected .nim-dialog--date,.nim-dialog--preview,[contenteditable=true]::placeholder,[contenteditable=true]~.placeholder .ph_content,textarea::placeholder,input::placeholder{
+.audio_page_player_play_rate,.post_top_info_caption,.chat_onl,.FeedbackTooltip__wrapper,.landing_transparencySection__description,.landing_safetyStats__period,.Suggestion__ItemDescription,.PredictionItem__helper,.PredictionWidget__footer,.exchange_table_hint,#exchange_comm_search_count,.ads_edit_link_type_card_description,.Table__Tip,.medadd_h,.button_action_light:hover,.no_rows,.WeekStat__BlockFooter,.page_actions_expanded .page_actions_item,.nim-dialog_selected .nim-dialog--who,.nim-dialog_selected .nim-dialog--date,.nim-dialog--preview,[contenteditable=true]::placeholder,[contenteditable=true]~.placeholder .ph_content,textarea::placeholder,input::placeholder{
 	color:var(--n999)!important
 }
 .WeekStatGrid__ItemDiff{
