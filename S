@@ -1367,8 +1367,11 @@ input.disabled,textarea.disabled,input.validation_readonly{color:var(--777)!impo
 .stats_flash_wrap div,.rdrDayToday .rdrDayNumber span{
 	color:var(--g2)
 }
-.landing_safetyStats__count,.landing_transparencySection__nextLabel,.wikiSubHeader,.wikiVkLink,.wikiExtLink,.StaticRanges__label,.dd_menu_header div,.exchange_subtab1,.exchange_task_label a,.exchange_task_actions a,.Table__Cell--editable,.article>:not(figure) a,.mv_live_gifts_supercomment,.dropbox_area,.pg_lnk_sel .pg_in,.ownerButton_vk_music_subscription .ownerButton__title,.page_actions_item.PageActionItem--call-blue,.group_send_msg_status_block_title,.nim-dialog--preview.nim-dialog--preview-attach,.nim-dialog--typing,.nim-dialog--typer-el,.cp_t.a,.cp_t.a a{
+.landing_safetyStats__count,.landing_transparencySection__nextLabel,.wikiSubHeader,.wikiVkLink,.wikiExtLink,.StaticRanges__label,.dd_menu_header div,.exchange_subtab1,.exchange_task_label a,.exchange_task_actions a,.Table__Cell--editable,.article>:not(figure) a,.mv_live_gifts_supercomment,.dropbox_area,.pg_lnk_sel .pg_in,.ownerButton_vk_music_subscription .ownerButton__title,.page_actions_item.PageActionItem--call-blue,.group_send_msg_status_block_title,.cp_t.a,.cp_t.a a{
 	color:var(--g2)!important
+}
+.nim-dialog--preview.nim-dialog--preview-attach,.nim-dialog--typing,.nim-dialog--typer-el{
+	color:var(--g3)!important	
 }
 .listing,.dev_roadmap_timeline_past .dev_roadmap_timeline_row_time{
 	color:var(--g4)!important
