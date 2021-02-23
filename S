@@ -1129,9 +1129,14 @@ html.rb .search_results.search_video_results{
 	backdrop-filter:none!important;
 	z-index:2
 }
-.post_videos.has_before_block,.wall_module .wall_posts>.page_block:first-of-type,.feed_search_shown .feed_search_wrap+.feed_app_widget,.feed_search_shown .feed_search_wrap+.feed_app_widget:empty+.feed_empty,.feed_search_shown .feed_search_wrap+.feed_empty,.feed_search_shown .feed_search_wrap+.stories_feed_wrap+.feed_app_widget:empty+.feed_empty,.feed_search_shown:not(.feed_submit_shown_stories) .feed_found_photos,.feed_search_shown:not(.feed_submit_shown_stories) .feed_row:first-child .post{
+.wall_module .wall_posts.all>.all,.wall_module .wall_posts.all>.all_ads_promoted_post,.wall_module .wall_posts.own>.own,.wall_module .wall_posts.own>.own_ads_promoted_post,.wall_module .wall_posts.all>.all.unshown+.all,.wall_module .wall_posts.all>.all.unshown+.all_ads_promoted_post,.wall_module .wall_posts.own>.own.unshown+.own,.wall_module .wall_posts.own>.own.unshown+.own_ads_promoted_post,.wall_module .wall_posts .no_rows,.wall_module .wall_posts .no_posts,.wall_module .wall_posts.postponed>.postponed,.wall_module .wall_posts.suggested>.suggest,.wall_module .wall_posts_search>.post,
+.post_videos.has_before_block,.feed_search_shown .feed_search_wrap+.feed_app_widget,.feed_search_shown .feed_search_wrap+.feed_app_widget:empty+.feed_empty,.feed_search_shown .feed_search_wrap+.feed_empty,.feed_search_shown .feed_search_wrap+.stories_feed_wrap+.feed_app_widget:empty+.feed_empty,.feed_search_shown:not(.feed_submit_shown_stories) .feed_found_photos,.feed_search_shown:not(.feed_submit_shown_stories) .feed_row:first-child .post{
 	padding-top:45px!important;
 	margin-top:-45px!important
+}
+.wall_module .wall_posts:not(.archive).all>.all~.all,.wall_module .wall_posts:not(.archive).all>.post:not(.unshown)~.post.unshown+.post:not(.unshown),.wall_module .wall_posts:not(.archive).all>.all~.all_ads_promoted_post,.wall_module .wall_posts:not(.archive).own>.own~.own,.wall_module .wall_posts:not(.archive).own>.post:not(.unshown)~.post.unshown+.post:not(.unshown),.wall_module .wall_posts:not(.archive).own>.own~.own_ads_promoted_post,.wall_module .wall_posts:not(.archive).postponed>.postponed~.postponed,.wall_module .wall_posts:not(.archive).suggested>.suggest~.suggest,.wall_module .wall_posts_search:not(.archive)>.post~.post{
+	padding-top:unset!important;
+	margin-top:15px!important
 }
 .ShortVideoPage .page_block_h2,.feed_new_posts,.VideosFeedTitle{position:relative;z-index:2!important}
 .ShortVideoPage__container--empty,.ShortVideoPost:first-child{
@@ -1143,7 +1148,7 @@ html.rb .search_results.search_video_results{
 	padding-top:49px!important;
 	margin-top:-49px!important
 }
-.wall_module .wall_posts>.page_block.wall_archive_link_block{padding-top:60px!important}
+.wall_module .wall_posts>.page_block.wall_archive_link_block{padding-top:60px!important;margin-top:-45px!important;margin-bottom:60px!important}
 .wall_module .wall_posts>.page_block.no_posts{padding-top:81px!important}
 .wall_module .wall_posts>.page_block.no_rows{padding-top:100px!important;overflow:inherit}
 .feed_search_shown .feed_search_wrap+.stories_feed_wrap+.feed_app_widget:empty+.feed_empty,.MarketCatalogTabs+.MarketCatalogBlocks .MarketCatalogBlockList.MarketCatalogBlockList--favorite:first-child{
@@ -1327,7 +1332,7 @@ input.disabled,textarea.disabled,input.validation_readonly{color:var(--777)!impo
 #side_bar ol li .left_row,.left_menu_nav,.left_restore_link,.left_label,.LeftNav__icon{
 	color:var(--mc)!important
 }
-.mv_donate_button,.article_snippet__author,.article_anchor_tooltip,.page_album_title,.photos_album_title_wrap,.tt_w.like_tt,.tt_w.voting_tt,.page_story_photo_caption,.PeerTagsItem,.PeerProfileTagsListItem,.ShortVideoFeedBlock__itemViews,.stories_feed_preview_author_name,.Button--positive,.Button--negative,.owner_photo_bubble,.im_sticker_bl_promo,.videoplayer_autoplay_timer,.stories_send_form .placeholder .ph_input .ph_content,.nim-dialog.nim-dialog_failed .nim-dialog--unread,.top_result_baloon a,.upload_video_error_label,.videoplayer_title_link,.notify_tt_text,.slider_hint,.tt_black .tt_text,.footer_nav,.login_mobile_header,.login_mobile_info,.quick_login .label,.quick_login .quick_forgot,.quick_login .checkbox,.ui_tab_count.ui_tab_count_red{
+.poster__author-bkg,.mv_donate_button,.article_snippet__author,.article_anchor_tooltip,.page_album_title,.photos_album_title_wrap,.tt_w.like_tt,.tt_w.voting_tt,.page_story_photo_caption,.PeerTagsItem,.PeerProfileTagsListItem,.ShortVideoFeedBlock__itemViews,.stories_feed_preview_author_name,.Button--positive,.Button--negative,.owner_photo_bubble,.im_sticker_bl_promo,.videoplayer_autoplay_timer,.stories_send_form .placeholder .ph_input .ph_content,.nim-dialog.nim-dialog_failed .nim-dialog--unread,.top_result_baloon a,.upload_video_error_label,.videoplayer_title_link,.notify_tt_text,.slider_hint,.tt_black .tt_text,.footer_nav,.login_mobile_header,.login_mobile_info,.quick_login .label,.quick_login .quick_forgot,.quick_login .checkbox,.ui_tab_count.ui_tab_count_red{
 	color:#eee!important
 }
 .story_feed_active_live .stories_feed_preview_author_name{
@@ -1874,7 +1879,7 @@ html.rb .im-group-online-box--top,html.rb .ui_rmenu_item_expanded,html.rb .media
 	border-radius:20px 20px 0 0!important}
 html.rb .chat_onl_inner,html.rb .fc_tab_head{
 	border-radius:10px 10px 0 0!important}
-html.rb .owner_photo_additional,html.rb .search_filters_wrap .page_block,html.rb .StickerPackPreview__footer,html.rb .SubmitArea,html.rb .gedit_block_footer,html.rb .group_page_block_footer,html.rb .MarketCatalogOrderListItem:first-child,html.rb .apps_options_bar_bottom,html.rb .tickets_thank_you_form,html.rb .im-page_group .im-page--dialogs,html.rb .GamesCatalogSearchMainContent,html.rb .page_block_info,html.rb .bt_comment_form,html.rb .bt_comment_form_unavailable,html.rb .bt_report_footer,html.rb .apps_i_policy,html.rb #audio_layer_tt,html.rb #top_notify_wrap,html.rb .top_notify_show_all,html.rb .TableColumnsSettingsModal__footer,html.rb .box_no_buttons,html.rb .box_controls,html.rb .wall_module .reply_box,html.rb .wall_module .reply_fakebox_wrap,html.rb .feed_search_shown .feed_found_photos,html.rb .settings_block_footer,html.rb .feed_notifications .more_link,html.rb .wall_module .page_wall_posts .page_block.unshown+.page_block,html.rb.pc .page_cover+.page_cover_info,html.rb .theme:before,html.rb .flat_button.ui_load_more_btn,html.rb .wall_module .page_wall_posts .page_block:first-child,html.rb .search_statuses_results .page_block:first-child{
+html.rb .owner_photo_additional,html.rb .search_filters_wrap .page_block,html.rb .module .flat_button.ui_load_more_btn,html.rb .StickerPackPreview__footer,html.rb .SubmitArea,html.rb .gedit_block_footer,html.rb .group_page_block_footer,html.rb .MarketCatalogOrderListItem:first-child,html.rb .apps_options_bar_bottom,html.rb .tickets_thank_you_form,html.rb .im-page_group .im-page--dialogs,html.rb .GamesCatalogSearchMainContent,html.rb .page_block_info,html.rb .bt_comment_form,html.rb .bt_comment_form_unavailable,html.rb .bt_report_footer,html.rb .apps_i_policy,html.rb #audio_layer_tt,html.rb #top_notify_wrap,html.rb .top_notify_show_all,html.rb .TableColumnsSettingsModal__footer,html.rb .box_no_buttons,html.rb .box_controls,html.rb .wall_module .reply_box,html.rb .wall_module .reply_fakebox_wrap,html.rb .feed_search_shown .feed_found_photos,html.rb .settings_block_footer,html.rb .feed_notifications .more_link,html.rb .wall_module .page_wall_posts .page_block.unshown+.page_block,html.rb.pc .page_cover+.page_cover_info,html.rb .theme:before,html.rb .wall_module .page_wall_posts .page_block:first-child,html.rb .search_statuses_results .page_block:first-child{
 	border-radius:0 0 20px 20px!important}
 html.rb .mention_tt_actions,html.rb .fc_tab,html.rb #fc_ctabs_cont{
 	border-radius:0 0 10px 10px!important}
