@@ -1129,14 +1129,17 @@ html.rb .search_results.search_video_results{
 	backdrop-filter:none!important;
 	z-index:2
 }
-.wall_module .wall_posts.all>.all,.wall_module .wall_posts.all>.all_ads_promoted_post,.wall_module .wall_posts.own>.own,.wall_module .wall_posts.own>.own_ads_promoted_post,.wall_module .wall_posts.all>.all.unshown+.all,.wall_module .wall_posts.all>.all.unshown+.all_ads_promoted_post,.wall_module .wall_posts.own>.own.unshown+.own,.wall_module .wall_posts.own>.own.unshown+.own_ads_promoted_post,.wall_module .wall_posts .no_rows,.wall_module .wall_posts .no_posts,.wall_module .wall_posts.postponed>.postponed,.wall_module .wall_posts.suggested>.suggest,.wall_module .wall_posts_search>.post,
+.wall_module .wall_posts:not(.archive).all>.all,.wall_module .wall_posts:not(.archive).all>.all_ads_promoted_post,.wall_module .wall_posts:not(.archive).own>.own,.wall_module .wall_posts:not(.archive).own>.own_ads_promoted_post,.wall_module .wall_posts:not(.archive).all>.all.unshown+.all,.wall_module .wall_posts:not(.archive).all>.all.unshown+.all_ads_promoted_post,.wall_module .wall_posts:not(.archive).own>.own.unshown+.own,.wall_module .wall_posts:not(.archive).own>.own.unshown+.own_ads_promoted_post,.wall_module .wall_posts:not(.archive) .no_rows,.wall_module .wall_posts:not(.archive) .no_posts,.wall_module .wall_posts:not(.archive).postponed>.postponed,.wall_module .wall_posts:not(.archive).suggested>.suggest,.wall_module .wall_posts_search:not(.archive)>.post,
 .post_videos.has_before_block,.feed_search_shown .feed_search_wrap+.feed_app_widget,.feed_search_shown .feed_search_wrap+.feed_app_widget:empty+.feed_empty,.feed_search_shown .feed_search_wrap+.feed_empty,.feed_search_shown .feed_search_wrap+.stories_feed_wrap+.feed_app_widget:empty+.feed_empty,.feed_search_shown:not(.feed_submit_shown_stories) .feed_found_photos,.feed_search_shown:not(.feed_submit_shown_stories) .feed_row:first-child .post{
 	padding-top:45px!important;
 	margin-top:-45px!important
 }
-.wall_module .wall_posts:not(.archive).all>.all~.all,.wall_module .wall_posts:not(.archive).all>.post:not(.unshown)~.post.unshown+.post:not(.unshown),.wall_module .wall_posts:not(.archive).all>.all~.all_ads_promoted_post,.wall_module .wall_posts:not(.archive).own>.own~.own,.wall_module .wall_posts:not(.archive).own>.post:not(.unshown)~.post.unshown+.post:not(.unshown),.wall_module .wall_posts:not(.archive).own>.own~.own_ads_promoted_post,.wall_module .wall_posts:not(.archive).postponed>.postponed~.postponed,.wall_module .wall_posts:not(.archive).suggested>.suggest~.suggest,.wall_module .wall_posts_search:not(.archive)>.post~.post{
+.wall_module .wall_posts.all>.all~.all,.wall_module .wall_posts.all>.post:not(.unshown)~.post.unshown+.post:not(.unshown),.wall_module .wall_posts.all>.all~.all_ads_promoted_post,.wall_module .wall_posts.own>.own~.own,.wall_module .wall_posts.own>.post:not(.unshown)~.post.unshown+.post:not(.unshown),.wall_module .wall_posts.own>.own~.own_ads_promoted_post,.wall_module .wall_posts.postponed>.postponed~.postponed,.wall_module .wall_posts.suggested>.suggest~.suggest,.wall_module .wall_posts_search>.post~.post{
 	padding-top:unset!important;
 	margin-top:15px!important
+}
+html.ns .wall_module .wall_posts.all>.all~.all,html.ns .wall_module .wall_posts.all>.post:not(.unshown)~.post.unshown+.post:not(.unshown),html.ns .wall_module .wall_posts.all>.all~.all_ads_promoted_post,html.ns .wall_module .wall_posts.own>.own~.own,html.ns .wall_module .wall_posts.own>.post:not(.unshown)~.post.unshown+.post:not(.unshown),html.ns .wall_module .wall_posts.own>.own~.own_ads_promoted_post,html.ns .wall_module .wall_posts.postponed>.postponed~.postponed,html.ns .wall_module .wall_posts.suggested>.suggest~.suggest,html.ns .wall_module .wall_posts_search>.post~.post{
+	margin-top:0!important
 }
 .ShortVideoPage .page_block_h2,.feed_new_posts,.VideosFeedTitle{position:relative;z-index:2!important}
 .ShortVideoPage__container--empty,.ShortVideoPost:first-child{
@@ -1148,7 +1151,7 @@ html.rb .search_results.search_video_results{
 	padding-top:49px!important;
 	margin-top:-49px!important
 }
-.wall_module .wall_posts>.page_block.wall_archive_link_block{padding-top:60px!important;margin-top:-45px!important;margin-bottom:60px!important}
+.wall_module .wall_posts>.page_block.wall_archive_link_block{padding-top:60px!important;margin-top:-45px!important}
 .wall_module .wall_posts>.page_block.no_posts{padding-top:81px!important}
 .wall_module .wall_posts>.page_block.no_rows{padding-top:100px!important;overflow:inherit}
 .feed_search_shown .feed_search_wrap+.stories_feed_wrap+.feed_app_widget:empty+.feed_empty,.MarketCatalogTabs+.MarketCatalogBlocks .MarketCatalogBlockList.MarketCatalogBlockList--favorite:first-child{
