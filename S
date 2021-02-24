@@ -1359,7 +1359,7 @@ input.disabled,textarea.disabled,input.validation_readonly{color:var(--777)!impo
 .SideOfficeMenu__linkIcon,.im-page--back-btn,.ui_rmenu_item{
 	color:var(--n999)
 }
-.thumb_video_wrap .VideoRestriction__box>*,.video_item_thumb_wrap .VideoRestriction__box>*,.page_post_thumb_video .VideoRestriction__box>*,.wdd_add3,.audio_page_player_play_rate,.post_top_info_caption,.chat_onl,.FeedbackTooltip__wrapper,.landing_transparencySection__description,.landing_safetyStats__period,.Suggestion__ItemDescription,.PredictionItem__helper,.PredictionWidget__footer,.exchange_table_hint,#exchange_comm_search_count,.ads_edit_link_type_card_description,.Table__Tip,.medadd_h,.button_action_light:hover,.no_rows,.WeekStat__BlockFooter,.page_actions_expanded .page_actions_item,.nim-dialog_selected .nim-dialog--who,.nim-dialog_selected .nim-dialog--date,.nim-dialog--preview,.ui_rmenu_count.ui_rmenu_count_grey,[contenteditable=true]::placeholder,[contenteditable=true]~.placeholder .ph_content,textarea::placeholder,input::placeholder{
+.article_layer__content_footer_info *,.thumb_video_wrap .VideoRestriction__box>*,.video_item_thumb_wrap .VideoRestriction__box>*,.page_post_thumb_video .VideoRestriction__box>*,.wdd_add3,.audio_page_player_play_rate,.post_top_info_caption,.chat_onl,.FeedbackTooltip__wrapper,.landing_transparencySection__description,.landing_safetyStats__period,.Suggestion__ItemDescription,.PredictionItem__helper,.PredictionWidget__footer,.exchange_table_hint,#exchange_comm_search_count,.ads_edit_link_type_card_description,.Table__Tip,.medadd_h,.button_action_light:hover,.no_rows,.WeekStat__BlockFooter,.page_actions_expanded .page_actions_item,.nim-dialog_selected .nim-dialog--who,.nim-dialog_selected .nim-dialog--date,.nim-dialog--preview,.ui_rmenu_count.ui_rmenu_count_grey,[contenteditable=true]::placeholder,[contenteditable=true]~.placeholder .ph_content,textarea::placeholder,input::placeholder{
 	color:var(--n999)!important
 }
 .WeekStatGrid__ItemDiff{
@@ -2166,7 +2166,7 @@ html.nl #box_layer_bg,html.nl #layer_bg,html.nl #stories_layers_background{backg
 	--button-secondary-text-color:var(--k2t);
 	--counter_prominent_text:#eee;
 }
-.apps_i_slider_outer,.places_map,.MusicAuthor_block,.PhotoTagCard__photo,.post_doc_thumb_label,#calls,.CallModal,.Popper,.Tooltip--dark.Tooltip--noPointerEvents,.FortuneWheelBanner,.PageBottomBanner--unauth,.media_desc_soft,.page_pics_preview,.PhotoCarousel,.round_button_large_white,.apps_i_run_box,.tag_faded,.tag_frame_handle,.VideoTrackWrapper,.AppsCatalogFeaturedBanner,.EditorCanvas,#video_player,.ShortVideoGridItem:before,.ChatSettingsRoundedIcon,.feedback_photo_icon,.settings_separated_row_iconed:before,.GamesCatalogCard__imageWrap,.GamesCatalogPromoContent,.bt_guest_invitation{
+.apps_i_slider_outer,.places_map,.MusicAuthor_block,.PhotoTagCard__photo,.post_doc_thumb_label,#calls,.CallModal,.Popper,.Tooltip--dark.Tooltip--noPointerEvents,.FortuneWheelBanner,.PageBottomBanner--unauth,.media_desc_soft,.page_pics_preview,.PhotoCarousel,.round_button_large_white,.apps_i_run_box,.tag_faded,.tag_frame_handle,.VideoTrackWrapper,.AppsCatalogFeaturedBanner,.EditorCanvas,#mv_player_box,#video_player,.ShortVideoGridItem:before,.ChatSettingsRoundedIcon,.feedback_photo_icon,.settings_separated_row_iconed:before,.GamesCatalogCard__imageWrap,.GamesCatalogPromoContent,.bt_guest_invitation{
 	--blue_bright:#5c9ce6;
 	--blue_400:#5181b8;
 	--steel_gray_20:#f7f8fa;
