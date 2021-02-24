@@ -1107,7 +1107,7 @@ a.dd_link{
 	box-shadow:none!important;
 	background:none!important;
 	backdrop-filter:none!important;
-	z-index:2
+	z-index:102
 }
 .search_auto_rows.page_block,.search_results.search_auto_results>.page_block:first-child,.search_results.search_statuses_results>.page_block:first-child,.search_results.search_people_results,.search_results.search_communities_results,.search_results.search_audio_results,.search_results.search_video_results{
 	padding-top:100px!important;
@@ -1127,7 +1127,7 @@ html.rb .search_results.search_video_results{
 	box-shadow:0px 1px 0 var(--n29e)!important;
 	background:none!important;
 	backdrop-filter:none!important;
-	z-index:2
+	z-index:102
 }
 .wall_module .wall_posts:not(.archive).all>.all,.wall_module .wall_posts:not(.archive).all>.all_ads_promoted_post,.wall_module .wall_posts:not(.archive).own>.own,.wall_module .wall_posts:not(.archive).own>.own_ads_promoted_post,.wall_module .wall_posts:not(.archive).all>.all.unshown+.all,.wall_module .wall_posts:not(.archive).all>.all.unshown+.all_ads_promoted_post,.wall_module .wall_posts:not(.archive).own>.own.unshown+.own,.wall_module .wall_posts:not(.archive).own>.own.unshown+.own_ads_promoted_post,.wall_module .wall_posts:not(.archive) .no_rows,.wall_module .wall_posts:not(.archive) .no_posts,.wall_module .wall_posts:not(.archive).postponed>.postponed,.wall_module .wall_posts:not(.archive).suggested>.suggest,.wall_module .wall_posts_search:not(.archive)>.post,
 .post_videos.has_before_block,.feed_search_shown .feed_search_wrap+.feed_app_widget,.feed_search_shown .feed_search_wrap+.feed_app_widget:empty+.feed_empty,.feed_search_shown .feed_search_wrap+.feed_empty,.feed_search_shown .feed_search_wrap+.stories_feed_wrap+.feed_app_widget:empty+.feed_empty,.feed_search_shown:not(.feed_submit_shown_stories) .feed_found_photos,.feed_search_shown:not(.feed_submit_shown_stories) .feed_row:first-child .post{
@@ -2072,7 +2072,7 @@ html.nl #box_layer_bg,html.nl #layer_bg,html.nl #stories_layers_background{backg
 
 #cp .tt,#cp .tt_w{pointer-events:none;z-index:1501}
 .tt{position:absolute}
-.tt .tt_text{border:1px solid;padding:13px 8px 11px!important}
+.tt .tt_text{border:1px solid;padding:12px 8px 11px!important}
 #cp .tt .tt_text{margin:0 5px;border-radius:10px;box-shadow:0 10px 25px -5px #0006,0 10px 10px var(--n15)}
 .tt_w{position:absolute;box-shadow:0 1px 3px rgba(0,0,0,0.1)}
 .tt_w.tt_black{border:none;border-radius:3px}
@@ -2199,7 +2199,7 @@ html.nl #box_layer_bg,html.nl #layer_bg,html.nl #stories_layers_background{backg
 .left_count_wrap,.PopupHeader__title,#pg_fixed,.mv_layer--vertical,.mv_playlist{
 	--white:var(--eee)
 }
-.apps_catalog_label_new,.AppsCatalogCard__badge,.audio_pl__new,.MarketCatalogGroup__goodsItemCounter,.FacebookLogin__button:before,.ShortVideoPost__preview,.nim-dialog_selected,.page_post_video_play_inline_loading .pr,.photos_container .pr,.places_map .pr,.pr_baw,.VideoPreview__title,.video_thumb_label,.CatalogBlock__banner,.stories_feed_preview_live_badge,#pv_fullscreen,.VideoPlaylistItem__info,.dev_main_featured,.GamesCatalogCollections,.apps_featured_slider,.VkPayBanner,.DownloadedGameItem__badge,.DownloadedGameItem__button,.article_snippet,.stories_layer,.BannerItem,.ShortVideoGrid,.short_video_item,.media_voting_bg_tile,.media_voting_bg_photo,.media_voting_bg_gradient,.emoji_shop_icon_badge,.chat_tab_counter{
+.apps_catalog_label_new,.AppsCatalogCard__badge,.audio_pl__new,.MarketCatalogGroup__goodsItemCounter,.FacebookLogin__button:before,.ShortVideoPost__preview,.nim-dialog_selected,.wk_arrow,.page_post_video_play_inline_loading .pr,.photos_container .pr,.places_map .pr,.pr_baw,.VideoPreview__title,.video_thumb_label,.CatalogBlock__banner,.stories_feed_preview_live_badge,#pv_fullscreen,.VideoPlaylistItem__info,.dev_main_featured,.GamesCatalogCollections,.apps_featured_slider,.VkPayBanner,.DownloadedGameItem__badge,.DownloadedGameItem__button,.article_snippet,.stories_layer,.BannerItem,.ShortVideoGrid,.short_video_item,.media_voting_bg_tile,.media_voting_bg_photo,.media_voting_bg_gradient,.emoji_shop_icon_badge,.chat_tab_counter{
 	--white:#eee
 }
 .photos_choose_row_bg,.BannerItem,.VideoLayerPopup__bg,.wall_card__close:before,#pv_fullscreen,.dev_main_featured,.stories_layer,#layer_bg,#box_layer_bg,#box_loader,#stories_loader{
