@@ -1239,22 +1239,16 @@ html.rb .ui_rmenu_sliding .ui_rmenu_slider{width:13px!important;border-radius:13
 html.rb .ui_rmenu_item,html.rb .ui_rmenu_subitem{padding-left:20px!important;border:none!important;border-radius:13px}
 html.rb .ui_rmenu_item_sel{box-shadow:inset 4px 0 0 -2px var(--g2)}
 html.rb .ui_rmenu_sliding .ui_rmenu_item_sel{box-shadow:none}html.rb .ui_rmenu_subitem{padding-left:28px!important}
-html.rb .page_block_groups .empty .module_body:hover,
-html.rb .page_actions_expanded .page_actions_item{
-	margin:0 5px!important;
-	padding:0 10px!important;
-	border-radius:15px!important}
+html.rb .page_actions_expanded .page_actions_item .ui_rmenu_count{margin-right:0px!important}
+html.rb .page_block_groups .empty .module_body:hover,html.rb .page_actions_expanded .page_actions_item{margin:0 5px;padding:0 10px!important;border-radius:15px!important}
+html.rb .ProfileActions .page_actions_expanded .page_actions_item{margin:0 -10px!important;padding:0 10px!important}
 html.rb .page_block_groups .empty .module_body:hover{padding:0!important}
 html.rb .page_block_groups .module_body:hover .page_module_upload{margin:0 -5px!important}
-html.rb .ProfileActions .page_actions_expanded .page_actions_item{
-	margin:0 -10px!important;
-	padding:0 10px!important}
+
 .privacy_locked,.privacy_dropdown .l_item_sel{
-	padding-left:0!important
-}
+	padding-left:0!important}
 .privacy_locked .privacy_dropdown .header .header_label{
-	padding-left:11px
-}
+	padding-left:11px}
 .groups_donut_module .module_body{padding:15px!important}
 .DonutModule__help.hint_icon{margin:5px 5px 0 0!important}
 #group_section_menu .module_body{padding:20px 0 10px 0!important}
