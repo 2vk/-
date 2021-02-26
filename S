@@ -1234,6 +1234,11 @@ html.ns .wall_module .wall_posts.all>.all~.all,html.ns .wall_module .wall_posts.
 .Header__right{
 	padding-right:42px
 }
+
+html.rb .ui_rmenu_sliding .ui_rmenu_slider{width:13px!important;border-radius:13px 0 0 13px;background:none!important;box-shadow:inset 4px 0 0 -2px var(--g2)}
+html.rb .ui_rmenu_item,html.rb .ui_rmenu_subitem{padding-left:20px!important;border:none!important;border-radius:13px}
+html.rb .ui_rmenu_item_sel{box-shadow:inset 4px 0 0 -2px var(--g2)}
+html.rb .ui_rmenu_sliding .ui_rmenu_item_sel{box-shadow:none}html.rb .ui_rmenu_subitem{padding-left:28px!important}
 html.rb .page_block_groups .empty .module_body:hover,
 html.rb .page_actions_expanded .page_actions_item{
 	margin:0 5px!important;
@@ -1659,7 +1664,7 @@ html.s body::-webkit-scrollbar,html.bo body::-webkit-scrollbar{width:0}
 body{overflow-y:overlay!important;overflow-x:hidden!important}
 html.a body{overflow-x:auto!important}
 html.s body{overflow:auto!important}
-html.eye,html.vo body,body[style*="overflow: hidden"],#apps,#flash_api_external_cont,.audio_promo,html.ns .ui_rmenu,html.rb .ui_rmenu,.MarketCatalogRightMenu,.MarketCatalogCategoryMenu__list,.MarketCatalogSkeleton__block{
+html.eye,html.vo body,body[style*="overflow: hidden"],#apps,#flash_api_external_cont,.audio_promo,.MarketCatalogRightMenu,.MarketCatalogCategoryMenu__list,.MarketCatalogSkeleton__block{
 	overflow:hidden!important}
 .im-group-online,.im-page_classic.im-page_cropped,.pv_narrow_column_wrap,.radiobtn>div{
 	overflow:visible!important
