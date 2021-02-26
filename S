@@ -736,13 +736,13 @@ html.mb .more_div,html.mb .left_menu_nav_wrap,.mv_minimized,.mv_chat_reply_form,
 .videoplayer_tooltip ._arrow,.slider_hint:after{
 	border-top-color:rgba(0,0,0,.8)!important
 }
-.eltt.bookmarks_tag_set_tt .eltt_arrow_back,.TemplatesDropDown__container:after,.eltt.eltt_top>.eltt_arrow_back .eltt_arrow,:root .ui_actions_menu_wrap.ui_actions_menu_top .ui_actions_menu:after,.ms_items_more_wrap.to_up .ms_items_more:after,.apps_notification_row:before{
+.eltt.bookmarks_tag_set_tt .eltt_arrow_back,.TemplatesDropDown__container:after,.eltt.eltt_top>.eltt_arrow_back .eltt_arrow,:root .ui_actions_menu_wrap.ui_actions_menu_top .ui_actions_menu:after,.apps_notification_row:before{
 	border-top-color:var(--n15f)!important
 }
 .eltt.eltt_blue.eltt_top .eltt_arrow_back,.eltt.eltt_blue.eltt_top .eltt_arrow_back .eltt_arrow,.eltt.feature_info_tooltip.eltt_top .eltt_arrow_back,.eltt.feature_info_tooltip.eltt_top .eltt_arrow{
 	border-top-color:var(--g2)!important
 }
-:root .eltt.bookmarks_tag_set_tt .eltt_arrow_back,.apps_settings_row_wrap,.photos_choose_bottom,.wk_extpage_footer_wrap,.market_item_footer_wrap,.feedback_row,.feedback_sticky_row,.search_row,.friends_user_row,.ui_rmenu_sep,.ms_items_more_wrap.to_up .ms_items_more:before,.bottom_row,.index_page .index_footer_wrap,.login_page #footer_wrap,.join_finish_page #footer_wrap{
+:root .eltt.bookmarks_tag_set_tt .eltt_arrow_back,.apps_settings_row_wrap,.photos_choose_bottom,.wk_extpage_footer_wrap,.market_item_footer_wrap,.feedback_row,.feedback_sticky_row,.search_row,.friends_user_row,.ui_rmenu_sep,.bottom_row,.index_page .index_footer_wrap,.login_page #footer_wrap,.join_finish_page #footer_wrap{
 	border-top-color:var(--n22e)!important
 }
 .article_format_tt.eltt_top>.eltt_arrow_back .eltt_arrow,
@@ -770,7 +770,7 @@ html.mb .more_div,html.mb .left_menu_nav_wrap,.mv_minimized,.mv_chat_reply_form,
 .videoplayer_tooltip ._arrow._arrow_up{
 	border-bottom-color:rgba(0,0,0,.8)!important
 }
-#top_notify_wrap:after,.ms_items_more_wrap.to_down .ms_items_more:after,.Dropdown--b .Dropdown__in:after,.bt_generic_popup:after,#top_profile_menu:after,.ui_actions_menu:after,.ActionsMenu__inner:after,.ui_search_fltr:after,.Dropdown--b .Dropdown__in:after{
+#top_notify_wrap:after,.Dropdown--b .Dropdown__in:after,.bt_generic_popup:after,#top_profile_menu:after,.ui_actions_menu:after,.ActionsMenu__inner:after,.ui_search_fltr:after,.Dropdown--b .Dropdown__in:after{
 	border-bottom-color:var(--n15f)!important
 }
 .eltt.eltt_bottom>.eltt_arrow_back .eltt_arrow{
@@ -779,7 +779,7 @@ html.mb .more_div,html.mb .left_menu_nav_wrap,.mv_minimized,.mv_chat_reply_form,
 .preq_tt:after,.feedback_row_answer:after,.feedback_row_wrap.reply_box_open .reply_box:after,.help_table_question,.group_box_row,.group_box_row:last-child,.docs_choose_rows .docs_item,.audio_pl_edit_box .ape_pl_item .ape_pl_item_inner,.audio_pl_edit_box .ape_add_audios_btn,.audio_pl_edit_box .ape_add_pl_audios_btn,#marketplace .market_content .market_row_line,#audio_layer_tt>.eltt_arrow_back .eltt_arrow,.group_list_row,.join_box_or_l{
 	border-bottom-color:var(--n22e)!important
 }
-.post_suggest:before,.post_suggest:after,.bookmark_rows_mini .bookmarks_row:after,.video_upload_with_divider:after,#audio_layer_tt .audio_layer_container .audio_page_player_wrap,.eltt.eltt_bottom>.eltt_arrow_back,#top_notify_wrap:before,#top_profile_menu:before,.feedback_row_wrap.reply_box_open .reply_box:before,.ui_search_fltr:before,.apps_notification_row:before,.feedback_row_answer:before,.preq_tt:before,.ui_actions_menu:before,.ActionsMenu__inner:before,.ms_items_more_wrap.to_down .ms_items_more:before,.bt_generic_popup:before,.Dropdown--b .Dropdown__in:before{
+.post_suggest:before,.post_suggest:after,.bookmark_rows_mini .bookmarks_row:after,.video_upload_with_divider:after,#audio_layer_tt .audio_layer_container .audio_page_player_wrap,.eltt.eltt_bottom>.eltt_arrow_back,#top_notify_wrap:before,#top_profile_menu:before,.feedback_row_wrap.reply_box_open .reply_box:before,.ui_search_fltr:before,.apps_notification_row:before,.feedback_row_answer:before,.preq_tt:before,.ui_actions_menu:before,.ActionsMenu__inner:before,.bt_generic_popup:before,.Dropdown--b .Dropdown__in:before{
 	border-bottom-color:var(--n29e)!important
 }
 .pg_lnk:hover,.ui_tab_sel,.ui_tab_sel:hover,.ui_tabs .ui_tab_sel,.ui_tabs .ui_tab_sel:hover,.ui_tabs_box .ui_tab_sel,.ui_tabs_box .ui_tab_sel:hover,.Tabs__item--active,.Tabs__item--active:hover{
@@ -1101,6 +1101,7 @@ a.dd_link{
 	padding-top:0!important;
 	margin-top:0!important
 }
+.ms_items_more{z-index:105}
 .search_content.page_block{
 	height:100px;
 	box-shadow:none!important;
