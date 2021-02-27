@@ -8,7 +8,7 @@
 .left_menu_more:after{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="8" height="4" viewBox="0 0 6 3"${ms}><path stroke="${mc}" stroke-linecap="round" d="M.5.5l2.5 2m0 0l2.5-2"/></svg>')!important}
 
 //gift
-.StickerPackPreview__gift:before,.im_stickers_act_gift:before,.profile_side_icon{background:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="3 1 14 15"><path fill="none" stroke="${k1t}" stroke-width="1.3" d="M9.3 5.3c-3.2-.2-4.4-2-3.2-3.2 1.2-1.2 3 0 3.2 3.2zm1.4 0c3.2-.2 4.4-2 3.2-3.2-1.2-1.2-3 0-3.2 3.2z"/><path fill="${k1t}" d="M4 11v4q0 1 1 1h4v-5m2 0h5v4q0 1-1 1h-4m0-10v4h6V7q0-1-1-1M9 6H4Q3 6 3 7v3h6"/></svg>') no-repeat!important}
+.profile_side_icon,.StickerPackPreview__gift:before,.im_stickers_act_gift:before,.StickerStylesMenuItem__gift:before{background:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="3 1 14 15"><path fill="none" stroke="${k1t}" stroke-width="1.3" d="M9.3 5.3c-3.2-.2-4.4-2-3.2-3.2 1.2-1.2 3 0 3.2 3.2zm1.4 0c3.2-.2 4.4-2 3.2-3.2-1.2-1.2-3 0-3.2 3.2z"/><path fill="${k1t}" d="M4 11v4q0 1 1 1h4v-5m2 0h5v4q0 1-1 1h-4m0-10v4h6V7q0-1-1-1M9 6H4Q3 6 3 7v3h6"/></svg>') no-repeat!important}
 .profile_gift_send_btn .send_thumb{background:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="3 1 14 15"><path fill="none" stroke="${k2t}" stroke-width="1.3" d="M9.3 5.3c-3.2-.2-4.4-2-3.2-3.2 1.2-1.2 3 0 3.2 3.2zm1.4 0c3.2-.2 4.4-2 3.2-3.2-1.2-1.2-3 0-3.2 3.2z"/><path fill="${k2t}" d="M4 11v4q0 1 1 1h4v-5m2 0h5v4q0 1-1 1h-4m0-10v4h6V7q0-1-1-1M9 6H4Q3 6 3 7v3h6"/></svg>') no-repeat!important}
 #ts_input,.dev_top_input{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"><path fill="none" stroke="${ht}" opacity="0.75" stroke-width="1.5" stroke-linecap="round" d="M14.2 14.2 9.85 9.9a4.75 4.75 0 11.05-.05"/></svg>')!important}
 
@@ -76,7 +76,7 @@
 .button_action_light_add:before,.mv_actions_block .like_btn.mv_add_button .like_button_icon.mv_plus_icon,.mv_actions_private_panel .like_btn.mv_add_button .like_button_icon.mv_plus_icon,.Post__copyrightButton:before{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="${l7}" d="M13 11h7a1 1 0 0 1 0 2h-7v7a1 1 0 0 1-2 0v-7H4a1 1 0 0 1 0-2h7V4a1 1 0 0 1 2 0"/></svg>')!important}
 .wall_marked_as_ads{background:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg"><path fill="${l7}" d="M6 0a6 6 0 10.01 0M4.5 1.8h1.2c4.5 0 4.5 5.4 0 5.4v1h2v1h-2v1h-1.2v-1h-1v-1h1v-1h-1v-1.2h1m1.2 0c3 0 3-3 0-3"/></svg>')!important}
 //hint ?
-.GroupOrderDetails__labelHelp,.Table__CellHint,.author_page_info,.bt_hform_helper,.flist_item_hint_icon,.hint_icon:after,.ArchiveRequestForm__encryption-form__top__hint{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill="${l7}" d="M8 0a8 8 0 10.01 0M8 1a7 7 0 11-.01 0"/><path fill="${le}" d="M5.8 6.3a1 1 0 014.7 0c0 2.4-2 1.5-2 3.3H7.3c0-2.4 2-1.5 2-3.3a1 1 0 00-2.3 0m1 4.2a.8.8 0 11-.1 0"/></svg>')!important}
+.HintIcon,.GroupOrderDetails__labelHelp,.Table__CellHint,.author_page_info,.bt_hform_helper,.flist_item_hint_icon,.hint_icon:after,.ArchiveRequestForm__encryption-form__top__hint{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill="${l7}" d="M8 0a8 8 0 10.01 0M8 1a7 7 0 11-.01 0"/><path fill="${le}" d="M5.8 6.3a1 1 0 014.7 0c0 2.4-2 1.5-2 3.3H7.3c0-2.4 2-1.5 2-3.3a1 1 0 00-2.3 0m1 4.2a.8.8 0 11-.1 0"/></svg>')!important}
 //like
 .wk_like_icon{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="9" width="11" viewBox="0 0 22 18"><path fill="${k1t}" d="M11 3C14-1.3 18 0 19.2 1 22.2 3 26.2 10 11 18-4.2 10-.2 3 2.8 1 4 0 8-1.3 11 3"/></svg>')!important}
 .like_wrap.lite .like_btn.like .like_button_icon{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="9" width="11" viewBox="0 0 22 18"><path fill="${l9}" d="M11 3C14-1.3 18 0 19.2 1 22.2 3 26.2 10 11 18-4.2 10-.2 3 2.8 1 4 0 8-1.3 11 3"/></svg>')!important}
@@ -432,9 +432,10 @@ html,.cp_fg{
 .mv_layer--vertical .flat_button.secondary:hover,.market_item_controls button.tertiary:not(:disabled):focus,.market_item_controls button.tertiary:not(:disabled):hover,.vk-button:hover,.button_gray button.hover,.button_gray button:hover,.flat_button.secondary_dark:hover{
 	background-color:var(--k2h)!important
 }
-.StickersButtonPrice--regular:after{background-color:var(--k2t)!important}
-.market_item_controls button.tertiary,.page_actions_dd_label{
-	color:var(--k2t)
+.StickersPriceButton__regular:after,.StickersButtonPrice--regular:after{background-color:var(--k1t)!important}
+.StickersPriceButton__regular{opacity:.5;color:var(--k1t)!important}
+.market_item_controls button.tertiary,.page_actions_dd_label,.im_stickers_store_wrap .flat_button.secondary{
+	color:var(--k2t)!important
 }
 .Button--negative{
 	background-color:var(--red)!important
@@ -594,9 +595,6 @@ html:not(.mg):not(.me):not(.mc) #side_bar .LeftNav__icon{
 }
 .footer_nav,.login_mobile_header,.login_mobile_info,.quick_login .label,.quick_login .quick_forgot,.quick_login .checkbox,html:not(.mg):not(.me):not(.mc) #side_bar .left_label,html:not(.mg):not(.me):not(.mc) .left_menu_nav,html:not(.mg):not(.me):not(.mc) .left_restore_link{
 	text-shadow:1px 1px 1px #000,0 0 1px #000}
-.ui_rmenu_count.im-right-menu--count,.ui_rmenu_count.ui_rmenu_count_grey{
-	text-shadow:none
-}
 .article_stat .article_stat__funnel_part_median,.article_stat .article_stat__funnel_part_median#funnel_part_2{
 	fill:var(--n158)!important
 }
@@ -1234,11 +1232,11 @@ html.ns .wall_module .wall_posts.all>.all~.all,html.ns .wall_module .wall_posts.
 .Header__right{
 	padding-right:42px
 }
+html.rb .ui_rmenu_sliding .ui_rmenu_slider{left:3px;width:10px!important;border-radius:10px 0 0 10px;background:none!important;box-shadow:inset 22px 0 0 -20px var(--g2)}
+html.rb .ui_rmenu_item,html.rb .ui_rmenu_subitem{margin:0 3px;padding-left:17px!important;border:none!important;border-radius:13px}
+html.rb .ui_rmenu_item_sel{border-radius:10px 13px 13px 10px;box-shadow:inset 22px 0 0 -20px var(--g2)}
+html.rb .ui_rmenu_sliding .ui_rmenu_item_sel{box-shadow:none}html.rb .ui_rmenu_subitem{padding-left:25px!important}
 
-html.rb .ui_rmenu_sliding .ui_rmenu_slider{width:13px!important;border-radius:13px 0 0 13px;background:none!important;box-shadow:inset 4px 0 0 -2px var(--g2)}
-html.rb .ui_rmenu_item,html.rb .ui_rmenu_subitem{padding-left:20px!important;border:none!important;border-radius:13px}
-html.rb .ui_rmenu_item_sel{box-shadow:inset 4px 0 0 -2px var(--g2)}
-html.rb .ui_rmenu_sliding .ui_rmenu_item_sel{box-shadow:none}html.rb .ui_rmenu_subitem{padding-left:28px!important}
 html.rb .page_actions_expanded .page_actions_item .ui_rmenu_count{margin-right:0px!important}
 html.rb .page_block_groups .empty .module_body:hover,html.rb .page_actions_expanded .page_actions_item{margin:0 5px;padding:0 10px!important;border-radius:15px!important}
 html.rb .ProfileActions .page_actions_expanded .page_actions_item{margin:0 -10px!important;padding:0 10px!important}
@@ -1362,14 +1360,17 @@ input.disabled,textarea.disabled,input.validation_readonly{color:var(--777)!impo
 .SideOfficeMenu__linkIcon,.im-page--back-btn,.ui_rmenu_item{
 	color:var(--n999)
 }
-.article_layer__content_footer_info *,.thumb_video_wrap .VideoRestriction__box>*,.video_item_thumb_wrap .VideoRestriction__box>*,.page_post_thumb_video .VideoRestriction__box>*,.wdd_add3,.audio_page_player_play_rate,.post_top_info_caption,.chat_onl,.FeedbackTooltip__wrapper,.landing_transparencySection__description,.landing_safetyStats__period,.Suggestion__ItemDescription,.PredictionItem__helper,.PredictionWidget__footer,.exchange_table_hint,#exchange_comm_search_count,.ads_edit_link_type_card_description,.Table__Tip,.medadd_h,.button_action_light:hover,.no_rows,.WeekStat__BlockFooter,.page_actions_expanded .page_actions_item,.nim-dialog_selected .nim-dialog--who,.nim-dialog_selected .nim-dialog--date,.nim-dialog--preview,.ui_rmenu_count.ui_rmenu_count_grey,[contenteditable=true]::placeholder,[contenteditable=true]~.placeholder .ph_content,textarea::placeholder,input::placeholder{
+.article_layer__content_footer_info *,.thumb_video_wrap .VideoRestriction__box>*,.video_item_thumb_wrap .VideoRestriction__box>*,.page_post_thumb_video .VideoRestriction__box>*,.wdd_add3,.audio_page_player_play_rate,.post_top_info_caption,.chat_onl,.FeedbackTooltip__wrapper,.landing_transparencySection__description,.landing_safetyStats__period,.Suggestion__ItemDescription,.PredictionItem__helper,.PredictionWidget__footer,.exchange_table_hint,#exchange_comm_search_count,.ads_edit_link_type_card_description,.Table__Tip,.medadd_h,.button_action_light:hover,.no_rows,.WeekStat__BlockFooter,.page_actions_expanded .page_actions_item,.nim-dialog_selected .nim-dialog--who,.nim-dialog_selected .nim-dialog--date,.nim-dialog--preview,.ui_rmenu_count_grey,[contenteditable=true]::placeholder,[contenteditable=true]~.placeholder .ph_content,textarea::placeholder,input::placeholder{
 	color:var(--n999)!important
 }
 .WeekStatGrid__ItemDiff{
 	color:var(--n777)
 }
 .reply_deleted .reply_text,.bd_day_num,.result_list li.disabled,.placeholder_content,.profile_info_edit,.exchange_task_request,.Table__Button--disabled .Select__placeholder,.ads_edit_easy_promote_box__row-label,.ads_edit_easy_promote_box__expected-reach-limit,.SecondaryModal__text,.ads_retargeting_box_text,.Inputs__label,.exchange_post_info_row .label,.exchange_not_found,.ui_table_cell_empty,.ads_union_empty_cell,.ConstructorFormulaInput__ItemIntersectionTitle,.ads_edit_label,.ConstructorFormulaInput__ItemTitle,.PredictionWidget__headerTitle,.Breadcrumbs,.Breadcrumb__link,.Table__Cell--header,#ads_unions_content .table_label,.ads_union_promoted_post_stat_headline_comment,[style*="color: #777"],.button_action_light,.trending_stats_title_group__subtitle,.WeekStatGrid__ItemAdsLabel,.WeekStatGrid__ItemAdsLabel .WeekStatGrid__ItemDiff,.nim-dialog--who,.nim-dialog--date,.im-page-pinned--date,th,[contenteditable=true]:focus::placeholder,[contenteditable=true]:focus~.placeholder .ph_content,textarea:focus::placeholder,input:focus::placeholder,.cp_t,.cp_t a,#cp_u{
-	color:var(--n777)!important	
+	color:var(--n777)!important
+}
+.stories_feed_create .stories_feed_preview_author_name,.story_feed_new_item .stories_feed_preview_author_name{
+	color:var(--g1)!important
 }
 .stats_flash_wrap div,.rdrDayToday .rdrDayNumber span{
 	color:var(--g2)
@@ -1378,29 +1379,24 @@ input.disabled,textarea.disabled,input.validation_readonly{color:var(--777)!impo
 	color:var(--g2)!important
 }
 .nim-dialog--preview.nim-dialog--preview-attach,.nim-dialog--typing,.nim-dialog--typer-el{
-	color:var(--g3)!important	
+	color:var(--g3)!important
 }
 .listing,.dev_roadmap_timeline_past .dev_roadmap_timeline_row_time{
 	color:var(--g4)!important
 }
 .WeekStatGrid__ItemDiff--down{
-	color:#e64747
-}
+	color:#e64747}
 .WeekStatGrid__ItemDiff--up{
-	color:#4bb34b
-}
+	color:#4bb34b}
 .like_btn.like.active .like_button_count{
-	color:var(--lc)!important
-}
+	color:var(--lc)!important}
 .article_snippet__action_btn,.audio_promo__button,.flist_sel_showed_all,.landings_main_slider_button.fill{
-	color:#000!important
-}
+	color:#000!important}
+
 .idd_selected_value.idd_arrow:hover{
-	text-decoration:none
-}
+	text-decoration:none}
 .tickets_tt_list,.tickets_tt_list_abuse{
-	list-style:unset
-}
+	list-style:unset}
 .article_anchor_fsymbol{font-size:0!important}
 
 :root .emoji_tt_wrap{width:calc(290px * var(--emoji_tt_size))!important}
@@ -1669,7 +1665,7 @@ html.eye,html.vo body,body[style*="overflow: hidden"],#apps,#flash_api_external_
 	background-color:unset!important}
 .login_page .msg,.ShortVideoStub__link,.VideoRestriction .video_item_thumb_wrap,.VideoRestriction .VideoRestriction__thumb{
 	background-image:unset!important}
-.market_item_content,.market_item_content_bottom,.mv_chat_reply_form,.pv_reply_form_wrap,.VideosFeedTitle,#admin_form_table_wrapper,.VerticalVideoLayerInfo__mainInfoWrap>div,.rt-tr.-odd,.landing_author_guide_header__footer,.landing_author_guide_content,.feed_row[style*="background-color"],.mv_chat,.page_block .dev_page_block,.fc_tab,.fc_tab_txt,#fc_contacts,.fc_clist_filter_wrap,#fc_clist_filter,#mv_progress_box,.article_layer__content_footer,.im-audio-message-input,.reply_box_more_attaches .ms_item_more_label,.bt_report_additional_actions .ui_actions_menu_icons,.page_cover_image .ui_actions_menu_icons,.left_menu_nav_wrap .ui_actions_menu_icons,.like_wrap .ui_actions_menu_icons,.gedit_servers_menu .page_actions_header_inner,.help_table_question_sa.help_table_question_visible,.playAtHome_header,.playAtHome_content,.ChatCreation .Modal__body,.ChatCreation__content,.bookmark_footer,.mv_playlist,.VideoRecomsItem,.PredictionWidget,a.ads_edit_link_go,.SideOfficeMenu__navList:after,.Office__content,.Office__content--adsedit,.SideMenu__office,.SideOfficeMenu,#ads_page,.Table__wrapper,.Table__stub:before,.ads_retargeting_price_list_empty,.emoji_list .emoji_cat_title,.stats_cont_browse,.photos_edit_selection_header,.notifications_new_events,.rdrDay,.cal_clear,.poster__author-info,.poster_wall-edit,.groups_cover_box .groups_edit_cover_header,#wl_postreach_stat_body,.stat_group_postsreach_empty_placeholder,.apps_app_widget_preview_box_text,.landing_transparencyFooter,.article_dark .article,.vk2017_snippet,.im-page_group .im-page--dcontent,.im-page_classic .im-page--chat-header-in,.im-page--dialogs--group-status,.group_tokens_row,.tickets_header,.tickets_post_field,.vk_menu_block ul li a,.box_body .search_bar,.result_list ul,.ui_rmenu_count.im-right-menu--count,.ui_rmenu_count.ui_rmenu_count_grey,.groups_actions_menu .groups_actions_icons,#mv_like_wrap,.no_wrap_cont #dev_page_wrap1,.dev_method_view_page #dev_page_wrap1,.dev_method_view_page .dev_page_cont_wrap,.im-page_classic.im-page .im-page--chat-body-wrap-inner,.wk_history_tabs,.privacy_locked .privacy_dropdown .header .header_label,.privacy_locked,.blog_about_page,.blog_about_page #page_body,.shorten_list_row,.im-page .im-page--history-new-bar>span,.poster__toolbar,.TemplatesSettings,.TemplatesSettings__content,.TemplatesSettings__footer,.GroupChatInvites,.profile_info_header,.profile_info_edit,body.dev .tickets_new_title,.tdd_control,.apps_edit_retina_info,.feedback_row_wrap.reply_box_open,.mv_live_gifts_arrow_left:before,.mv_live_gifts_arrow_right:before,.wall_module .page_media_thumbed_link,.market_item_photo_container,.im-page .im-page--dialogs.im-page--dialogs-notice .im-page--header,.im-page.im-page_classic.im-page_group .im-group-online,.im-page_classic .im-page--top-notice,.audio_pl_snippet2,.ap_layer .audio_pl_snippet .audio_pl_snippet__header_inner,.docs_choose_dropbox_wrap,.wke_pcont,.MessageForward__content,.MessageForward__footer,div.MessageForward__input,.apps_win_instr_try,.article,.pv_filter_panel,.pe_tabs_panel,.pe_actions,.mail_box_cont,#marketplace .market_content .market_row .market_place_common_friend_badge,.article_view,.multiselect__tag-icon:focus,.multiselect__tag-icon:hover,.stories_feedback_title,.friends_dropdown__list_item,.gifts_constr_preview,.gifts_constr_options_ready,.ChatSettings__content,.ChatSettingsResetInvitationLink__text,.ChatSettingsInfo,.List,.ChatSettingsMembers,.ChatSettingsMembersWidget,.ChatSettingsMembersWidget__search,.join_box_content,.landings_vkCalls,.audio_page_layout .audio_friends_list,.MultiSelect__search,.ChatSettingsInvitationLink,.group_l_row,#stat_group_postsreach_table td,#stat_group_postsreach_table .paginated_table_row.even_row,.im-page--toolsw,.im-page .im-page--search-header,.im-page-pinned,.im-page--chat-header,.im_cal_clear,.im-page--dialogs-search,.im-create .ui_search,.im-create .im-create--tabs,.im-page .im-page--dialogs-footer.ui_grey_block,.pv_narrow_column_wrap,.pv_cont .narrow_column,.pv_author_block,.poster__loading-wrapper,.MarketCartOrderConfig__stickyMenu,.ScrollWrapper__left-arrow:after,.ScrollWrapper__right-arrow:after,.wall_module .reply_form,a.ads_inline_dropdown,a.ads_status_link,.Breadcrumbs,.GamesCatalogProfileBlock__header,.GamesCatalogProfileBlock__content,.GamesCatalogSearchMainContent,.im-page--history-new-bar,.im-page,.article_layer,.article_ed__img_wrapper,.mv_live_preparation,#pv_box,.apps_main,.apps_footer,#page_header_cont .CatalogBlock--divided,.CatalogSection,.box_body,.Button--tertiary,.flat_button.ui_load_more_btn,.scrollbar_cont,.story_stats_row_header_content,.audio_page_player_track_slider:not(.slider),.audio_page_player_volume_slider:not(.slider),.ui_table_cell_empty,.ui_table_row,.ui_table_cell,.empty_row td,.ads_unions_table,.ads_unions_table>tbody>tr>th,.paginated_table>table>tbody>tr>th,.paginated_table_cell,.ads_union_empty_cell,.ads_edit_page_wrap3,.ads_edit_link_type_card_image_wrapper,.ads_ad_box,.exchange_not_found,#ad_preview_top,.dark_box_cont,.wk_posts_stats_info,#page_layout,.mv_info,.apps_header_wrapper,.box_msg,.media_link:last-child,.thumbed_link__label,.groups_edit_menu_item_settings,.group_apps_edit,.group_apps_list_row_drag_wrapper,.groups_edit_event_log_item_wrap_more_wrap,.ui_tooltipMenu .ui_search input.ui_search_field,.groups_edit_event_log_controls,.prefix_input_wrap.finished,.wall_module .reply_box,.wall_module .reply_fakebox_wrap,.audio-msg-track .slider .slider_slide,.im-page_classic,.im-create,.im-create--footer,.im-create input.ui_search_field,.im-page--history,.im-page--dialogs,.im-page_classic .im-page--dcontent,.im-chat-input,.ui_search:not(.page_block):not(.im-page--dialogs-search):not(.ui_search_fixed):not(.faq_search_form),.apps_install_header .apps_i_phone_button,.apps_install_header .apps_share_button,.box_body .ui_search_new input.ui_search_field,.placeholder .ph_input,.ui_search_new input.ui_search_field,#top_audio_layer_place .audio_page_player2,.reply_fakebox,.group_edit_address_form,.submit_post,#help_table_categories_menu,.market_block_layout,.wall_module .post_dislike:hover,.audio-msg-track .slider .slider_amount,.blog_entry_text .article,.blog_entry_text_wrap .article,.blog_post_text .article,.fakeinput,div[contenteditable=true],.selector_container td.selector input,.payments_money_transfer_amount,#page_wrap,body.dev,body{
+.market_item_content,.market_item_content_bottom,.mv_chat_reply_form,.pv_reply_form_wrap,.VideosFeedTitle,#admin_form_table_wrapper,.VerticalVideoLayerInfo__mainInfoWrap>div,.rt-tr.-odd,.landing_author_guide_header__footer,.landing_author_guide_content,.feed_row[style*="background-color"],.mv_chat,.page_block .dev_page_block,.fc_tab,.fc_tab_txt,#fc_contacts,.fc_clist_filter_wrap,#fc_clist_filter,#mv_progress_box,.article_layer__content_footer,.im-audio-message-input,.reply_box_more_attaches .ms_item_more_label,.bt_report_additional_actions .ui_actions_menu_icons,.page_cover_image .ui_actions_menu_icons,.left_menu_nav_wrap .ui_actions_menu_icons,.like_wrap .ui_actions_menu_icons,.gedit_servers_menu .page_actions_header_inner,.help_table_question_sa.help_table_question_visible,.playAtHome_header,.playAtHome_content,.ChatCreation .Modal__body,.ChatCreation__content,.bookmark_footer,.mv_playlist,.VideoRecomsItem,.PredictionWidget,a.ads_edit_link_go,.SideOfficeMenu__navList:after,.Office__content,.Office__content--adsedit,.SideMenu__office,.SideOfficeMenu,#ads_page,.Table__wrapper,.Table__stub:before,.ads_retargeting_price_list_empty,.emoji_list .emoji_cat_title,.stats_cont_browse,.photos_edit_selection_header,.notifications_new_events,.rdrDay,.cal_clear,.poster__author-info,.poster_wall-edit,.groups_cover_box .groups_edit_cover_header,#wl_postreach_stat_body,.stat_group_postsreach_empty_placeholder,.apps_app_widget_preview_box_text,.landing_transparencyFooter,.article_dark .article,.vk2017_snippet,.im-page_group .im-page--dcontent,.im-page_classic .im-page--chat-header-in,.im-page--dialogs--group-status,.group_tokens_row,.tickets_header,.tickets_post_field,.vk_menu_block ul li a,.box_body .search_bar,.result_list ul,.ui_rmenu_count.im-right-menu--count,.groups_actions_menu .groups_actions_icons,#mv_like_wrap,.no_wrap_cont #dev_page_wrap1,.dev_method_view_page #dev_page_wrap1,.dev_method_view_page .dev_page_cont_wrap,.im-page_classic.im-page .im-page--chat-body-wrap-inner,.wk_history_tabs,.privacy_locked .privacy_dropdown .header .header_label,.privacy_locked,.blog_about_page,.blog_about_page #page_body,.shorten_list_row,.im-page .im-page--history-new-bar>span,.poster__toolbar,.TemplatesSettings,.TemplatesSettings__content,.TemplatesSettings__footer,.GroupChatInvites,.profile_info_header,.profile_info_edit,body.dev .tickets_new_title,.tdd_control,.apps_edit_retina_info,.feedback_row_wrap.reply_box_open,.mv_live_gifts_arrow_left:before,.mv_live_gifts_arrow_right:before,.wall_module .page_media_thumbed_link,.market_item_photo_container,.im-page .im-page--dialogs.im-page--dialogs-notice .im-page--header,.im-page.im-page_classic.im-page_group .im-group-online,.im-page_classic .im-page--top-notice,.audio_pl_snippet2,.ap_layer .audio_pl_snippet .audio_pl_snippet__header_inner,.docs_choose_dropbox_wrap,.wke_pcont,.MessageForward__content,.MessageForward__footer,div.MessageForward__input,.apps_win_instr_try,.article,.pv_filter_panel,.pe_tabs_panel,.pe_actions,.mail_box_cont,#marketplace .market_content .market_row .market_place_common_friend_badge,.article_view,.multiselect__tag-icon:focus,.multiselect__tag-icon:hover,.stories_feedback_title,.friends_dropdown__list_item,.gifts_constr_preview,.gifts_constr_options_ready,.ChatSettings__content,.ChatSettingsResetInvitationLink__text,.ChatSettingsInfo,.List,.ChatSettingsMembers,.ChatSettingsMembersWidget,.ChatSettingsMembersWidget__search,.join_box_content,.landings_vkCalls,.audio_page_layout .audio_friends_list,.MultiSelect__search,.ChatSettingsInvitationLink,.group_l_row,#stat_group_postsreach_table td,#stat_group_postsreach_table .paginated_table_row.even_row,.im-page--toolsw,.im-page .im-page--search-header,.im-page-pinned,.im-page--chat-header,.im_cal_clear,.im-page--dialogs-search,.im-create .ui_search,.im-create .im-create--tabs,.im-page .im-page--dialogs-footer.ui_grey_block,.pv_narrow_column_wrap,.pv_cont .narrow_column,.pv_author_block,.poster__loading-wrapper,.MarketCartOrderConfig__stickyMenu,.ScrollWrapper__left-arrow:after,.ScrollWrapper__right-arrow:after,.wall_module .reply_form,a.ads_inline_dropdown,a.ads_status_link,.Breadcrumbs,.GamesCatalogProfileBlock__header,.GamesCatalogProfileBlock__content,.GamesCatalogSearchMainContent,.im-page--history-new-bar,.im-page,.article_layer,.article_ed__img_wrapper,.mv_live_preparation,#pv_box,.apps_main,.apps_footer,#page_header_cont .CatalogBlock--divided,.CatalogSection,.box_body,.Button--tertiary,.flat_button.ui_load_more_btn,.scrollbar_cont,.story_stats_row_header_content,.audio_page_player_track_slider:not(.slider),.audio_page_player_volume_slider:not(.slider),.ui_table_cell_empty,.ui_table_row,.ui_table_cell,.empty_row td,.ads_unions_table,.ads_unions_table>tbody>tr>th,.paginated_table>table>tbody>tr>th,.paginated_table_cell,.ads_union_empty_cell,.ads_edit_page_wrap3,.ads_edit_link_type_card_image_wrapper,.ads_ad_box,.exchange_not_found,#ad_preview_top,.dark_box_cont,.wk_posts_stats_info,#page_layout,.mv_info,.apps_header_wrapper,.box_msg,.media_link:last-child,.thumbed_link__label,.groups_edit_menu_item_settings,.group_apps_edit,.group_apps_list_row_drag_wrapper,.groups_edit_event_log_item_wrap_more_wrap,.ui_tooltipMenu .ui_search input.ui_search_field,.groups_edit_event_log_controls,.prefix_input_wrap.finished,.wall_module .reply_box,.wall_module .reply_fakebox_wrap,.audio-msg-track .slider .slider_slide,.im-page_classic,.im-create,.im-create--footer,.im-create input.ui_search_field,.im-page--history,.im-page--dialogs,.im-page_classic .im-page--dcontent,.im-chat-input,.ui_search:not(.page_block):not(.im-page--dialogs-search):not(.ui_search_fixed):not(.faq_search_form),.apps_install_header .apps_i_phone_button,.apps_install_header .apps_share_button,.box_body .ui_search_new input.ui_search_field,.placeholder .ph_input,.ui_search_new input.ui_search_field,#top_audio_layer_place .audio_page_player2,.reply_fakebox,.group_edit_address_form,.submit_post,#help_table_categories_menu,.market_block_layout,.wall_module .post_dislike:hover,.audio-msg-track .slider .slider_amount,.blog_entry_text .article,.blog_entry_text_wrap .article,.blog_post_text .article,.fakeinput,div[contenteditable=true],.selector_container td.selector input,.payments_money_transfer_amount,#page_wrap,body.dev,body{
 	background:none!important}
 .page_block .page_block,.feed_new_posts.page_block,.audio_page_layout:not(.podcast_page_layout) ._audio_page_content_block,#audio_layer_tt .page_block,.GamesCatalog--search_page .GamesCatalogHead,.landing_vkmasks .Header,html.vo #page_header_cont{
 	background-color:unset!important;
