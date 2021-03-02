@@ -1439,9 +1439,6 @@ input.disabled,textarea.disabled,input.validation_readonly{color:var(--777)!impo
 .im_msg_audiomsg,.ShortVideoStub__link,.left_row,.article_snippet .article_snippet__read_btn,#ts_wrap,.audio_page_layout .no_rows,.pv_cont .pv_no_commments_placeholder,.video_empty_placeholder.no_rows,.post_image,.right_list_photo,.ow_ava,.group_row_photo,.people_cell_ava,.reply_image,.audio_owner_item__img,.mv_author_photo_wrap,.fc_msgs_img,.copy_post_image,.notifier_image_wrap,.away_content.away_image{
 	position:relative
 }
-.chat_tab_wrap{
-	position:unset
-}
 .im_msg_audiomsg_button{display:none;position:absolute;background:var(--n29e) no-repeat center;border-radius:10px;top:14px;right:-30px;width:30px;height:22px;cursor:pointer}
 .im_msg_audiomsg_transcript{display:none;color:var(--eee);padding:3px 0 3px 10px;box-shadow:inset 2px 0 0 var(--n29e)}
 .Aa .im_msg_audiomsg_button,.Aa.a .im_msg_audiomsg_transcript{display:block}
