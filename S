@@ -191,9 +191,8 @@ html:not(.pc) .page_cover_actions .page_actions_dd_label,.page_photo .page_actio
 .audio-msg-track_playing .audio-msg-track--btn,.audio_pl__playing .audio_artist_snippet__play:before,.audio_pl__playing .MusicAuthorSnippet__play:before,.audio_pl__playing .audio_pl_snippet__action_btn_listen:before,.audio_pl__playing .audio_pl_snippet_play_small:before,.audio_row.audio_row__playing .audio_row__play_btn,.audio_pl_attach_preview.audio_pl__playing .audio_pl_attach_preview__play{background:var(--g2) url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="-8 -7 24 24"><path fill="${n15}" d="M0 0h3v10H0M5 0h3v10H5"/></svg>')!important}
 .MusicAuthorSnippet_big.audio_pl__playing .MusicAuthorSnippet__play:before{background:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg"><path fill="${le}" d="M0 0h3v12H0M5 0h3v12H5"/></svg>')!important}
 .audio-msg-track_recording .audio-msg-track--btn{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><rect fill="${n15}" x="8" y="8" width="8" height="8" rx="1"/></svg>')!important}
-
-.top_audio_play__button{background:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 20"><path fill="${ht}" d="M0 0h22v20H0M8 5v10l7-5"/></svg>')!important}
-.shuffle .top_audio_play__button{background:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 20"><path fill="${ht}" d="M0 0v20h22V0M15 7.6h-.5c-1.6 0-2.6 1.4-3.7 2.8-1.3 1.5-2.4 3.6-5 3.6H5v-1.6h.8c1.5 0 2.5-1.6 3.6-3 1.3-1.5 2.5-3.4 5-3.4h.6V4l3 2.8-3 2.7V7.6zm0 4.8v-1.9l3 2.8-3 2.7v-2h-.5c-1.6 0-2.7-.7-3.6-1.7a57.7 57.7 0 0 1 1-1.4c.7.9 1.5 1.5 2.6 1.5h.5zM8.3 9.2c-.7-.9-1.5-1.6-2.5-1.6H5V6h.8c1.6 0 2.6.8 3.5 1.8l-.5.7-.5.7"/></svg>')!important}
+#top_audio_play{background:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12.5 10"><path stroke="${ht}" fill="none" stroke-linejoin="round" d="M2 2.5q0-2 2-2h6q2 0 2 2v5q0 2-2 2h-6q-2 0-2-2v-1l-1.5-1.5 1.5-1.5zm3.75.5v4l3-2z"/></svg>') no-repeat 50%!important}
+#top_audio_play.shuffle{background:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12.5 10"><path stroke="${ht}" fill="none" stroke-linejoin="round" d="M2 2.5q0-2 2-2h6q2 0 2 2v5q0 2-2 2h-6q-2 0-2-2v-1l-1.5-1.5 1.5-1.5z"/><path stroke="${ht}" stroke-linecap="round" d="M4.2 3.4q.8 0 1.2.5m2 2.2q.6 .6 1.45.5m.5.25l.25-.22-.25-.22zm-5.15-.25c2 0 2.25-3.2 4.5-3.2h.15m.5.25l.25-.22-.25-.22z"/></svg>') no-repeat 50%!important}
 //explicit
 .video_explicit .video_item_title:after,.AudioPlaylistSnippet__title--explicit,.audio_pl__explicit .audio_pl_snippet__info_title_row:after,.audio_explicit .audio_row__duration:before,.audio_song_is_explicit .audio_page_player_duration:before,.audio_pl__explicit .audio_pl__title:after{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11 11" opacity=".7"><rect stroke="${l9}" fill="none" width="10" height="10" rx="2" x=".5" y=".5"/><path fill="${l9}" d="M5 5V4h2V3H4v5h3V7H5V6h2V5H5"/></svg>')!important}
 .gtop_header:after{width:16px;height:16px;border-color:rgba(0,0,0,.06)!important;border-radius:50%;background:var(--n777) url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path d="M4.75 8l2.25 2.25 4-4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" fill="none" stroke="${n15}"/></svg>')!important}
@@ -583,11 +582,11 @@ a.group_ad_post_link,a.group_ad_post_stats,#pv_more_acts_tt .pv_more_act_item:be
 	opacity:.5}
 #side_bar .LeftNav__icon,#cp_bgf{
 	opacity:.7!important}
-.pg_fixed_back,.article_editor_object_picker_icon:hover,.TableColumnsSettings__selectedColumnsItem--notInCurrentTable,.top_audio_play__button,.footer_nav,.quick_login .label,.quick_login .quick_forgot,.quick_login .checkbox,#side_bar .left_label,.left_menu_nav{
+.pg_fixed_back,.article_editor_object_picker_icon:hover,.TableColumnsSettings__selectedColumnsItem--notInCurrentTable,#top_audio_play,.footer_nav,.quick_login .label,.quick_login .quick_forgot,.quick_login .checkbox,#side_bar .left_label,.left_menu_nav{
 	opacity:.75}
 html.mg #side_bar .left_label,html.mc #side_bar .left_label{
 	opacity:.95}
-#side_bar ol li .left_row:hover .LeftNav__icon,#side_bar ol li .left_row:hover .left_label,.left_menu_nav:hover,.top_audio_play__button:hover,.nim-dialog--mute,.my .app_rate.stats,#apps_ratings.over .app_rate.over,.box_x_button:hover,.docs_item:hover .docs_choose_attach,.docs_item:hover .docs_item_thumb[ext=gif] .docs_item_play,.dd_header_hover,#cp_bgf:hover{
+#side_bar ol li .left_row:hover .LeftNav__icon,#side_bar ol li .left_row:hover .left_label,.left_menu_nav:hover,#top_audio_play:hover,.nim-dialog--mute,.my .app_rate.stats,#apps_ratings.over .app_rate.over,.box_x_button:hover,.docs_item:hover .docs_choose_attach,.docs_item:hover .docs_item_thumb[ext=gif] .docs_item_play,.dd_header_hover,#cp_bgf:hover{
 	opacity:1!important
 }
 html:not(.mg):not(.me):not(.mc) #side_bar .LeftNav__icon{
@@ -1823,9 +1822,7 @@ html.s #cp_s{background-size:12px}
 #cp_c6:not(.on)+input,#cp_c8:not(.on)+div,#cp_ca:not(.a)+#cp_cb{display:none}
 #cp_cb{margin:-10px 0 -10px 5px!important;width:50%;float:right}
 
-.TopNavBtn__audio{align-items:center}
-.top_audio_play__button{position:relative;display:block!important;margin-left:-2px;width:22px;height:20px;border:0;border-radius:4px;cursor:pointer}
-.top_audio_play__button:before{content:'';position:absolute;display:block;top:6px;left:-2px;width:8px;height:8px;border-radius:1px;transform:rotate(45deg);background-color:var(--ht)}
+#top_audio_play{width:25px;margin-left:-5px;z-index:1;cursor:pointer}
 html.vo .TopNavBtn#top_audio .TopNavBtn__icon,html.vo .top_audio_player .top_audio_player_btn .top_audio_player_btn_icon{filter:invert(.5) var(--icon0) drop-shadow(1px 1px 0 #000) drop-shadow(0 0 1px #000)}
 html.vo .top_audio_player{position:fixed;top:calc(50% + 5vh);left:calc(50% - 7vh);height:auto;gap:1vh;padding:0!important}
 html.vo #top_audio{position:fixed;top:calc(50% - 2vh);left:calc(50% - 2vh);height:auto}
