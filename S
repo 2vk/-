@@ -498,7 +498,7 @@ body #system_msg[style*="background-color: rgb(255, 180, 163)"],.ui_tab_count.ui
 .market_row_new_badge,.apps_feedRightAppsBlock__badge{
 	background-color:#f00
 }
-.tag_frame_handle,.media_voting_bg_photo .media_voting_footer_button:active,.media_voting_bg_gradient .media_voting_footer_button:active,.media_voting_bg_tile .media_voting_footer_button:active,.media_voting_bg_photo .pr_bt,.media_voting_bg_gradient .pr_bt,.media_voting_bg_tile .pr_bt,.wk_arrow .pr_bt,.pr_baw .pr_bt,.page_post_video_play_inline_loading .pr_bt,.photos_container .pr_bt,.places_map .pr_bt,.pe_filter_amount_slider .slider_amount,.pe_filter_amount_slider .slider_handler,.article_snippet .article_snippet__action_btn,.round_button_large_white,#card_iframe,.MiniAppLayerFlex iframe{
+.tag_frame_handle,.media_voting_bg_photo .media_voting_footer_button:active,.media_voting_bg_gradient .media_voting_footer_button:active,.media_voting_bg_tile .media_voting_footer_button:active,.media_voting_bg_photo .pr_bt,.media_voting_bg_gradient .pr_bt,.media_voting_bg_tile .pr_bt,.wk_arrow .pr_bt,.pr_baw .pr_bt,.page_post_video_play_inline_loading .pr_bt,.photos_container .pr_bt,.places_map .pr_bt,.ModalPreloader__dot,.pe_filter_amount_slider .slider_amount,.pe_filter_amount_slider .slider_handler,.article_snippet .article_snippet__action_btn,.round_button_large_white,#card_iframe,.MiniAppLayerFlex iframe{
 	background-color:#fff!important
 }
 .pe_filter_amount_slider .slider_slide{
@@ -507,7 +507,7 @@ body #system_msg[style*="background-color: rgb(255, 180, 163)"],.ui_tab_count.ui
 .market_item_bigph,.friends_find_user_remove,.stories_preview:after{
 	background-color:#222!important
 }
-.tag_faded,.page_preview_doc_photo,.photos_choose_row_bg,.PhotoCarouselImage,.PhotoTagCard__image,#layer_bg,#box_layer_bg,#box_loader .back,#stories_loader .back,.eltt.article_anchor_tooltip{
+.tag_faded,.page_preview_doc_photo,.photos_choose_row_bg,.PhotoCarouselImage,.PhotoTagCard__image,#layer_bg,#box_layer_bg,#box_loader .back,#stories_loader .back,.eltt.article_anchor_tooltip,.ModalPreloader__background{
 	background-color:#000!important
 }
 a.group_ad_post_link,a.group_ad_post_stats,#pv_more_acts_tt .pv_more_act_item:before,.mv_playlist .mv_playlist_header .mv_playlist_header_autoplay_icon,.mv_playlist .mv_playlist_header .mv_playlist_header_reverse_icon{
