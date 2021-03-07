@@ -507,7 +507,7 @@ body #system_msg[style*="background-color: rgb(255, 180, 163)"],.ui_tab_count.ui
 .market_item_bigph,.friends_find_user_remove,.stories_preview:after{
 	background-color:#222!important
 }
-.tag_faded,.page_preview_doc_photo,.photos_choose_row_bg,.PhotoCarouselImage,.PhotoTagCard__image,#layer_bg,#box_layer_bg,#box_loader .back,#stories_loader .back,.eltt.article_anchor_tooltip,.ModalPreloader__background{
+.tag_faded,.page_preview_doc_photo,.photos_choose_row_bg,.PhotoCarouselImage,.PhotoCarousel__blurArea,.PhotoTagCard__image,#layer_bg,#box_layer_bg,#box_loader .back,#stories_loader .back,.eltt.article_anchor_tooltip,.ModalPreloader__background{
 	background-color:#000!important
 }
 a.group_ad_post_link,a.group_ad_post_stats,#pv_more_acts_tt .pv_more_act_item:before,.mv_playlist .mv_playlist_header .mv_playlist_header_autoplay_icon,.mv_playlist .mv_playlist_header .mv_playlist_header_reverse_icon{
