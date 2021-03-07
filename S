@@ -1156,7 +1156,7 @@ html.ns .wall_module .wall_posts.all>.all~.all,html.ns .wall_module .wall_posts.
 	position:absolute;right:100px;top:-1px}
 #page_layout .audio_section__search .CatalogBlock--divided:first-child,
 #page_layout .audio_section__recoms .CatalogBlock--divided:first-child,
-#page_layout .audio_section__for_you .CatalogBlock--divided:first-child,
+#page_layout .CatalogSection__for_you .CatalogBlock--divided:first-child,
 #page_layout .CatalogSection__new_year .CatalogBlock--divided:first-child,
 #page_layout .audio_section__explore .CatalogSection__explore .CatalogBlock--divided:first-child,
 #page_layout .audio_section__explore .CatalogSection__user_list,
@@ -2100,14 +2100,19 @@ html.nl #box_layer_bg,html.nl #layer_bg,html.nl #stories_layers_background{backg
 	--blue_640:var(--g3);
 	--blue_800:var(--g4);
 	--blue_bright:var(--g1);
+	--gray_20:var(--eee);
+	--gray_40:var(--eee);
+	--gray_100:var(--eee);
 	--steel_gray_A540:var(--ccc);
 	--gray_200:var(--ccc);
-	--gray_300:var(--ccc);
+	--gray_300:var(--n999);
 	--gray_400:var(--n999);
 	--gray_500:var(--n999);
 	--gray_600:var(--n777);
 	--gray_700:var(--n777);
+	--gray_750:var(--n777);
 	--gray_800:var(--ccc);
+	--gray_850:var(--ccc);
 	--gray_900:var(--ccc);
 	--gray_950:var(--eee);
 	--gray_960:var(--eee);
