@@ -1816,7 +1816,7 @@ html.pc .page_cover_actions .page_actions_dd_label,.page_cover .v{background-ima
 html.pc .page_cover .v{transform:none}
 html.pc .page_cover{position:relative}
 html.pc .page_cover .page_cover_menu{z-index:1}
-html.pc .page_cover+.page_cover_info{backdrop-filter:blur(14px) brightness(.7);border-radius:0 0 4px 4px;z-index:1;position:absolute;bottom:0;width:100%;box-sizing:border-box;transition:opacity .25s}
+html.pc .page_cover+.page_cover_info{backdrop-filter:blur(14px);background-color:rgba(0,0,0,.3);border-radius:0 0 4px 4px;z-index:1;position:absolute;bottom:0;width:100%;box-sizing:border-box;transition:opacity .25s}
 html.pc .page_cover:hover .w,html.pc .page_cover:hover+.page_cover_info{opacity:0}
 html.pc .page_cover+.page_cover_info .flat_button{background-color:hsla(0,0%,8%,.33)!important;color:#eee!important}
 html.pc .page_cover+.page_cover_info .flat_button:hover{background-color:hsla(0,0%,12%,.33)!important}
