@@ -1833,7 +1833,7 @@ html.ns .theme{margin-bottom:2px!important}
 html.ns #page_layout .CatalogBlock--divided:not(:first-child),html.ns .GamesCatalogProfileBlockList{margin-top:0}
 html.ns .im-page{margin:0;padding:0;height:calc(100vh - var(--header-height))}
 html.ns .im-page_classic:before{top:var(--header-height);height:calc(100vh - var(--header-height));margin-bottom:calc(var(--header-height) - 100vh);border-radius:0}
-html.ns .firefox .im-page_classic:before{height:calc(100vh - 50px)}
+html.ns .firefox .im-page_classic:before{height:calc(100vh - 49px)}
 html.ns .im-create{top:0;bottom:0}
 html.ns .im-page_group:not(.im-page_history-show):before{top:calc(48px + var(--header-height))}
 html.ns .im-page_classic .im-page--chat-input{bottom:0!important}
