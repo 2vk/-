@@ -79,6 +79,8 @@ strong,b{--w:bold}
 html:not(.s) #cp_s,#cp_af,#cp_hc,#cp_ht,#cp_bt,#cp_bc,#cp_mc,#cp_mb,#cp_mm,#cp_mf,#cp_bs,#cp_bs+.w,#cp_bgf+.w :nth-child(4),#cp_c,.feedAssistance_promoButton{
 	display:none!important
 }
+body,button{
+	text-shadow:var(--ts)}
 .Audio__menuContainer,.ai_menu_wrap{
 	z-index:unset!important
 }
@@ -185,10 +187,13 @@ html,.cp_fg{
 	background-image:linear-gradient(90deg,transparent,var(--n15) 300px,transparent)!important
 }
 .articleView__close,.uMailWrite__replyClose,.svgIcon-audio_player__explicit_gray_13,.landing_vk2017_separator,.audioPlaylistSnippet__play:before,.si_link[href^="/mail?act=kick_user"]:before,.ni_close:after,.vk__page_redesign .basis .ii_btn:before,.snippet.snippet_type_podcast .snippet__favorite,.snippet_type_podcast__views:after,.pi_acts_link .i_icon,.convo__pending,.msg__pending,.medias_link_icon:before,.medias_row .i_icon,.audioPlaylistSnippet__subtitle:after,.cp_icon_btn .i_icon,.vi_values .item_like .i_like,.Icon_control_radio:before,.ai_menu_toggle_button:before,.prv_private,.zpv_close_icon,.zpv_bottom .item_button .i_icon,.audioPlaylist__add:before,.audioPlaylist__play:before,.ModalMenu .VKAppsMenu__action--qr:before,.ModalMenu .VKAppsMenu__action--delete:before,.sp_icon.i_store,.sp_icon.i_recent,.Icon_arrowDown:before,.mailActs__icon,.Icon_close12:before,.Icon_close9:before,.Icon_msgMini:before{
-	filter:invert(.5) var(--icon)!important
+	filter:var(--icon)!important
 }
 .post__subscribeBtnIcon_subscribe,.i_signed,.author-page-icon,.notification__media[style*="vkpay_logo_notify.png"],.svgIcon-audio_player__play_blue_24,.svgIcon-audio_player__pause_blue_24,.svgIcon-audio_player__next_blue_28,.svgIcon-audio_player__close_blue_24,.pm_item .i_icon,.notify_item .i_gift,.page_verified,.Icon_star.Icon_blue:before,.snippet.snippet_type_podcast .snippet__favorite_active,.dropdown__item_toggler:after,.Icon_community_subscribed:before,.Icon_control_radio_checked:before,.Icon_audio_plus:before,.transfersHistoryEmptyBox__icon,.zpv_bottom .item_likes_me .i_like,.payment_opt .ii_icon,.PostHeader__repostIcon,.pic_from .i_copy{
-	filter:invert(.5) url(#hue)!important
+	filter:var(--hue)!important
+}
+.svgIcon,.like_wrap i,.i_views,.wi_actions_btn .i_icon{
+	filter:var(--ds)
 }
 .mhi_logo_text path{
 	fill:var(--eee)!important
