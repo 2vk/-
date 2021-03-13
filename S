@@ -79,7 +79,7 @@
 .HintIcon,.GroupOrderDetails__labelHelp,.Table__CellHint,.author_page_info,.bt_hform_helper,.flist_item_hint_icon,.hint_icon:after,.ArchiveRequestForm__encryption-form__top__hint{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill="${l7}" d="M8 0a8 8 0 10.01 0M8 1a7 7 0 11-.01 0"/><path fill="${le}" d="M5.8 6.3a1 1 0 014.7 0c0 2.4-2 1.5-2 3.3H7.3c0-2.4 2-1.5 2-3.3a1 1 0 00-2.3 0m1 4.2a.8.8 0 11-.1 0"/></svg>')!important}
 //like
 .wk_like_icon{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="9" width="11" viewBox="0 0 22 18"><path fill="${k1t}" d="M11 3C14-1.3 18 0 19.2 1 22.2 3 26.2 10 11 18-4.2 10-.2 3 2.8 1 4 0 8-1.3 11 3"/></svg>')!important}
-.like_wrap.lite .like_btn.like .like_button_icon{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="9" width="11" viewBox="0 0 22 18"><path fill="${l9}" d="M11 3C14-1.3 18 0 19.2 1 22.2 3 26.2 10 11 18-4.2 10-.2 3 2.8 1 4 0 8-1.3 11 3"/></svg>')!important}
+.like_wrap.lite .like_btn.like .like_button_icon,.like_indicators_wrap .like_btn_indicator.like .like_button_icon{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="9" width="11" viewBox="0 0 22 18"><path fill="${l9}" d="M11 3C14-1.3 18 0 19.2 1 22.2 3 26.2 10 11 18-4.2 10-.2 3 2.8 1 4 0 8-1.3 11 3"/></svg>')!important}
 .like_btn.like.active .like_button_icon,.like_wrap.lite .like_btn.like.active .like_button_icon{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="9" width="11" viewBox="0 0 22 18"><path fill="${Lc}" d="M11 3C14-1.3 18 0 19.2 1 22.2 3 26.2 10 11 18-4.2 10-.2 3 2.8 1 4 0 8-1.3 11 3"/></svg>')!important}
 .like_btn.like .like_button_icon{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 10"><path fill="none" stroke="${l9}" d="M6 2.2c2.5-3.7 6.5-.3 4.9 2.7q-1 1.6-4.9 4.4-4-2.8-4.9-4.4c-1.6-3 2.4-6.4 4.9-2.7z"/></svg>')!important}
 .like_btn.comment .like_button_icon{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="${l9}" stroke-width="2" d="M6 4h12q3 0 3 3v8q0 3-3 3h-4.5l-4.2 3.5c-1 1-1.2-.5-1.2-1v-2.5h-2q-3 0-3-3v-8q0-3 3-3"/></svg>')!important}
@@ -2037,6 +2037,7 @@ html.sl .media_link:last-child,html.sl .thumbed_link:last-child,html.sl .wall_te
 html.sl .like_cont{padding:3px 0}
 html.sl .ShortVideoPost .like_cont{padding:12px 0 0 0}
 html.sl .like_button_icon{width:16px;height:16px}
+.like_btn .counter_anim_wrap,.like_btn .counter_wrap{height:100%;overflow:hidden}
 
 .article_body #cp,.article_body #cp_s,.author_page_body #cp,.author_page_body #cp_s,.article_ed_body #cp,.article_ed_body #cp_s,.article_ed_body #stl_left,.article_ed_body #page_wrap,.article_ed_body .author_page,.body_article_layer #cp,.body_article_layer #cp_s,.body_article_layer #stl_left,.body_article_layer #page_wrap,.body_article_layer .author_page,.AuthorPage--showing #cp,.AuthorPage--showing #cp_s,.AuthorPage--showing #stl_left,.AuthorPage--showing #page_wrap{
 	visibility:hidden!important;opacity:0!important
