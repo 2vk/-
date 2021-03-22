@@ -597,7 +597,7 @@ html:not(.mg):not(.me):not(.mc) #side_bar .LeftNav__icon{
 #cp,.cp_c,.poster__view,.poster__wrap,.graph_menu_item_sel,.summary_tab_sel,.divider,.theme:after,.left_count_wrap,.CallModal,.Popper,.EditorCanvas,#pv_fullscreen,.stories_layer,#calls,#mv_player_box,#video_player{
 	text-shadow:none!important
 }
-.CircledProgress__accept-sign[fill="#FFF"],.DonutSubscribePopup__avatarIconInline path[fill="#fff"]{
+.CircledProgress__accept-sign[fill="#FFF"],.DonutSubscribePopup__avatarIconInline path[fill="#fff"],.DonutModule__groupImageCornerIcon path[fill="#fff"]{
 	fill:var(--n15)!important
 }
 .article_stat .article_stat__funnel_part_median,.article_stat .article_stat__funnel_part_median#funnel_part_2{
