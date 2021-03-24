@@ -32,7 +32,7 @@
 //bookmark rounded star
 .narrative-snippet__bookmark_button[data-state="1"],.page_media_event__bookmark_button[data-state="1"],.market_fav_btn.selected:before,.GameGifts__giftItemFavorite:hover,.GameGifts__giftItemFavorite--isFavorite,.page_media_link__bookmark_button[data-state="1"],.podcast_snippet__fave.activated,.audio_page_player2 .audio_page_player_fave.activated .btn_icon,.audio_row .audio_row__action_fave.activated,.button_action_light_bookmark.activated:before{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="${g2}" d="M15.6 7.6l4 .4c2 .2 2.5 2.1 1.1 3.3l-3.2 2.8 1.2 4.5c.5 1.9-1.2 3-2.8 2l-3.9-2.8-3.9 2.8c-1.6 1.2-3.3 0-2.8-1.9l1.2-4.5-3.2-2.8c-1.4-1.2-.8-3.1 1-3.3l4.1-.4 1.9-4.3c.7-1.7 2.7-1.7 3.4 0"/></svg>')!important}
 //Donat
-.PageDonatorIcon{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"><circle fill="%23FFA000" cx="6" cy="6" r="6"/><path fill="${n15}" d="M6 8.25l-1.9 1a.25.25 0 01-.37-.26l.37-2.12-1.54-1.5a.25.25 0 01.14-.43l2.12-.3.96-1.94a.25.25 0 01.44 0l.96 1.93 2.12.31a.25.25 0 01.14.43L7.9 6.87l.37 2.12a.25.25 0 01-.37.26l-1.9-1"/></svg>')!important}
+.DonutLinkSnippet__preview:after,.PageDonatorIcon{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12"><circle fill="%23FFA000" cx="6" cy="6" r="6"/><path fill="${n15}" d="M6 8.25l-1.9 1a.25.25 0 01-.37-.26l.37-2.12-1.54-1.5a.25.25 0 01.14-.43l2.12-.3.96-1.94a.25.25 0 01.44 0l.96 1.93 2.12.31a.25.25 0 01.14.43L7.9 6.87l.37 2.12a.25.25 0 01-.37.26l-1.9-1"/></svg>')!important}
 .VerticalVideoLayerInfo .reply_owner .reply_image:after{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 9"><path fill="${n15}" d="M6.62 2.76l2.16.21c.74.07.97.82.4 1.31L7.49 5.72l.63 2.33c.2.76-.44 1.23-1.07.77L5 7.34 2.96 8.82c-.64.46-1.28 0-1.07-.77l.62-2.33L.83 4.28c-.58-.49-.35-1.24.4-1.3l2.15-.22.94-2.24c.3-.7 1.06-.7 1.36 0z"/></svg>')!important}
 
 .mv_chat_message_author_name:after{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10"><path fill="${n15}" d="M.2 4h9.6L2 9.5l3-9 3 9"/></svg>')!important}
@@ -2031,7 +2031,7 @@ html.Pl #stl_left .down{background-position:right -15px}
 html.Pl .r53{left:unset!important;right:0!important}
 
 html.sl .wall_module .wall_text,html.sl .ShortVideoPost{padding-bottom:5px}
-html.sl .media_link:last-child,html.sl .thumbed_link:last-child,html.sl .wall_text .vk2017_snippet,html.sl .wall_text .page_media_thumbed_link:last-child,html.sl .wall_text .audio_artist_snippet:last-child,html.sl .wall_text .audio_pl_snippet2:last-child,html.sl .wall_text .MusicAuthorSnippet:last-child{margin-bottom:-5px!important}
+html.sl .media_link:last-child,html.sl .thumbed_link:last-child,html.sl .wall_text .vk2017_snippet,html.sl .wall_text .page_media_thumbed_link:last-child,html.sl .wall_text .audio_artist_snippet:last-child,html.sl .wall_text .audio_pl_snippet2:last-child,html.sl .wall_text .MusicAuthorSnippet:last-child,html.sl .wall_text .DonutLinkSnippet:last-child{margin-bottom:-5px!important}
 html.sl .like_cont{padding:3px 0}
 html.sl .ShortVideoPost .like_cont{padding:12px 0 0 0}
 html.sl .like_button_icon{width:16px;height:16px}
