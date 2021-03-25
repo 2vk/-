@@ -1885,7 +1885,7 @@ html.rb .ui_rmenu_sliding .ui_rmenu_slider{left:3px;width:10px!important;border-
 html.rb .ui_rmenu_item,html.rb .ui_rmenu_subitem{margin:0 3px;padding-left:17px!important;border:none!important;border-radius:13px}
 html.rb .ui_rmenu_item_sel{border-radius:10px 13px 13px 10px;box-shadow:inset 22.5px 0 0 -20px var(--g2)}
 html.rb .ui_rmenu_sliding .ui_rmenu_item_sel{box-shadow:none}html.rb .ui_rmenu_subitem{padding-left:25px!important}
-html.rb .ui_rmenu .ui_ownblock{margin:0 3px;padding:9px 12px!important;border-radius:15px}
+html.rb .ui_rmenu .ui_ownblock,html.rb .ui_rmenu_vkconnect_row{margin:0 3px;padding:9px 12px!important;border-radius:15px}
 
 html.rb .ui_rmenu_count{margin-right:7px!important}
 html.rb .page_actions_expanded .page_actions_item .ui_rmenu_count{margin-right:0px!important}
