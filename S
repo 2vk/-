@@ -518,7 +518,7 @@ body #system_msg[style*="background-color: rgb(255, 180, 163)"],.ui_tab_count.ui
 .audio_page_layout .no_rows:after,.video_empty_placeholder.no_rows:after{
 	filter:var(--icon) opacity(.5)
 }
-.summary_tab_x,.landing_author_guide_header__close-button,.box_title_wrap .ui_box_search,.help_table_question_act_ok:before,.help_table_question_act_do:before,.cal_table .month_arr .arr,.cp_z:after,.Modal__headerCross:before,.box_title_wrap .box_x_button{
+.eltt_close_button,.summary_tab_x,.landing_author_guide_header__close-button,.box_title_wrap .ui_box_search,.help_table_question_act_ok:before,.help_table_question_act_do:before,.cal_table .month_arr .arr,.cp_z:after,.Modal__headerCross:before,.box_title_wrap .box_x_button{
 	filter:url(#n15)!important
 }
 .invite_box_title_icon{
@@ -2031,7 +2031,7 @@ html.Pl #stl_left .down{background-position:right -15px}
 html.Pl .r53{left:unset!important;right:0!important}
 
 html.sl .wall_module .wall_text,html.sl .ShortVideoPost{padding-bottom:5px}
-html.sl .media_link:last-child,html.sl .thumbed_link:last-child,html.sl .wall_text .vk2017_snippet,html.sl .wall_text .page_media_thumbed_link:last-child,html.sl .wall_text .audio_artist_snippet:last-child,html.sl .wall_text .audio_pl_snippet2:last-child,html.sl .wall_text .MusicAuthorSnippet:last-child,html.sl .wall_text .DonutLinkSnippet:last-child{margin-bottom:-5px!important}
+html.sl .wall_text .media_link:last-child,html.sl .wall_text .thumbed_link:last-child,html.sl .wall_text .vk2017_snippet,html.sl .wall_text .page_media_thumbed_link:last-child,html.sl .wall_text .audio_artist_snippet:last-child,html.sl .wall_text .audio_pl_snippet2:last-child,html.sl .wall_text .MusicAuthorSnippet:last-child,html.sl .wall_text .DonutLinkSnippet:last-child{margin-bottom:-5px!important}
 html.sl .like_cont{padding:3px 0}
 html.sl .ShortVideoPost .like_cont{padding:12px 0 0 0}
 html.sl .like_button_icon{width:16px;height:16px}
