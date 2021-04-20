@@ -952,7 +952,7 @@ input.ui_search_field{
 .im-page--header-icon.im-page--header-icon_search:before{
 	background:no-repeat 50%/16px
 }
-.pv_cont .pv_bottom_actions .pv_actions_more:after,.online.mobile:after{
+.TopHomeLink svg,.pv_cont .pv_bottom_actions .pv_actions_more:after,.online.mobile:after{
 	background-repeat:no-repeat
 }
 .AppsCatalogHeader__search,.AppsCatalogSearchInput__searchControl,.mv_live_gifts_arrow_left:after,.mv_live_gifts_arrow_right:after,.Breadcrumb:after{
