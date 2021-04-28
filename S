@@ -1889,6 +1889,7 @@ html.rb .ui_rmenu .ui_ownblock,html.rb .ui_rmenu_vkconnect_row{margin:0 3px;padd
 
 html.rb .ui_rmenu_count{margin-right:7px!important}
 html.rb .im-right-menu--close{margin-right:3px!important}
+html.rb .PageActionsLabel--withNewBadge{padding-right:0!important}
 html.rb .page_actions_expanded .page_actions_item .ui_rmenu_count{margin-right:0px!important}
 html.rb .page_block_groups .empty .module_body:hover,html.rb .page_actions_expanded .page_actions_item{margin:0 5px;padding:0 10px!important;border-radius:15px!important}
 html.rb .ProfileActions .page_actions_expanded .page_actions_item{margin:0 -10px!important;padding:0 10px!important}
@@ -2040,7 +2041,7 @@ html.sl .like_button_icon{width:16px;height:16px}
 .article_body #cp,.article_body #cp_s,.author_page_body #cp,.author_page_body #cp_s,.article_ed_body #cp,.article_ed_body #cp_s,.article_ed_body #stl_left,.article_ed_body #page_wrap,.article_ed_body .author_page,.body_article_layer #cp,.body_article_layer #cp_s,.body_article_layer #stl_left,.body_article_layer #page_wrap,.body_article_layer .author_page,.AuthorPage--showing #cp,.AuthorPage--showing #cp_s,.AuthorPage--showing #stl_left,.AuthorPage--showing #page_wrap{
 	visibility:hidden!important;opacity:0!important
 }
-.im-page_classic.im-page_creating .im-page--dialogs,.im-page_classic.im-page_creating .im-page--history,html.nl .layers_shown #page_wrap,html.nl .layers_shown #stl_left,html.nl .stories_layer_shown #page_wrap,html.nl .stories_layer_shown #stl_left{opacity:0!important}
+.photos_row_desc_editing .photos_photo_edit_row_desc_placeholder,.im-page_classic.im-page_creating .im-page--dialogs,.im-page_classic.im-page_creating .im-page--history,html.nl .layers_shown #page_wrap,html.nl .layers_shown #stl_left,html.nl .stories_layer_shown #page_wrap,html.nl .stories_layer_shown #stl_left{opacity:0!important}
 html.nl #box_layer_bg,html.nl #layer_bg,html.nl #stories_layers_background{background:none!important}
 
 .audio_page_player_wrap{z-index:100!important}
