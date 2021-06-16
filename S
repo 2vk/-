@@ -1871,7 +1871,7 @@ html.rb #gtop_admin_tips,html.rb .im-group-online-box--top,html.rb .page_block.u
 	border-radius:20px 20px 0 0!important}
 html.rb .chat_onl_inner,html.rb .fc_tab_head{
 	border-radius:10px 10px 0 0!important}
-html.rb .ReplyBoxDonut,html.rb .MarketServiceCreateSubmit,html.rb .owner_photo_additional,html.rb .search_filters_wrap .page_block,html.rb .ui_load_more_btn,html.rb .StickerPackPreview__footer,html.rb .StickerProductsGift__footer,html.rb .SubmitArea,html.rb .gedit_block_footer,html.rb .group_page_block_footer,html.rb .MarketCatalogBlockButtons,html.rb .MarketCatalogOrderListItem:first-child,html.rb .apps_options_bar_bottom,html.rb .tickets_thank_you_form,html.rb .im-page_group .im-page--dialogs,html.rb .GamesCatalogSearchMainContent,html.rb .page_block_info,html.rb .bt_comment_form,html.rb .bt_comment_form_unavailable,html.rb .bt_report_footer,html.rb .apps_i_policy,html.rb #audio_layer_tt,html.rb #top_notify_wrap,html.rb .top_notify_show_all,html.rb .TableColumnsSettingsModal__footer,html.rb .box_no_buttons,html.rb .box_controls,html.rb .wall_module .reply_box,html.rb .wall_module .reply_fakebox_wrap,html.rb .feed_search_shown .feed_found_photos,html.rb .settings_block_footer,html.rb .feed_notifications .more_link,html.rb.pc .page_cover+.page_cover_info,html.rb .theme:before{
+html.rb .ReplyBoxDonut,html.rb .MarketServiceCreateSubmit,html.rb .owner_photo_additional,html.rb .search_filters_wrap .page_block,html.rb .ui_load_more_btn,html.rb .StickerPackPreview__footer,html.rb .StickerProductsGift__footer,html.rb .SubmitArea,html.rb .gedit_block_footer,html.rb .group_edit .group_edit_admin_tips_item:last-child,html.rb .group_page_block_footer,html.rb .MarketCatalogBlockButtons,html.rb .MarketCatalogOrderListItem:first-child,html.rb .apps_options_bar_bottom,html.rb .tickets_thank_you_form,html.rb .im-page_group .im-page--dialogs,html.rb .GamesCatalogSearchMainContent,html.rb .page_block_info,html.rb .bt_comment_form,html.rb .bt_comment_form_unavailable,html.rb .bt_report_footer,html.rb .apps_i_policy,html.rb #audio_layer_tt,html.rb #top_notify_wrap,html.rb .top_notify_show_all,html.rb .TableColumnsSettingsModal__footer,html.rb .box_no_buttons,html.rb .box_controls,html.rb .wall_module .reply_box,html.rb .wall_module .reply_fakebox_wrap,html.rb .feed_search_shown .feed_found_photos,html.rb .settings_block_footer,html.rb .feed_notifications .more_link,html.rb.pc .page_cover+.page_cover_info,html.rb .theme:before{
 	border-radius:0 0 20px 20px!important}
 html.rb .mention_tt_actions,html.rb .fc_tab,html.rb #fc_ctabs_cont,html.rb .gift_tt_show_all{
 	border-radius:0 0 10px 10px!important}
@@ -1999,6 +1999,7 @@ html.mm.mb #side_bar ol li,html.ns:not(.mb) #side_bar ol li,html.Pl.ns #side_bar
 #side_bar .more_div{margin:9px 5px 0 36px!important}
 #side_bar .left_menu_nav_wrap{margin:8px 5px 0 5px!important;padding:12px 0 2px 0!important}
 html.mb .left_settings{margin:calc(-1*var(--left-menu-row-height)) 0 0 -32px}
+html.Pl.ns .left_settings{float:right;margin-right:-30px}
 
 html.Pl.mm #side_bar_inner{right:unset}
 html.Pl.mm #side_bar_inner{margin:calc(var(--header-height) + 7px) 0 0 -16px!important}
@@ -2038,7 +2039,7 @@ html.Pl.ns .wide_column_left .wide_column_wrap{margin-left:230px}
 html.Pl .im-right-menu{margin:0 565px 0 0}
 html.Pl.ns .im-right-menu{margin:0 550px 0 15px}
 html.Pl .im-page_classic{float:right}
-html.Pl.ns .im-right-menu .ui_rmenu,html.Pl.ns .wide_column_left .narrow_column>:last-child .page_block,html.Pl.ns .wide_column_left .narrow_column>.page_block:last-child{border-radius: 0 0 0 20px!important}
+html.Pl.ns .im-page:not(.im-page_group)+.im-right-menu .ui_rmenu,html.Pl.ns .RightMenuBlock,html.Pl.ns .wide_column_left .narrow_column>:last-child .page_block,html.Pl.ns .wide_column_left .narrow_column>.page_block:last-child{border-radius:0 0 0 20px!important}
 html.Pl #stl_left{right:0;left:unset}
 html.Pl #stl_bg{float:right}
 html.Pl #stl_text{margin:0 19px 0 0;background-position:right 0}
