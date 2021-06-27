@@ -2047,6 +2047,7 @@ html.Pl #stl_left .down{background-position:right -15px}
 html.Pl .r53{left:unset!important;right:0!important}
 
 html.sl .wall_module .wall_text,html.sl .ShortVideoPost{padding-bottom:5px}
+html.sl .wall_post_cont:last-child .wall_post_text:last-child{margin-bottom:5px}
 html.sl .wall_text .media_link:last-child,html.sl .wall_text .thumbed_link:last-child,html.sl .wall_text .vk2017_snippet,html.sl .wall_text .page_media_thumbed_link:last-child,html.sl .wall_text .audio_artist_snippet:last-child,html.sl .wall_text .audio_pl_snippet2:last-child,html.sl .wall_text .MusicAuthorSnippet:last-child,html.sl .wall_text .DonutLinkSnippet:last-child{margin-bottom:-5px!important}
 html.sl .like_cont{padding:3px 0}
 html.sl .ShortVideoPost .like_cont{padding:12px 0 0 0}
