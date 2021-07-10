@@ -2184,6 +2184,9 @@ body.dev .dev_main_featured_banners_wrap,body.layers_shown .ChatSettingsRoundedI
 	--steel_gray_80:#e7e8ec;
 	--steel_gray_200:#aeb7c2;
 	--steel_gray_300:#99a2ad;
+	--gray_20:#f9f9f9;
+	--gray_40:#f5f5f5;
+	--gray_100:#e1e3e6;
 	--gray_200:#ccc;
 	--gray_300:#b2b2b2;
 	--gray_400:#939393;
