@@ -1002,7 +1002,7 @@ a.dd_link{
 .GamesCatalogAppRating__star{
 	background-size:12px 48px!important
 }
-.app_rate.full,.app_rate.stats,.ads_ad_app_rating .ads_ad_app_rate.full,.my .app_rate.stats,.GamesCatalogAppRating__star,.GamesCatalogAppRating__star.GamesCatalogAppRating__star--full,#mbe_smile .emoji_smile_icon{
+.app_rate.full,.app_rate.stats,.ads_ad_app_rating .ads_ad_app_rate.full,.my .app_rate.stats,.GamesCatalogAppRating__star,.GamesCatalogAppRating__star.GamesCatalogAppRating__star--full,.emoji_smile_icon:not(.emoji_smile_icon_inline_svg){
 	background-position:0 0!important
 }
 .GamesCatalogAppRating__star.GamesCatalogAppRating__star--half{
