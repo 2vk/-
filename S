@@ -1720,7 +1720,6 @@ html.s #cp_s{background-size:12px}
 #cp input#cp_bfl{background:linear-gradient(to left,white 0%,black 100%)}
 #cp input#cp_hh,#cp input#cp_bfh{background:linear-gradient(to right,#ff0000 0%,#ff00ff 17%,#0000ff 34%,#00ffff 51%,#00ff00 68%,#ffff00 83%,#ff0000 102%)}
 #cp input#cp_bfh{animation:var(--bfha)}
-#cp_bgmi,#cp_bfha{float:left;margin:0 0 -4px -22px}
 #cp input#cp_hl{background:linear-gradient(to right,#000 -50%,var(--g) 100%)}
 #cp input#cp_hs{background:linear-gradient(to right,var(--s),var(--g0) 100%)}
 #cp input#cp_ha{background:linear-gradient(to right,#777,#000)}
@@ -1758,9 +1757,10 @@ html.s #cp_s{background-size:12px}
 #cp_bhb,#cp_fhb{max-height:300px;margin:10px 0 0 -5px;overflow-x:hidden;overflow-y:auto;float:left}
 #cp_fhb{max-height:110px;transition:max-height .5s .1s}
 #cp_fhb:hover{max-height:330px;transition-delay:.5s}
-#cp_c+.w .cp_ht,#cp_v+.w .cp_ht,#cp_b+.w .cp_ht{white-space:nowrap}
-#cp_c+.w .cp_ht>div:first-child,#cp_v+.w .cp_ht>div,#cp_b+.w .cp_ht>div:not(.checkbox){overflow:hidden;width:calc(50% + 3px);height:25px;margin:0 0 -10px;float:left}
-#cp_c+.w .cp_ht input,#cp_v+.w .cp_ht input,#cp_b+.w .cp_ht input,#cp_b+.w .cp_ht span{margin:0}
+#cp_b+.w .cp_ht,#cp_c+.w .cp_ht,#cp_v+.w .cp_ht{white-space:nowrap}
+#cp_b+.w .cp_ht>div:not(.checkbox),#cp_c+.w .cp_ht>div:first-child,#cp_v+.w .cp_ht>div{overflow:hidden;width:calc(50% + 3px);height:25px;margin:0 0 -10px;float:left}
+#cp_b+.w .cp_ht input,#cp_b+.w .cp_ht span,#cp_c+.w .cp_ht input,#cp_v+.w .cp_ht input{margin:0}#cp_b+.w .cp_ht span{display:inline-block;min-width:25%}
+#cp_b+.w .cp_ht .checkbox{float:left;margin:0 0 -4px -23px}
 #cp_v+.w .cp_ht #cp_vbr{width:calc(25% - 6px)}
 #cp_v+.w .cp_ht #cp_vbR{width:calc(25% - 6px);margin-left:6px}
 #cp_vp>div:before{content:'';position:absolute;padding:14px;margin-left:1px;border-radius:50%;border:1px var(--n333) solid!important;transition:border-color .2s}
@@ -1800,8 +1800,8 @@ html.s #cp_s{background-size:12px}
 .cp_c.d:after{content:attr(data-d);display:block;font-size:var(--d)!important;filter:var(--ds)}
 #cp_c0{height:20px!important}
 #cp_c3,#cp_cd{width:calc(50% - 53px)!important}
-#cp_c3{float:left;margin-top:-17px!important}
-#cp_c4{margin:-23px 5px -14px 0!important}
+#cp_c3{float:left;margin-top:-21px!important}
+#cp_c4{margin:-25px 5px -14px 0!important}
 #cp_c6:not(.a)+input,#cp_c8:not(.a)+div,#cp_ca:not(.a)+#cp_cb{display:none}
 #cp_cb{margin:-10px 0 -10px 5px!important;width:50%;float:right}
 
