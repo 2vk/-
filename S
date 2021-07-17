@@ -1759,7 +1759,7 @@ html.s #cp_s{background-size:12px}
 #cp_fhb:hover{max-height:330px;transition-delay:.5s}
 #cp_b+.w .cp_ht,#cp_c+.w .cp_ht,#cp_v+.w .cp_ht{white-space:nowrap}
 #cp_b+.w .cp_ht>div:not(.checkbox),#cp_c+.w .cp_ht>div:first-child,#cp_v+.w .cp_ht>div{overflow:hidden;width:calc(50% + 3px);height:25px;margin:0 0 -10px;float:left}
-#cp_b+.w .cp_ht input,#cp_b+.w .cp_ht span,#cp_c+.w .cp_ht input,#cp_v+.w .cp_ht input{margin:0}#cp_b+.w .cp_ht span{display:inline-block;min-width:25%}
+#cp_b+.w .cp_ht input,#cp_b+.w .cp_ht span,#cp_c+.w .cp_ht input,#cp_v+.w .cp_ht input{margin:0}#cp_bgf+.w .cp_ht span{display:inline-block;min-width:25%}
 #cp_b+.w .cp_ht .checkbox{float:left;margin:0 0 -4px -23px}
 #cp_v+.w .cp_ht #cp_vbr{width:calc(25% - 6px)}
 #cp_v+.w .cp_ht #cp_vbR{width:calc(25% - 6px);margin-left:6px}
