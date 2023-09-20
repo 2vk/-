@@ -345,11 +345,11 @@ html,.cp_fg{
 #ts_wrap .vkuiSearch__input,#ts_wrap .vkuiSearch__input::placeholder,#ts_input,#ts_input:focus,#ts_input::placeholder,#dev_top_input::placeholder,.TopSearch .input_back_content,.top_nav_link,.top_audio_player_title,.Section--gettingMasks *{
 	color:var(--ht)!important
 }
-.vkuiButton--mode-primary.vkuiButton--appearance-accent,.FiltersItem__checked,.mv_playlist_header_subscribe_btn,.FlatButton--primary,.CallSnippet__button,.thumbed_link__button,.flat_button.round_button,.mv_layer--vertical .flat_button,.Button--primary,.flat_button,.button_blue button,.button_red button,.button_orange button,.flat_button.button_bright_blue,.flat_button.mv_live_preparation_publish_btn,.article_ed__caredit .article_ed__caredit_save,.landings-expired-messages__more,.media_voting_footer_button:not([style]),.podcast_snippet__button,.wk_like_count,.DownloadedGamesCatalogBanner__button{
+.VideoActions__item,.VideoQuickLogin__button,.VideoEmptyStub__actionButton--primary,.VideoInfoPanel__action--primary,.vkuiButton--mode-primary.vkuiButton--appearance-accent,.FiltersItem__checked,.mv_playlist_header_subscribe_btn,.FlatButton--primary,.CallSnippet__button,.thumbed_link__button,.flat_button.round_button,.mv_layer--vertical .flat_button,.Button--primary,.flat_button,.button_blue button,.button_red button,.button_orange button,.flat_button.button_bright_blue,.flat_button.mv_live_preparation_publish_btn,.article_ed__caredit .article_ed__caredit_save,.landings-expired-messages__more,.media_voting_footer_button:not([style]),.podcast_snippet__button,.wk_like_count,.DownloadedGamesCatalogBanner__button{
 	background-color:var(--k1)!important;
 	color:var(--k1t)!important
 }
-.graph_menu_item.graph_menu_item_sel,.VideoQuickLogin__button,.VideoActions__item,.VideoEmptyStub__actionButton--primary,.VideoInfoPanel__action--primary,.media_voting_footer_button,.post_from_tt_row.active,.thumbed_link--invitation .thumbed_link__button,.round_tab.selected,.summary_tab_sel .summary_tab3,.summary_tab_sel .summary_tab3 .mem_special,.post_header_subscribe_button_icon{
+.graph_menu_item.graph_menu_item_sel,.media_voting_footer_button,.post_from_tt_row.active,.thumbed_link--invitation .thumbed_link__button,.round_tab.selected,.summary_tab_sel .summary_tab3,.summary_tab_sel .summary_tab3 .mem_special,.post_header_subscribe_button_icon{
 	color:var(--k1t)!important
 }
 .mv_playlist_header_subscribe_btn:hover,.mv_layer--vertical .flat_button:hover,.Button--primary:hover,.Button--primary:not(.Button--disabled):hover,.Button--primary:not(.Button--disabled):focus,.Button--primary:not(.Button--disabled):active,.button_blue button.hover,.button_blue button:hover,.button_blue button.active,.button_blue button:active{
