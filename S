@@ -971,7 +971,7 @@ a.dd_link{
 	visibility:hidden
 }
 #top_audio_layer_place{top:0}
-#top_notify_btn.TopNavBtn--active #top_notify_wrap,.MarketplaceCatalogHeader--visible{
+#top_notify_wrap,.MarketplaceCatalogHeader--visible{
 	top:var(--header-height)
 }
 .im-page .im-page--history-new-bar:after,.im-page .im-page--history-new-bar:before{
@@ -1345,10 +1345,10 @@ body[style*="/images/error404"]:before{
 .TopNavBtn .TopNavBtn__icon,.pv_bg,.pv_find{display:flex!important}
 .TopNavBtn .TopNavBtn__inner{display:flex;place-items:center}
 
-.emoji_tt_wrap,.StickerPickerViewer,.details{
+.emoji_tt_wrap,.StickerPickerViewer,details .details,#top_notify_btn:not(.TopNavBtn--active) #top_notify_wrap{
 	content-visibility:hidden!important
 }
-.emoji_tt_shown,.StickerPickerViewer--isOpen,details[open] .details{
+.emoji_tt_shown,.StickerPickerViewer--isOpen,details[open] .details,#top_notify_btn.TopNavBtn--active #top_notify_wrap{
 	content-visibility:unset!important
 }
 .page_album_title_text{
@@ -1466,7 +1466,7 @@ html.eye,html.vo body,html.bo body,#apps,#flash_api_external_cont,.audio_promo,.
 }
 .eltt{will-change:unset!important;transform-style:unset!important}:focus{outline:none}
 
-.StickerPickerViewer--opened,.cal_table,.Popper,.Tooltip__contentInner,.ProfileWrapper .ProfileHeader,.vkuiRichTooltip,.vkuiDropdown,.vkuiModalPage__in,.WideScreenAppPage .apps_wrapper,.VideoLayout__aside,.VideoSearchInput .ui_search_input_block,.EcommSkeleton__block,.MarketplaceCatalogHeaderMenu--gap,.MarketplaceCatalogPageProfile,.MarketplaceCatalogBlockBanner,.MarketplaceCatalogCategoryMenu__list,.MarketplaceCatalogBlocks__block,.RightMenuBlock,.DonutCatalogPromo,.ClassifiedsSearchResult,.ClassifiedsGroupSection__root,.ClassifiedsGroupProductsCategoryView,.ClassifiedsGroupProductsCategoryPreview,.ClassifiedsGroupProductsCategories__headContainer,.ClassifiedsGroupProductsCategoryProductsPage__headContainer,.ShortVideoPage__container--empty,.FCPanel__list,.FCWindow,.GamesCatalog--search_page,.TopConvoListWrapper,#ts_wrap>div:last-child,.ts_cont_wrap,details[open] #top_notify_wrap,#top_profile_menu.shown,#react_rootEcosystemServicesNavigationEntry>div>div,.cookies_policy_wrap,.tt .tt_text,.ui_search.ui_search_fixed,.stl_active.over_fast #stl_bg,#layer_stl_bg,#dev_page_wrap1,.dev_page_block,#dev_left_nav,#dev_top_nav_wrap,.tickets_suggests_wrap,.wdd_list,.idd_popup,.page_status_editor .editor,.result_list,.emoji_tt_wrap,.sticker_hints_tt,.tt_default,#cp:before,html:not(.mb) #side_bar ol li>a:hover,.page_actions_wrap,.ms_items_more,.ui_actions_menu,.ActionsMenu__inner,.notifier_baloon,.share_head,.landing_transparencyHeader,.wall_module .wl_reply_form_fixed .reply_box,.wall_module .wl_reply_form_fixed .reply_fakebox_wrap,.wl_reply_form_fixed .ReplyBoxDonut,.ReplyBoxDonut.fixed,.im-dropbox,.TemplatesDropDown__container,.article_ed_layer__header,.article_layer__tts_player,.article_layer__content_footer--fix,.photos_upload_area_drop,.photos_choose_upload_area_cont.fixed,.photos_choose_bottom.fixed,.video_choosebox_bottom.fixed{
+.StickerPickerViewer--opened,.cal_table,.Popper,.Tooltip__contentInner,.ProfileWrapper .ProfileHeader,.vkuiRichTooltip,.vkuiDropdown,.vkuiModalPage__in,.WideScreenAppPage .apps_wrapper,.VideoLayout__aside,.VideoSearchInput .ui_search_input_block,.EcommSkeleton__block,.MarketplaceCatalogHeaderMenu--gap,.MarketplaceCatalogPageProfile,.MarketplaceCatalogBlockBanner,.MarketplaceCatalogCategoryMenu__list,.MarketplaceCatalogBlocks__block,.RightMenuBlock,.DonutCatalogPromo,.ClassifiedsSearchResult,.ClassifiedsGroupSection__root,.ClassifiedsGroupProductsCategoryView,.ClassifiedsGroupProductsCategoryPreview,.ClassifiedsGroupProductsCategories__headContainer,.ClassifiedsGroupProductsCategoryProductsPage__headContainer,.ShortVideoPage__container--empty,.FCPanel__list,.FCWindow,.GamesCatalog--search_page,.TopConvoListWrapper,#ts_wrap>div:last-child,.ts_cont_wrap,#top_notify_btn.TopNavBtn--active #top_notify_wrap,details[open] #top_notify_wrap,#top_profile_menu.shown,#react_rootEcosystemServicesNavigationEntry>div>div,.cookies_policy_wrap,.tt .tt_text,.ui_search.ui_search_fixed,.stl_active.over_fast #stl_bg,#layer_stl_bg,#dev_page_wrap1,.dev_page_block,#dev_left_nav,#dev_top_nav_wrap,.tickets_suggests_wrap,.wdd_list,.idd_popup,.page_status_editor .editor,.result_list,.emoji_tt_wrap,.sticker_hints_tt,.tt_default,#cp:before,html:not(.mb) #side_bar ol li>a:hover,.page_actions_wrap,.ms_items_more,.ui_actions_menu,.ActionsMenu__inner,.notifier_baloon,.share_head,.landing_transparencyHeader,.wall_module .wl_reply_form_fixed .reply_box,.wall_module .wl_reply_form_fixed .reply_fakebox_wrap,.wl_reply_form_fixed .ReplyBoxDonut,.ReplyBoxDonut.fixed,.im-dropbox,.TemplatesDropDown__container,.article_ed_layer__header,.article_layer__tts_player,.article_layer__content_footer--fix,.photos_upload_area_drop,.photos_choose_upload_area_cont.fixed,.photos_choose_bottom.fixed,.video_choosebox_bottom.fixed{
 	backdrop-filter:var(--blb)}
 .im-page--dialogs,.im-page--history,.audio_page_player_wrap,.audio_block{
 	backdrop-filter:none!important}
@@ -2239,7 +2239,6 @@ html.sv .theme .PlaylistsSlider,html.sv .theme .PlaylistSlider{margin-right:0!im
 	--content_negative_background:var(--pink_light);
 	--page-block-shadow:none;
 
-
 	--vkui--gradient_tint:linear-gradient(90deg,var(--n22e),#0000);
 	--vkui--color_search_field_background:var(--n29e);
 	--vkui--color_search_field_background--hover:var(--n29e);
@@ -2288,6 +2287,8 @@ html.sv .theme .PlaylistsSlider,html.sv .theme .PlaylistSlider{margin-right:0!im
 	--vkui--color_background_tertiary--active:var(--n33e);
 	--vkui--color_background_contrast_inverse:var(--black_alpha72);
 	--vkui--color_background_modal:var(--n15b);
+	--vkui--color_background_modal_inverse:var(--eee);
+	--vkui--color_background_negative_tint:hsla(0,100%,50%,.2);
 	--vkui--color_background_accent:var(--g2);
 	--vkui--color_background_accent--hover:var(--g2);
 	--vkui--color_background_accent--active:var(--g2);
@@ -2310,6 +2311,7 @@ html.sv .theme .PlaylistsSlider,html.sv .theme .PlaylistSlider{margin-right:0!im
 	--vkui--color_stroke_accent_themed:var(--g2);
 	--vkui--color_stroke_accent_themed--hover: var(--g1);
 	--vkui--color_stroke_accent_themed--active:var(--g3);
+	--vkui--color_stroke_negative:hsla(0,100%,50%,.3);
 	--vkui--color_action_sheet_text:var(--g2);
 	--vkui--color_track_buffer:var(--g2);
 	--vkui--color_track_buffer--hover:var(--g1);
@@ -2329,13 +2331,14 @@ html.sv .theme .PlaylistsSlider,html.sv .theme .PlaylistSlider{margin-right:0!im
 	--vkui--vkontakte_im_reply_separator:var(--n444);
 	--vkui--vkontakte_color_tabbar_active_icon:var(--g2);
 	--vkui--vkontakte_color_poll_option_background:var(--n444);
+	--vkui--vkontakte_color_background_suggestions:var(--n29e);
+	--vkui--vkontakte_background_hover_alpha:var(--n228);
 	--vkui--color_field_border_alpha:var(--n29e);
 	--vkui--color_field_border_alpha--hover:var(--n33e);
 	--vkui--color_image_border_alpha:#0000;
 	--vkui--color_field_background:var(--n158);
 	--vkui--color_image_placeholder:var(--n22e);
 	--vkui--color_image_placeholder_alpha:var(--n228);
-	--vkui--color_background_modal_inverse:var(--eee);
 	--vkui--color_skeleton_from:var(--n22e);
 	--vkui--color_skeleton_to:var(--n33e);
 
