@@ -349,7 +349,7 @@ html,.cp_fg{
 	background-color:var(--k1)!important;
 	color:var(--k1t)!important
 }
-.graph_menu_item.graph_menu_item_sel,.media_voting_footer_button,.post_from_tt_row.active,.thumbed_link--invitation .thumbed_link__button,.round_tab.selected,.summary_tab_sel .summary_tab3,.summary_tab_sel .summary_tab3 .mem_special,.post_header_subscribe_button_icon{
+.media_voting_footer_button,.post_from_tt_row.active,.thumbed_link--invitation .thumbed_link__button,.summary_tab_sel .summary_tab3,.summary_tab_sel .summary_tab3 .mem_special,.post_header_subscribe_button_icon{
 	color:var(--k1t)!important
 }
 .mv_playlist_header_subscribe_btn:hover,.mv_layer--vertical .flat_button:hover,.Button--primary:hover,.Button--primary:not(.Button--disabled):hover,.Button--primary:not(.Button--disabled):focus,.Button--primary:not(.Button--disabled):active,.button_blue button.hover,.button_blue button:hover,.button_blue button.active,.button_blue button:active{
@@ -945,10 +945,10 @@ a.dd_link{
 .ModalHeader__back:hover,.box_title .back:hover,.PopupHeader__backBtn:hover{
 	background:linear-gradient(90deg,var(--n29f),#0000)!important
 }
-.StatusPanel__arrow--left,.StickerPacksPanel__arrow--left{
+.StatusPanel__arrow--left,[class*="StickerPacksPanel-module__arrowLeft"]{
 	background:linear-gradient(90deg,var(--n22f) 30%,#0000 70%)!important
 }
-.StatusPanel__arrow--right,.StickerPacksPanel__arrow--right{
+.StatusPanel__arrow--right,[class*="StickerPacksPanel-module__arrowRight"]{
 	background:linear-gradient(270deg,var(--n22f) 30%,#0000 70%)!important
 }
 .verification_alert.primary{
@@ -2280,8 +2280,8 @@ html.sv .theme .PlaylistsSlider,html.sv .theme .PlaylistSlider{margin-right:0!im
 	--vkui--color_header_background:var(--n15e);
 	--vkui--color_icon_accent:var(--g2);
 	--vkui--color_icon_accent_themed:var(--g2);
-	--vkui--color_icon_contrast:var(--n15);
-	--vkui--color_icon_contrast_secondary:var(--n15);
+	--vkui--color_icon_contrast:#fff;
+	--vkui--color_icon_contrast_secondary:#fff;
 	--vkui--color_icon_contrast_themed:var(--n15);
 	--vkui--color_icon_medium:var(--n777);
 	--vkui--color_icon_medium_alpha:var(--black_alpha48);
