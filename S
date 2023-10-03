@@ -1864,6 +1864,8 @@ html.mb.mm #side_bar ol li>a>:last-child{right:42px}
 html.mm.mb #side_bar ol li,html.mm.ns:not(.mb) #side_bar ol li,html.Pl.mb #side_bar ol li,html.Pl.ns #side_bar ol li{margin-left:-2px!important}
 
 #side_bar .left_menu_nav_wrap{margin:8px 5px 0 5px!important;padding:12px 0 2px 0!important}
+#side_bar .WideSeparator--legalRecommendationsLink{margin:9px 6px 12px!important}
+#side_bar .LegalRecommendationsLinkLeftMenuAuthorized{margin:0 6px!important}
 html.mb #side_bar ol li>div{margin:calc(-1*var(--left-menu-row-height)) 0 0 -32px}
 html.Pl #side_bar ol li>div{float:right;margin-right:-32px}
 html.mb #side_bar ol li>button{left:-32px}
