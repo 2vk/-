@@ -2347,6 +2347,7 @@ html.sv .theme .PlaylistsSlider,html.sv .theme .PlaylistSlider{margin-right:0!im
 	--vkui--vkontakte_color_icon_outline_secondary:var(--n777);
 	--vkui--vkontakte_color_im_bubble_gift_text:var(--gold_500);
 	--vkui--vkontakte_color_im_bubble_gift_text_secondary:var(--gold_400);
+	--vkui--vkontakte_color_im_bubble_outgoing:var(--n29f);
 	--vkui--vkontakte_color_im_bubble_incoming:var(--n228);
 	--vkui--vkontakte_color_im_bubble_incoming_alternate:var(--n228);
 	--vkui--vkontakte_color_im_bubble_incoming_expiring:var(--n29e);
