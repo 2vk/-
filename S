@@ -1883,7 +1883,7 @@ html.mm #side_bar ol li>a{width:20px!important;box-sizing:content-box!important}
 .TopHomeLink{margin:0 6px 0 -6px!important}
 .TopHomeLink svg,#page_header .BtPageHeaderLogo .TopHomeLink{margin:0!important}
 .TopHomeLink svg[height="30"]{margin-left:-3px!important;background-size:contain!important}
-html.mm:not(.Pl) .TopHomeLink svg{background-size:24px;background-position:0 50%}
+html.mm:not(.Pl) .TopHomeLink svg{background-size:24px!important;background-position:0 50%!important}
 html.ns .TopHomeLink{margin:0 2px 0 -2px!important}
 html.mb .TopHomeLink{margin:0 15px 0 -15px!important}
 html.mm .TopHomeLink{margin:0 -128px 0 128px!important}
