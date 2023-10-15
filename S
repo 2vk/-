@@ -1267,9 +1267,10 @@ input[type=number]::-webkit-outer-spin-button,input[type=number]::-webkit-inner-
 :root .sticker_hints_tt .emoji_sticker_image{max-width:100%;max-height:100%;height:100%}.emoji_sticker_image{image-rendering:-webkit-optimize-contrast}
 
 .StickerPickerViewer{max-height:calc(428px * var(--emoji_tt_size))!important}.StickerPickerViewer>div{zoom:var(--emoji_tt_size)}
-.EmojiKeyboardHeader-module__header--T8vBm,.StickersKeyboardHeader-module__title--cCIDg,.StickersKeyboardGroups-module__items--jvNnC,.Tabbar-module__tabbar--px5Db{zoom:calc(1 / var(--emoji_tt_size))}
-.EmojiPickerSection-module__content{contain:unset!important;height:auto!important;gap:9px;padding:4px calc(10px / calc(15 / max(25 - var(--emoji_size)*10, 10)))!important;zoom:calc(15 / max(25 - var(--emoji_size)*10, 10))}
+.StickerPickerViewer [class*="EmojiKeyboardHeader-module__header"],.StickerPickerViewer [class*="StickersKeyboardHeader-module__title"],.StickerPickerViewer [class*="StickersKeyboardGroups-module__items"],.StickerPickerViewer [class*="Tabbar-module__tabbar"]{zoom:calc(1 / var(--emoji_tt_size))}
+.StickerPickerViewer [class*="Sticker-module__in"]{z-index:1}
 .EmojiItem-module__item{margin:0!important}
+.EmojiPickerSection-module__content{contain:unset!important;height:auto!important;gap:9px;padding:4px calc(10px / calc(15 / max(25 - var(--emoji_size)*10, 10)))!important;zoom:calc(15 / max(25 - var(--emoji_size)*10, 10))}
 
 #react_rootEcosystemServicesNavigationEntry{margin-right:-68px;z-index:1}
 #react_rootEcosystemServicesNavigationEntry>div>button{width:24px!important}
