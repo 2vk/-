@@ -193,8 +193,8 @@ a.dd_link,.dd_menu_header div:after{background-image:url('data:image/svg+xml,<sv
 .Pl.ns .ProfileWrapper .ScrollStickyWrapper>:before,.Pl.ns .im-right-menu:before,.Pl.ns .MarketRightMenu:before,.Pl.ns .narrow_column:before,.ns #side_bar_inner:after{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path fill="${n15e}" d="M0 0h20v20Q20 0 0 0"/></svg>')!important}
 .ns .ProfileWrapper .ScrollStickyWrapper>:before,.ns .im-right-menu:before,.ns .MarketRightMenu:before,.ns .narrow_column:before,.Pl.ns #side_bar_inner:after{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path fill="${n15e}" d="M20 0H0v20Q0 0 20 0"/></svg>')!important}
 #cp_is{background:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 13"><path stroke="${le}" fill="none" d="M1.5 6.5a5 5 0 110 .01zM5 5.5a1.5 1.5 0 110 .01zM3 10a6 6 0 017 0"/></svg>') no-repeat 50%}
-.pv_bg:before,.docs_bg_row{background:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" stroke="${l9}" stroke-width="2" fill="none"><path d="M1 8q0-5 5-5h20q5 0 5 5v16q0 5-5 5h-20q-5 0-5-5z"/><path fill="${l9}" stroke-linejoin="round" d="M22 10a2 2 0 110 .01zm4 14-21 0 5.5-14 5.5 9q1.1 1.1 2.6 0l2.8-2z"/></svg>') no-repeat 50%!important}
-.docs_fn_row{background:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path stroke="${l9}" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" d="M1 8q0-5 5-5h20q5 0 5 5v16q0 5-5 5h-20q-5 0-5-5zM5 22l5-13 5 13m-8-3.5h6m7-4c3-1.3 6.6-1.5 6.4 2.5v5m0-3.5c-1.5 5-7.9 4-6.5.5q1-2 6-1.3"/></svg>') no-repeat 50%!important}
+.pv_bg:before,.docs_bg{background:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" stroke="${l9}" stroke-width="2" fill="none"><path d="M1 8q0-5 5-5h20q5 0 5 5v16q0 5-5 5h-20q-5 0-5-5z"/><path fill="${l9}" stroke-linejoin="round" d="M22 10a2 2 0 110 .01zm4 14-21 0 5.5-14 5.5 9q1.1 1.1 2.6 0l2.8-2z"/></svg>') no-repeat 50%!important}
+.docs_fn{background:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path stroke="${l9}" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" d="M1 8q0-5 5-5h20q5 0 5 5v16q0 5-5 5h-20q-5 0-5-5zM5 22l5-13 5 13m-8-3.5h6m7-4c3-1.3 6.6-1.5 6.4 2.5v5m0-3.5c-1.5 5-7.9 4-6.5.5q1-2 6-1.3"/></svg>') no-repeat 50%!important}
 //sound
 #cp_bga.a{background:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="13"><path fill="${l9}" d="M0 5l1-1h2l4-3h1v11H7L3 9H1L0 8m9.5-4.8c1.8 1.6 1.8 5 0 6.6a.5.5 0 00.8.8c2.3-2 2.3-6 0-8.2a.5.5 0 00-.8.8"/></svg>') no-repeat!important}
 //muted
@@ -535,7 +535,7 @@ html.nl .mv_top_button:hover,html.nl .wk_right_nav:hover .wk_close,html.nl .wk_a
 #side_bar ol li>a>:nth-child(3),#side_bar ol li>a:hover>*,#side_bar ol li>div:hover,.left_menu_nav:hover,#layer_stl:hover #layer_stl_bg,.vkuiSwitch__pseudo:after,.share_link_wrap:hover,.BtTopMenu__item--selected a,.PostBottomAction:hover .PostBottomAction__icon,#top_audio_play:hover,.box_x_button:hover,.docs_item:hover .docs_choose_attach,.docs_item:hover .docs_item_thumb[ext=gif] .docs_item_play,.dd_header_hover,.im-page_group #cp_imc:hover,#cp_bgf:hover,#cp_is:hover,#cp_hp.a:hover:after,#cp_hn.a:hover:after,.cp_hb:hover>div,.cp_hf:hover>div,#cp_s:hover,#cp_af:hover,#cp_gs:hover,#cp_ed:hover{
 	opacity:1!important
 }
-.docs_bg_row,.docs_fn_row,.mob_onl,.like_button_icon,.share_link_wrap,.reply_box_photo,.PostBottomAction,.like_views,.hint_icon,.DonutModule__helpIcon,.group_l_edit,#cp_glc,.im-page_group #cp_imc,.ui_actions_menu_icons,.ui_tab_search:after,.im-page--title-main-in span,.im-page--title-main-in:before,.im-page--title-main-in:after,.im-activity--icon,.im-mess--edit,svg,#top_audio_play{
+.docs_bg,.docs_fn,.mob_onl,.like_button_icon,.share_link_wrap,.reply_box_photo,.PostBottomAction,.like_views,.hint_icon,.DonutModule__helpIcon,.group_l_edit,#cp_glc,.im-page_group #cp_imc,.ui_actions_menu_icons,.ui_tab_search:after,.im-page--title-main-in span,.im-page--title-main-in:before,.im-page--title-main-in:after,.im-activity--icon,.im-mess--edit,svg,#top_audio_play{
 	filter:var(--ds)
 }
 html:not(.mg):not(.me):not(.mc) #side_bar ol li>a svg{
@@ -840,7 +840,7 @@ input.ui_search_field,.selector_container td.selector_dropdown{
 	background-position:center 16px!important;
 	background-size:16px!important
 }
-.im-navigation--to-mention .im-navigation__button{
+.im-navigation--to-mention .im-navigation__button,svg.docs_bg,svg.docs_fn{
 	background-position:center!important;
 	background-size:24px!important;
 	background-repeat:no-repeat
@@ -1335,15 +1335,15 @@ body[style*="/images/error404"]:before{
 	background:url(/images/error404.png) no-repeat 50%
 }
 
-.page_block .page_block:before,.video_dashboard .page_block:before,.im-page .page_block:before,.feed_new_posts:before,.page_block_header_outer.page_block:before,html.sv .video_showcase .page_block:before,.wall_module>.page_block:not(.post):first-child:before,.audio_page_layout:not(.podcast_page_layout) ._audio_page_content_block:before,#page_layout .CatalogSection--header_section:before,#page_layout .CatalogSection--divided:before,.GamesCatalog--search_page .GamesCatalogHead:before,
-.reply_link_wrap,.docs_item_actions,#top_profile_menu:not(.shown),#react_rootEcosystemServicesNavigationEntry>div:not([data-dropdown=open])>div,#react_rootEcosystemServicesNavigationEntry>div>button>svg,.MEAvatar__svg,.PostBottomAction:before,.VideoCard__thumb:after,.TopHomeLink svg>*,.HeaderLogo svg>*,#top_notify_btn.has_notify .TopNavBtn__icon svg>*,.audio_search_wrapper .ui_search_filters_pane,.im-navigation__button:before,body.dev .page_header_cont,html:not(.ns) .search_auto_results .search_auto_sep,.feed_is_empty .stories_feed_wrap,.im-mess:before,#Container,#block_optoins,.article>pre>br,.mv_info .ui_actions_menu_item_sublist,#top_audio_btn_group[style*="display: none"]+#top_audio_play,html.bo body>*,html.vo .top_audio_player_title>*,html.vo #stl_left,html.vo #page_layout,html.vo .HeaderNav__item>*:not(#top_audio_player):not(#top_audio_layer_place):not(#top_audio_btn_group),html.vo #top_notify_btn,html.vo .back,html.vo #page_header_cont:before,html.vo #top_audio_play,html.vo #pg_fixed,#album-168874636_0,#vk-backgrounds-block,.article_layer__dark,
+.page_block .page_block:before,.video_dashboard .page_block:before,.im-page .page_block:before,.feed_new_posts:before,.page_block_header_outer.page_block:before,html.sv .video_showcase .page_block:before,.wall_module>.page_block:not(.post):first-child:before,.audio_page_layout:not(.podcast_page_layout) ._audio_page_content_block:before,#page_layout .CatalogSection--header_section:before,#page_layout .CatalogSection--divided:before,.GamesCatalog--search_page .GamesCatalogHead:before,.reply_link_wrap,.docs_bg>*,.docs_fn>*,a[class*="FileCell-module"] .vkuiButtonGroup,
+#top_profile_menu:not(.shown),#react_rootEcosystemServicesNavigationEntry>div:not([data-dropdown=open])>div,#react_rootEcosystemServicesNavigationEntry>div>button>svg,.MEAvatar__svg,.PostBottomAction:before,.VideoCard__thumb:after,.TopHomeLink svg>*,.HeaderLogo svg>*,#top_notify_btn.has_notify .TopNavBtn__icon svg>*,.audio_search_wrapper .ui_search_filters_pane,.im-navigation__button:before,body.dev .page_header_cont,html:not(.ns) .search_auto_results .search_auto_sep,.feed_is_empty .stories_feed_wrap,.im-mess:before,#Container,#block_optoins,.article>pre>br,.mv_info .ui_actions_menu_item_sublist,#top_audio_btn_group[style*="display: none"]+#top_audio_play,html.bo body>*,html.vo .top_audio_player_title>*,html.vo #stl_left,html.vo #page_layout,html.vo .HeaderNav__item>*:not(#top_audio_player):not(#top_audio_layer_place):not(#top_audio_btn_group),html.vo #top_notify_btn,html.vo .back,html.vo #page_header_cont:before,html.vo #top_audio_play,html.vo #pg_fixed,#album-168874636_0,#vk-backgrounds-block,.article_layer__dark,
 #side_bar ol li>div svg,#side_bar ol li>button svg,html.mm #side_bar ol li>div,html.mm #side_bar ol li>button,html.mm #side_bar ol li>a>:nth-child(2),html.mm .side_bar_nav_wrap~div,html.mm #side_bar [id$="_left"],html.mm .left_menu_nav_wrap,.left_menu_mobile_app_promo_block,.landing_author_guide_header__footer,.im-mess--actions,.emoji_sticker_item[href="/im?sel=-184940019"] img,img:before,img:after{
 	display:none!important
 }
-.docs_item:hover .docs_item_actions,.videoplayer--is-short-video .videoplayer_slider,.videoplayer--is-short-video .videoplayer_timeline:hover .videoplayer_timeline_preview,.audio_search_wrapper .ui_search_button_control.ui_search_params_button,.BtPageHeaderLogo .TopHomeLink svg>*,.settings_separated_row_type_browser,.im-mess:hover .im-mess--actions{
+.docs_bg,.docs_fn,.videoplayer--is-short-video .videoplayer_slider,.videoplayer--is-short-video .videoplayer_timeline:hover .videoplayer_timeline_preview,.audio_search_wrapper .ui_search_button_control.ui_search_params_button,.BtPageHeaderLogo .TopHomeLink svg>*,.settings_separated_row_type_browser,.im-mess:hover .im-mess--actions{
 	display:block!important
 }
-.TopNavBtn .TopNavBtn__icon,.pv_bg,.pv_find{display:flex!important}
+.TopNavBtn .TopNavBtn__icon,.pv_bg,.pv_find,a[class*="FileCell-module"]:hover .vkuiButtonGroup{display:flex!important}
 .TopNavBtn .TopNavBtn__inner{display:flex;place-items:center}
 
 .emoji_tt_wrap,.StickerPickerViewer,details .details,#top_notify_btn:not(.TopNavBtn--active) #top_notify_wrap{
