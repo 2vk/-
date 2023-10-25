@@ -528,11 +528,11 @@ html.nl .mv_top_button:hover,html.nl .wk_right_nav:hover .wk_close,html.nl .wk_a
 	opacity:.5}
 #cp_bgf,#cp_is,.share_link_wrap,.BtTopMenu__item a,.PostBottomAction__icon,.like_views__icon,#box_layer_bg,#cp_ed{
 	opacity:.7!important}
-.pg_fixed_back,.TableColumnsSettings__selectedColumnsItem--notInCurrentTable,#top_audio_play,.footer_nav,.left_menu_nav{
+.pg_fixed_back,.TableColumnsSettings__selectedColumnsItem--notInCurrentTable,#top_audio_play,.footer_nav,.left_menu_nav,#side_bar_inner>div>a{
 	opacity:.75}
 #side_bar ol li>a>*{
 	opacity:.9}
-#side_bar ol li>a>:nth-child(3),#side_bar ol li>a:hover>*,#side_bar ol li>div:hover,.left_menu_nav:hover,#layer_stl:hover #layer_stl_bg,.vkuiSwitch__pseudo:after,.share_link_wrap:hover,.BtTopMenu__item--selected a,.PostBottomAction:hover .PostBottomAction__icon,#top_audio_play:hover,.box_x_button:hover,.docs_item:hover .docs_choose_attach,.docs_item:hover .docs_item_thumb[ext=gif] .docs_item_play,.dd_header_hover,.im-page_group #cp_imc:hover,#cp_bgf:hover,#cp_is:hover,#cp_hp.a:hover:after,#cp_hn.a:hover:after,.cp_hb:hover>div,.cp_hf:hover>div,#cp_s:hover,#cp_af:hover,#cp_gs:hover,#cp_ed:hover{
+#side_bar ol li>a>:nth-child(3),#side_bar ol li>a:hover>*,#side_bar ol li>div:hover,.left_menu_nav:hover,#side_bar_inner>div>a:hover,#layer_stl:hover #layer_stl_bg,.vkuiSwitch__pseudo:after,.share_link_wrap:hover,.BtTopMenu__item--selected a,.PostBottomAction:hover .PostBottomAction__icon,#top_audio_play:hover,.box_x_button:hover,.docs_item:hover .docs_choose_attach,.docs_item:hover .docs_item_thumb[ext=gif] .docs_item_play,.dd_header_hover,.im-page_group #cp_imc:hover,#cp_bgf:hover,#cp_is:hover,#cp_hp.a:hover:after,#cp_hn.a:hover:after,.cp_hb:hover>div,.cp_hf:hover>div,#cp_s:hover,#cp_af:hover,#cp_gs:hover,#cp_ed:hover{
 	opacity:1!important
 }
 .docs_bg,.docs_fn,.mob_onl,.like_button_icon,.share_link_wrap,.reply_box_photo,.PostBottomAction,.like_views,.hint_icon,.DonutModule__helpIcon,.group_l_edit,#cp_glc,.im-page_group #cp_imc,.ui_actions_menu_icons,.ui_tab_search:after,.im-page--title-main-in span,.im-page--title-main-in:before,.im-page--title-main-in:after,.im-activity--icon,.im-mess--edit,svg,#top_audio_play{
@@ -1178,7 +1178,7 @@ input[type=number]::-webkit-outer-spin-button,input[type=number]::-webkit-inner-
 #cp,#cp input,.cp_c,.cp_a,.article_snippet__title,.article_anchor_tooltip,.article_snippet__action_btn,.piechart_tooltip,.MEPopper,.feed_new_posts>b,.PageActionCell__counter,.MenuList__itemCounter,.ui_rmenu_count,.poster__view,.poster__wrap,.graph_menu_item_sel,.summary_tab_sel,.divide,.divider,.sdivide,.theme .redesigned-group-cover:after,.theme .page_cover:after,.PostBottomAction,.like_views,.tt_w.like_tt,.tt_w.voting_tt,.tt_black .tt_text,.im_sticker_bl_promo,.CallModal,.Popper,.EditorCanvas,#pv_fullscreen,.stories_layer,#calls,#mv_player_box,#video_player{
 	text-shadow:none!important
 }
-#side_bar ol li>a,#side_bar ol li>a>span,#side_bar ol li>a svg,.left_menu_nav,.left_restore_link{
+#side_bar ol li>a,#side_bar ol li>a>span,#side_bar ol li>a svg,.left_menu_nav,.left_restore_link,#side_bar_inner>div>a{
 	color:var(--mc)!important
 }
 .story_feed_active_live .stories_feed_preview_author_name{
