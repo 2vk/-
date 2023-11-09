@@ -2512,10 +2512,13 @@ body.dev .dev_main_featured_banners_wrap,body.layers_shown .ChatSettingsRoundedI
 	--white:#eee;
 	--text_primary:#000
 }
-body.layers_shown .mv_layer--vertical{
+body.layers_shown .mv_layer--vertical,body.layers_shown #GoodsRecognition{
 	--white:var(--eee);
+	--white_alpha64:var(--n999);
 	--gray_700:var(--n22e);
+	--gray_750:var(--n29e);
 	--gray_800:var(--n29e);
+	--gray_900:var(--n15e);
 	--link-color:var(--g2)
 }
 html.vkui [scheme=bright_light]{
