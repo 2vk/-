@@ -792,8 +792,8 @@ body:not(.stories_layer_shown):not(.layers_shown):not(.vk__page_app):not(.z_open
 	--vkui--vkontakte_color_snippet_border_alpha:var(--n29e);
 	--vkui--vkontakte_color_status_background:var(--n22e);
 	--vkui--vkontakte_color_tabbar_active_icon:var(--g2);
-	--vkui--vkontakte_color_tabbar_background:var(--n228);
-	--vkui--vkontakte_color_tabbar_inactive_icon:var(--n444);
+	--vkui--vkontakte_color_tabbar_background:var(--n22f);
+	--vkui--vkontakte_color_tabbar_inactive_icon:var(--n999);
 	--vkui--vkontakte_color_tabbar_tablet_text_secondary:var(--n777);
 	--vkui--vkontakte_color_text_name:var(--g2);
 	--vkui--vkontakte_color_toolbar_attach_background_from:var(--n29e);
