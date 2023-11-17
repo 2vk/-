@@ -543,7 +543,7 @@ html:not(.mg):not(.me):not(.mc) #side_bar ol li>a svg{
 }
 .PostButtonReactions__icon[style*="reactions-0"] path[fill^="url"]{fill:none!important}
 .PostButtonReactions__icon[style*="reactions-0"] path[fill="rgb(255,255,255)"]{transform:scale(1.5)}
-.PostButtonReactions__icon[style*="reactions-0"] path[fill="rgb(255,255,255)"],.Reaction:first-child path[fill^="url"]{fill:var(--lc)!important}
+.PostButtonReactions__icon[style*="reactions-0"] path[fill="rgb(255,255,255)"],.Reaction:first-child path[fill^="url"],.HighlightingAuthorLike__icon path:last-child{fill:var(--lc)!important}
 .Reaction:first-child path[fill="rgb(255,255,255)"],#meOnlineVkMe>:last-child,.emoji_stickers_pack_peer_info__purchased_icon svg>:last-child,.CircledProgress__accept-sign[fill="#FFF"],.group_title_icon path[fill="#fff"],#star_circle_fill_yellow_12 path[fill="#fff"],.nim-dialog--donut path[fill="#fff"],.DonutSubscribePopup__avatarIconInline path[fill="#fff"],.DonutModule__groupImageCornerIcon path[fill="#fff"],.DonutLinkSnippet__previewIcon path[fill="#fff"],.PageDonatorIcon path[fill="#fff"],.page_verified-icon path[fill="#fff"]{
 	fill:var(--n15)!important}
 .browse_stat_chart path[stroke="none"]{
@@ -554,7 +554,7 @@ html:not(.mg):not(.me):not(.mc) #side_bar ol li>a svg{
 	fill:var(--n29e)!important}
 .article_stat .article_stat__funnel_part_median#funnel_part_3{
 	fill:var(--n33e)!important}
-.emoji_stickers_pack_peer_info__purchased_icon svg>:first-child,.article_stat .article_stat__funnel_part_median#funnel_part_4{
+.emoji_stickers_pack_peer_info__purchased_icon svg>:first-child,.article_stat .article_stat__funnel_part_median#funnel_part_4,.HighlightingAuthorLike__icon path[fill^="#99"]{
 	fill:var(--n777)!important}
 .article_stat .article_stat__funnel_part_current#funnel_part_0{
 	fill:var(--g3)!important;opacity:.2}
@@ -1955,7 +1955,7 @@ html.ol .PostButtonReactions>*{pointer-events:none}
 html.ol:not(.sl) .wall_module .wall_text{padding-bottom:6px!important}
 html.ol:not(.sl) .PostBottomActionLikeBtns.like_cont{padding:0 0 6px 0!important}
 
-.vkui:not(.s) #cp_s,.article_body #cp,.article_body #cp_s,.author_page_body #cp,.author_page_body #cp_s,.article_ed_body #cp,.article_ed_body #cp_s,.article_ed_body #stl_left,.article_ed_body #page_wrap,.article_ed_body .author_page,.body_article_layer #cp,.body_article_layer #cp_s,.body_article_layer #stl_left,.body_article_layer #page_wrap,.body_article_layer .author_page,.body_article_layer #layer_wrap,.AuthorPage--showing #cp,.AuthorPage--showing #cp_s,.AuthorPage--showing #stl_left,.AuthorPage--showing #page_wrap{
+.vkui:not(.s) #cp_s,.article_body #cp,.article_body #cp_s,.author_page_body #cp,.author_page_body #cp_s,.article_ed_body #cp,.article_ed_body #cp_s,.article_ed_body #stl_left,.article_ed_body #page_wrap,.article_ed_body .author_page,.body_article_layer #cp,.body_article_layer #cp_s,.body_article_layer #stl_left,.body_article_layer #page_wrap,.body_article_layer .author_page,.body_article_layer #layer_wrap,.body_article_layer #wk_layer_wrap,.AuthorPage--showing #cp,.AuthorPage--showing #cp_s,.AuthorPage--showing #stl_left,.AuthorPage--showing #page_wrap{
 	visibility:hidden!important;opacity:0!important
 }
 .share_link_wrap .share_link,.MarketplaceCatalogHeader--fixed:not(.MarketplaceCatalogHeader--visible),.photos_row_desc_editing .photos_photo_edit_row_desc_placeholder,.im-page_classic.im-page_creating .im-page--dialogs,.im-page_classic.im-page_creating .im-page--history,html.nl .layers_shown #pg_fixed,html.nl .layers_shown #page_wrap,html.nl .layers_shown #stl_left,html.nl .stories_layer_shown #page_wrap,html.nl .stories_layer_shown #stl_left,html.nl .BaseModal__bodyHiddenOverflow #page_wrap,html.nl .BaseModal__bodyHiddenOverflow #stl_left{opacity:0!important}
