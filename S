@@ -193,7 +193,7 @@ a.dd_link,.dd_menu_header div:after{background-image:url('data:image/svg+xml,<sv
 .Pl.ns .ProfileWrapper .ScrollStickyWrapper>:before,.Pl.ns .im-right-menu:before,.Pl.ns .MarketRightMenu:before,.Pl.ns .narrow_column:before,.ns #side_bar_inner:after{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path fill="${n15e}" d="M0 0h20v20Q20 0 0 0"/></svg>')!important}
 .ns .ProfileWrapper .ScrollStickyWrapper>:before,.ns .im-right-menu:before,.ns .MarketRightMenu:before,.ns .narrow_column:before,.Pl.ns #side_bar_inner:after{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path fill="${n15e}" d="M20 0H0v20Q0 0 20 0"/></svg>')!important}
 #cp_is{background:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 13"><path stroke="${le}" fill="none" d="M1.5 6.5a5 5 0 110 .01zM5 5.5a1.5 1.5 0 110 .01zM3 10a6 6 0 017 0"/></svg>') no-repeat 50%}
-.pv_bg:before,.docs_bg{background:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" stroke="${l9}" stroke-width="2" fill="none"><path d="M1 8q0-5 5-5h20q5 0 5 5v16q0 5-5 5h-20q-5 0-5-5z"/><path fill="${l9}" stroke-linejoin="round" d="M22 10a2 2 0 110 .01zm4 14-21 0 5.5-14 5.5 9q1.1 1.1 2.6 0l2.8-2z"/></svg>') no-repeat 50%!important}
+.pv_bg:before,.docs_bg,#mv_bg:before{background:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" stroke="${l9}" stroke-width="2" fill="none"><path d="M1 8q0-5 5-5h20q5 0 5 5v16q0 5-5 5h-20q-5 0-5-5z"/><path fill="${l9}" stroke-linejoin="round" d="M22 10a2 2 0 110 .01zm4 14-21 0 5.5-14 5.5 9q1.1 1.1 2.6 0l2.8-2z"/></svg>') no-repeat 50%!important}
 .docs_fn{background:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path stroke="${l9}" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" d="M1 8q0-5 5-5h20q5 0 5 5v16q0 5-5 5h-20q-5 0-5-5zM5 22l5-13 5 13m-8-3.5h6m7-4c3-1.3 6.6-1.5 6.4 2.5v5m0-3.5c-1.5 5-7.9 4-6.5.5q1-2 6-1.3"/></svg>') no-repeat 50%!important}
 //sound
 #cp_bga.a{background:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="13"><path fill="${l9}" d="M0 5l1-1h2l4-3h1v11H7L3 9H1L0 8m9.5-4.8c1.8 1.6 1.8 5 0 6.6a.5.5 0 00.8.8c2.3-2 2.3-6 0-8.2a.5.5 0 00-.8.8"/></svg>') no-repeat!important}
@@ -213,9 +213,9 @@ a.wk_ext_link{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3
 #cp_ed{background:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 13"><path stroke="${lc}" fill="none" stroke-linecap="round" d="M10 1a1 1 0 112 2l-7 7a1 3 45 11-2-2zM5.5 3.5 l4 4M7.4 5l4-4 .6.6-4 4"/></svg>') no-repeat 50%/16px}
 #cp_hp:after,#cp_hn:after{background:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6 8"><path stroke="${l7}" stroke-linecap="round" fill="none" d="M1 3l2-2m0 0 2 2m-2-2v4q0 2 2 2"/></svg>') no-repeat 50%/16px}
 #cp_hn:before{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path fill="${n15b}" d="M0 20Q20 20 20 0V20"/></svg>')}
-***{
+**.firefox *{
 	scrollbar-color:var(--g2) #0000;
-	scrollbar-width:thin
+	scrollbar-width:thin;
 }
 body *{
 	font-family:var(--f,inherit)!important;
@@ -1429,6 +1429,10 @@ body[style*="/images/error404"]:before{
 .cp_ex a{display: block;padding:0 0 5px 0;font-size:16px;text-decoration:none}
 .cp_ex div{float:left;width:38px;height:38px;margin:2px 0 0 -48px;border-radius:8px;background:url('//pp.userapi.com/H3GJZ4mrgOMchw7vOBPcybcc2B55eRNByPXLUw/Smh9-xkCQEA.jpg') left/cover}
 
+#mv_bg{background:var(--n22e);padding:8px 10px;border-radius:32px;margin-left:8px}
+#mv_bg:before{content:'';display:block;width:20px;height:20px}
+.like_btns #mv_bg{background:none;padding:12px 10px}
+.like_btns #mv_bg:before{width:16px;height:16px}
 
 scrollbar{position:fixed;top:0;right:0;width:12px;height:100%;z-index:10000}
 scrollbar:active{width:100%}
@@ -1468,7 +1472,7 @@ html.eye,html.vo body,html.bo body,#apps,#flash_api_external_cont,.audio_promo,.
 	box-shadow:none!important
 }
 
-html.s #cp,.cp_e,#cp_bc.a,#cp_bc.a+#cp_bs,#cp_bc.a+#cp_bs+.w,#mv_more_act_bg,.video_no_actions .video_thumb_actions{display:block}
+html.s #cp,.cp_e,#cp_bc.a,#cp_bc.a+#cp_bs,#cp_bc.a+#cp_bs+.w,#mv_bg,.video_no_actions .video_thumb_actions{display:block}
 .cp_bg{display:block;position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:-99}
 .cp_bg f,.cp_bg n,.cp_bg v,.cp_fg,.cp_hb video,.cp_hb img{position:absolute;top:0;left:0;width:100%;height:100%}
 .cp_bg f{animation:var(--bfha)}
@@ -1535,7 +1539,7 @@ html.s #cp_s{background-size:12px}
 #cp_bfs,#cp_bfc,#cp_bfl{position:relative}#cp_bfs:after,#cp_bfc:after,#cp_bfl:after{content:'';position:absolute;left:calc(50% - 1px);top:-4px;width:2px;height:2px;background:var(--n777);border-radius:1px;z-index:-1}
 #cp_ha[data-title=off]{opacity:0;pointer-events:none}
 #cp input::-webkit-slider-thumb{width:16px;height:16px;-webkit-appearance:none;cursor:pointer;background:radial-gradient(#0000,var(--eee) 100%);border:1px solid rgba(0,0,0,.2);box-shadow:0 1px 5px rgba(0,0,0,.5);border-radius:50%}
-.cp_z,#cp_s,#cp_af,#cp_gs,#cp_bsc,#cp_c4,#cp_v.a span,#cp_vp>div,#bl_b,#bg_s,.cp_s,.cp_ss[data-h],.theme .redesigned-group-cover,.theme .page_cover,#cp_r,#cp label,.cp_ht span,#cp_bgf,#cp_is,#cp_ed{cursor:pointer}
+.cp_z,#cp_s,#cp_af,#cp_gs,#cp_bsc,#cp_c4,#cp_v.a span,#cp_vp>div,#bl_b,#bg_s,.cp_s,.cp_ss[data-h],.theme .redesigned-group-cover,.theme .page_cover,#cp_r,#cp label,.cp_ht span,#cp_bgf,#cp_is,#cp_ed,#mv_bg{cursor:pointer}
 .video_thumb_action_bg{display:inline-flex!important}.video_thumb_action_bg:before{content:'';display:block;height:16px;width:16px;background:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" stroke="%23fff" stroke-width="2" fill="none"><path d="M1 8q0-5 5-5h20q5 0 5 5v16q0 5-5 5h-20q-5 0-5-5z"/><path fill="%23fff" stroke-linejoin="round" d="M22 10a2 2 0 110 .01zm4 14-21 0 5.5-14 5.5 9q1.1 1.1 2.6 0l2.8-2z"/></svg>') no-repeat 50%/16px!important}
 #cp_eye{position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:999999}
 #cp_hh::-webkit-slider-thumb{background:var(--h)!important}
