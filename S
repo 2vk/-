@@ -85,7 +85,7 @@ img[src*="/images/contact"],[style*="/images/contact"],.group_contact_image_wrap
 //deactivated
 .reply_deleted .reply_img,img[src*="mLrG7mi-98Y.jpg"],img[src$="WNLQg4iEz-k.png"],img[src$="70U0FUKKdCE.png"],img[src$="qwMS8N3slgU.png"],img[alt=DELETED],img[src*="/images/deactivated_"],[style*="/images/deactivated_"]{object-fit:none;object-position:1000px;background:var(--n29f) url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 368 368"><path fill="${g4}" d="M257 74c-26 10-35 19-43 21h-6c-21-6-43-5-64 1h-4c-7-2-24-14-47-19-35-6-44 24-32 40 4 6 10 13 18 20 11 11 14 17 15 23 1 9 0 22 12 77 25 103 84 96 106 76 26-22 36-64 39-75 11-44 11-66 15-75 1-3 3-5 7-8 9-7 32-32 37-45 9-21-9-54-53-36zm-2 25c2 1-1 3-3 5-1 1 7 2 6 5s-9-2-10-2c-3 2-7 5-6 6 0 1 6 3 4 6-1 2-7-3-8-2-3 2-5 5-8 4s3-5 3-6-6-2-6-4c1-4 7 0 9 0l7-6c-1-1-7-1-6-5 2-2 9 2 10 2 3-1 6-5 8-3zm-59 65c14 14 14 14 16 14l14-13c5-5 13 4 9 9-13 13-13 13-13 15l12 13c5 6-3 13-9 10-12-13-12-13-14-13l-15 13c-4 4-12-3-8-10 13-12 13-12 13-14s-1-2-14-16c-3-5 4-12 9-8zm-56 17c2 0 2-1 11-10 3-3 10 3 7 7l-10 11 10 10c3 5-3 10-7 7-8-9-10-10-11-10l-10 9c-5 5-10-1-7-6l9-10c0-2 0-1-10-11-3-3 3-10 8-7l10 10zm65 101c-4 15-18 29-28 27-16-3-24-20-26-31-7-29 64-29 54 4z"/></svg>') no-repeat 50%!important}
 //face
-img[src$="2G-nzM7_pH4.png"],img[src$="ucP1cjlkpZk.png"],img[src*="7oh8V3B731U.jpg"]{object-fit:none;object-position:1000px;background:var(--n29f) url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="${g4}" d="M8.9 8.6a3.1 3.1 0 100-.01m-2.7 7.5c0-4.5 11.6-4.5 11.6 0q0 1.4-1.4 1.4h-8.8q-1.4 0-1.4-1.4"/></svg>') no-repeat 50%!important}
+img[src$="mmv1pcj63C4.png"],img[src$="2G-nzM7_pH4.png"],img[src$="ucP1cjlkpZk.png"],img[src*="7oh8V3B731U.jpg"]{object-fit:none;object-position:1000px;background:var(--n29f) url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="${g4}" d="M8.9 8.6a3.1 3.1 0 100-.01m-2.7 7.5c0-4.5 11.6-4.5 11.6 0q0 1.4-1.4 1.4h-8.8q-1.4 0-1.4-1.4"/></svg>') no-repeat 50%!important}
 //camera
 img[src*="/images/dquestion_i"],img[src*="/images/camera_"],[style*="/images/camera_"]{object-fit:none;object-position:1000px;background:var(--n29f) url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120"><path fill="${g4}" d="M30 51q0-8 8-8h2c6 0 2-8 12-8h16c10 0 6 8 12 8h2q8 0 8 8v24q0 8-8 8H38q-8 0-8-8m15-14a15 15 0 100-.01m5 0a10 10 0 100-.01m28-11a2.5 2.5 0 100-.01"/></svg>') no-repeat 50%!important}
 .pretty-card__photo_upload_yes,.im-chat-placeholder,.medadd_c_linkimg_container[style*="/images/post_snippet_image_placeholder."],.market_ei_photo_add,[style*="/images/camera_big.png"]{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="60" height="48" viewBox="0 0 60 48"><path fill="${g4}" d="M0 16q0-8 8-8h2c6 0 2-8 12-8h16c10 0 6 8 12 8h2q8 0 8 8v24q0 8-8 8H8q-8 0-8-8m15-14a15 15 0 100-.01m5 0a10 10 0 100-.01m28-11a2.5 2.5 0 100-.01"/></svg>')!important}
@@ -241,6 +241,9 @@ body,button,input,textarea{
 
 .nim-dialog{
 	float:left
+}
+.vkuiTappable__stateLayer{
+	z-index:-1
 }
 #stl_side,.ui_search_controls,.ui_search_custom_ctrl,.page_block._audio_page_content_block{
 	z-index:1!important
