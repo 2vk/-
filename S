@@ -1953,11 +1953,11 @@ html.ol:not(.sl) .PostBottomActionLikeBtns.like_cont{padding:0 0 6px 0!important
 html.nl #box_layer_bg,html.nl #layer_bg,html.nl #stories_layers_background,html.nl .BaseModal__backdrop,html.nl .vkuiModalRoot__mask{background:none!important}
 
 
-.cp_e{position:relative;padding-right:15px;margin-right:-15px}
+.cp_e{position:relative;padding-right:10px;margin-right:-10px}
 .cp_eq{width:350px;height:100px;left:-303px;padding:15px 100px 10px 0;user-select:none;transform:none!important}
 .cp_e:hover .cp_eq,.cp_eq:hover{display:block;opacity:1;pointer-events:auto}
 .cp_ec{position:absolute;bottom:8px;width:30px;text-align:center;font-size:10px!important;color:var(--n777)}
-.cp_eq>input{opacity:0;transform:rotate(-90deg);margin:24px -44px 0 0;width:76px;height:32px}.cp_eq>input::-webkit-slider-thumb,.cp_ec:hover{cursor:pointer}
+.cp_eq>input{opacity:0;transform:rotate(-90deg);margin:24px -44px 0 0;width:76px;height:32px}.cp_eq>input::-webkit-slider-thumb,.cp_ec:hover,.cp_e button{cursor:pointer}
 .cp_eq>svg{position:absolute;top:10px;left:30px;z-index:-1}.cp_eq.n>svg path{transition:none}.cp_eq>svg path,.cp_e .vkuiIconButton path{transition:d .3s}
 .cp_e.a .vkuiIconButton path:last-child{color:var(--g2);d:path('M3 9v10m4-8v8m4-13v13m4-9v9m4-6v6')}
 .cp_eq>p{position:absolute;bottom:9px;margin:0 -4px;width:20px;text-align:center;font-size:8px!important;color:var(--n777);display:inline-block}
