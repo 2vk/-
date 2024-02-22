@@ -59,7 +59,7 @@
 .like_btn.comment .like_button_icon{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="${l9}" stroke-width="2" d="M6 4h12q3 0 3 3v8q0 3-3 3h-4.5l-4.2 3.5c-1 1-1.2-.5-1.2-1v-2.5h-2q-3 0-3-3v-8q0-3 3-3"/></svg>')!important}
 .like_btn.share .like_button_icon,.button_action_light_share:before,.reply_link_wrap.share_link_wrap{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12"><path fill="none" stroke="${l9}" stroke-linejoin="round" d="M11.4 6l-4.9 4V7.6Q2.7 7.7.7 9.3q.5-4.6 5.8-5V2z"/></svg>')!important}
 .post_top_info_wall_share_icon{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13"><path fill="${l9}" d="M0 8H3c-1.5 0-3-.7-3-2.1V5c0-1.4 1.5-2.1 3-2.1h4c1 0 1.4-.4 2.9-1.4L12 0h1v11h-1L9.9 9.4C8.4 8.4 8 8 7 8H6l1 3c0 1.2 0 2-2 2L3.5 8z"/></svg>')!important}
-#stl_text,#layer_stl_text{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="15" height="45" viewBox="0 0 15 45" filter="${ds}"><path stroke="${le}" fill="none" d="M1,10.5 7.5,4 14,10.5M1,18.5 7.5,25 14,18.5M8,31 1.5,37.5 8,44" stroke-width="2"/></svg>')!important}
+#layer_stl_text{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="15" height="45" viewBox="0 0 15 45" filter="${ds}"><path stroke="${le}" fill="none" d="M1,10.5 7.5,4 14,10.5M1,18.5 7.5,25 14,18.5M8,31 1.5,37.5 8,44" stroke-width="2"/></svg>')!important}
 .article_layer .article_layer__back{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path stroke="${le}" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M15 18l-6-6 6-6"/></svg>')!important}
 .article_layer .article_layer__up.article_layer__up--shown{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><path stroke="${le}" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M13 30l11-11 11 11"/></svg>')!important}
 .bookmark_link.no_cover .bookmark_link__image,.bookmarks_add_link_box .bookmarks_add_link_box__preview.no_cover{background:var(--n22f) url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36"><path fill="${lc}" d="M15.9 20.1c.6.6.6 1.6 0 2.1-.6.6-1.6.6-2.1 0-3-2.9-3-7.6 0-10.6L19 6.3A7.5 7.5 0 0 1 29.7 17l-2.3 2.3c0-1.3-.1-2.5-.6-3.7l.7-.7a4.5 4.5 0 0 0 0-6.3 4.5 4.5 0 0 0-6.3 0l-5.3 5.3a4.5 4.5 0 0 0 0 6.3zm4.2-6.3c.6-.6 1.6-.6 2.1 0 3 2.9 3 7.6 0 10.6L17 29.7A7.5 7.5 0 0 1 6.3 19l2.3-2.3c0 1.3.1 2.5.6 3.7l-.7.7a4.5 4.5 0 0 0 0 6.3 4.5 4.5 0 0 0 6.3 0l5.3-5.3a4.5 4.5 0 0 0 0-6.3c-.6-.6-.6-1.6 0-2.1z"/></svg>') no-repeat 50%!important}
@@ -1911,8 +1911,6 @@ html.Pl .im-page_classic,html.Pl .MarketOrdersList{float:right}
 html.Pl.ns .ProfileWrapper .ProfileGroup:last-child>.vkuiGroup__inner,html.Pl.ns .im-page:not(.im-page_group)+.im-right-menu .ui_rmenu,html.Pl.ns .RightMenuBlock,html.Pl.ns .MarketRightMenu,html.Pl.ns .wide_column_left .narrow_column>:last-child .page_block,html.Pl.ns .wide_column_left .narrow_column>.page_block:last-child{border-radius:0 0 0 20px!important}
 html.Pl #stl_left{right:0;left:unset}
 html.Pl #stl_bg{float:right}
-html.Pl #stl_text{margin:0 19px 0 0;background-position:right 0}
-html.Pl #stl_left .down{background-position:right -15px}
 html.Pl .r53{left:unset!important;right:0!important}
 
 .PostActionStatusBar,.PostBottomAction{height:36px!important;padding-top:0!important;padding-bottom:0!important}
@@ -1964,7 +1962,7 @@ html.nl #box_layer_bg,html.nl #layer_bg,html.nl #stories_layers_background,html.
 .cp_eq>:last-child{display:flex;flex-direction:column;justify-content:space-between;align-items:center;position:absolute;top:17px;left:0;width:10px;padding-left:10px;height:74px;font-size:8px!important;color:var(--n777)}
 .cp_eq>:last-child:before{content:'+12'}.cp_eq>:last-child:after{content:'-12'}
 .cp_ep{position:absolute;right:0;top:5px;width:110px;line-height:17px;text-align:center;overflow:hidden;display:flex;flex-direction:column;white-space:nowrap}
-.cp_ep p{margin:0;pointer-events:none;font-size:12px!important}
+.cp_ep p{margin:0;pointer-events:none;font-size:12px!important;color:var(--ccc)}
 .cp_ep p:nth-child(4){font-weight:bold;font-size:14px!important;color:var(--g3)}
 .cp_ep p:nth-child(3),.cp_ep p:nth-child(5){opacity:0.9}
 .cp_ep p:nth-child(2),.cp_ep p:nth-child(6){opacity:0.8}
