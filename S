@@ -1282,6 +1282,7 @@ html.ns .top_profile_menu_new,html.ns #react_rootEcosystemServicesNavigationEntr
 #audio_layer_tt{left:-294px}
 .audio_layer_container [class*="AudioPlayerBlockCompactLayout-module__root"]{padding:8px 0px 2px}
 .audio_layer_container [class*="AudioPlayerBlockSectionsLayout-module__root"]{padding:0;max-width:calc(100% - 6px)}
+html.ns .AudioPlayerBlock__root .vkuiSpacing[style*="height: 72"]{display:block!important;height:56px!important;padding:0!important}
 
 .audio_page_player_wrap{z-index:unset!important}.audio_page_player_wrap:hover,#audio_layer_tt .audio_page_player_wrap{z-index:102!important}
 .audio_page_player2 .audio_page_player_play{position:absolute;left:30px;padding:14px 0!important}
