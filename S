@@ -1709,7 +1709,7 @@ html.sv .VideoActions{padding:15px 15px 20px!important}
 .VideoSearchInput--sticky{min-width:unset!important;transform:translateY(48px)!important}
 
 html.ns .page_block,html.ns .page_block:last-child,html.ns .PageBlock,html.ns .MarketplaceCatalogHeaderMenu,html.ns .MarketplaceCatalogFields__field,html.ns .MarketplaceCatalogBlocks__block,html.ns .ClassifiedsSearchResult,html.ns .ClassifiedsGroupSection__root,html.ns .ClassifiedsGroupProductsCategoryView,html.ns .ClassifiedsGroupProductsCategoryPreview,html.ns .ClassifiedsGroupProductsCategories__headContainer,html.ns .ClassifiedsGroupProductsCategoryProductsPage__headContainer,html.ns .ShortVideoPage,html.ns .ShortVideoPost,html.ns .DonutCatalogPromo,html.ns .RightMenuBlock,html.ns .MarketRightMenu{margin:0}
-html.ns .page_block.post,html.ns ._playlist_page_content_block,html.ns .faq_search_form,html.ns .audio_promo{margin:0!important}
+html.ns .page_block.post,html.ns ._playlist_page_content_block,html.ns .faq_search_form,html.ns .audio_promo,html.ns .stories_feed_wrap{margin:0!important}
 html.ns .MarketplaceCatalogFields{width:auto}
 html.ns #page_layout .CatalogBlock--divided:not(:first-child),html.ns .im-page_classic #im_dialogs{margin-top:0}
 html.ns .im-page{margin:0;padding:0;height:calc(100vh - var(--header-height))}
@@ -1809,6 +1809,7 @@ html.bm .im-page--chat-header_muted .im-page--title:after,html.bm .im-page--titl
 html.bm .im-page--title--casper .im-page--title-main-in:before{order:1;content:'';width:16px;height:16px;margin-left:4px}
 html.bm .im-page--chat-header_muted .im-page--title-main-in:after{order:2;content:'';width:11px;height:13px;margin:1px 0 0 6px}
 
+:root .im-page .im-page-chat-contain{z-index:unset}
 .im-page{padding:0!important;height:calc(100vh - var(--header-height) - 30px)}
 .im-create{top:0}
 :root .im-page_classic:not(.im-page_creating):before{border-radius:0!important;position:sticky;width:550px;top:calc(var(--header-height) + 1px);height:calc(100vh - var(--header-height) - 1px);margin-bottom:calc(1px + var(--header-height) - 100vh)}
