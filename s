@@ -313,7 +313,7 @@ html.s #cp,.cp_e,#cp_bc.a,#pv_more_act_bg,#mv_more_act_bg,.video_no_actions:not(
 .cp_bg{display:block;position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:-99}
 .cp_bg f,.cp_bg n,.cp_bg v,.cp_fg,.cp_hb video,.cp_hb img{position:absolute;top:0;left:0;width:100%;height:100%}
 .cp_bg f{animation:var(--bfha)}
-.cp_bg n{background:var(--bgn);animation:bgn 1s step-end infinite;mix-blend-mode:overlay}
+.cp_bg n{background:var(--bgn);animation:var(--bgna);mix-blend-mode:overlay}
 .cp_bg v{box-shadow:var(--bgv)}
 .cp_fg,.cp_fg video,.cp_fg iframe,.cp_hb video,.cp_hb img{object-fit:var(--obf);object-position:var(--obp);border:none;pointer-events:none}
 .cp_fg{background:var(--bg);transform:var(--bgt);filter:var(--bgf);transition:background .9s}
@@ -858,6 +858,6 @@ body:not(.stories_layer_shown):not(.layers_shown):not(.vk__page_app):not(.z_open
 	--steel_gray_540:var(--n777);
 	--steel_gray_600:var(--n999);
 }
-@keyframes bgn{10%{background-position:256px 0px}20%{background-position:256px 256px}30%{background-position:0px 256px}40%{background-position:192px 192px}50%{background-position:128px 0px}60%{background-position:0px 128px}70%{background-position:128px 256px}80%{background-position:256px 128px}90%{background-position:64px 64px}100%{background-position:0px 0px}}
+@keyframes bgn{0%{background-position:0px 0px}10%{background-position:0px 128px}20%{background-position:128px 128px}30%{background-position:128px 256px}40%{background-position:0px 256px}50%{background-position:128px 0px}60%{background-position:256px 0px}70%{background-position:256px 192px}80%{background-position:64px 64px}90%{background-position:192px 192px}}
 @keyframes rotate{to{transform:rotate(360deg)}}
 @keyframes hue{to{filter:hue-rotate(360deg)}}
