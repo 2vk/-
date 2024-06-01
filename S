@@ -2315,6 +2315,8 @@ html.sv .theme .PlaylistsSlider,html.sv .theme .PlaylistSlider{margin-right:0!im
 	--vkui--color_stroke_positive:hsla(108,100%,50%,.3);
 	--vkui--color_text_accent:var(--g2);
 	--vkui--color_text_accent_themed:var(--g2);
+	--vkui--color_text_accent_themed--hover:var(--g1);
+    --vkui--color_text_accent_themed--active:var(--g3);
 	--vkui--color_text_contrast:#fff;
 	--vkui--color_text_contrast_themed:var(--n15);
 	--vkui--color_text_link:var(--g2);
