@@ -226,7 +226,7 @@ body *{
 body,button,input,textarea{
 	text-shadow:var(--ts)}
 .ui_rmenu_item_sel,.nim-dialog--name,.audio_page_player_title_song,.audio_row__title,.audio_page_player_play_rate{--w:500}
-.landing_author_guide_header__title-group,.friends_field_title,.top_nav_link,.wk_sub_sub_header,strong,b{--w:bold}
+.vkuiTypography--weight-1,.landing_author_guide_header__title-group,.friends_field_title,.top_nav_link,.wk_sub_sub_header,strong,b{--w:bold}
 
 .redesigned-group-cover:after,.page_cover:after,.cp_z,.cp_a,.cp_a>div{font-family:var(--palette-vk-font)!important}
 .PhotoEditorTheme [class*="__classic"]{--f:'RobotoPE'}
@@ -2006,6 +2006,7 @@ html.sv .theme .VideoCard:last-child{margin:0!important}
 .theme .VideoCard--playlist .VideoCard__info,.theme .VideoSubheader{border:none}
 .theme .VideoCard__info{position:absolute;bottom:0;width:100%;height:100%;padding:0 50px 8px 10px!important;box-sizing:border-box;align-items:end;background:linear-gradient(3deg,#000a,#0000 75%);z-index:1}
 .theme .VideoCard__titleWrapper{display:block}
+.theme .VideoCard__thumbWrapper{z-index:unset}
 .theme .VideoCard__title{display:block;max-height:unset;color:#eee;font-size:12.5px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-decoration:none}
 .theme .VideoCard__additionalInfo{font-size:12.5px;margin:0;color:#ccc!important}
 .theme .VideoGrid{gap:20px;grid-template-columns:repeat(auto-fill,minmax(350px,1fr))}
