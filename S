@@ -1707,22 +1707,22 @@ html.ns .ProfileWrapper .WallLegacy{padding-top:0!important;margin-top:0!importa
 html.ns .ProfileWrapper .ScrollStickyWrapper{margin-left:0!important;margin-right:0!important;flex-grow:0}
 html.ns .ProfileWrapper .ScrollStickyWrapper>[style*=" top: 64px"]{margin-top:calc(-1 * var(--page-block-offset))!important}
 html.ns .ProfileWrapper .RedesignedPageBlockContainer{margin-top:0}
-html.ns .vkuiSpacing{display:none!important}
+html.ns .vkuiSpacing,html.ns .vkuiGroup__separator{display:none!important}
 html.ns .feed_reposts_more_link{margin:0;width:100%;border-radius:0}
 html.ns .MarketOrdersList{width:565px}
 html.ns .page_block,html.ns .PageBlock,html.ns .ReplyBoxDonut,html.ns .ClassifiedsSearchResult,html.ns .ClassifiedsGroupSection__root,html.ns .ClassifiedsGroupProductsCategoryView,html.ns .ClassifiedsGroupProductsCategoryPreview,html.ns .ClassifiedsGroupProductsCategories__headContainer,html.ns .ClassifiedsGroupProductsCategoryProductsPage__headContainer,html.ns .ShortVideoPost,html.ns #page_layout .CatalogBlock--divided,html.ns #page_layout .audio_section,
 html.ns .theme .redesigned-group-cover:before,html.ns .redesigned-group-cover:after,html.ns .redesigned-group-info:before,html.ns .faq_search_form{border-radius:0!important}
 html.ns #page_header,html.ns #page_layout,html.ns .im-page_classic.im-page_group .im-group-online,html.ns .im-page_classic .im-page--header,html.ns .im-page_classic .im-page--chat-header{padding:0!important}
 
-:root body{
+:root body,.vkui--vkBase--light,.vkui--vkCom--light{
 	--vkui--size_border_radius--regular:2px;
 	--vkui--size_border_radius_paper--regular:4px
 }
-html.ns body{
+html.ns body,html.ns .vkui--vkBase--light,html.ns .vkui--vkCom--light{
 	--vkui--size_border_radius--regular:5px;
 	--vkui--size_border_radius_paper--regular:0
 }
-html.rb body{
+html.rb body,html.rb .vkui--vkBase--light,html.rb .vkui--vkCom--light{
 	--vkui--size_border_radius--regular:10px;
 	--vkui--size_border_radius_paper--regular:20px
 }
