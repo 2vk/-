@@ -1296,7 +1296,7 @@ html.ns .AudioPlayerBlock__root .vkuiSpacing[style*="height: 72"]{display:block!
 
 html.rm .MEApp__route{flex-direction:row-reverse}
 html.rm .CollapsibleContainer:after{left:0}
-.ConvoList,.ConvoList__headerContent,.ConvoList__item,.ConvoList__footer,.ConvoHeader,.ConvoMain,.ConvoMain__rightPanelContainer{background-color:unset!important}
+.ConvoList,.ConvoList__headerContent,.ConvoList__item,.ConvoList__footer,.ConvoHeader,.ConvoMain,.ConvoMain__rightPanelContainer,.ContentPlaceholder{background-color:unset!important}
 .ConvoListItem:before{background-color:var(--n22f)!important}
 .ConvoHistory__messageBlockSelected--withoutBubbles .ConvoMessageWithoutBubble,.ConvoListItem--selected:before{background-color:var(--n33f)!important}
 .MEConfig .sbarThumb:before{background-color:var(--g2)!important}
