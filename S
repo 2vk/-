@@ -378,7 +378,7 @@ html,.cp_fg{
 .vkuiButton--mode-primary.vkuiButton--appearance-negative,.FlatButton--negative,.Button--negative{
 	background-color:var(--red)!important
 }
-#tickets_reply_rows>[style*="background"]:not(.msg),.nim-dialog_classic.nim-dialog_unread-out .nim-dialog--inner-text,.nim-dialog_unread.nim-dialog_classic,.im-mess_unread,.im-mess.im-mess_was_edited.im-mess_unread.im-mess_nobg{
+.ConvoMessageWithoutBubble:has(use[*|href="#check_outline_16"]),#tickets_reply_rows>[style*="background"]:not(.msg),.nim-dialog_classic.nim-dialog_unread-out .nim-dialog--inner-text,.nim-dialog_unread.nim-dialog_classic,.im-mess_unread,.im-mess.im-mess_was_edited.im-mess_unread.im-mess_nobg{
 	background-color:var(--uc)!important
 }
 .online:after,.vkUOnline,.Avatar--online:after,.im-group-online--beacon-wrapper,.im-group-online--beacon-signal,.MEAvatar__online{
