@@ -1257,6 +1257,9 @@ input[type=number]::-webkit-outer-spin-button,input[type=number]::-webkit-inner-
 .ConvoMessageWithoutBubble__sticker .AttachSticker>div,.ConvoMessageWithoutBubble__sticker .AttachSticker canvas,
 .sticker_img_wrapper .sticker_img,.sticker_img_wrapper .sticker_animation,.sticker_img_wrapper .svg_sticker_animation{width:100%!important;height:100%!important}
 
+.ConvoComposer__stickerEmojiMenuPopper{width:unset!important;max-height:calc(428px * var(--emoji_tt_size))!important}.ConvoComposer__stickerEmojiMenuPopper>div{zoom:var(--emoji_tt_size)}
+.StickerEmojiMenu [class*="EmojiKeyboardHeader-module__header"],.StickerEmojiMenu [class*="StickersKeyboardHeader-module__title"],.StickerEmojiMenu [class*="StickersKeyboardGroups-module__items"],.StickerEmojiMenu [class*="Tabbar-module__tabbar"]{zoom:calc(1 / var(--emoji_tt_size))}
+
 .StickerPickerViewer{max-height:calc(428px * var(--emoji_tt_size))!important}.StickerPickerViewer>div{zoom:var(--emoji_tt_size)}
 .StickerPickerViewer [class*="EmojiKeyboardHeader-module__header"],.StickerPickerViewer [class*="StickersKeyboardHeader-module__title"],.StickerPickerViewer [class*="StickersKeyboardGroups-module__items"],.StickerPickerViewer [class*="Tabbar-module__tabbar"]{zoom:calc(1 / var(--emoji_tt_size))}
 .StickerPickerViewer [class*="Sticker-module__in"]{z-index:1}
@@ -1298,11 +1301,12 @@ html.rm .MEApp__route{flex-direction:row-reverse}
 html.rm .CollapsibleContainer:after{left:0}
 .CollapsibleContainer__widthControllerButton{background-color:unset!important;border:unset!important;box-shadow:unset!important}
 .ConvoList,.ConvoList__headerContent,.ConvoList__item,.ConvoList__footer,.ConvoHeader,.ConvoMain,.ConvoMain__rightPanelContainer,.ContentPlaceholder{background-color:unset!important}
+.RightPanel__container{background-color:var(--n15b)!important}
 .ConvoListItem:before{background-color:var(--n22f)!important}
 .ConvoHistory__messageBlockSelected--withoutBubbles .ConvoMessageWithoutBubble,.ConvoListItem--selected:before{background-color:var(--n33f)!important}
 .MEConfig .sbarThumb:before{background-color:var(--g2)!important}
 
-.MEApp:before,#page_body .PageBlock:before,#page_body .page_block:before,.vkuiGroup--mode-card:before,.VideoShowcaseCommunityHeader:before,.MarketplaceCatalogHeader--fixed:before,.ShortVideoPost:before,#page_layout .CatalogSection:before,#page_layout .CatalogBlock--divided:before,#page_layout ._playlist_page_content_block:before,html.mb #side_bar_inner:before,.im-page:before,#wk_box:before,#pv_box:before,#mv_box:before,.box_layout:before,.BaseModal__content:before,.ap_layer__content:before,.PodcastEpisodeLayer__content:before,#faq_search_form:before,#page_header_cont:before,.StudioHeader:before,.eltt:not(.feature_intro_tt):before{
+.MEApp:before,.StickerEmojiMenuPopper__content--enter-done:before,.StickerPickerViewer--isOpen:before,#page_body .PageBlock:before,#page_body .page_block:before,.vkuiGroup--mode-card:before,.VideoShowcaseCommunityHeader:before,.MarketplaceCatalogHeader--fixed:before,.ShortVideoPost:before,#page_layout .CatalogSection:before,#page_layout .CatalogBlock--divided:before,#page_layout ._playlist_page_content_block:before,html.mb #side_bar_inner:before,.im-page:before,#wk_box:before,#pv_box:before,#mv_box:before,.box_layout:before,.BaseModal__content:before,.ap_layer__content:before,.PodcastEpisodeLayer__content:before,#faq_search_form:before,#page_header_cont:before,.StudioHeader:before,.eltt:not(.feature_intro_tt):before{
 	content:'';display:block;position:absolute;top:0;left:0;width:100%;height:100%;backdrop-filter:var(--blb);border-radius:inherit;z-index:-1}
 .body_article_layer:before,.article_body:before,.PageFooterWrap:before,.dev_main_wrap:before{
 	content:'';display:block;position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:-1;
@@ -1456,7 +1460,7 @@ html.eye,html.vo body,html.bo body,#apps,#flash_api_external_cont,.audio_promo,.
 }
 .eltt{will-change:unset!important;transform-style:unset!important}:focus{outline:none}
 
-.ActionsMenu,.StickerPickerViewer--opened,.cal_table,.Popper,.Tooltip__contentInner,.ProfileWrapper .ProfileHeader,.vkuiRichTooltip,.vkuiDropdown,.vkuiModalPage__in,.vkuiPopover__in,.WideScreenAppPage .apps_wrapper,.VideoLayout__aside,.VideoSearchInput .ui_search_input_block,.EcommSkeleton__block,.MarketplaceCatalogHeaderMenu--gap,.MarketplaceCatalogPageProfile,.MarketplaceCatalogBlockBanner,.MarketplaceCatalogCategoryMenu__list,.MarketplaceCatalogBlocks__block,.RightMenuBlock,.DonutCatalogPromo,.ClassifiedsSearchResult,.ClassifiedsGroupSection__root,.ClassifiedsGroupProductsCategoryView,.ClassifiedsGroupProductsCategoryPreview,.ClassifiedsGroupProductsCategories__headContainer,.ClassifiedsGroupProductsCategoryProductsPage__headContainer,.ShortVideoPage__container--empty,.FCPanel__list,.FCWindow,.GamesCatalog--search_page,.TopConvoListWrapper,#ts_wrap>div:last-child,.ts_cont_wrap,#top_notify_wrap.open,details[open] #top_notify_wrap,#top_profile_menu.shown,#react_rootEcosystemServicesNavigationEntry>div>div,.cookies_policy_wrap,.tt .tt_text,.ui_search.ui_search_fixed,.stl_active.over_fast #stl_bg,#layer_stl_bg,#dev_page_wrap1,.dev_page_block,#dev_left_nav,#dev_top_nav_wrap,.tickets_suggests_wrap,.wdd_list,.idd_popup,.page_status_editor .editor,.result_list,.emoji_tt_wrap,.sticker_hints_tt,.tt_default,#cp:before,html:not(.mb) #side_bar ol li>a:hover,.page_actions_wrap,.ms_items_more,.ui_actions_menu,.ActionsMenu__inner,.notifier_baloon,.share_head,.landing_transparencyHeader,.wall_module .wl_reply_form_fixed .reply_box,.wall_module .wl_reply_form_fixed .reply_fakebox_wrap,.wl_reply_form_fixed .ReplyBoxDonut,.ReplyBoxDonut.fixed,.im-dropbox,.TemplatesDropDown__container,.article_ed_layer__header,.article_layer__tts_player,.article_layer__content_footer--fix,.photos_upload_area_drop,.photos_choose_upload_area_cont.fixed,.photos_choose_bottom.fixed,.video_choosebox_bottom.fixed{
+.ActionsMenu,.RightPanel__container,.cal_table,.Popper,.Tooltip__contentInner,.ProfileWrapper .ProfileHeader,.vkuiRichTooltip,.vkuiDropdown,.vkuiModalPage__in,.vkuiPopover__in,.WideScreenAppPage .apps_wrapper,.VideoLayout__aside,.VideoSearchInput .ui_search_input_block,.EcommSkeleton__block,.MarketplaceCatalogHeaderMenu--gap,.MarketplaceCatalogPageProfile,.MarketplaceCatalogBlockBanner,.MarketplaceCatalogCategoryMenu__list,.MarketplaceCatalogBlocks__block,.RightMenuBlock,.DonutCatalogPromo,.ClassifiedsSearchResult,.ClassifiedsGroupSection__root,.ClassifiedsGroupProductsCategoryView,.ClassifiedsGroupProductsCategoryPreview,.ClassifiedsGroupProductsCategories__headContainer,.ClassifiedsGroupProductsCategoryProductsPage__headContainer,.ShortVideoPage__container--empty,.FCPanel__list,.FCWindow,.GamesCatalog--search_page,.TopConvoListWrapper,#ts_wrap>div:last-child,.ts_cont_wrap,#top_notify_wrap.open,details[open] #top_notify_wrap,#top_profile_menu.shown,#react_rootEcosystemServicesNavigationEntry>div>div,.cookies_policy_wrap,.tt .tt_text,.ui_search.ui_search_fixed,.stl_active.over_fast #stl_bg,#layer_stl_bg,#dev_page_wrap1,.dev_page_block,#dev_left_nav,#dev_top_nav_wrap,.tickets_suggests_wrap,.wdd_list,.idd_popup,.page_status_editor .editor,.result_list,.emoji_tt_wrap,.sticker_hints_tt,.tt_default,#cp:before,html:not(.mb) #side_bar ol li>a:hover,.page_actions_wrap,.ms_items_more,.ui_actions_menu,.ActionsMenu__inner,.notifier_baloon,.share_head,.landing_transparencyHeader,.wall_module .wl_reply_form_fixed .reply_box,.wall_module .wl_reply_form_fixed .reply_fakebox_wrap,.wl_reply_form_fixed .ReplyBoxDonut,.ReplyBoxDonut.fixed,.im-dropbox,.TemplatesDropDown__container,.article_ed_layer__header,.article_layer__tts_player,.article_layer__content_footer--fix,.photos_upload_area_drop,.photos_choose_upload_area_cont.fixed,.photos_choose_bottom.fixed,.video_choosebox_bottom.fixed{
 	backdrop-filter:var(--blb)}
 .im-page--dialogs,.im-page--history,.audio_block{
 	backdrop-filter:none!important}
@@ -2294,9 +2298,9 @@ html.sv .theme .PlaylistsSlider,html.sv .theme .PlaylistSlider{margin-right:0!im
 	--vkui--color_image_border_alpha:#0000;
 	--vkui--color_image_placeholder:var(--n22e);
 	--vkui--color_image_placeholder_alpha:var(--n228);
-	--vkui--color_search_field_background:var(--n29e);
-	--vkui--color_search_field_background--hover:var(--n29e);
-	--vkui--color_search_field_background--active:var(--n29e);
+	--vkui--color_search_field_background:var(--n22e);
+	--vkui--color_search_field_background--hover:var(--n22e);
+	--vkui--color_search_field_background--active:var(--n22e);
 	--vkui--color_segmented_control:var(--n444);
 	--vkui--color_separator_primary:var(--n29e);
 	--vkui--color_separator_primary_alpha:var(--n29e);
