@@ -222,8 +222,8 @@ body *{
 	font-weight:var(--w,400)}
 body,button,input,textarea{
 	text-shadow:var(--ts)}
-.ui_rmenu_item_sel,.nim-dialog--name,.audio_page_player_title_song,.audio_row__title,.audio_page_player_play_rate{--w:500}
-.vkuiTypography--weight-1,.landing_author_guide_header__title-group,.friends_field_title,.top_nav_link,.wk_sub_sub_header,strong,b{--w:bold}
+.ConvoListItem__header,.ui_rmenu_item_sel,.nim-dialog--name,.audio_page_player_title_song,.audio_row__title,.audio_page_player_play_rate,h3{--w:500}
+.ConvoMessageHeader__authorLink,.vkuiTypography--weight-1,.landing_author_guide_header__title-group,.friends_field_title,.top_nav_link,.wk_sub_sub_header,strong,b{--w:bold}
 
 .redesigned-group-cover:after,.page_cover:after,.cp_z,.cp_a,.cp_a>div{font-family:var(--palette-vk-font)!important}
 .PhotoEditorTheme [class*="__classic"]{--f:'RobotoPE'}
@@ -1302,9 +1302,10 @@ html.rm .CollapsibleContainer:after{left:0}
 .CollapsibleContainer__widthControllerButton{background-color:unset!important;border:unset!important;box-shadow:unset!important}
 .ConvoList,.ConvoList__headerContent,.ConvoList__item,.ConvoList__footer,.ConvoHeader,.ConvoMain,.ConvoMain__rightPanelContainer,.ContentPlaceholder{background-color:unset!important}
 .RightPanel__container{background-color:var(--n15b)!important}
-.ConvoListItem:before{background-color:var(--n22f)!important}
-.ConvoHistory__messageBlockSelected--withoutBubbles .ConvoMessageWithoutBubble,.ConvoListItem--selected:before{background-color:var(--n33f)!important}
+.ReactionChip,.ConvoListItem:before{background-color:var(--n22f)!important}
+.ReactionChip__overlay,.ConvoHistory__messageBlockSelected--withoutBubbles .ConvoMessageWithoutBubble,.ConvoListItem--selected:before{background-color:var(--n33f)!important}
 .MEConfig .sbarThumb:before{background-color:var(--g2)!important}
+.MEApp .vkuiIcon--check_outline_16,.MEApp .vkuiIcon--check_double_outline_16{opacity:0.5;color:var(--n777)!important}
 
 .MEApp:before,.StickerEmojiMenuPopper__content--enter-done:before,.StickerPickerViewer--isOpen:before,#page_body .PageBlock:before,#page_body .page_block:before,.vkuiGroup--mode-card:before,.VideoShowcaseCommunityHeader:before,.MarketplaceCatalogHeader--fixed:before,.ShortVideoPost:before,#page_layout .CatalogSection:before,#page_layout .CatalogBlock--divided:before,#page_layout ._playlist_page_content_block:before,html.mb #side_bar_inner:before,.im-page:before,#wk_box:before,#pv_box:before,#mv_box:before,.box_layout:before,.BaseModal__content:before,.ap_layer__content:before,.PodcastEpisodeLayer__content:before,#faq_search_form:before,#page_header_cont:before,.StudioHeader:before,.eltt:not(.feature_intro_tt):before{
 	content:'';display:block;position:absolute;top:0;left:0;width:100%;height:100%;backdrop-filter:var(--blb);border-radius:inherit;z-index:-1}
