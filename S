@@ -384,7 +384,7 @@ html,.cp_fg{
 .online:after,.vkUOnline,.Avatar--online:after,.im-group-online--beacon-wrapper,.im-group-online--beacon-signal,.MEAvatar__online{
 	background-color:var(--oc)!important
 }
-#ui_rmenu_admin_tips .ui_rmenu_extra_label>*,.nim-dialog_muted .nim-dialog--unread,.nim-dialog_muted .nim-dialog--unread-badge_bomb{
+.UnreadCounter--muted,#ui_rmenu_admin_tips .ui_rmenu_extra_label>*,.nim-dialog_muted .nim-dialog--unread,.nim-dialog_muted .nim-dialog--unread-badge_bomb{
 	background-color:var(--n777)!important
 }
 .vkuiTappable:hover>.vkuiTappable__hoverShadow,.microdata_price_old:after,.article>cite:before,.article>cite:after,.article_dark .article>cite:before,.article_dark .article>cite:after{
@@ -1259,6 +1259,7 @@ input[type=number]::-webkit-outer-spin-button,input[type=number]::-webkit-inner-
 
 .ConvoComposer__stickerEmojiMenuPopper{width:unset!important;max-height:calc(428px * var(--emoji_tt_size))!important}.ConvoComposer__stickerEmojiMenuPopper>div{zoom:var(--emoji_tt_size)}
 .StickerEmojiMenu [class*="EmojiKeyboardHeader-module__header"],.StickerEmojiMenu [class*="StickersKeyboardHeader-module__title"],.StickerEmojiMenu [class*="StickersKeyboardGroups-module__items"],.StickerEmojiMenu [class*="Tabbar-module__tabbar"]{zoom:calc(1 / var(--emoji_tt_size))}
+.StickerEmojiMenu [class*="Sticker-module__in"]{z-index:1}
 
 .StickerPickerViewer{max-height:calc(428px * var(--emoji_tt_size))!important}.StickerPickerViewer>div{zoom:var(--emoji_tt_size)}
 .StickerPickerViewer [class*="EmojiKeyboardHeader-module__header"],.StickerPickerViewer [class*="StickersKeyboardHeader-module__title"],.StickerPickerViewer [class*="StickersKeyboardGroups-module__items"],.StickerPickerViewer [class*="Tabbar-module__tabbar"]{zoom:calc(1 / var(--emoji_tt_size))}
@@ -1300,12 +1301,12 @@ html.ns .AudioPlayerBlock__root .vkuiSpacing[style*="height: 72"]{display:block!
 html.rm .MEApp__route{flex-direction:row-reverse}
 html.rm .CollapsibleContainer:after{left:0}
 .CollapsibleContainer__widthControllerButton{background-color:unset!important;border:unset!important;box-shadow:unset!important}
-.ConvoList,.ConvoList__headerContent,.ConvoList__item,.ConvoList__footer,.ConvoHeader,.ConvoMain,.ConvoMain__rightPanelContainer,.ContentPlaceholder{background-color:unset!important}
+.ConvoMain,.ConvoHeader,.ConvoList__footer,.ConvoMain__rightPanelContainer,.ConvoList,.ConvoList__headerContent,.ConvoList__item,.ConvoList__folders,.ConvoList__folderDropDown,.ContentPlaceholder{background-color:unset!important}
 .RightPanel__container{background-color:var(--n15b)!important}
 .ReactionChip,.ConvoListItem:before{background-color:var(--n22f)!important}
 .ReactionChip__overlay,.ConvoHistory__messageBlockSelected--withoutBubbles .ConvoMessageWithoutBubble,.ConvoListItem--selected:before{background-color:var(--n33f)!important}
 .MEConfig .sbarThumb:before{background-color:var(--g2)!important}
-.MEApp .vkuiIcon--check_outline_16,.MEApp .vkuiIcon--check_double_outline_16{opacity:0.5;color:var(--n777)!important}
+.MEApp .vkuiIcon--check_outline_16,.MEApp .vkuiIcon--check_double_outline_16,.ConvoListItem__pinIcon{opacity:0.5;color:var(--n777)!important}
 
 .MEApp:before,.StickerEmojiMenuPopper__content--enter-done:before,.StickerPickerViewer--isOpen:before,#page_body .PageBlock:before,#page_body .page_block:before,.vkuiGroup--mode-card:before,.VideoShowcaseCommunityHeader:before,.MarketplaceCatalogHeader--fixed:before,.ShortVideoPost:before,#page_layout .CatalogSection:before,#page_layout .CatalogBlock--divided:before,#page_layout ._playlist_page_content_block:before,html.mb #side_bar_inner:before,.im-page:before,#wk_box:before,#pv_box:before,#mv_box:before,.box_layout:before,.BaseModal__content:before,.ap_layer__content:before,.PodcastEpisodeLayer__content:before,#faq_search_form:before,#page_header_cont:before,.StudioHeader:before,.eltt:not(.feature_intro_tt):before{
 	content:'';display:block;position:absolute;top:0;left:0;width:100%;height:100%;backdrop-filter:var(--blb);border-radius:inherit;z-index:-1}
@@ -2275,6 +2276,8 @@ html.sv .theme .PlaylistsSlider,html.sv .theme .PlaylistSlider{margin-right:0!im
 	--vkui--color_background_secondary--hover:var(--n22e);
 	--vkui--color_background_secondary--active:var(--n29e);
 	--vkui--color_background_secondary_alpha:var(--n228);
+	--vkui--color_background_secondary_alpha--hover:var(--n22e);
+	--vkui--color_background_secondary_alpha--active:var(--n29e);
 	--vkui--color_background_tertiary:var(--n22e);
 	--vkui--color_background_warning:hsla(42,80%,45%,.2);
 	--vkui--color_button_icon:var(--g3);
