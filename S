@@ -1861,8 +1861,8 @@ html.ns.mb #side_bar_inner{margin:var(--header-height) 0 0 -10px!important;posit
 html.ns.mb #side_bar_inner:after{content:'';position:absolute;bottom:-20px;right:0;width:20px;height:20px}
 html.mb.mm #side_bar_inner{margin:calc(var(--header-height) + 15px) 0 0 -21px!important;}
 html.ns.mm #side_bar_inner{margin:var(--header-height) 0 0 -6px!important}
-html.mm #side_bar ol li>a>:last-child{position:absolute;top:5px;max-width:unset!important;right:35px}
-html.mb.mm #side_bar ol li>a>:last-child{right:42px}
+html.mm #side_bar ol li>a>:nth-child(3):not(.vkuiTappable__ripple){position:absolute;top:5px;max-width:unset!important;right:35px}
+html.mb.mm #side_bar ol li>a>:nth-child(3):not(.vkuiTappable__ripple){right:42px}
 #side_bar [id$=_left]{margin:15px auto}
 .side_bar_nav_wrap,#side_bar ol{margin:0!important;padding:0!important}
 html.mm.mb #side_bar ol li,html.mm.ns:not(.mb) #side_bar ol li,html.Pl.mb #side_bar ol li,html.Pl.ns #side_bar ol li{margin-left:-2px!important}
@@ -1903,8 +1903,8 @@ html.Pr #content .cp_eq{left:-400px}
 html.Pr .FCPanel{left:10px;right:unset}
 html.Pl #page_body{float:left}
 html.Pl #side_bar{float:right}
-html.Pl.mm #side_bar ol li>a>:last-child{left:35px;right:unset}
-html.Pl.mb.mm #side_bar ol li>a>:last-child{left:39px}
+html.Pl.mm #side_bar ol li>a>:nth-child(3):not(.vkuiTappable__ripple){left:35px;right:unset}
+html.Pl.mb.mm #side_bar ol li>a>:nth-child(3):not(.vkuiTappable__ripple){left:39px}
 html.Pl.ns .ProfileWrapper .ScrollStickyWrapper>:before,html.Pl.ns .im-right-menu:before,html.Pl.ns .MarketRightMenu:before,html.Pl.ns .wide_column_left .narrow_column:before{left:unset;right:0}
 html.Pl.mm .head_nav{padding-right:110px}
 html.Pl .top_home_link{width:34px;margin:0 10px 0 0}
