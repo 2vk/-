@@ -341,10 +341,10 @@ html,.cp_fg{
 .away_head,.Section--gettingMasks{
 	background-color:var(--hc)!important
 }
-#react_rootEcosystemServicesNavigationEntry>div>button:hover,#react_rootEcosystemServicesNavigationEntry>div[data-dropdown=open]>button,.PortalNavigation:hover,.PortalNavigation--expanded,.BtAddReportButton:hover,.BtAddReportButton:focus,.TopNavBtn.TopNavBtn--active,.TopNavBtn.active,.TopNavBtn:hover,.WideScreenAppBack__link:hover,.HeaderSectionSwitcher__button:focus,.HeaderSectionSwitcher__button:hover,.HeaderSectionSwitcher__button--open,.HeaderBudget:focus,.HeaderBudget:hover,.HeaderProfile:focus,.HeaderProfile:hover,.dev_top_link.sel,.dev_top_link.sel:hover,.dev_home_link:hover,.dev_top_link:hover,.top_nav_link.active,.top_nav_link:hover,.top_audio_player:hover,#ts_wrap .vkuiSearch__field,.SearchTopInputSkeleton,.dev_top_input,.Section--gettingMasks .Button{
+.SearchHeaderForm .vkuiSearch__field,#react_rootEcosystemServicesNavigationEntry>div>button:hover,#react_rootEcosystemServicesNavigationEntry>div[data-dropdown=open]>button,.PortalNavigation:hover,.PortalNavigation--expanded,.BtAddReportButton:hover,.BtAddReportButton:focus,.TopNavBtn.TopNavBtn--active,.TopNavBtn.active,.TopNavBtn:hover,.WideScreenAppBack__link:hover,.HeaderSectionSwitcher__button:focus,.HeaderSectionSwitcher__button:hover,.HeaderSectionSwitcher__button--open,.HeaderBudget:focus,.HeaderBudget:hover,.HeaderProfile:focus,.HeaderProfile:hover,.dev_top_link.sel,.dev_top_link.sel:hover,.dev_home_link:hover,.dev_top_link:hover,.top_nav_link.active,.top_nav_link:hover,.top_audio_player:hover,#ts_wrap .vkuiSearch__field,.SearchTopInputSkeleton,.dev_top_input,.Section--gettingMasks .Button{
 	background-color:var(--hc2)!important
 }
-
+.SearchHeaderForm *,.SearchHeaderForm input[type],.SearchHeaderForm input::placeholder,.SearchHeaderForm input:focus::placeholder,.video_showcase #autocompleteSuggest,
 .VKVideoLogo,.BtTopMenu__item a,.BtAddReportButton,.BtAddReportButton .FlatButton__before,.TopHomeLink,.TopNavBtn .TopNavBtn__icon,.TopNavBtn__profileArrow,.top_audio_player_btn svg,.TopNavBtn__profileLink,.HeaderLogo,.HeaderNotifier,.landing_transparencyHeader__brandLink,.HeaderProfile,.HeaderSectionSwitcher__dropdownIcon,.WideScreenAppBack__link,.CovidLogo__hashtag,.landing_transparencyHeader__title,.landing_transparencyHeader__navItem a,.PageNavigation__navBar .ui_tab,.PageNavigation__navBar .ui_tab.ui_tab_sel,.HeaderSectionSwitcher__button,.HeaderBudget__link,.HeaderBudget__button a,.share_head .share_user_link,.share_head .share_logout_link,#dev_top_nav a.dev_home_link,#dev_top_nav a.dev_top_link,.dev .dev_top_input_wrap .input_back_content,.dev input.dev_top_input,.dev input.dev_top_input:focus,#ts_wrap>div:first-child svg,#ts_wrap input,#ts_wrap input::placeholder,#dev_top_input::placeholder,.TopSearch .input_back_content,.top_nav_link,.top_audio_player_title,.Section--gettingMasks *{
 	color:var(--ht)!important
 }
@@ -527,7 +527,7 @@ html.nl .mv_top_button:hover,html.nl .wk_right_nav:hover .wk_close,html.nl .wk_a
 	opacity:.1}
 .im-group-online--beacon-wrapper{
 	opacity:.35}
-.nim-dialog--mute,.nim-dialog--pinned-conversation,#side_bar ol li:hover>div{
+.nim-dialog--mute,.nim-dialog--pinned-conversation,#side_bar ol li:hover>div,.video_showcase #autocompleteSuggest{
 	opacity:.5}
 #cp_bgf,#cp_is,.share_link_wrap,.BtTopMenu__item a,.PostBottomAction__icon,.like_views__icon,#box_layer_bg,#cp_ed{
 	opacity:.7!important}
@@ -1231,12 +1231,6 @@ input[type=number]::-webkit-outer-spin-button,input[type=number]::-webkit-inner-
 .article_anchor_fsymbol{font-size:0!important}
 .author_page_body{min-height:100vh}
 
-.HeaderNav--hide-search .HeaderNav__item--gap{display:flex}
-.HeaderNav--hide-search .HeaderNav__audio{flex-grow:1}
-.HeaderNav--hide-search .HeaderNav__item--logo{flex-grow:0}
-.HeaderNav--hide-search .HeaderNav__audio .top_audio_player{width:auto}
-.HeaderNav--hide-search .HeaderNav__btns .top_notify_layer_place{left:auto}
-
 :root .emoji_tt_wrap{width:calc(290px * var(--emoji_tt_size))!important}
 :root .emoji_block_rel{height:calc(244px * var(--emoji_tt_size) - 36px);margin-bottom:36px}
 :root .emoji_cats_title_helper,:root .emoji_list{zoom:var(--emoji_tt_size);-moz-transform:scale(var(--emoji_tt_size));-moz-transform-origin:0 0;width:278px!important}
@@ -1705,6 +1699,12 @@ html.sv .VideoActions{padding:15px 15px 20px!important}
 .VideoSearchInput--sticky{min-width:unset!important;transform:translateY(48px)!important}
 html.sv .VideoGrid.VideoGrid--columnView{width:100%}
 html.sv .VideoCard--horizontal .VideoCard__info{width:calc(100% - 261px)}
+
+html.sv .video_showcase .SearchHeaderForm{width:230px;transition:width .3s}html.sv .video_showcase .SearchHeaderForm:has(.vkuiSearch--has-value){width:330px}html.sv .HeaderNav--hide-search .HeaderNav__search{padding-right:15px}
+html.sv .HeaderNav--hide-search .HeaderNav__item--logo,html.sv .HeaderNav--hide-search .HeaderNav__search{flex-grow:0}
+html.sv .HeaderNav--hide-search .HeaderNav__audio{flex-grow:1}
+html.sv .HeaderNav--hide-search .HeaderNav__btns,html.sv .HeaderNav--hide-search .HeaderNav__audio{display:flex}
+
 	
 html.ns .page_block,html.ns .page_block:last-child,html.ns .PageBlock,html.ns .MarketplaceCatalogHeaderMenu,html.ns .MarketplaceCatalogFields__field,html.ns .MarketplaceCatalogBlocks__block,html.ns .ClassifiedsSearchResult,html.ns .ClassifiedsGroupSection__root,html.ns .ClassifiedsGroupProductsCategoryView,html.ns .ClassifiedsGroupProductsCategoryPreview,html.ns .ClassifiedsGroupProductsCategories__headContainer,html.ns .ClassifiedsGroupProductsCategoryProductsPage__headContainer,html.ns .ShortVideoPage,html.ns .ShortVideoPost,html.ns .DonutCatalogPromo,html.ns .RightMenuBlock,html.ns .MarketRightMenu{margin:0}
 html.ns .page_block.post,html.ns ._playlist_page_content_block,html.ns .faq_search_form,html.ns .audio_promo,html.ns .stories_feed_wrap{margin:0!important}
@@ -1798,15 +1798,6 @@ html.rm .im-page:not(.im-page_classic) .im-create{right:0}
 html.rm .im-page:not(.im-page_classic) .im-page--history{margin-left:0!important;margin-right:317px!important;border-radius:2px 0 0 2px}
 html.rm .nim-dialog.nim-dialog_selected{box-shadow:inset 3px 0 0 0 var(--g3)}
 
-html.bm .im-page--title-main{line-height:17px}
-html.bm .im-page--title{padding:8px 0px 4px;text-align:center;flex-direction:column;height:auto;font-size:13px}
-html.bm .im-page:not(.im-page_reconnecting) .im-page--title.im-page--title--1line{padding:15px 0;font-size:14px}
-html.bm .im-page--title-meta,html.bm .im-page--title-status,html.bm .im-page--title-reconnect{margin:0;line-height:17px;font-size:12px}
-html.bm .im-page--chat-header:not(.im-page--chat-header_actions) .im-page--back{display:block}
-html.bm .im-page--chat-header_muted .im-page--title:after,html.bm .im-page--title--casper:before{display:none}
-html.bm .im-page--title--casper .im-page--title-main-in:before{order:1;content:'';width:16px;height:16px;margin-left:4px}
-html.bm .im-page--chat-header_muted .im-page--title-main-in:after{order:2;content:'';width:11px;height:13px;margin:1px 0 0 6px}
-
 :root .im-page .im-page-chat-contain{z-index:unset}
 .im-page{padding:0!important;height:calc(100vh - var(--header-height) - 30px)}
 .im-create{top:0}
@@ -1841,7 +1832,6 @@ html.bm .im-page--chat-header_muted .im-page--title-main-in:after{order:2;conten
 
 html.imb .ConvoListItem__author,html.imb .PeerTitle,html.imb .ForwardedMessage__link,html.imb .vkuiAvatar img,html.imb .AvatarRich img,html.imb .vkuiHorizontalCell__content,html.imb .vkuiSimpleCell__children,html.imb .PostHeaderTitle__authorName,html.imb .OwnerPageName,html.imb .ProfileInfo__status,html.imb .OwnerShortInfoRow,html.imb .vkuiUsersStack__photo,html.imb .group_row_title,html.imb .ProfileGroupHorizontalCells .vkuiHorizontalCell__title,html.imb .AvatarFavorites,html.imb .MEAvatar__imgWrapper,html.imb .ConvoTitle__title,html.imb .vkuiRichCell .vkuiLink,html.imb .mv_chat_message_author_thumb_img,html.imb .mv_chat_message_author_name,html.imb .mv_chat_reply_author_photo_img,html.imb .LinkSnippet__titleLink,html.imb .blst_img,html.imb .blst_mem,html.imb .bp_img,html.imb .bp_author,html.imb .wddi_img,html.imb .wddi_text,html.imb .summary_tab3,html.imb .pv_place_a,html.imb .pv_tag_span,html.imb .photo_tooltip__name,html.imb .notifier_image,html.imb .mention_tt_img,html.imb .mention_tt_person_img,html.imb .mention_tt_name,html.imb .fans_fan_img,html.imb .fans_fan_name,html.imb .PhotoCarouselBlockItem__avatar,html.imb .like_tt_image,html.imb .group_l_photo_img,html.imb .group_l_title,html.imb .StatsDonutEventsTableUser__name,html.imb .cell_img,html.imb .people_name,html.imb .wdd_img,html.imb .VerticalVideoLayerInfo__author,html.imb .VerticalVideoLayerInfo__authorName,html.imb .ShortVideoPost__avatarImage,html.imb .ShortVideoDescription__authorLink,html.imb .ow_ava,html.imb .ts_contact_img,html.imb .ts_contact_title,html.imb .friends_find_user_img,html.imb .friends_find_user_name,html.imb .right_list_img,html.imb .right_list_title,html.imb .friends_common_img,html.imb .friends_photo_img,html.imb .friends_field_title,html.imb #side_bar ol li[id^="l_mgid"]>a,html.imb #side_bar ol li[id^="l_app"]>a,html.imb .feedback_img,html.imb .notify_sources .selected .thumb,html.imb .notify_sources .selected .info,html.imb .notify_sources .groups .thumb,html.imb .notify_sources .groups .info,html.imb .top_profile_vkconnect_img,html.imb .top_profile_vkconnect_name,html.imb .Avatar__img,html.imb .Entity__title,html.imb .ui_ownblock_img,html.imb .ui_ownblock_label,html.imb .profile_info_row .labeled,html.imb #profile_all_groups,html.imb #profile .page_square_photo,html.imb #profile .page_name,html.imb #profile ._wall_tab_own .ui_tab,html.imb #profile #page_avatar_wrap,html.imb #profile_wall .author,html.imb #profile_wall .post_img,html.imb .people_cell_ava,html.imb .people_cell_name,html.imb .group_friends_image,html.imb .post_field_user_image,html.imb .post_field_choose_image,html.imb .mem_link,html.imb .reply_image,html.imb .reply_author,html.imb .replies_short_text_name b,html.imb .audio_friend .ow_ava,html.imb .audio_friend_name,html.imb .TopNavBtn__profileName,html.imb .TopNavBtn__profileImg,html.imb .nim-peer--photo-w,html.imb .nim-dialog--name-w,html.imb .im-replied--author-link,html.imb .nim-dialog--text-preview,html.imb .im-right-menu--text,html.imb .im-page-pinned--name,html.imb .im-page--title-main-inner,html.imb .im-mess-stack--lnk,html.imb .im_srv_lnk,html.imb .im-activity{filter:invert(.5) blur(3px)!important}
 
-.im-action_ui_new.r:before{transform:rotate(180deg)}
 .im-page_group #cp_imc{display:flex;float:left;position:absolute;right:5px;height:48px;width:32px;opacity:.7;cursor:pointer}
 
 .TemplatesDropDown__wrapper{pointer-events:all!important}
@@ -2261,6 +2251,7 @@ html.sv .theme .PlaylistsSlider,html.sv .theme .PlaylistSlider{margin-right:0!im
 	--vkui--color_background_accent:var(--g2);
 	--vkui--color_background_accent_alternative:var(--g2);
 	--vkui--color_background_accent_themed:var(--g2);
+	--vkui--color_background_accent_themed_alpha:color-mix(in hsl,var(--g2) 12%,#0000);
 	--vkui--color_background_accent_tint:var(--g2);
 	--vkui--color_background_accent_tint--hover:var(--g1);
 	--vkui--color_background_accent_tint--active:var(--g3);
