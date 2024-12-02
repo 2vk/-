@@ -2242,7 +2242,8 @@ html.sv .theme .PlaylistsSlider,html.sv .theme .PlaylistSlider{margin-right:0!im
 	--vkui--color_transparent--hover:var(--n22e);
 	--vkui--color_transparent--active:var(--n22e);
 
-	--vkui--gradient_tint:linear-gradient(90deg,var(--n22e),#0000);
+	--vkui--gradient_tint:var(--n22e),#0000;
+	--vkui--gradient:var(--n15e),#0000;
 	--vkui--color_accent_blue:var(--g3);
 	--vkui--color_accent_gray:var(--n777);
 	--vkui--color_accent_secondary:var(--g2);
