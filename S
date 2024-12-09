@@ -1014,6 +1014,9 @@ a.dd_link{
 	margin-top:0!important
 }
 .ms_items_more,.MarketplaceCatalogHeader{z-index:105}
+.page_block.new_posting .vkuiFlex--wrap,.page_block.new_posting .vkuiFlex--wrap>*{
+	margin:unset!important
+}
 .wall_module .page_wall_posts>.page_block:first-child,.wall_module .page_wall_posts .page_block.unshown+.page_block{
 	padding-top:105px!important;
 	margin-top:-100px!important
@@ -1675,7 +1678,6 @@ html.rb .theme .redesigned-group-cover:before{height:20px;border-radius:0 0 20px
 .theme .redesigned-group-avatar .AvatarRich:before,.theme .redesigned-group-avatar .AvatarRich:after{content:'';position:absolute;left:0;top:0;width:100%;height:100%;border-radius:inherit;filter:blur(10px) brightness(0.7);animation:rotate 10s infinite linear;background:conic-gradient(#7A00F4,#EA00A8,#F70000,#FF6A00,#FF0,#00EF33,#00F9F9,#0038F2,#7A00F4)}
 .theme .redesigned-group-avatar .AvatarRich:after{clip-path:circle(48%);filter:unset}
 .theme .redesigned-group-avatar .AvatarRich__background{background:unset}
-
 
 html.sv .video_showcase{--layout-min-width:1076px;--layout-max-width:1076px}
 html.sv .video_showcase [style*="--grid-columns"]{--grid-columns:3!important}
