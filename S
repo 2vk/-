@@ -1743,6 +1743,9 @@ html.ns .page_block,html.ns .PageBlock,html.ns .ReplyBoxDonut,html.ns .Classifie
 html.ns .theme .redesigned-group-cover:before,html.ns .redesigned-group-cover:after,html.ns .redesigned-group-info:before,html.ns .faq_search_form{border-radius:0!important}
 html.ns #page_header,html.ns #page_layout,html.ns .im-page_classic.im-page_group .im-group-online,html.ns .im-page_classic .im-page--header,html.ns .im-page_classic .im-page--chat-header{padding:0!important}
 
+.vkuiSpacing{
+	--spacing-gap-size:var(--page-block-offset, 15px)!important
+}
 :root body,.vkui--vkBase--light,.vkui--vkCom--light{
 	--vkui--size_border_radius--regular:2px;
 	--vkui--size_border_radius_paper--regular:4px
@@ -2487,9 +2490,8 @@ html.sv .theme .PlaylistsSlider,html.sv .theme .PlaylistSlider{margin-right:0!im
 	--button_secondary_foreground:var(--k2t);
 	--button_secondary_foreground_highlighted:var(--k2t);
 	--button_positive_foreground:#eee;
-	--pageNavigationHeight:48px
+	--pageNavigationHeight:48px;
 }
-
 .PhotoEditorTheme{
 	--photo-editor-canvas-background:none
 }
