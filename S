@@ -1652,12 +1652,12 @@ html.vo #top_audio_player .top_audio_player_title{position:fixed;text-align:cent
 html.vo #top_audio_layer_place .audio_page_content_block_wrap{height:calc(100vh - 106px)!important}
 html.vo #audio_layer_tt{position:fixed!important;top:0!important;left:calc(50% - 330px)!important}
 
-
 .redesigned-cover-block .v{position:absolute;top:0;z-index:5;width:30px;height:30px;background:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6 3"><path stroke="white" stroke-linecap="round" d="M.5.5l2.5 2m0 0l2.5-2"/></svg>') no-repeat 50%/8px;filter:drop-shadow(0 0 1px #000);transform:rotate(180deg);opacity:0;cursor:pointer}
 .redesigned-cover-block:hover .v{opacity:1!important}html.pc .redesigned-cover-block .v{transform:none}
 
+html.pc #content:not(.theme) .redesigned-group-info{padding:15px 20px}.redesigned-group-info__actions{display:flex;align-items:center}
 html.pc .redesigned-group-info,.theme .redesigned-group-info{position:absolute;bottom:0;width:100%;box-sizing:border-box}.redesigned-group-info:before,.redesigned-group-info>*{transition:opacity .25s}
-html.pc .redesigned-group-info:before,.theme .redesigned-group-info:before{content:'';position:absolute;top:0;left:0;width:100%;height:100%;backdrop-filter:blur(14px);background-color:rgba(0,0,0,.3);border-radius:0 0 4px 4px}
+html.pc .redesigned-group-info:before,.theme .redesigned-group-info:before{content:'';position:absolute;bottom:0;left:0;width:100%;height:100%;backdrop-filter:blur(14px);background-color:rgba(0,0,0,.3);border-radius:0 0 4px 4px}
 html.pc .redesigned-group-cover:hover+.redesigned-group-info:before,html.pc .redesigned-group-cover:hover+.redesigned-group-info>*,.theme .redesigned-group-info:before,.theme .redesigned-group-info>*,.theme .redesigned-group-cover__wrapper{opacity:0}
 .redesigned-group-cover:hover .v,.theme .redesigned-cover-block:hover .redesigned-group-info:before,.theme .redesigned-cover-block:hover .redesigned-group-info>*{opacity:1!important}
 html.pc .redesigned-group-cover{height:auto}html.pc .redesigned-group-cover__img{position:relative!important}
@@ -1666,7 +1666,7 @@ html.pc .redesigned-group-cover__wrapper,.theme .redesigned-group-cover__wrapper
 .group_friends_image{margin:0!important}.redesigned-group-subscribers .group_friends_image{margin:0 2px 0 0!important}
 html.pc .redesigned-group-info .FlatButton,.theme .redesigned-group-info .FlatButton{background-color:hsla(0,0%,8%,.33)!important;color:#eee!important}
 html.pc .redesigned-group-info .FlatButton:hover,.theme .redesigned-group-info .FlatButton:hover,html.pc .redesigned-group-info .redesigned-group-subscribed:hover,.theme .redesigned-group-info .redesigned-group-subscribed:hover{background-color:hsla(0,0%,12%,.33)!important}
-html.pc .redesigned-group-message-answer,html.pc .redesigned-group-subscribed,html.pc .redesigned-group-subscribers,html.pc .redesigned-group-info .page_name,.theme .redesigned-group-message-answer,.theme .redesigned-group-subscribed,.theme .redesigned-group-subscribers,.theme .redesigned-group-info .page_name{color:#eee!important}
+html.pc .redesigned-group-message-answer,html.pc .redesigned-group-message-answer span,html.pc .redesigned-group-subscribed,html.pc .redesigned-group-subscribers,html.pc #react_rootEcommCommunityReviewInfo span,html.pc #react_rootEcommCommunityReviewInfo button,html.pc .redesigned-group-info .page_name,.theme .redesigned-group-message-answer,.theme .redesigned-group-subscribed,.theme .redesigned-group-subscribers,.theme .redesigned-group-info .page_name{color:#eee!important}
 html.pc .redesigned-group-subscribed svg path,.theme .redesigned-group-subscribed svg path{fill:#eee!important}
 
 .theme .redesigned-group-cover{height:250px!important}
@@ -1743,8 +1743,8 @@ html.ns .page_block,html.ns .PageBlock,html.ns .ReplyBoxDonut,html.ns .Classifie
 html.ns .theme .redesigned-group-cover:before,html.ns .redesigned-group-cover:after,html.ns .redesigned-group-info:before,html.ns .faq_search_form{border-radius:0!important}
 html.ns #page_header,html.ns #page_layout,html.ns .im-page_classic.im-page_group .im-group-online,html.ns .im-page_classic .im-page--header,html.ns .im-page_classic .im-page--chat-header{padding:0!important}
 
-.vkuiSpacing{
-	--spacing-gap-size:var(--page-block-offset, 15px)!important
+.vkuiSpacing[style*="--vkui_internal--Spacing_gap: var(--page-block-offset)"]{
+	--spacing-gap-size:var(--page-block-offset)!important
 }
 :root body,.vkui--vkBase--light,.vkui--vkCom--light{
 	--vkui--size_border_radius--regular:2px;
