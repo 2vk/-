@@ -1032,14 +1032,14 @@ a.dd_link{
 .wall_module .wall_posts.all>.all.page_block,.wall_module .wall_posts.all>.all_ads_promoted_post.page_block,.wall_module .wall_posts.own>.own.page_block,.wall_module .wall_posts.own>.own_ads_promoted_post.page_block,.wall_module .wall_posts.all>.all.unshown+.all.page_block,.wall_module .wall_posts.all>.all.unshown+.all_ads_promoted_post.page_block,.wall_module .wall_posts.own>.own.unshown+.own.page_block,.wall_module .wall_posts.own>.own.unshown+.own_ads_promoted_post.page_block,.wall_module .wall_posts.postponed>.postponed.page_block,.wall_module .wall_posts.suggested>.suggest.page_block,.wall_module .wall_posts_search>.post,.wall_module .wall_posts .no_rows,.wall_module .wall_posts .no_posts,.post_videos.has_before_block{
 	padding-top:57px!important;margin-top:-57px!important;border-radius:var(--vkui--size_border_radius_paper--regular)!important
 }
+.feed_wall--no-islands .page_block,.feed_wall--no-islands .page_block.post,.feed_wall--no-islands .wall_module .page_wall_posts .page_block~.page_block,.feed_wall--no-islands .wall_module .page_wall_posts .page_block:not(.unshown)~.page_block.unshown+.page_block:not(.unshown){
+    margin:15px 0 0
+}
 .wall_module .wall_posts>.page_block.wall_archive_link_block~.page_block,.wall_module .page_wall_posts .page_block~.page_block,.wall_module .page_wall_posts .page_block:not(.unshown)~.page_block.unshown+.page_block:not(.unshown),.wall_module .wall_posts.all>.all~.all.page_block,.wall_module .wall_posts.all>.post:not(.unshown)~.post.unshown+.post.page_block:not(.unshown),.wall_module .wall_posts.all>.all~.all_ads_promoted_post.page_block,.wall_module .wall_posts.own>.own~.own.page_block,.wall_module .wall_posts.own>.post:not(.unshown)~.post.unshown+.post.page_block:not(.unshown),.wall_module .wall_posts.own>.own~.own_ads_promoted_post.page_block,.wall_module .wall_posts.postponed>.postponed~.postponed.page_block,.wall_module .wall_posts.suggested>.suggest~.suggest.page_block,.wall_module .wall_posts_search>.post~.post{
 	padding-top:unset!important;margin-top:15px!important
 }
 :root .feed_row_unshown+.feed_row .page_block{
 	padding-top:49px!important;margin-top:-49px!important;border-radius:var(--vkui--size_border_radius_paper--regular)!important
-}
-.feed_wall--no-islands .feed_row:first-child .page_block,.feed_wall--no-islands .page_block,.feed_wall--no-islands .post,.feed_wall--no-islands .wall_module .page_wall_posts .page_block~.page_block,.feed_wall--no-islands .wall_module .page_wall_posts .page_block:not(.unshown)~.page_block.unshown+.page_block:not(.unshown){
-    margin:15px 0 0
 }
 html.ns .wall_module .wall_posts>.wall_archive_link_block~.page_block,html.ns .wall_module .page_wall_posts .page_block~.page_block,html.ns .wall_module .page_wall_posts .page_block:not(.unshown)~.page_block.unshown+.page_block:not(.unshown),html.ns .wall_module .wall_posts.all>.all~.all,html.ns .wall_module .wall_posts.all>.post:not(.unshown)~.post.unshown+.post:not(.unshown),html.ns .wall_module .wall_posts.all>.all~.all_ads_promoted_post,html.ns .wall_module .wall_posts.own>.own~.own,html.ns .wall_module .wall_posts.own>.post:not(.unshown)~.post.unshown+.post:not(.unshown),html.ns .wall_module .wall_posts.own>.own~.own_ads_promoted_post,html.ns .wall_module .wall_posts.postponed>.postponed~.postponed,html.ns .wall_module .wall_posts.suggested>.suggest~.suggest,html.ns .wall_module .wall_posts_search>.post~.post{
 	margin-top:0!important
