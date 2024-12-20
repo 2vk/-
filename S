@@ -547,7 +547,7 @@ html:not(.mg):not(.me):not(.mc) #side_bar ol li>a svg{
 .PostButtonReactions__icon[style*="reactions-0"] path[fill^="url"]{fill:none!important}
 .PostButtonReactions__icon[style*="reactions-0"] path[fill="rgb(255,255,255)"]{transform:scale(1.5)}
 .PostButtonReactions__icon[style*="reactions-0"] path[fill="rgb(255,255,255)"],.Reaction:first-child path[fill^="url"],.HighlightingAuthorLike__icon path:last-child{fill:var(--lc)!important}
-.Reaction:first-child path[fill="rgb(255,255,255)"],#meOnlineVkMe>:last-child,.emoji_stickers_pack_peer_info__purchased_icon svg>:last-child,.CircledProgress__accept-sign[fill="#FFF"],.group_title_icon path[fill="#fff"],#star_circle_fill_yellow_12 path[fill="#fff"],.nim-dialog--donut path[fill="#fff"],.DonutSubscribePopup__avatarIconInline path[fill="#fff"],.DonutModule__groupImageCornerIcon path[fill="#fff"],.DonutLinkSnippet__previewIcon path[fill="#fff"],.PageDonatorIcon path[fill="#fff"],.page_verified-icon path[fill="#fff"]{
+.Reaction:first-child path[fill="rgb(255,255,255)"],#meOnlineVkMe>:last-child,.emoji_stickers_pack_peer_info__purchased_icon svg>:last-child,.CircledProgress__accept-sign[fill="#FFF"],.group_title_icon path[fill="#fff"],#star_circle_fill_yellow_12 path[fill="#fff"],#star_circle_fill_yellow_16 path[fill="#fff"],#donut_circle_fill_yellow_20 path[fill="#fff"],.nim-dialog--donut path[fill="#fff"],.DonutLinkSnippet__previewIcon path[fill="#fff"],.PageDonatorIcon path[fill="#fff"],.page_verified-icon path[fill="#fff"]{
 	fill:var(--n15)!important}
 .browse_stat_chart path[stroke="none"]{
 	fill:var(--n228)!important}
@@ -1038,8 +1038,8 @@ a.dd_link{
 :root .feed_row_unshown+.feed_row .page_block{
 	padding-top:49px!important;margin-top:-49px!important;border-radius:var(--vkui--size_border_radius_paper--regular)!important
 }
-.feed_wall--no-islands .feed_row:first-child .page_block,.feed_wall--no-islands .page_block,.feed_wall--no-islands .page_block.post,.feed_wall--no-islands .wall_module .page_wall_posts .page_block~.page_block,.feed_wall--no-islands .wall_module .page_wall_posts .page_block:not(.unshown)~.page_block.unshown+.page_block:not(.unshown){
-    margin:15px 0 0!important
+.feed_wall--no-islands .feed_row:first-child .page_block,.feed_wall--no-islands .page_block,.feed_wall--no-islands .post,.feed_wall--no-islands .wall_module .page_wall_posts .page_block~.page_block,.feed_wall--no-islands .wall_module .page_wall_posts .page_block:not(.unshown)~.page_block.unshown+.page_block:not(.unshown){
+    margin:15px 0 0
 }
 html.ns .wall_module .wall_posts>.wall_archive_link_block~.page_block,html.ns .wall_module .page_wall_posts .page_block~.page_block,html.ns .wall_module .page_wall_posts .page_block:not(.unshown)~.page_block.unshown+.page_block:not(.unshown),html.ns .wall_module .wall_posts.all>.all~.all,html.ns .wall_module .wall_posts.all>.post:not(.unshown)~.post.unshown+.post:not(.unshown),html.ns .wall_module .wall_posts.all>.all~.all_ads_promoted_post,html.ns .wall_module .wall_posts.own>.own~.own,html.ns .wall_module .wall_posts.own>.post:not(.unshown)~.post.unshown+.post:not(.unshown),html.ns .wall_module .wall_posts.own>.own~.own_ads_promoted_post,html.ns .wall_module .wall_posts.postponed>.postponed~.postponed,html.ns .wall_module .wall_posts.suggested>.suggest~.suggest,html.ns .wall_module .wall_posts_search>.post~.post{
 	margin-top:0!important
@@ -1719,7 +1719,7 @@ html.sv .HeaderNav--hide-search .HeaderNav__btns,html.sv .HeaderNav--hide-search
 
 
 html.ns .page_block,html.ns .page_block:last-child,html.ns .PageBlock,html.ns .MarketplaceCatalogHeaderMenu,html.ns .MarketplaceCatalogFields__field,html.ns .MarketplaceCatalogBlocks__block,html.ns .ClassifiedsSearchResult,html.ns .ClassifiedsGroupSection__root,html.ns .ClassifiedsGroupProductsCategoryView,html.ns .ClassifiedsGroupProductsCategoryPreview,html.ns .ClassifiedsGroupProductsCategories__headContainer,html.ns .ClassifiedsGroupProductsCategoryProductsPage__headContainer,html.ns .ShortVideoPage,html.ns .ShortVideoPost,html.ns .DonutCatalogPromo,html.ns .RightMenuBlock,html.ns .MarketRightMenu{margin:0}
-html.ns .feed_wall--no-islands,html.ns .page_block.post,html.ns ._playlist_page_content_block,html.ns .faq_search_form,html.ns .audio_promo,html.ns .stories_feed_wrap,html.ns .PostingReactBlock__root>*{margin:0!important}
+html.ns .feed_wall--no-islands,html.ns .page_block,html.ns ._playlist_page_content_block,html.ns .faq_search_form,html.ns .audio_promo,html.ns .stories_feed_wrap,html.ns .PostingReactBlock__root>*{margin:0!important}
 html.ns .MarketplaceCatalogFields{width:auto}
 html.ns #page_layout .CatalogBlock--divided:not(:first-child),html.ns .im-page_classic #im_dialogs{margin-top:0}
 html.ns .im-page,html.ns .VKCOMMessenger__reforgedRoot{margin:0;padding:0;height:calc(100vh - var(--header-height))}
