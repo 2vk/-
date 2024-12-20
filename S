@@ -438,7 +438,7 @@ body #system_msg[style*="background-color: rgb(255, 180, 163)"],.ui_tab_count.ui
 .market_item_bigph,.friends_find_user_remove,.stories_preview:after{
 	background-color:#222!important
 }
-.box_layout div[class^="PhotoAreaSelectorOverlay"],.TimeCodesList__itemThumbWrap,.apps_i_slider_outer,.photos_photo_edit_row_thumb_dim,.PhotoAreaSelector__faded,.tag_faded,.wall_card__close:before,.page_doc_photo,.page_preview_doc_photo,.photos_choose_row_bg,.PhotoCarouselImage,.PhotoCarousel__blurArea,.PhotoTagCard__image,#layer_bg,#box_layer_bg,#box_loader .back,#stories_loader .back,.eltt.article_anchor_tooltip,.ModalPreloader__background{
+.PostContentContainer [class*="__backgroundBlackFields"],.box_layout div[class^="PhotoAreaSelectorOverlay"],.TimeCodesList__itemThumbWrap,.apps_i_slider_outer,.photos_photo_edit_row_thumb_dim,.PhotoAreaSelector__faded,.tag_faded,.wall_card__close:before,.page_doc_photo,.page_preview_doc_photo,.photos_choose_row_bg,.PhotoCarouselImage,.PhotoCarousel__blurArea,.PhotoTagCard__image,#layer_bg,#box_layer_bg,#box_loader .back,#stories_loader .back,.eltt.article_anchor_tooltip,.ModalPreloader__background{
 	background-color:#000!important
 }
 :root .Tooltip__in{background-color:var(--black_alpha72)}
@@ -535,7 +535,7 @@ html.nl .mv_top_button:hover,html.nl .wk_right_nav:hover .wk_close,html.nl .wk_a
 	opacity:.75}
 #side_bar ol li>a>*{
 	opacity:.9}
-#side_bar ol li>a>:nth-child(3),#side_bar ol li>a:hover>*,#side_bar ol li>div:hover,.left_menu_nav:hover,#side_bar_inner>div>a:hover,#layer_stl:hover #layer_stl_bg,.vkuiSwitch__pseudo:after,.share_link_wrap:hover,.BtTopMenu__item--selected a,.PostBottomAction:hover .PostBottomAction__icon,#top_audio_play:hover,.box_x_button:hover,.docs_item:hover .docs_choose_attach,.docs_item:hover .docs_item_thumb[ext=gif] .docs_item_play,.dd_header_hover,.im-page_group #cp_imc:hover,#cp_bgf:hover,#cp_is:hover,#cp_hp.a:hover:after,#cp_hn.a:hover:after,.cp_hb:hover>div,.cp_hf:hover>div,#cp_s:hover,#cp_af:hover,#cp_gs:hover,#cp_ed:hover{
+#side_bar ol li>a>:nth-child(3),#side_bar ol li>a:hover>*,#side_bar ol li>div:hover,.left_menu_nav:hover,#side_bar_inner>div>a:hover,#layer_stl:hover #layer_stl_bg,.PostBottomAction:hover .PostBottomAction__icon,.PostBottomAction:hover .PostBottomAction__label,.PostBottomAction:hover .PostBottomAction__count,.vkuiSwitch__pseudo:after,.share_link_wrap:hover,.BtTopMenu__item--selected a,#top_audio_play:hover,.box_x_button:hover,.docs_item:hover .docs_choose_attach,.docs_item:hover .docs_item_thumb[ext=gif] .docs_item_play,.dd_header_hover,.im-page_group #cp_imc:hover,#cp_bgf:hover,#cp_is:hover,#cp_hp.a:hover:after,#cp_hn.a:hover:after,.cp_hb:hover>div,.cp_hf:hover>div,#cp_s:hover,#cp_af:hover,#cp_gs:hover,#cp_ed:hover{
 	opacity:1!important
 }
 .docs_bg,.docs_fn,.mob_onl,.like_button_icon,.share_link_wrap,.reply_box_photo,.PostBottomAction,.like_views,.hint_icon,.DonutModule__helpIcon,.group_l_edit,#cp_glc,.im-page_group #cp_imc,.ui_actions_menu_icons,.ui_tab_search:after,.im-page--title-main-in span,.im-page--title-main-in:before,.im-page--title-main-in:after,.im-activity--icon,.im-mess--edit,svg,#top_audio_play{
@@ -1039,7 +1039,7 @@ a.dd_link{
 	padding-top:49px!important;margin-top:-49px!important;border-radius:var(--vkui--size_border_radius_paper--regular)!important
 }
 .feed_wall--no-islands .feed_row:first-child .page_block,.feed_wall--no-islands .page_block,.feed_wall--no-islands .page_block.post,.feed_wall--no-islands .wall_module .page_wall_posts .page_block~.page_block,.feed_wall--no-islands .wall_module .page_wall_posts .page_block:not(.unshown)~.page_block.unshown+.page_block:not(.unshown){
-    margin-top:15px!important
+    margin:15px 0 0!important
 }
 html.ns .wall_module .wall_posts>.wall_archive_link_block~.page_block,html.ns .wall_module .page_wall_posts .page_block~.page_block,html.ns .wall_module .page_wall_posts .page_block:not(.unshown)~.page_block.unshown+.page_block:not(.unshown),html.ns .wall_module .wall_posts.all>.all~.all,html.ns .wall_module .wall_posts.all>.post:not(.unshown)~.post.unshown+.post:not(.unshown),html.ns .wall_module .wall_posts.all>.all~.all_ads_promoted_post,html.ns .wall_module .wall_posts.own>.own~.own,html.ns .wall_module .wall_posts.own>.post:not(.unshown)~.post.unshown+.post:not(.unshown),html.ns .wall_module .wall_posts.own>.own~.own_ads_promoted_post,html.ns .wall_module .wall_posts.postponed>.postponed~.postponed,html.ns .wall_module .wall_posts.suggested>.suggest~.suggest,html.ns .wall_module .wall_posts_search>.post~.post{
 	margin-top:0!important
@@ -1200,7 +1200,7 @@ input[type=number]::-webkit-outer-spin-button,input[type=number]::-webkit-inner-
 .SideOfficeMenu__linkIcon,.im-page--back-btn,.ui_rmenu_item{
 	color:var(--n999)
 }
-.im-navigation__button,.mv_playlist_header_videos_cnt,.TimeCodesList__headerAction,.StoriesArchive-empty__label,.landing_transparencySection__description,.nim-dialog--mute,.nim-dialog--close,.nim-dialog--actions,.im-dialog-select--btn,.apps_share_button,.PostBottomAction__icon,.pg_fixed_pages a,.article_layer__content_footer *,.VideoRestriction:not(.VideoRestriction--canPreview) .VideoRestriction__title,.wdd_text,.wdd_add3,.FeedbackTooltip__wrapper,.Suggestion__ItemDescription,.PredictionItem__helper,.PredictionWidget__footer,.exchange_table_hint,#exchange_comm_search_count,.ads_edit_link_type_card_description,.Table__Tip,.medadd_h,.button_action_light:hover,.no_rows,.WeekStat__BlockFooter,.page_actions_expanded .page_actions_item,.im-page--top-date-bar,.nim-dialog_classic.nim-dialog_unread-out .nim-dialog--inner-text,.nim-dialog_selected .nim-dialog--who,.nim-dialog_selected .nim-dialog--date,.nim-dialog--preview,.ui_rmenu_count_grey,div[contenteditable=true]::placeholder,div[contenteditable=true]~.placeholder .ph_content,textarea::placeholder,input::placeholder{
+.im-navigation__button,.mv_playlist_header_videos_cnt,.TimeCodesList__headerAction,.StoriesArchive-empty__label,.landing_transparencySection__description,.nim-dialog--mute,.nim-dialog--close,.nim-dialog--actions,.im-dialog-select--btn,.apps_share_button,.pg_fixed_pages a,.article_layer__content_footer *,.VideoRestriction:not(.VideoRestriction--canPreview) .VideoRestriction__title,.wdd_text,.wdd_add3,.FeedbackTooltip__wrapper,.Suggestion__ItemDescription,.PredictionItem__helper,.PredictionWidget__footer,.exchange_table_hint,#exchange_comm_search_count,.ads_edit_link_type_card_description,.Table__Tip,.medadd_h,.button_action_light:hover,.no_rows,.WeekStat__BlockFooter,.page_actions_expanded .page_actions_item,.im-page--top-date-bar,.nim-dialog_classic.nim-dialog_unread-out .nim-dialog--inner-text,.nim-dialog_selected .nim-dialog--who,.nim-dialog_selected .nim-dialog--date,.nim-dialog--preview,.ui_rmenu_count_grey,div[contenteditable=true]::placeholder,div[contenteditable=true]~.placeholder .ph_content,textarea::placeholder,input::placeholder{
 	color:var(--n999)!important
 }
 .media_voting_option_count,.WeekStatGrid__ItemDiff{
@@ -1743,9 +1743,6 @@ html.ns .page_block,html.ns .PageBlock,html.ns .ReplyBoxDonut,html.ns .Classifie
 html.ns .theme .redesigned-group-cover:before,html.ns .redesigned-group-cover:after,html.ns .redesigned-group-info:before,html.ns .faq_search_form{border-radius:0!important}
 html.ns #page_header,html.ns #page_layout,html.ns .im-page_classic.im-page_group .im-group-online,html.ns .im-page_classic .im-page--header,html.ns .im-page_classic .im-page--chat-header{padding:0!important}
 
-.vkuiSpacing[style*="--vkui_internal--Spacing_gap: var(--page-block-offset)"]{
-	--spacing-gap-size:var(--page-block-offset)!important
-}
 :root body,.vkui--vkBase--light,.vkui--vkCom--light{
 	--vkui--size_border_radius--regular:2px;
 	--vkui--size_border_radius_paper--regular:4px
@@ -1931,7 +1928,6 @@ html.Pl .r53{left:unset!important;right:0!important}
 .PostActionStatusBar,.PostBottomAction{height:36px!important;padding-top:0!important;padding-bottom:0!important}
 .PostBottomAction{padding-left:3px!important}
 html.sl .PostBottomAction{padding-left:0!important}
-html.sl .PostActionStatusBar{float:left}
 html.sl .PostBottomAction__icon svg{height:18px}
 html.sl .PostButtonReactions__icon{height:19px;background-size:16px}
 html.sl .PostButtonReactions__iconAnimation{height:22px}
@@ -1943,21 +1939,20 @@ html.sl .like_button_icon{width:16px;height:16px}
 .bt_report_like .like_on svg,.bt_report_like .like_off svg{background-size:16px!important}
 .like_btn .counter_anim_wrap,.like_btn .counter_wrap{height:100%;overflow:hidden}
 
-html.ol .PostActionStatusBar--hidden{display:block!important}
-html.ol .PostActionStatusBar{float:left;padding:0 15px 0 43px!important}
-html.ol.sl .PostActionStatusBar{padding-left:38px!important}
-html.ol .PostActionStatusBar--hidden .ReactionsPreview__count,html.ol .ReactionsPreview__items,html.ol .PostButtonReactions .PostBottomAction__label{display:none!important}
-html.ol .ReactionsPreview,html.ol .BadgesStatusBar__badgesSendButton{z-index:102!important}
-html.ol .ReactionsPreview--active .ReactionsPreview__count{color:var(--lc)!important}
-html.ol .like_wrap{position:relative!important}
-html.ol .like_cont{position:unset!important}
-.PostActionStatusBar__rightInner{padding-left:16px!important}
-html.ol .PostButtonReactionsContainer{position:unset!important;z-index:102!important}
-html.ol .PostActionStatusBar+.like_wrap .PostButtonReactions{position:absolute!important;top:0!important;left:17px!important;padding:0!important}
-html.ol .PostButtonReactionsContainer .Popper{left:13px!important}html.ol .PostButtonReactionsContainer .Popper--t{top:5px!important}
+html.ol .PostActionStatusBar{display:none!important} 
 html.ol .PostButtonReactions>*{pointer-events:none}
-html.ol:not(.sl) .wall_module .wall_text{padding-bottom:6px!important}
-html.ol:not(.sl) .PostBottomActionLikeBtns.like_cont{padding:0 0 6px 0!important}
+
+.Post--redesignV3 [class*="vkitShowMoreText"]>button,.wall_reply_more_redesign_2024{color:var(--g2)!important;background:unset!important;margin-left:1ch!important}
+html.op .Post--redesignV3 .PostContentDumbSkeleton{display:flex!important;flex-direction:column-reverse!important;padding:0 20px!important}
+html.op .Post--redesignV3 .PostContentDumbSkeleton__text--noIslands{padding:0!important}
+html.op .Post--redesignV3 [class*="PostContentContainer__contentContainer"]{
+	display:flex!important;flex-direction:column-reverse!important;
+	>:first-child:not([style="padding: 0px 8px;"]){padding:12px 20px 5px!important;[style*="padding"]{padding:unset!important}}
+	>[role=button]{background:unset;order:-1}
+	.post_content.Post--redesignFooterV3{padding-bottom:4px!important}
+	.PrimaryAttachment{margin-top:0!important}
+	.VideoPrimaryAttachment,.VideoPrimaryAttachment__thumbWrapper,.page_post_thumb_wrap{width:auto!important}
+}
 
 .vkui:not(.s) #cp_s,.article_body #cp,.article_body #cp_s,.author_page_body #cp,.author_page_body #cp_s,.article_ed_body #cp,.article_ed_body #cp_s,.article_ed_body #stl_left,.article_ed_body #page_wrap,.article_ed_body .author_page,.article_ed_body .article_layer,.body_article_layer #cp,.body_article_layer #cp_s,.body_article_layer #stl_left,.body_article_layer #page_wrap,.body_article_layer .author_page,.body_article_layer #layer_wrap,.body_article_layer #wk_layer_wrap,.AuthorPage--showing #cp,.AuthorPage--showing #cp_s,.AuthorPage--showing #stl_left,.AuthorPage--showing #page_wrap{
 	visibility:hidden!important;opacity:0!important;pointer-events:none!important
