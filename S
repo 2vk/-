@@ -382,7 +382,7 @@ html,.cp_fg{
 .online:after,.vkUOnline,.Avatar--online:after,.im-group-online--beacon-wrapper,.im-group-online--beacon-signal,.MEAvatar__online{
 	background-color:var(--oc)!important
 }
-.UnreadCounter--muted,#ui_rmenu_admin_tips .ui_rmenu_extra_label>*,.nim-dialog_muted .nim-dialog--unread,.nim-dialog_muted .nim-dialog--unread-badge_bomb{
+.UnreadCounter--muted,.vkuiCounter--mode-secondary,#ui_rmenu_admin_tips .ui_rmenu_extra_label>*,.nim-dialog_muted .nim-dialog--unread,.nim-dialog_muted .nim-dialog--unread-badge_bomb{
 	background-color:var(--n777)!important
 }
 .vkuiTappable:hover>.vkuiTappable__hoverShadow,.microdata_price_old:after,.article>cite:before,.article>cite:after,.article_dark .article>cite:before,.article_dark .article>cite:after{
@@ -992,7 +992,7 @@ a.dd_link{
 	width:unset!important
 }
 .popup_box_container--no-body{
-	min-width:fit-content
+	min-width:min-content
 }
 .ui_tab_new,.ui_tabs_header .ui_tab_new{height:32px!important}.wall_module .ui_tabs_container{padding:15px 20px 10px!important}
 .reply_link_wrap.share_link_wrap{display:block!important;width:26px;height:23px;margin:-5px;padding:0!important;background:no-repeat 50%/16px;overflow:hidden}
@@ -1169,7 +1169,7 @@ input[type=number]::-webkit-outer-spin-button,input[type=number]::-webkit-inner-
 .stories_feed_preview_author_cell,.stories_feed_preview_author_name,.article_snippet__author,.slider_hint,.top_result_baloon a{
 	color:#eee!important;text-shadow:none
 }
-.vkuiCalendarDay__inner--active,.AttachAudio__play,.SecondaryAttachment__iconButton,.FCThumb__unread,.UnreadCounter,.HelpHint .vkuiTooltip__content *,.eltt.feature_intro_blue_tt,.cal_table .day.sel,.articleView__ttsHighlight,.token_selected .token_inner,.summary_tab_sel .summary_tab3,.landing_transparencyArchive__button:not([disabled]),.PageButton,.mv_live_gift_popup_send_comment_btn,.AppsCatalogCardBadge--new,.DownloadedGameItem__badge--exclusive,.article_layer .article_stat .article_stat__funnel_text_part:last-child,.PageBottomBanner__header,.PageBottomBanner__text,.mv_chat_admin_message .mv_chat_message_author_name,.gtop_header .new_text,.eltt.eltt_blue,.eltt.feature_info_tooltip,.ads_no_office_list_item:before,.SelectButtons__option input:checked+.SelectButtons__label,.exchange_subtab1.active,.group_activity_new_replies>b,.im-navigation--label-in,#ui_rmenu_admin_tips .ui_rmenu_extra_label>*,.rdrStartEdge~.rdrDayNumber span,.rdrEndEdge~.rdrDayNumber span,.UnreadCounter--muted,.nim-dialog .nim-dialog--unread,.nim-dialog_muted .nim-dialog--unread,.nim-dialog--unread-badge{
+.vkuiCalendarDay__inner--active,.AttachAudio__play,.SecondaryAttachment__iconButton,.FCThumb__unread,.HelpHint .vkuiTooltip__content *,.eltt.feature_intro_blue_tt,.cal_table .day.sel,.articleView__ttsHighlight,.token_selected .token_inner,.summary_tab_sel .summary_tab3,.landing_transparencyArchive__button:not([disabled]),.PageButton,.mv_live_gift_popup_send_comment_btn,.AppsCatalogCardBadge--new,.DownloadedGameItem__badge--exclusive,.article_layer .article_stat .article_stat__funnel_text_part:last-child,.PageBottomBanner__header,.PageBottomBanner__text,.mv_chat_admin_message .mv_chat_message_author_name,.gtop_header .new_text,.eltt.eltt_blue,.eltt.feature_info_tooltip,.ads_no_office_list_item:before,.SelectButtons__option input:checked+.SelectButtons__label,.exchange_subtab1.active,.group_activity_new_replies>b,.im-navigation--label-in,#ui_rmenu_admin_tips .ui_rmenu_extra_label>*,.rdrStartEdge~.rdrDayNumber span,.rdrEndEdge~.rdrDayNumber span,.UnreadCounter,.vkuiCounter,.nim-dialog .nim-dialog--unread,.nim-dialog_muted .nim-dialog--unread,.nim-dialog--unread-badge{
 	color:var(--n15)!important;text-shadow:none
 }
 .footer_nav,.login_mobile_header,.login_mobile_info,html:not(.mb) .quick_login .label,html:not(.mb) .quick_login .quick_forgot,html:not(.mb) .quick_login .checkbox,html:not(.mg):not(.me):not(.mc) #side_bar ol li>a>span,html:not(.mg):not(.me):not(.mc) .left_menu_nav,html:not(.mg):not(.me):not(.mc) .left_restore_link{
