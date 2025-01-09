@@ -506,7 +506,7 @@ body:not(.stories_layer_shown):not(.layers_shown):not(.vk__page_app):not(.z_open
 	--header_text:var(--black);
 	--header_text_alternate:var(--black);
 	--header_text_secondary:var(--n777);
-	--header_tint:var(--n33f);
+	--header_tint:var(--n777);
 	--header_tint_alternate:var(--g2);
 	--icon_alpha_placeholder:var(--white);
 	--icon_medium:var(--n777);
@@ -669,7 +669,8 @@ body:not(.stories_layer_shown):not(.layers_shown):not(.vk__page_app):not(.z_open
 	--vkui--color_transparent--hover:var(--n22e);
 	--vkui--color_transparent--active:var(--n22e);
 
-	--vkui--gradient_tint:linear-gradient(90deg,var(--n22e),#0000);
+	--vkui--gradient:initial;
+	--vkui--gradient_tint:var(--n22e),#0000;
 	--vkui--color_accent_blue:var(--g3);
 	--vkui--color_accent_gray:var(--n777);
 	--vkui--color_accent_secondary:var(--g2);
@@ -680,6 +681,7 @@ body:not(.stories_layer_shown):not(.layers_shown):not(.vk__page_app):not(.z_open
 	--vkui--color_background_accent:var(--g2);
 	--vkui--color_background_accent_alternative:var(--g2);
 	--vkui--color_background_accent_themed:var(--g2);
+	--vkui--color_background_accent_themed_alpha:color-mix(in hsl,var(--g2) 12%,#0000);
 	--vkui--color_background_accent_tint:var(--g2);
 	--vkui--color_background_accent_tint--hover:var(--g1);
 	--vkui--color_background_accent_tint--active:var(--g3);
@@ -687,15 +689,20 @@ body:not(.stories_layer_shown):not(.layers_shown):not(.vk__page_app):not(.z_open
 	--vkui--color_background_content--hover:var(--n22e);
 	--vkui--color_background_content--active:var(--n29e);
 	--vkui--color_background_contrast_inverse:var(--black_alpha72);
+	--vkui--color_background_contrast_themed:var(--n15b);
+	--vkui--color_background_contrast_themed--hover:var(--n22e);
+	--vkui--color_background_contrast_themed--active:var(--n29e);
 	--vkui--color_background_modal:var(--n15b);
 	--vkui--color_background_modal_inverse:var(--eee);
 	--vkui--color_background_negative:hsla(0,100%,50%,.2);
 	--vkui--color_background_negative_tint:hsla(0,100%,50%,.2);
 	--vkui--color_background_positive_tint:hsla(108,100%,50%,.2);
-	--vkui--color_background_secondary:var(--n228);
+	--vkui--color_background_secondary:var(--n22e);
 	--vkui--color_background_secondary--hover:var(--n22e);
 	--vkui--color_background_secondary--active:var(--n29e);
 	--vkui--color_background_secondary_alpha:var(--n228);
+	--vkui--color_background_secondary_alpha--hover:var(--n22e);
+	--vkui--color_background_secondary_alpha--active:var(--n29e);
 	--vkui--color_background_tertiary:var(--n22e);
 	--vkui--color_background_warning:hsla(42,80%,45%,.2);
 	--vkui--color_button_icon:var(--g3);
@@ -707,8 +714,8 @@ body:not(.stories_layer_shown):not(.layers_shown):not(.vk__page_app):not(.z_open
 	--vkui--color_header_background:var(--n15e);
 	--vkui--color_icon_accent:var(--g2);
 	--vkui--color_icon_accent_themed:var(--g2);
-	--vkui--color_icon_contrast:var(--n15);
-	--vkui--color_icon_contrast_secondary:var(--n15);
+	--vkui--color_icon_contrast:#fff;
+	--vkui--color_icon_contrast_secondary:#fff;
 	--vkui--color_icon_contrast_themed:var(--n15);
 	--vkui--color_icon_medium:var(--n777);
 	--vkui--color_icon_medium_alpha:var(--black_alpha48);
@@ -720,9 +727,9 @@ body:not(.stories_layer_shown):not(.layers_shown):not(.vk__page_app):not(.z_open
 	--vkui--color_image_border_alpha:#0000;
 	--vkui--color_image_placeholder:var(--n22e);
 	--vkui--color_image_placeholder_alpha:var(--n228);
-	--vkui--color_search_field_background:var(--n29e);
-	--vkui--color_search_field_background--hover:var(--n29e);
-	--vkui--color_search_field_background--active:var(--n29e);
+	--vkui--color_search_field_background:var(--n22e);
+	--vkui--color_search_field_background--hover:var(--n22e);
+	--vkui--color_search_field_background--active:var(--n22e);
 	--vkui--color_segmented_control:var(--n444);
 	--vkui--color_separator_primary:var(--n29e);
 	--vkui--color_separator_primary_alpha:var(--n29e);
@@ -735,6 +742,8 @@ body:not(.stories_layer_shown):not(.layers_shown):not(.vk__page_app):not(.z_open
 	--vkui--color_stroke_positive:hsla(108,100%,50%,.3);
 	--vkui--color_text_accent:var(--g2);
 	--vkui--color_text_accent_themed:var(--g2);
+	--vkui--color_text_accent_themed--hover:var(--g1);
+	--vkui--color_text_accent_themed--active:var(--g3);
 	--vkui--color_text_contrast:#fff;
 	--vkui--color_text_contrast_themed:var(--n15);
 	--vkui--color_text_link:var(--g2);
@@ -752,7 +761,8 @@ body:not(.stories_layer_shown):not(.layers_shown):not(.vk__page_app):not(.z_open
 	--vkui--color_track_buffer--active:var(--g3);
 	--vkui--color_write_bar_icon:var(--n999);
 	--vkui--color_write_bar_input_background:var(--n158);
-	--vkui--vkontakte_background_hover_alpha:var(--n228);
+	--vkui--vkontakte_button_tertiary_foreground:var(--g3);
+	--vkui--vkontakte_background_hover_alpha:var(--n22e);
 	--vkui--vkontakte_color_accent_alternate:var(--g2);
 	--vkui--vkontakte_color_action_sheet_separator_alpha:var(--black_alpha12);
 	--vkui--vkontakte_color_alpha_skeleton_shimmer_to:var(--transparent_white);
@@ -771,6 +781,7 @@ body:not(.stories_layer_shown):not(.layers_shown):not(.vk__page_app):not(.z_open
 	--vkui--vkontakte_color_icon_outline_secondary:var(--n777);
 	--vkui--vkontakte_color_im_bubble_gift_text:var(--gold_500);
 	--vkui--vkontakte_color_im_bubble_gift_text_secondary:var(--gold_400);
+	--vkui--vkontakte_color_im_bubble_outgoing:var(--n29f);
 	--vkui--vkontakte_color_im_bubble_incoming:var(--n228);
 	--vkui--vkontakte_color_im_bubble_incoming_alternate:var(--n228);
 	--vkui--vkontakte_color_im_bubble_incoming_expiring:var(--n29e);
