@@ -1940,7 +1940,8 @@ html.op .Post--redesignV3 .PostContentDumbSkeleton{display:flex!important;flex-d
 html.op .Post--redesignV3 .PostContentDumbSkeleton__text--noIslands{padding:0!important}
 html.op .Post--redesignV3 [class*="PostContentContainer__contentContainer"]{
 	display:flex!important;flex-direction:column-reverse!important;
-	>:first-child:not([style="padding: 0px 8px;"]){padding:12px 20px 5px!important;[style*="padding"]{padding:unset!important}}
+	>.vkuiSpacing:first-child{display:none}
+	>div:not([style="padding: 0px 8px;"]){padding:12px 20px 5px!important;[style*="padding"]{padding:unset!important}}
 	>[role=button]{background:unset;order:-1}
 	.post_content.Post--redesignFooterV3{padding-bottom:4px!important}
 	.PrimaryAttachment{margin-top:0!important}
