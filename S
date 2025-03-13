@@ -1302,6 +1302,8 @@ html.ns .AudioPlayerBlock__root .vkuiSpacing[style*="height: 72"]{display:block!
 	position:relative}
 .wall_reply_text[onclick^="window.Videoview"]{
 	pointer-events:none}
+.wall_reply_text[onclick^="window.Videoview"]>*{
+	pointer-events:all}
 .ui_actions_menu{
 	position:absolute;visibility:hidden;pointer-events:none}
 body.widget_body.fixed{
