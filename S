@@ -755,7 +755,7 @@ input.ui_search_field,.selector_container td.selector_dropdown{
 .top_result_baloon{
 	box-shadow:var(--bs),0 2px 15px #000!important
 }
-.VKCOMMessenger__reforgedRoot,.ProfileWrapper .ProfileHeader,.page_block,.vkuiGroup__modeCard:before,.im-page:before,html.sv .VideoLayout,.VideoShowcaseCommunityHeader,.VideoSearchInput:not(.VideoSearchInput--sticky) .ui_search_input_block,.ClassifiedsSearchResult,.ClassifiedsGroupSection__root,.ClassifiedsGroupProductsCategoryView,.ClassifiedsGroupProductsCategoryPreview,.ClassifiedsGroupProductsCategories__headContainer,.ClassifiedsGroupProductsCategoryProductsPage__headContainer,.MarketplaceCatalogHeaderMenu--gap,.MarketplaceCatalogPageProfile,.MarketplaceCatalogBlockBanner,.MarketplaceCatalogBlocks__block,.EcommSkeleton__block,.MarketRightMenu,.ShortVideoPage__container--empty,.ShortVideoPost,.GamesCatalog--search_page,.PageBlock,.RightMenuBlock,.DonutCatalogPromo,.login_blocked_reason_activity,.im-aside-notice,.audio_promo,.faq_search_form,.oauth_centered .oauth_wrap_content,html.mb #side_bar_inner,#dev_left_nav,.dev_section_methods_wrap,#dev_page_wrap1,.dev_page_block{
+.VKCOMMessenger__reforgedRoot,.ProfileWrapper .ProfileHeader,.ProfileGroupSkeleton:after,.page_block,.vkuiGroup__modeCard:before,.im-page:before,html.sv .VideoLayout,.VideoShowcaseCommunityHeader,.VideoSearchInput:not(.VideoSearchInput--sticky) .ui_search_input_block,.ClassifiedsSearchResult,.ClassifiedsGroupSection__root,.ClassifiedsGroupProductsCategoryView,.ClassifiedsGroupProductsCategoryPreview,.ClassifiedsGroupProductsCategories__headContainer,.ClassifiedsGroupProductsCategoryProductsPage__headContainer,.MarketplaceCatalogHeaderMenu--gap,.MarketplaceCatalogPageProfile,.MarketplaceCatalogBlockBanner,.MarketplaceCatalogBlocks__block,.EcommSkeleton__block,.MarketRightMenu,.ShortVideoPage__container--empty,.ShortVideoPost,.GamesCatalog--search_page,.PageBlock,.RightMenuBlock,.DonutCatalogPromo,.login_blocked_reason_activity,.im-aside-notice,.audio_promo,.faq_search_form,.oauth_centered .oauth_wrap_content,html.mb #side_bar_inner,#dev_left_nav,.dev_section_methods_wrap,#dev_page_wrap1,.dev_page_block{
 	box-shadow:var(--bs)!important
 }
 .MarketAdminTable__table--scrollShadow .MarketAdminTable__tableCell:first-child{
@@ -1730,7 +1730,7 @@ html.sv .HeaderNav--hide-search .HeaderNav__btns,html.sv .HeaderNav--hide-search
 
 
 html.ns .page_block,html.ns .page_block:last-child,html.ns .page_block_cell,html.ns .PageBlock,html.ns .like_wrap .BadgesStack,html.ns .VKCOMMessenger__reforgedRightColumn,html.ns .AppsCatalogMainPage,html.ns .MarketOrdersPage,html.ns .MarketplaceCatalogHeaderMenu,html.ns .MarketplaceCatalogFields__field,html.ns .MarketplaceCatalogBlocks__block,html.ns .ClassifiedsSearchResult,html.ns .ClassifiedsGroupSection__root,html.ns .ClassifiedsGroupProductsCategoryView,html.ns .ClassifiedsGroupProductsCategoryPreview,html.ns .ClassifiedsGroupProductsCategories__headContainer,html.ns .ClassifiedsGroupProductsCategoryProductsPage__headContainer,html.ns .ShortVideoPage,html.ns .ShortVideoPost,html.ns .DonutCatalogPromo,html.ns .RightMenuBlock,html.ns .MarketRightMenu{margin:0}
-html.ns .feed_wall--no-islands,html.ns .page_block,html.ns ._playlist_page_content_block,html.ns .faq_search_form,html.ns .audio_promo,html.ns .stories_feed_wrap,html.ns .PostingReactBlock__root>*{margin:0!important}
+html.ns .feed_wall--no-islands,html.ns .page_block,html.ns ._playlist_page_content_block,html.ns .faq_search_form,html.ns .audio_promo,html.ns .stories_feed_wrap,html.ns .PostingReactBlock__root .vkui__root>*{margin:0!important}
 html.ns .VKCOMSettingsContent,html.ns .MarketplaceCatalogFields{width:auto}
 html.ns #page_layout .CatalogBlock--divided:not(:first-child),html.ns .im-page_classic #im_dialogs{margin-top:0}
 html.ns .im-page,html.ns .VKCOMMessenger__reforgedRoot{margin:0;padding:0;height:calc(100vh - var(--header-height))}
@@ -1746,7 +1746,8 @@ html.ns .ProfileWrapper .WallLegacy{padding-top:0!important;margin-top:0!importa
 html.ns .ProfileWrapper .ScrollStickyWrapper{margin-left:0!important;margin-right:0!important;flex-grow:0}
 html.ns .ProfileWrapper .ScrollStickyWrapper>[style*=" top: 64px"]{margin-top:calc(-1 * var(--page-block-offset))!important}
 html.ns .ProfileWrapper .RedesignedPageBlockContainer{margin-top:0}
-html.ns .vkuiSpacing:has(+.vkuiGroup__modeCard,+.ProfileHeader),html.ns .ProfileHeader+.vkuiSpacing,html.ns .vkui__root>.vkuiSpacing:first-child,html.ns .vkuiGroup__separator,html.ns .vkuiGroup__separator-sibling{display:none!important}
+html.ns .ProfileHeaderSkeleton,html.ns .ProfileSkeleton__layout,html.ns .ProfileSkeleton__column+.ProfileSkeleton__column,html.ns .ProfileGroupSkeleton{margin:0}
+html.ns .ProfileGroupSkeleton:after,html.ns div[class*="Spacing"]:has(+.vkuiGroup__modeCard,+.ProfileHeader),html.ns .ProfileHeader+div[class*="Spacing"],html.ns .vkuiGroup__separator,html.ns .vkuiGroup__separatorSibling{display:none!important}
 html.ns .feed_reposts_more_link{margin:0;width:100%;border-radius:0}
 html.ns .MarketOrdersList{width:565px}
 html.ns .page_block,html.ns .PageBlock,html.ns .ReplyBoxDonut,html.ns .ClassifiedsSearchResult,html.ns .ClassifiedsGroupSection__root,html.ns .ClassifiedsGroupProductsCategoryView,html.ns .ClassifiedsGroupProductsCategoryPreview,html.ns .ClassifiedsGroupProductsCategories__headContainer,html.ns .ClassifiedsGroupProductsCategoryProductsPage__headContainer,html.ns .ShortVideoPost,html.ns #page_layout .CatalogBlock--divided,html.ns #page_layout .audio_section,
