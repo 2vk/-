@@ -2451,7 +2451,7 @@ html.sv .theme .PlaylistsSlider,html.sv .theme .PlaylistSlider{margin-right:0!im
 	--gray_950:var(--eee);
 	--gray_960:var(--eee);
 	--black:var(--eee);
-	--black:red;
+	--black:#000;
 	--white:#fff;
 	--yellow_light:hsla(45,100%,50%,.2);
 	--light_blue_40:var(--n22f);
