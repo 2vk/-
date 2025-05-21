@@ -372,7 +372,7 @@ html,.cp_fg{
 .vkuiButton__modePrimary.vkuiButton__appearanceNegative,.FlatButton--negative,.Button--negative{
 	background-color:var(--red)!important
 }
-.ConvoMessageWithoutBubble:has(use[*|href="#check_outline_16"]),#tickets_reply_rows>[style*="background"]:not(.msg),.nim-dialog_classic.nim-dialog_unread-out .nim-dialog--inner-text,.nim-dialog_unread.nim-dialog_classic,.im-mess_unread,.im-mess.im-mess_was_edited.im-mess_unread.im-mess_nobg{
+.ConvoMessageWithoutBubble:has(.vkuiIcon--check_outline_16),#tickets_reply_rows>[style*="background"]:not(.msg),.nim-dialog_classic.nim-dialog_unread-out .nim-dialog--inner-text,.nim-dialog_unread.nim-dialog_classic,.im-mess_unread,.im-mess.im-mess_was_edited.im-mess_unread.im-mess_nobg{
 	background-color:var(--uc)!important
 }
 .online:after,.vkUOnline,.Avatar--online:after,.im-group-online--beacon-wrapper,.im-group-online--beacon-signal,.MEAvatar__online{
@@ -2450,7 +2450,6 @@ html.sv .theme .PlaylistsSlider,html.sv .theme .PlaylistSlider{margin-right:0!im
 	--gray_900:var(--ccc);
 	--gray_950:var(--eee);
 	--gray_960:var(--eee);
-	--black:var(--eee);
 	--black:#000;
 	--white:#fff;
 	--yellow_light:hsla(45,100%,50%,.2);
