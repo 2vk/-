@@ -420,7 +420,7 @@ html.s #cp_s{background-size:12px}
 .cp_hf{transition:.2s;height:40px;padding:5px;line-height:22px;text-align:center}
 .cp_hf .w,.cp_hf .f{--f:sans-serif;position:absolute;right:0;bottom:0;opacity:.5;line-height:12px;font-size:12px!important;padding:2px 4px;border-radius:4px 0 0 0;background:var(--n15)}.cp_hf .f{left:0;right:unset}
 .cp_hf:hover{background-color:var(--n29f)}
-.cp_z,.cp_a,.cp_a>div{font-family:'Roboto'!important;font-size:14px!important;font-weight:500}
+.cp_z,.cp_a,.cp_a>div{font-family:'Roboto',system-ui!important;font-size:14px!important;font-weight:500}
 .cp_z,.cp_a{display:block;position:fixed;top:6px;right:50px;padding:10px;background:var(--g2);color:var(--n15);line-height:16px;border-radius:5px;z-index:1503;box-shadow:10px 10px 30px rgba(0,0,0,.5)}
 .cp_z:before,.cp_a:before{content:'';position:absolute;top:-6px;right:-50px;width:calc(100% + 50px);height:50px;z-index:-1}
 .cp_z:after{content:'';position:absolute;top:10px;left:100%;border:7px solid #0000;border-left-color:var(--g2)}
@@ -448,6 +448,11 @@ body.Videoview #cp:has(>#cp_video){z-index:499}
 #cp_video>section>*:hover>*{opacity:1}
 #cp_video>section>*>s{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 2 20 20"><path stroke="white" stroke-width="1.4" stroke-linecap="round" fill="none" d="M12 7.9v8.2M7.9 12h8.2M15 3q6 0 6 6v6q0 6-6 6H9q-6 0-6-6V9q0-6 6-6z"/></svg>')}
 #cp_video>section>*>u{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 2 20 20"><path stroke="white" stroke-width="1.4" stroke-linecap="round" fill="none" d="m8.4 11.9 2.6 2.6m0 0 4.6-4.6M15 3q6 0 6 6v6q0 6-6 6H9q-6 0-6-6V9q0-6 6-6z"/></svg>')}
+
+#cpv div{position:absolute;top:calc(50% + 5vh);left:calc(50% - 7vh);display:flex;gap:1vh}
+#cpv>div{display:grid;inset:0;place-items:center;font-family:var(--f,'Roboto',system-ui);font-size:5vh!important;font-weight:100;color:var(--eee);letter-spacing:-.05em;white-space:nowrap;text-shadow:0 0 8px rgba(0,0,0,1);cursor:default}
+#cpv svg{width:4vh;height:4vh;color:var(--eee);filter:drop-shadow(1px 1px 0 #000) drop-shadow(0 0 1px #000);cursor:pointer}
+html.vo body{min-height:unset!important}
 
 .cp_hf .x,.cp_hf .c{opacity:.5}
 
@@ -738,6 +743,7 @@ body.Videoview #cp:has(>#cp_video){z-index:499}
 	--vkui--color_field_border_alpha--hover:var(--n33e);
 	--vkui--color_header_background:var(--n15e);
 	--vkui--color_icon_accent:var(--g2);
+	--vkui--color_icon_accent--hover:var(--g1);
 	--vkui--color_icon_accent_themed:var(--g2);
 	--vkui--color_icon_contrast:#fff;
 	--vkui--color_icon_contrast_secondary:#fff;
@@ -818,7 +824,7 @@ body.Videoview #cp:has(>#cp_video){z-index:499}
 	--vkui--vkontakte_color_loader_tint:var(--n33e);
 	--vkui--vkontakte_color_modal_card_border_alpha:var(--n29e);
 	--vkui--vkontakte_color_modal_card_header_close:var(--black);
-	--vkui--vkontakte_color_music_playback_icon:var(--black);
+	--vkui--vkontakte_color_music_playback_icon:var(--eee);
 	--vkui--vkontakte_color_panel_tab_active_text:var(--n999);
 	--vkui--vkontakte_color_placeholder_icon_foreground_primary:var(--n999);
 	--vkui--vkontakte_color_placeholder_icon_foreground_secondary:var(--n444);
