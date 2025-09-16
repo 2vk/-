@@ -76,7 +76,7 @@ a.wk_ext_link{background-image:url('data:image/svg+xml,<svg width="7" height="7"
 	font-weight:var(--w,400)
 }
 strong,b{--w:bold}
-html.vo .layout,html:not(.s) #cp_s,#cp_af,#cp_hc,#cp_ht,#cp_bt,#cp_bc,#cp_mc,#cp_mb,#cp_mm,#cp_mf,#cp_bs,#cp_bs+.w,#cp_c,.feedAssistance_promoButton{
+html.vo .layout,html:not(.s) #cp_s,#cp_af,#cp_hc,#cp_ht,#cp_bt,#cp_bc,#cp_mc,#cp_mb,#cp_mm,#cp_mf,#cp_bs,#cp_bs+.w,#cp_c,.feedAssistance_promoButton,.ProfileCoverShadowWrapper{
 	display:none!important
 }
 body,button,input,textarea{
@@ -120,7 +120,7 @@ html,.cp_fg{
 .Control_type_switcher .Control__native+.Control__icon,.ad_mode .aic_progress_wrap .aic_load_line,.Audio__lineBackground,.aic_back_line{
 	background-color:var(--n333)!important
 }
-.cp_t .w:before,.sp_pptw,.Control_type_switcher .Control__native:checked+.Control__icon,.Audio__lineLoad,.aic_load_line{
+.ProfileIndicatorBadge__badgeLastSeen,.cp_t .w:before,.sp_pptw,.Control_type_switcher .Control__native:checked+.Control__icon,.Audio__lineLoad,.aic_load_line{
 	background-color:var(--n444)!important
 }
 .lvi,.vk__page_chatAdd .lvi:not(.mlvi),.vk__page_chatSettings .lvi:not(.mlvi),.convo__online_desktop,.loginHistory__item_online:after{
@@ -138,7 +138,7 @@ html,.cp_fg{
 .service_msg_error{
 	background-color:rgba(255,0,0,.2)!important
 }
-.vkuiSearch,.GlobalSearchHeader .row_table_main_column,.VideoPage__video,.CreatePostButtons__group,.vk__page_notifications .basisDefault,.basisDefault_MainMenu,.head_panel:first-child,.qsearch_wrap,.audioPage__search,.uMailWrite__popupStickers .sp_tab:hover,.uMailWrite__popupStickers .sp_tab_selected,.al_loading,.vk__page_notifications .friendRequestsRow,.header__gear,.mhi_create,.mhi_notify,.Separator,.friendRequestsPreview__content,.Btn__text,.vk__page_join,.vk__page_join .basis__content,.pp_auth_link,.apps_gameSettingsPage__btn_cancel,.selected_users_next_button,.audioPlayer__audioItem,.audio_item,.AudioSerp:after,.audioPlaylistSnippet,.uMailWrite__keyboard,.ProductSnippet,.mailDialog__button_secondary,.Bookmarks:after,.MailTemplatePage,.messenger__page,.layout__header,.si_iwrap,.LikesPhotoBlock,.head_panel,.Voting:not(.Voting_dark) .VotingBcg_type_default,#l,.sendMoneyForm__body,.sendMoneyForm__row,.vk__page_chatSettings .si_link,.profile_menu,.loginHistory,.articleView__content,.article,.BookmarksItem .wall_item,.wall_item .Pad,.BookmarksItem_compact,.vv_summary,.vk__page_search .PageBlock,.PageBlock_transparent,.PageBlock:not(.PageBlock_transparent) .Pad,.PageBlock .results,.PageBlock .summary,.PageBlock .create_post,.create_post__select,.pinnedMsg,#value_link,.uMailWrite__main,.uMailWrite__textarea,.ActionsPanel,.ShareBottom,.TextInput,.iwrap,.vk__page_redesign,.vk__page_redesign .basis__content,body,.pcont,.mcont,.main_menu,.header__back,.Groups,.owner_panel,.uMessenger,.msg,.convo,.mailFilter,.Slider,.prettyCard,.prettyCard__body,.thumbs_map,.pi_medias:after,.wi_buttons:before,.Socials:before,.BookmarksSearch,.SliderTabs,.SliderTabs__tab_selected,.Friends__symbol,.PageBlock:after,.SplashScreen_transparent,.Btn_theme_outlineRegular,.slim_header,.r .cp_attached_post .medias_link_thumbed,.r .e .medias_link_thumbed,.r .wall_item .medias_link_thumbed,.r .wall_item .medias_map,.ThumbedLink,.qs_opened #l .m_search_items .al_loading,.simple_item,.vk__page_login,.vk__page_login .basis__content,.HeaderBtn,.Unfold__item,.single_wall_item,.RepliesField__info,.sp_tabs,.sp_body,.sticker_thumb,.pm_item,.pem_pointer,.pm_pointer,.pp_pointer,.cp_pointer,.ArtistPage,.AudioBlock,.Btn_theme_outline,.ai_menu:before,.Audio__menuItem,.wia_item,.op_fimg,.op_img,.op_iwrap,.pp_img,.pp_iwrap,.textfield,textarea,.show_more_wrap,.SkeletonStory{
+.SectionActions__catalogSearch,.vkuiPanel__host:not(.vkuiPanel__disableBackground) .vkuiInternalPanel__in :is(.vkuiInternalPanel__in,[class*=vkitGroupIsland__group]),#mobile_photo_stream_app_container .vkuiCard__host,.vkuiPanel__disableBackground,.vkuiPanelHeader__in,.ConvoMain__rightPanelContainer,.ConvoMain,.ConvoList,.ConvoList__headerContent,.ConvoList__top,.ConvoList__item,.ConvoList__footer,.ConvoPinnedMessage,.ProfileCover--noCover,.ProfileCover+*,.vkuiSearch,.GlobalSearchHeader .row_table_main_column,.VideoPage__video,.CreatePostButtons__group,.vk__page_notifications .basisDefault,.basisDefault_MainMenu,.head_panel:first-child,.qsearch_wrap,.audioPage__search,.uMailWrite__popupStickers .sp_tab:hover,.uMailWrite__popupStickers .sp_tab_selected,.al_loading,.header__gear,.mhi_create,.mhi_notify,.Separator,.friendRequestsPreview__content,.Btn__text,.vk__page_join,.vk__page_join .basis__content,.pp_auth_link,.apps_gameSettingsPage__btn_cancel,.selected_users_next_button,.audioPlayer__audioItem,.audio_item,.AudioSerp:after,.audioPlaylistSnippet,.uMailWrite__keyboard,.ProductSnippet,.mailDialog__button_secondary,.Bookmarks:after,.MailTemplatePage,.messenger__page,.layout__header,.si_iwrap,.head_panel,.Voting:not(.Voting_dark) .VotingBcg_type_default,#l,.sendMoneyForm__body,.sendMoneyForm__row,.vk__page_chatSettings .si_link,.profile_menu,.loginHistory,.articleView__content,.article,.BookmarksItem .wall_item,.wall_item .Pad,.BookmarksItem_compact,.vv_summary,.vk__page_search .PageBlock,.PageBlock--transparent,.PageBlock:not(.PageBlock--transparent) .Pad,.PageBlock .results,.PageBlock .summary,.PageBlock .create_post,.create_post__select,.pinnedMsg,#value_link,.uMailWrite__main,.uMailWrite__textarea,.ActionsPanel,.ShareBottom,.TextInput,.iwrap,.vk__page_redesign,.vk__page_redesign .basis__content,body,.pcont,.mcont,.main_menu,.header__back,.Groups,.owner_panel,.uMessenger,.msg,.convo,.mailFilter,.Slider,.prettyCard,.prettyCard__body,.thumbs_map,.pi_medias:after,.wi_buttons:before,.Socials:before,.BookmarksSearch,.SliderTabs,.SliderTabs__tab_selected,.Friends__symbol,.PageBlock:after,.SplashScreen_transparent,.Btn_theme_outlineRegular,.slim_header,.r .cp_attached_post .medias_link_thumbed,.r .e .medias_link_thumbed,.r .wall_item .medias_link_thumbed,.r .wall_item .medias_map,.ThumbedLink,.qs_opened #l .m_search_items .al_loading,.simple_item,.vk__page_login,.vk__page_login .basis__content,.HeaderBtn,.Unfold__item,.single_wall_item,.RepliesField__info,.sp_tabs,.sp_body,.sticker_thumb,.pm_item,.pem_pointer,.pm_pointer,.pp_pointer,.cp_pointer,.ArtistPage,.AudioBlock,.Btn_theme_outline,.ai_menu:before,.Audio__menuItem,.wia_item,.op_fimg,.op_img,.op_iwrap,.pp_img,.pp_iwrap,.textfield,textarea,.show_more_wrap,.SkeletonStory{
 	background-color:unset!important
 }
 #cp_s.h{
@@ -169,7 +169,7 @@ html::-webkit-scrollbar-button,html::-webkit-scrollbar-corner{display:none}
 	.mhb_logo,.basis__header,.leftMenu__header,.mailHat{
 		background-color:unset!important
 	}
-	.vk_header_tabs .PageBlock{margin:10px 0;padding:0}
+	.Catalog--hasTabs,.vk_header_tabs .PageBlock{margin:10px 0;padding:0}
 	html:not(.s) body:not(.stories_layer_shown):not(.layers_shown):not(.vk__page_app):not(.z_opened) #cp_s{display:block!important}
 	.messenger__content{
 		padding:0!important;margin:1px 0 0!important
@@ -268,7 +268,7 @@ html::-webkit-scrollbar-button,html::-webkit-scrollbar-corner{display:none}
 .filter_panel.filter_panel_opened,.filter_panel:not(.filter_panel_opened)+.results,.summary+.results{
 	margin-top:12px
 }
-.basisDefault,.vk_tabbar_bottom .UserProfile{
+.basisDefault,.vk_tabbar_bottom .UserProfile,.vk__page_profile-redesign .wall_item:first-child{
 	margin-top:0
 }
 .vk_tabbar_top .mhead,.vk_tabbar_top .SkeletonComponent__page{top:unset!important}
@@ -799,7 +799,7 @@ html.vo body{min-height:unset!important}
 	--vkui--vkontakte_color_alpha_skeleton_shimmer_to:var(--transparent_white);
 	--vkui--vkontakte_color_background_keyboard:var(--n29e);
 	--vkui--vkontakte_color_background_suggestions:var(--n29e);
-	--vkui--vkontakte_color_content_placeholder_icon:var(--n444);
+	--vkui--vkontakte_color_content_placeholder_icon:var(--n777);
 	--vkui--vkontakte_color_content_tint_foreground:var(--n999);
 	--vkui--vkontakte_color_control_background:var(--n22e);
 	--vkui--vkontakte_color_control_foreground:var(--g2);
