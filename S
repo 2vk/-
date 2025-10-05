@@ -231,10 +231,10 @@ html,.cp_fg{
 .vkuiFormField__hover,.vkuiFormField__modeDefault,.poster-uploader__overlay,.MusicAuthor__follow_btn,.PhotoRecognizeBlockItemButton--secondary,.NarrativeSnippet,.wall_card,.Loading__overlay,#retargeting_group_pixel,.photos_cancel_move,.prefix_input_wrap,.survey_page-ugcform .survey_textfield,.survey_page-ugcform .survey_textarea,.EditableUnionName__inputWrapper,.FormulaInput,.Inputs__input,input.dark,input.big_text,input.file,input.search,input.text,textarea,.article_layer.article_layer__hover_left .article_layer__up,.stl_active.over_fast #stl_bg,#layer_stl_bg,.paginated_table_row.even_row,.stats_flash_wrap [style*="background: var(--"]{
 	background-color:var(--n158)!important
 }
-.vkuiInternalTwoColumnLayoutColumn [role=feed]>article,:root #page_layout .AudioPlayerBlock__root .vkuiGroup__modeCard,.VKCOMMessenger__reforgedRoot,.VideoShowcaseCommunityHeader,.DateSeparator:not(.DateSeparator--themed),.WideScreenAppPage .apps_wrapper,.sticker_hints_arrow,.EcommSkeleton__block,.ShortVideoPage__container--empty,.ShortVideoPost,.ads_schedule_cell,.Office__main,.ChatSettingsMembersWidget__add:before,.photos_choose_more,.photos_choose_more_albums,html.mb #side_bar_inner,.pva_period_fixed,.video_donate_widget_offline,.Select__menu,.ace-tm,.ace-tm .ace_gutter,.flist_sel,.login_about_mobile,.wke_page_title_cont,.wke_controls,.disabled.selector_container,.fans_fan_bl_wrap,.gifts_box_header,.wpost_post,.photos_container .photos_row,.wl_post_reply_form_forbidden,.article_ed_layer .article_ed_guide .article_ed_guide__slide,.photos_period_delimiter_fixed,.privacy_dropdown .l_item,.privacy_dropdown .l_item_sel,.privacy_dropdown .l_header,.privacy_dropdown .l_header .l_header_label,.oauth_centered,.payments_box_wide,#payments_box_right_col,.wall_comments_header,.privacy_dropdown .body,#payments_box .payments_about_votes,.payments_about_votes,.ui_tab_group_items,.paginated_table_footer,.ads_unions_list .table_footer td,#add_place_data,#exchange_post_msg,.Table__Cell,.pv_white_bg,.video_upload_separator_text,.ape_list_header,.bottom_row,.dd_menu_rows a,.lead_forms_view_form_wrap,.friends_dropdown__list,.friends_dropdown__list_content,#profile_class_hint .content,.feedback_unread_bar,.article_ed_layer,.PageBlock,.RightMenuBlock,.DonutCatalogPromo,.im-chat-input--txt-wrap,.ui_grey_block,.page_block,.GamesCatalog--search_page,.im-page:before,html.nl #wk_box,html.nl #pv_box,html.nl #mv_box,html.nl .ap_layer__content,html.nl .PodcastEpisodeLayer__content,.im-aside-notice,body.author_page_body,.author_page_layer,.ads_general_info_preview,.landing_testing_form,#mv_pl_tt .mv_tt_add_playlist,.apps_layer_wk_body,.widget_body{
+html.ns .vkuiInternalTwoColumnLayoutColumn[data-testid=feed_wall]>*>.vkuiGroup__modeCard,html:not(.ns) .vkuiInternalTwoColumnLayoutColumn [role=feed]>article,:root #page_layout .AudioPlayerBlock__root .vkuiGroup__modeCard,.VKCOMMessenger__reforgedRoot,.VideoShowcaseCommunityHeader,.DateSeparator:not(.DateSeparator--themed),.WideScreenAppPage .apps_wrapper,.sticker_hints_arrow,.EcommSkeleton__block,.ShortVideoPage__container--empty,.ShortVideoPost,.ads_schedule_cell,.Office__main,.ChatSettingsMembersWidget__add:before,.photos_choose_more,.photos_choose_more_albums,html.mb #side_bar_inner,.pva_period_fixed,.video_donate_widget_offline,.Select__menu,.ace-tm,.ace-tm .ace_gutter,.flist_sel,.login_about_mobile,.wke_page_title_cont,.wke_controls,.disabled.selector_container,.fans_fan_bl_wrap,.gifts_box_header,.wpost_post,.photos_container .photos_row,.wl_post_reply_form_forbidden,.article_ed_layer .article_ed_guide .article_ed_guide__slide,.photos_period_delimiter_fixed,.privacy_dropdown .l_item,.privacy_dropdown .l_item_sel,.privacy_dropdown .l_header,.privacy_dropdown .l_header .l_header_label,.oauth_centered,.payments_box_wide,#payments_box_right_col,.wall_comments_header,.privacy_dropdown .body,#payments_box .payments_about_votes,.payments_about_votes,.ui_tab_group_items,.paginated_table_footer,.ads_unions_list .table_footer td,#add_place_data,#exchange_post_msg,.Table__Cell,.pv_white_bg,.video_upload_separator_text,.ape_list_header,.bottom_row,.dd_menu_rows a,.lead_forms_view_form_wrap,.friends_dropdown__list,.friends_dropdown__list_content,#profile_class_hint .content,.feedback_unread_bar,.article_ed_layer,.PageBlock,.RightMenuBlock,.DonutCatalogPromo,.im-chat-input--txt-wrap,.ui_grey_block,.page_block,.GamesCatalog--search_page,.im-page:before,html.nl #wk_box,html.nl #pv_box,html.nl #mv_box,html.nl .ap_layer__content,html.nl .PodcastEpisodeLayer__content,.im-aside-notice,body.author_page_body,.author_page_layer,.ads_general_info_preview,.landing_testing_form,#mv_pl_tt .mv_tt_add_playlist,.apps_layer_wk_body,.widget_body{
 	background-color:var(--n15e)!important
 }
-:root #page_layout .AudioPlayerBlock__root div[class*=fixed] .vkuiGroup__modeCard,.Profile .OwnerPageAvatar__underlay,.HeaderProfile__Dropdown,.ReactionTitle,.stats_cont_browse_tile,.emoji_tab_sel,.StickerPackPreview__footer,.video_box_msg_text,#history_list,.mv_video_unavailable_message,.apps_cont_msg,.vk_app_modal_container,.wk_wall_archive__tabs,.stats_no_stats_absolute_mask,.article_full_view,.poster__change-bkg-btn,.docs_panel,div.photos_header_fixed,.ads_edit_easy_promote_box__row_fixed,.fans_fan_bl,.stories_feed_wrap [class*=avatarCreate],.photo_tooltip__content,.photo_tooltip__content:after,.groups_edit_event_log_controls.groups_edit_event_log_controls_fixed,body.is_page,.ui_search.ui_search_fixed,.FeedbackTitle,.FCPanel__list,.FCWindow{
+:root #page_layout .AudioPlayerBlock__root div[class*=fixed] .vkuiGroup__modeCard,.Profile .OwnerPageAvatar__underlay,.HeaderProfile__Dropdown,.ReactionTitle,.stats_cont_browse_tile,.emoji_tab_sel,.StickerPackPreview__footer,.video_box_msg_text,#history_list,.mv_video_unavailable_message,.apps_cont_msg,.vk_app_modal_container,.wk_wall_archive__tabs,.stats_no_stats_absolute_mask,.article_full_view,.poster__change-bkg-btn,.docs_panel,div.photos_header_fixed,.ads_edit_easy_promote_box__row_fixed,.fans_fan_bl,:is(.stories_feed_wrap,[data-testid=story-create]) [class*=avatarCreate],.photo_tooltip__content,.photo_tooltip__content:after,.groups_edit_event_log_controls.groups_edit_event_log_controls_fixed,body.is_page,.ui_search.ui_search_fixed,.FeedbackTitle,.FCPanel__list,.FCWindow{
 	background-color:var(--n15f)!important
 }
 .box_title_wrap,.MessageReactionPickerExtended__content,.RightPanel__container,.ActionsMenu,#wk_box,#pv_box,#mv_box,.box_layout,.BaseModal__content,.ap_layer__content,.PodcastEpisodeLayer__content,.eltt,.tt_default,.tt .tt_text,.emoji_tt_wrap,.sticker_hints_tt,.tt_w.top_notify_tt,.tt_default_right,.DatePicker,.HeaderSectionSwitcher,.TemplatesDropDown__container,.ArticleEditorHeader,.article.article_ed__drag_text,.article_layer__tts_player,.article_layer__content_footer.article_layer__content_footer--fix,.wke_bottom_fixed .box_controls,.wall_module .mv_reply_form_fixed .reply_form,.reply_box_inner_wrap.fixed,#pv_more_acts_tt,.ui_actions_menu,.ActionsMenu__inner,.ms_items_more,.result_list,.idd_popup .idd_header_wrap,.idd_popup .idd_items_content,.ui_search_sugg_list,.page_actions_wrap,.wall_module .wl_reply_form_fixed :is(.reply_box,.reply_fakebox_wrap),.wl_reply_form_fixed .ReplyBoxDonut,.ReplyBoxDonut.fixed,.notifier_baloon,.wdd_list,.page_status_editor .editor,.im-dropbox,.dropbox,.photos_upload_area_drop,.photos_choose_upload_area_cont.fixed,.photos_choose_bottom.fixed,.video_choosebox_bottom.fixed,.cookies_policy_wrap,.inlContent,.TableColumnsSettings,.CostEditFormPopover,.FormulaInput__SuggestionsContainer,.FeedbackTooltip__wrapper,.PhotoCarousel .like_btn,.VideoSearchInput--sticky .ui_search_input_block,.vkuiDiv>[class*=__stickyHeader]{
@@ -851,7 +851,7 @@ input.ui_search_field{
 .VideoPlayer__otherVideos:before,.VideoTrackWrapper__overlay,.ShortVideoFeedBlock__item:after,.ShortVideoGridItem__thumb:before,.short_video_item:after{
 	background:linear-gradient(#0000,#222)!important
 }
-.stories_feed_wrap .vkuiGradient__host{
+.vkuiGradient__host[class*=StoryCard__gradient]{
 	background:linear-gradient(#0000 30%,#0008 60%,#000c 85%)!important
 }
 .stories_feed_preview_item:after{
@@ -879,7 +879,7 @@ input.ui_search_field{
 	max-width:unset
 }
 .popup_box_container--no-body{
-	min-width:min-content
+	min-width:auto
 }
 .ui_tab_new,.ui_tabs_header .ui_tab_new{height:32px!important}.wall_module .ui_tabs_container{padding:15px 20px 10px!important}
 .reply_link_wrap.share_link_wrap{display:block!important;width:26px;height:23px;margin:-5px;padding:0!important;background:no-repeat 50%/16px;overflow:hidden}
@@ -1578,8 +1578,8 @@ html.ns div[class*=FeedLayout__rightWrapper]{padding-top:0;height:calc(100vh - v
 html.ns div[class*=ClipsCarousel__startGapItemWrapper]{align-items:flex-start}
 html.ns .Profile .WallLegacy{padding-top:0!important;margin-top:0!important}
 html.ns .Profile .ScrollStickyWrapper{margin-left:0!important;margin-right:0!important;flex-grow:0}
-html.ns :is(.Profile .ScrollStickyWrapper>[style*="top: 64px"],.vkuiInternalTwoColumnLayoutColumn+.vkuiInternalTwoColumnLayoutColumn>div[style*="top: 64px"]){top:var(--header-height,48px)!important}
-html.ns #spa_root .vkui__root>:first-child[class*=Spacing],html.ns .vkuiInternalTwoColumnLayoutColumn+.vkuiInternalTwoColumnLayoutColumn>div>[class*=Spacing],html.ns .ProfileGroupSkeleton:after,html.ns div[class*=Spacing]:has(+.vkuiGroup__modeCard,+.ProfileHeader),html.ns .ProfileHeader+div[class*=Spacing],html.ns .vkuiGroup__separatorSibling{display:none!important}
+html.ns :is(.Profile .ScrollStickyWrapper>[style*="top: 64px"],.vkuiInternalTwoColumnLayoutColumn+.vkuiInternalTwoColumnLayoutColumn>div:is([style*="top: 64px"],[style*="position: sticky"])){top:var(--header-height,48px)!important}
+html.ns [data-testid=feed_main_container]>[class*=Spacing],html.ns #spa_root .vkui__root>:first-child[class*=Spacing],html.ns .vkuiInternalTwoColumnLayoutColumn+.vkuiInternalTwoColumnLayoutColumn>div>[class*=Spacing],html.ns .ProfileGroupSkeleton:after,html.ns div[class*=Spacing]:has(+.vkuiGroup__modeCard,+.ProfileHeader),html.ns .ProfileHeader+div[class*=Spacing],html.ns .vkuiGroup__separatorSibling{display:none!important}
 html.ns .feed_reposts_more_link{margin:0;width:100%;border-radius:0}
 html.ns :is(.page_block,.PageBlock,.ReplyBoxDonut,.ShortVideoPost,#page_layout .CatalogBlock--divided,#page_layout .audio_section,.faq_search_form){border-radius:0!important}
 html.ns :is(#page_header,#page_layout,.im-page_classic :is(.im-group-online,.im-page--header,.im-page--chat-header)){padding:0!important}
@@ -1759,10 +1759,11 @@ html.Pl.ns .wide_column_left .narrow_column>:last-child>:last-child .vkuiGroup__
 html.Pl #stl_left{right:0;left:unset}
 html.Pl #stl_bg{float:right}
 
-.PostActionStatusBar,.PostBottomAction{height:36px!important;padding-top:0!important;padding-bottom:0!important}
+.PostActionStatusBar,.PostBottomAction{padding-top:0!important;padding-bottom:0!important}
 .PostBottomAction{padding-left:3px!important}
 html.sl .PostBottomAction{padding-left:0!important}
-html.sl .PostBottomAction__icon svg{height:18px}
+html.sl .PostBottomAction__icon svg{height:18px!important}
+html.sl [class*=PostFooterAction] svg{width:18px!important}
 html.sl .PostButtonReactions__icon{height:19px;background-size:16px}
 html.sl .PostButtonReactions__iconAnimation{height:22px}
 
@@ -1775,6 +1776,7 @@ html.sl .like_button_icon{width:16px;height:16px}
 html.ol .PostActionStatusBar{display:none!important} 
 html.ol .PostButtonReactions>*{pointer-events:none}
 
+.feed_wall--no-islands .post_info .replies{padding-bottom:0!important}
 .Post--redesignV3 [class*=ShowMoreText]>button,.wall_reply_more_redesign_2024{color:var(--g2)!important;background:unset!important;margin-left:1ch!important}
 html.op .Post--redesignV3 .PostContentDumbSkeleton{display:flex!important;flex-direction:column-reverse!important;padding:0 20px!important}
 html.op .Post--redesignV3 .PostContentDumbSkeleton__text--noIslands{padding:0!important}
@@ -1787,11 +1789,13 @@ html.op .Post--redesignV3 [class*=PostContentContainer__contentContainer]{
 	.PrimaryAttachment{margin-top:0!important}
 	.VideoPrimaryAttachment,.VideoPrimaryAttachment__thumbWrapper,.page_post_thumb_wrap{width:auto!important}
 }
+
+html.op .vkuiInternalTwoColumnLayoutColumn [role=feed]>article>div>[style="padding: 8px;"]{padding-top:18px!important}
 html.op .vkuiInternalModalBox [data-post-id]>:nth-child(2)>div>div,
 html.op .vkuiInternalTwoColumnLayoutColumn [role=feed]>article>div>:nth-child(2)>div>div{
 	display:flex!important;flex-direction:column-reverse!important;
 	>[class*=Spacing]{display:none}
-	>div:not([style="padding: 0px 8px;"]){padding:12px 20px 5px!important;[style*=padding]{padding:unset!important}}
+	>div:not([style="padding: 4px 20px;"]){padding:12px 20px 5px!important;[style*=padding]{padding:unset!important}}
 	>[role=button]{background:unset;order:-1}
 	.post_content.Post--redesignFooterV3{padding-bottom:4px!important}
 	.PrimaryAttachment{margin-top:0!important}
