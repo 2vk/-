@@ -1698,7 +1698,7 @@ html.rm .nim-dialog.nim-dialog_selected{box-shadow:inset 3px 0 0 0 var(--g3)}
 #layout_sidebar ol~ol>li>:first-child:hover{background:unset!important}
 html.mf #side_bar{position:sticky;top:0!important}
 html.mf #layout_sidebar{position:sticky;top:48px!important;z-index:11}
-html.mb #layout_sidebar[class*=sidebarFixed]>div{max-height:calc(100vh - 48px - 30px - 1px)!important}
+html.mb #layout_sidebar[class*=sidebarFixed]>div{max-height:calc(100vh - 48px - 30px - 2px)!important}
 
 :is(#side_bar_inner,#layout_sidebar>div){height:fit-content!important;margin:calc(var(--header-height) + 7px) 0 0 var(--Plmm,-15px)!important;padding:8px 5px 8px 6px!important;box-sizing:unset!important}
 html.ns :is(#side_bar_inner,#layout_sidebar>div){margin:var(--header-height) 0 0 calc(-10px - var(--Prmr,0px))!important}
