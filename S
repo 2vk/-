@@ -464,28 +464,28 @@ html.nl .mv_top_button:hover,html.nl .wk_right_nav:hover .wk_close,html.nl .wk_a
 	transition:none}
 .audio_page_player_play svg{
 	transition:color .2s}
-.audio_page_player_prev,.audio_page_player_next,.PostBottomAction__icon,.share_link_wrap,#top_audio_play,#cpv svg{
+.audio_page_player_prev,.audio_page_player_next,.PostBottomAction__icon,#top_audio_play,#cpv svg{
 	transition:opacity .2s}
 .audio_row__current .audio_row_content{
 	transition:background .5s}
-.reply_content .reply_link_wrap,[class*=CommentBase__in] [class*=Comment__infoLeft]>:nth-child(n+2){opacity:0;transition:opacity .4s .15s}
-.reply_content:hover .reply_link_wrap,[class*=CommentBase__in]:hover [class*=Comment__infoLeft]>:nth-child(n+2){opacity:1}
+.reply_content .reply_footer>:nth-child(n+3),[class*=CommentBase__in] [class*=Comment__infoLeft]>:nth-child(n+2){opacity:0;transition:opacity .4s .15s}
+.reply_content:hover .reply_footer>:nth-child(n+3),[class*=CommentBase__in]:hover [class*=Comment__infoLeft]>:nth-child(n+2){opacity:1}
 .vkuiTappable__hoverShadow{
 	opacity:.1}
 .im-group-online--beacon-wrapper{
 	opacity:.35}
 .nim-dialog--mute,.nim-dialog--pinned-conversation,:is(#side_bar,#layout_sidebar) ol li:hover>:last-child:not(:only-child),.video_showcase #autocompleteSuggest{
 	opacity:.5}
-.share_link_wrap,.PostBottomAction__icon,.like_views__icon,#box_layer_bg{
+.PostBottomAction__icon,.like_views__icon,#box_layer_bg{
 	opacity:.7!important}
 .pg_fixed_back,.BtTopMenu__item a,.TableColumnsSettings__selectedColumnsItem--notInCurrentTable,#top_audio_play:not(:hover),#cpv svg:not(:hover),.footer_nav,.left_menu_nav,:is(#side_bar_inner,#layout_sidebar>div)>div>a,#top_audio_layer_place+div button:not(:hover) svg,#top_notify_btn:not(:hover,.TopNavBtn) svg{
 	opacity:.8}
 :is(#side_bar,#layout_sidebar) ol li>:first-child>*{
 	opacity:.9}
-:is(#side_bar,#layout_sidebar) ol li>:first-child>:nth-child(3),:is(#side_bar,#layout_sidebar) ol li>:first-child:hover>*,:is(#side_bar,#layout_sidebar) ol li>:last-child:not(:only-child):hover,.left_menu_nav:hover,:is(#side_bar_inner,#layout_sidebar>div)>div>a:hover,#layer_stl:hover #layer_stl_bg,#top_audio_layer_place+div button,.PostBottomAction:hover .PostBottomAction__icon,.PostBottomAction:hover .PostBottomAction__label,.PostBottomAction:hover .PostBottomAction__count,.share_link_wrap:hover,.BtTopMenu__item--selected a,.box_x_button:hover,.docs_item:hover .docs_choose_attach,.docs_item:hover .docs_item_thumb[ext=gif] .docs_item_play,.dd_header_hover,.im-page_group #cp_imc:hover{
+:is(#side_bar,#layout_sidebar) ol li>:first-child>:nth-child(3),:is(#side_bar,#layout_sidebar) ol li>:first-child:hover>*,:is(#side_bar,#layout_sidebar) ol li>:last-child:not(:only-child):hover,.left_menu_nav:hover,:is(#side_bar_inner,#layout_sidebar>div)>div>a:hover,#layer_stl:hover #layer_stl_bg,#top_audio_layer_place+div button,.PostBottomAction:hover .PostBottomAction__icon,.PostBottomAction:hover .PostBottomAction__label,.PostBottomAction:hover .PostBottomAction__count,.BtTopMenu__item--selected a,.box_x_button:hover,.docs_item:hover .docs_choose_attach,.docs_item:hover .docs_item_thumb[ext=gif] .docs_item_play,.dd_header_hover,.im-page_group #cp_imc:hover{
 	opacity:1!important
 }
-.away_logo,.docs_bg,.docs_fn,.mob_onl,.like_button_icon,.share_link_wrap,.reply_box_photo,.PostBottomAction,.like_views,.hint_icon,.DonutModule__helpIcon,.group_l_edit,.im-page_group #cp_imc,.ui_actions_menu_icons,.ui_tab_search:after,.im-page--title-main-in span,.im-page--title-main-in:before,.im-page--title-main-in:after,.im-activity--icon,.im-mess--edit,svg,#top_audio_play{
+.away_logo,.docs_bg,.docs_fn,.mob_onl,.like_button_icon,.reply_box_photo,.PostBottomAction,.like_views,.hint_icon,.DonutModule__helpIcon,.group_l_edit,.im-page_group #cp_imc,.ui_actions_menu_icons,.ui_tab_search:after,.im-page--title-main-in span,.im-page--title-main-in:before,.im-page--title-main-in:after,.im-activity--icon,.im-mess--edit,svg,#top_audio_play{
 	filter:var(--ds)
 }
 html:not(.mg):not(.me):not(.mc) :is(#side_bar,#layout_sidebar) ol li>:first-child svg{
@@ -1852,7 +1852,7 @@ html.op .vkuiGroup__modeCard [role=feed]>article>div>:nth-child(2)>div>div{
 	visibility:hidden!important;opacity:0!important;pointer-events:none!important
 }
 
-.share_link_wrap .share_link,.photos_row_desc_editing .photos_photo_edit_row_desc_placeholder,.im-page_classic.im-page_creating :is(.im-page--dialogs,.im-page--history),html.nl :is(.layers_shown,.stories_layer_shown,.BaseModal__bodyHiddenOverflow) :is(#pg_fixed,#side_bar,#page_header_cont,#wrap3,#stl_left,#spa_root:not(:has([class*=ModalBox]))){opacity:0!important}
+.photos_row_desc_editing .photos_photo_edit_row_desc_placeholder,.im-page_classic.im-page_creating :is(.im-page--dialogs,.im-page--history),html.nl :is(.layers_shown,.stories_layer_shown,.BaseModal__bodyHiddenOverflow) :is(#pg_fixed,#side_bar,#page_header_cont,#wrap3,#stl_left,#spa_root:not(:has([class*=ModalBox]))){opacity:0!important}
 html.nl :is(#box_layer_bg,#layer_bg,#stories_layers_background,.BaseModal__backdrop,.vkuiPopoutWrapper__overlay),html.nl dialog::backdrop{background:none!important}
 
 
