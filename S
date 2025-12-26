@@ -1086,7 +1086,7 @@ label[class*=DragAndDropInput__rootHovered] .vkuiPlaceholder__icon,.line_div_val
 	color:#4bb34b}
 .OwnerContentTabAudiosItem .vkuiImageBase__children svg,.article_snippet .article_snippet__action_btn,.FlatButton--overlay-primary,.Button--overlay_primary,.round_button_large_white,.TeamPageJoinBlock__button{
 	color:#000!important;text-shadow:none}
-[data-testid=post_footer_action_like][data-user-reaction="0"],.PostButtonReactions--active[data-reaction-user-reaction-id="0"] .PostButtonReactions__title,.PostBottomAction.like.active .PostBottomAction__count,.PostBottomActionLikeIcon--active,.like_btn.like.active .like_button_count{
+[data-testid=post_footer_action_like][data-user-reaction="0"],.PostButtonReactions--active[data-reaction-user-reaction-id="0"] .PostButtonReactions__title,.PostBottomAction.like.active .PostBottomAction__count,.PostBottomActionLikeIcon--active,.like_btn.like.active .like_button_count,.vkuiIcon--like_16,.vkuiIcon--like_16+span{
 	color:var(--lc)!important}
 [data-testid=video_modal_like_button]:has(.vkuiIcon--like_circle_fill_red_28){
 	--vkit_internal--post_footer_action_foreground_color:var(--lc)!important;
