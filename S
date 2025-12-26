@@ -46,12 +46,12 @@
 .HintIcon,.DonutModule__helpIcon,.Table__CellHint,.author_page_info,.flist_item_hint_icon,.hint_icon:after,.ArchiveRequestForm__encryption-form__top__hint{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill="${l7}" d="M8 0a8 8 0 10.01 0M8 1a7 7 0 11-.01 0"/><path fill="${le}" d="M5.8 6.3a1 1 0 014.7 0c0 2.4-2 1.5-2 3.3H7.3c0-2.4 2-1.5 2-3.3a1 1 0 00-2.3 0m1 4.2a.8.8 0 11-.1 0"/></svg>')!important}
 //like
 .wk_like_icon{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="9" width="11" viewBox="0 0 22 18"><path fill="${k1t}" d="M11 3C14-1.3 18 0 19.2 1 22.2 3 26.1 10 11 18-4.2 10-.1 3 2.8 1 4 0 8-1.3 11 3"/></svg>')!important}
-.PostButtonReactions__icon[style*=reactions-0]{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 19"><path fill="${Lc}" d="M23.6 6.5c0 5-9.1 10.7-11.4 12-.3.2-.6.2-1 0C9 17.3 0 11.6 0 6.5 0 3 2.5 0 6.2 0c2.4 0 4.4 1.2 5.6 3a6.8 6.8 0 015.6-3c3.7 0 6.2 3 6.2 6.5z"/></svg>')!important}
+[data-testid=post_footer_action_like][data-user-reaction="0"] [class*=ReactionImage__image],[class*=PostFooterAction] .vkuiIcon--like_circle_fill_red_28,.PostButtonReactions__icon[style*=reactions-0]{background:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 19"><path fill="${Lc}" d="M23.6 6.5c0 5-9.1 10.7-11.4 12-.3.2-.6.2-1 0C9 17.3 0 11.6 0 6.5 0 3 2.5 0 6.2 0c2.4 0 4.4 1.2 5.6 3a6.8 6.8 0 015.6-3c3.7 0 6.2 3 6.2 6.5z"/></svg>') no-repeat 50%!important}
 .ReactionImage[style*=reactions-0],.ReactionsPreviewItem[style*=reactions-0],.like_tt_reaction[style*=reactions-0],.fans_fanph_reaction[style*=reactions-0],.fans_box_reaction_icon[style*=reactions-0],.feedback_photo_icon_custom[style*=reactions-0],.feedback_like_row .feedback_photo_icon{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><circle fill="${Lc}" cx="20" cy="20" r="20"/><path fill="${n15}" d="M32.1 18.5c0 5-9.1 10.7-11.4 12-.3.2-.6.2-1 0-2.2-1.2-11.2-6.9-11.2-12C8.5 15 11 12 14.7 12c2.4 0 4.4 1.2 5.6 3a6.8 6.8 0 015.6-3c3.7 0 6.2 3 6.2 6.5z"/></svg>')!important}
 .like_btn.like.active .like_button_icon,.like_wrap.lite .like_btn.like.active .like_button_icon,.liked .like_on svg{background:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 18"><path fill="${Lc}" d="M11 3C14-1.3 18 0 19.2 1 22.2 3 26.1 10 11 18-4.2 10-.1 3 2.8 1 4 0 8-1.3 11 3"/></svg>') no-repeat 50%!important}
 .like_btn.like .like_button_icon,.like_wrap.lite .like_btn.like .like_button_icon,.like_off svg{background:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 10"><path fill="none" stroke="${l9}" d="M6 2.2c2.5-3.7 6.5-.3 4.9 2.7q-1 1.6-4.9 4.4-4-2.8-4.9-4.4c-1.6-3 2.4-6.4 4.9-2.7z"/></svg>') no-repeat 50%!important}
 .like_btn.comment .like_button_icon{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" stroke="${l9}" stroke-width="2" d="M6 4h12q3 0 3 3v8q0 3-3 3h-4.5l-4.2 3.5c-1 1-1.2-.5-1.2-1v-2.5h-2q-3 0-3-3v-8q0-3 3-3"/></svg>')!important}
-.like_btn.share .like_button_icon,.button_action_light_share:before,.reply_link_wrap.share_link_wrap{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12"><path fill="none" stroke="${l9}" stroke-linejoin="round" d="M11.4 6l-4.9 4V7.6Q2.7 7.7.7 9.3q.5-4.6 5.8-5V2z"/></svg>')!important}
+.like_btn.share .like_button_icon,.button_action_light_share:before{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12"><path fill="none" stroke="${l9}" stroke-linejoin="round" d="M11.4 6l-4.9 4V7.6Q2.7 7.7.7 9.3q.5-4.6 5.8-5V2z"/></svg>')!important}
 #layer_stl_text{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="15" height="45" viewBox="0 0 15 45" filter="${ds}"><path stroke="${le}" fill="none" d="M1,10.5 7.5,4 14,10.5M1,18.5 7.5,25 14,18.5M8,31 1.5,37.5 8,44" stroke-width="2"/></svg>')!important}
 .article_layer .article_layer__back{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path stroke="${le}" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M15 18l-6-6 6-6"/></svg>')!important}
 .article_layer .article_layer__up.article_layer__up--shown{background-image:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><path stroke="${le}" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M13 30l11-11 11 11"/></svg>')!important}
@@ -231,7 +231,7 @@ html,.cp_fg{
 .vkuiFormField__hover,.vkuiFormField__modeDefault,.poster-uploader__overlay,.MusicAuthor__follow_btn,.PhotoRecognizeBlockItemButton--secondary,.NarrativeSnippet,.wall_card,.Loading__overlay,#retargeting_group_pixel,.photos_cancel_move,.prefix_input_wrap,.survey_page-ugcform .survey_textfield,.survey_page-ugcform .survey_textarea,.EditableUnionName__inputWrapper,.FormulaInput,.Inputs__input,input.dark,input.big_text,input.file,input.search,input.text,textarea,.article_layer.article_layer__hover_left .article_layer__up,.stl_active.over_fast #stl_bg,#layer_stl_bg,.paginated_table_row.even_row,.stats_flash_wrap [style*="background: var(--"]{
 	background-color:var(--n158)!important
 }
-html.ns .vkitInternalTwoColumnLayoutColumn[data-testid=feed_wall]>*>.vkuiGroup__modeCard,html:not(.ns) .vkitInternalTwoColumnLayoutColumn [role=feed]>article,:root #page_layout .AudioPlayerBlock__root .vkuiGroup__modeCard,.VKCOMMessenger__reforgedRoot,.VideoShowcaseCommunityHeader,.DateSeparator:not(.DateSeparator--themed),.WideScreenAppPage .apps_wrapper,.sticker_hints_arrow,.EcommSkeleton__block,.ShortVideoPage__container--empty,.ShortVideoPost,.ads_schedule_cell,.Office__main,.ChatSettingsMembersWidget__add:before,.photos_choose_more,.photos_choose_more_albums,html.mb :is(#side_bar_inner,#layout_sidebar>div),.pva_period_fixed,.video_donate_widget_offline,.Select__menu,.ace-tm,.ace-tm .ace_gutter,.flist_sel,.login_about_mobile,.wke_page_title_cont,.wke_controls,.disabled.selector_container,.fans_fan_bl_wrap,.gifts_box_header,.wpost_post,.photos_container .photos_row,.wl_post_reply_form_forbidden,.article_ed_layer .article_ed_guide .article_ed_guide__slide,.photos_period_delimiter_fixed,.privacy_dropdown .l_item,.privacy_dropdown .l_item_sel,.privacy_dropdown .l_header,.privacy_dropdown .l_header .l_header_label,.oauth_centered,.payments_box_wide,#payments_box_right_col,.wall_comments_header,.privacy_dropdown .body,#payments_box .payments_about_votes,.payments_about_votes,.ui_tab_group_items,.paginated_table_footer,.ads_unions_list .table_footer td,#add_place_data,#exchange_post_msg,.Table__Cell,.pv_white_bg,.video_upload_separator_text,.ape_list_header,.bottom_row,.dd_menu_rows a,.lead_forms_view_form_wrap,.friends_dropdown__list,.friends_dropdown__list_content,#profile_class_hint .content,.feedback_unread_bar,.article_ed_layer,.PageBlock,.RightMenuBlock,.DonutCatalogPromo,.im-chat-input--txt-wrap,.ui_grey_block,.page_block,.GamesCatalog--search_page,.im-page:before,html.nl #wk_box,html.nl #pv_box,html.nl #mv_box,html.nl .ap_layer__content,html.nl .PodcastEpisodeLayer__content,.im-aside-notice,body.author_page_body,.author_page_layer,.ads_general_info_preview,.landing_testing_form,#mv_pl_tt .mv_tt_add_playlist,.apps_layer_wk_body,.widget_body{
+html.ns .vkuiGroup__modeCard:has([role=feed]),html:not(.ns) .vkuiGroup__modeCard [role=feed]>article,:root #page_layout .AudioPlayerBlock__root .vkuiGroup__modeCard,.VKCOMMessenger__reforgedRoot,.VideoShowcaseCommunityHeader,.DateSeparator:not(.DateSeparator--themed),.WideScreenAppPage .apps_wrapper,.sticker_hints_arrow,.EcommSkeleton__block,.ShortVideoPage__container--empty,.ShortVideoPost,.ads_schedule_cell,.Office__main,.ChatSettingsMembersWidget__add:before,.photos_choose_more,.photos_choose_more_albums,html.mb :is(#side_bar_inner,#layout_sidebar>div),.pva_period_fixed,.video_donate_widget_offline,.Select__menu,.ace-tm,.ace-tm .ace_gutter,.flist_sel,.login_about_mobile,.wke_page_title_cont,.wke_controls,.disabled.selector_container,.fans_fan_bl_wrap,.gifts_box_header,.wpost_post,.photos_container .photos_row,.wl_post_reply_form_forbidden,.article_ed_layer .article_ed_guide .article_ed_guide__slide,.photos_period_delimiter_fixed,.privacy_dropdown .l_item,.privacy_dropdown .l_item_sel,.privacy_dropdown .l_header,.privacy_dropdown .l_header .l_header_label,.oauth_centered,.payments_box_wide,#payments_box_right_col,.wall_comments_header,.privacy_dropdown .body,#payments_box .payments_about_votes,.payments_about_votes,.ui_tab_group_items,.paginated_table_footer,.ads_unions_list .table_footer td,#add_place_data,#exchange_post_msg,.Table__Cell,.pv_white_bg,.video_upload_separator_text,.ape_list_header,.bottom_row,.dd_menu_rows a,.lead_forms_view_form_wrap,.friends_dropdown__list,.friends_dropdown__list_content,#profile_class_hint .content,.feedback_unread_bar,.article_ed_layer,.PageBlock,.RightMenuBlock,.DonutCatalogPromo,.im-chat-input--txt-wrap,.ui_grey_block,.page_block,.GamesCatalog--search_page,.im-page:before,html.nl #wk_box,html.nl #pv_box,html.nl #mv_box,html.nl .ap_layer__content,html.nl .PodcastEpisodeLayer__content,.im-aside-notice,body.author_page_body,.author_page_layer,.ads_general_info_preview,.landing_testing_form,#mv_pl_tt .mv_tt_add_playlist,.apps_layer_wk_body,.widget_body{
 	background-color:var(--n15e)!important
 }
 :root #page_layout .AudioPlayerBlock__root div[class*=fixed] .vkuiGroup__modeCard,.Profile .OwnerPageAvatar__underlay,.HeaderProfile__Dropdown,.ReactionTitle,.stats_cont_browse_tile,.emoji_tab_sel,.StickerPackPreview__footer,.video_box_msg_text,#history_list,.mv_video_unavailable_message,.apps_cont_msg,.vk_app_modal_container,.wk_wall_archive__tabs,.stats_no_stats_absolute_mask,.article_full_view,.poster__change-bkg-btn,.docs_panel,div.photos_header_fixed,.ads_edit_easy_promote_box__row_fixed,.fans_fan_bl,:is(.stories_feed_wrap,[data-testid=story-create]) [class*=avatarCreate],.photo_tooltip__content,.photo_tooltip__content:after,.groups_edit_event_log_controls.groups_edit_event_log_controls_fixed,body.is_page,.ui_search.ui_search_fixed,.FeedbackTitle,.FCPanel__list,.FCWindow{
@@ -468,6 +468,8 @@ html.nl .mv_top_button:hover,html.nl .wk_right_nav:hover .wk_close,html.nl .wk_a
 	transition:opacity .2s}
 .audio_row__current .audio_row_content{
 	transition:background .5s}
+.reply_content .reply_link_wrap,[class*=CommentBase__in] [class*=Comment__infoLeft]>:nth-child(n+2){opacity:0;transition:opacity .4s .15s}
+.reply_content:hover .reply_link_wrap,[class*=CommentBase__in]:hover [class*=Comment__infoLeft]>:nth-child(n+2){opacity:1}
 .vkuiTappable__hoverShadow{
 	opacity:.1}
 .im-group-online--beacon-wrapper{
@@ -692,7 +694,7 @@ input.ui_search_field,.selector_container td.selector_dropdown{
 .top_result_baloon{
 	box-shadow:var(--bs),0 2px 15px #000!important
 }
-.vkitInternalTwoColumnLayoutColumn [role=feed]>article,.AudioPlayerBlockSkeleton__root:before,.VKCOMMessenger__reforgedRoot,.ProfileHeader,.ProfileGroupSkeleton:after,.page_block,.vkuiGroup__modeCard,.im-page:before,.VideoShowcaseCommunityHeader,.VideoSearchInput:not(.VideoSearchInput--sticky) .ui_search_input_block,.EcommSkeleton__block,.ShortVideoPage__container--empty,.ShortVideoPost,.GamesCatalog--search_page,.PageBlock,.RightMenuBlock,.DonutCatalogPromo,.login_blocked_reason_activity,.im-aside-notice,.faq_search_form,.oauth_centered .oauth_wrap_content,html.mb :is(#side_bar_inner,#layout_sidebar>div){
+.vkuiGroup__modeCard [role=feed]>article,.AudioPlayerBlockSkeleton__root:before,.VKCOMMessenger__reforgedRoot,.ProfileHeader,.ProfileGroupSkeleton:after,.page_block,.vkuiGroup__modeCard,.im-page:before,.VideoShowcaseCommunityHeader,.VideoSearchInput:not(.VideoSearchInput--sticky) .ui_search_input_block,.EcommSkeleton__block,.ShortVideoPage__container--empty,.ShortVideoPost,.GamesCatalog--search_page,.PageBlock,.RightMenuBlock,.DonutCatalogPromo,.login_blocked_reason_activity,.im-aside-notice,.faq_search_form,.oauth_centered .oauth_wrap_content,html.mb :is(#side_bar_inner,#layout_sidebar>div){
 	box-shadow:var(--bs)!important
 }
 .wall_module .ui_tabs,.ChatSettingsInfo,.PageSection--gradient:before{
@@ -882,7 +884,6 @@ input.ui_search_field{
 	min-width:auto
 }
 .ui_tab_new,.ui_tabs_header .ui_tab_new{height:32px!important}.wall_module .ui_tabs_container{padding:15px 20px 10px!important}
-.reply_link_wrap.share_link_wrap{display:block!important;width:26px;height:23px;margin:-5px;padding:0!important;background:no-repeat 50%/16px;overflow:hidden}
 .quick_login{padding:10px 5px 0!important;margin:0!important}.LeftMenuAppPromo{padding-left:5px}
 .im-page,.im-page_classic #im_dialogs{margin-top:15px}
 .videoplayer[class*=is-short] .videoplayer_btn_fullscreen{padding:0 8px!important}
@@ -927,14 +928,18 @@ input.ui_search_field{
 :root .feed_row_unshown+.feed_row .page_block{
 	padding-top:49px!important;margin-top:-49px!important;border-radius:var(--brp)!important
 }
-:is(#page-wall,#page-searh-wall) [role=feed]{margin-top:-64px}
-:is(#page-wall,#page-searh-wall) article[style*="translateY(0px)"]{padding-top:64px}
-:is(#page-wall,#page-searh-wall) article[style*="translateY(20px)"]{padding-top:64px;margin-top:-20px}
-:is(#page-wall,#page-searh-wall) article[style*="translateY(40px)"]{padding-top:64px;margin-top:-40px}
-:is(#page-wall,#page-searh-wall) article[style*="translateY(60px)"]{padding-top:64px;margin-top:-60px}
+:is(#page-wall,#page-searh-wall)>[role=feed]{margin-top:-64px}
+:is(#page-wall,#page-searh-wall)>[role=feed]>article[style*="translateY(0px)"]{padding-top:64px}
+:is(#page-wall,#page-searh-wall)>[role=feed]>article[style*="translateY(20px)"]{padding-top:64px;margin-top:-20px}
+:is(#page-wall,#page-searh-wall)>[role=feed]>article[style*="translateY(40px)"]{padding-top:64px;margin-top:-40px}
+:is(#page-wall,#page-searh-wall)>[role=feed]>article[style*="translateY(60px)"]{padding-top:64px;margin-top:-60px}
 .vkuiGroup__header+section>:first-child[class*=PostSkeleton__root]{margin-top:-64px;padding-top:64px;z-index:-1;position:relative}
+.Profile .vkuiGroup__modeCard:has(a[href="?w=archive"]) :is(#page-wall,#page-searh-wall)>[role=feed]{margin-top:-175px}
+.Profile .vkuiGroup__modeCard:has(a[href="?w=archive"]) :is(#page-wall,#page-searh-wall)>[role=feed]>article[style*="translateY(0px)"]{padding-top:175px}
+.Profile .vkuiGroup__modeCard:has(a[href="?w=archive"]) section>:first-child[class*=PostSkeleton__root]{margin-top:-175px;padding-top:175px;z-index:-1;position:relative}
 
-.vkuiGroup__modeCard:has(#page-wall,#page-searh-wall) .vkuiGroup__header,
+.vkuiGroup__modeCard:has([role=feed]) .vkuiGroup__header,
+.Profile .vkuiGroup__modeCard:has(a[href="?w=archive"]) .vkuiGroup__header+div,
 .feed_new_posts,.VideosFeedTitle,.EcommSkeleton__block--tabs,.EcommSkeleton__block--breadcrumbs{position:relative;z-index:2!important}
 .ShortVideoPage__container--empty,.ShortVideoPost:first-child{
 	margin-top:-60px!important;padding-top:75px!important;
@@ -1079,11 +1084,14 @@ label[class*=DragAndDropInput__rootHovered] .vkuiPlaceholder__icon,.line_div_val
 	color:#e64747}
 .WeekStatGrid__ItemDiff--up{
 	color:#4bb34b}
-.PostButtonReactions--active[data-reaction-user-reaction-id="0"] .PostButtonReactions__title,.PostBottomAction.like.active .PostBottomAction__count,.PostBottomActionLikeIcon--active,.like_btn.like.active .like_button_count{
-	color:var(--lc)!important}
 .OwnerContentTabAudiosItem .vkuiImageBase__children svg,.article_snippet .article_snippet__action_btn,.FlatButton--overlay-primary,.Button--overlay_primary,.round_button_large_white,.TeamPageJoinBlock__button{
 	color:#000!important;text-shadow:none}
-
+[data-testid=post_footer_action_like][data-user-reaction="0"],.PostButtonReactions--active[data-reaction-user-reaction-id="0"] .PostButtonReactions__title,.PostBottomAction.like.active .PostBottomAction__count,.PostBottomActionLikeIcon--active,.like_btn.like.active .like_button_count{
+	color:var(--lc)!important}
+[data-testid=video_modal_like_button]:has(.vkuiIcon--like_circle_fill_red_28){
+	--vkit_internal--post_footer_action_foreground_color:var(--lc)!important;
+	--vkit_internal--post_footer_action_background_color:unset!important;
+}
 .tickets_tt_list,.tickets_tt_list_abuse{
 	list-style:unset}
 .author_page_body{min-height:100vh}
@@ -1102,8 +1110,11 @@ label[class*=DragAndDropInput__rootHovered] .vkuiPlaceholder__icon,.line_div_val
 :root .sticker_hints_tt{top:calc(-22px + -86px * var(--emoji_tt_size));max-width:calc(100% + 48px * var(--emoji_tt_size));left:calc(-26px * var(--emoji_tt_size))}
 :root .sticker_hints_tt .emoji_sticker_item{width:calc(86px * var(--emoji_tt_size));height:calc(86px * var(--emoji_tt_size))}
 :root .sticker_hints_tt .emoji_sticker_image{max-width:100%;max-height:100%;height:100%}.emoji_sticker_image{image-rendering:-webkit-optimize-contrast}
+
+[data-testid=comment-attachments] [class*=Sticker__sticker],
 .ConvoMessageWithoutBubble__sticker .AttachSticker,
-.sticker_img_wrapper{width:calc(160px * var(--stiсker_size,1.3))!important;height:calc(160px * var(--stiсker_size,1.3))!important}.im_stickers_store_wrap .sticker_img_wrapper{width:128px!important;height:128px!important}
+.sticker_img_wrapper{width:calc(160px * var(--sticker_size,1))!important;height:calc(160px * var(--sticker_size,1))!important}.im_stickers_store_wrap .sticker_img_wrapper{width:128px!important;height:128px!important}
+[data-testid=comment-attachments] [class*=Sticker__sticker] :is([class*=Sticker__in],canvas),
 .ConvoMessageWithoutBubble__sticker .AttachSticker>div,.ConvoMessageWithoutBubble__sticker .AttachSticker canvas,
 .sticker_img_wrapper :is(.sticker_img,.sticker_animation,.svg_sticker_animation){width:100%!important;height:100%!important}
 .ConvoComposer__stickerEmojiMenuPopper,.StickerPickerViewer{width:unset!important;max-height:calc(428px * var(--emoji_tt_size))!important}
@@ -1149,7 +1160,7 @@ body.widget_body.fixed{
 	position:unset!important
 }
 
-:is(.vkitInternalTwoColumnLayoutColumn [role=feed]>article,#page_body .PageBlock,#page_body .page_block,.vkuiGroup__modeCard,.VKCOMMessenger__reforgedRoot:not(.VKCOMMessenger__reforgedRoot--settingsScreen),.ComposerFormattingMenu__panel,#page_layout :is(.CatalogSection,.CatalogBlock--divided,._playlist_page_content_block),.StickerEmojiMenuPopper__content--enter-done,.StickerPickerViewer--isOpen,.VideoShowcaseCommunityHeader,.MarketplaceCatalogHeader--fixed,.ShortVideoPost,#wk_box,#pv_box,#mv_box,.box_layout,.BaseModal__content,.ap_layer__content,.PodcastEpisodeLayer__content,#faq_search_form,#page_header_cont,.StudioHeader,.eltt:not(.feature_intro_tt),.im-page,html.mb :is(#side_bar_inner,#layout_sidebar>div)):before{
+:is(.vkuiGroup__modeCard [role=feed]>article,#page_body .PageBlock,#page_body .page_block,.vkuiGroup__modeCard,.VKCOMMessenger__reforgedRoot:not(.VKCOMMessenger__reforgedRoot--settingsScreen),.ComposerFormattingMenu__panel,#page_layout :is(.CatalogSection,.CatalogBlock--divided,._playlist_page_content_block),.StickerEmojiMenuPopper__content--enter-done,.StickerPickerViewer--isOpen,.VideoShowcaseCommunityHeader,.MarketplaceCatalogHeader--fixed,.ShortVideoPost,#wk_box,#pv_box,#mv_box,.box_layout,.BaseModal__content,.ap_layer__content,.PodcastEpisodeLayer__content,#faq_search_form,#page_header_cont,.StudioHeader,.eltt:not(.feature_intro_tt),.im-page,html.mb :is(#side_bar_inner,#layout_sidebar>div)):before{
 	content:'';display:block;position:absolute;top:0;left:0;width:100%;height:100%;backdrop-filter:var(--blb);border-radius:inherit;z-index:-1}
 .body_article_layer:before,.article_body:before,.PageFooterWrap:before{
 	content:'';display:block;position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:-1;
@@ -1166,9 +1177,9 @@ body[style*="/images/error404"]:before{
 	background:url(/images/error404.png) no-repeat 50%
 }
 
-html:not(.ns) .vkuiGroup__modeCard:has(#page-wall,#page-searh-wall,section>[class*=PostSkeleton__root]):before,html:not(.ns) [data-testid=feed_main_container] .vkuiGroup__modeCard:before,
+html:not(.ns) .vkuiGroup__modeCard:has([role=feed],section>[class*=PostSkeleton__root]):before,html:not(.ns) [data-testid=feed_main_container] .vkuiGroup__modeCard:before,
 :is(.page_block .page_block,.page_block .vkuiGroup__modeCard,.vkuiGroup__modeCard .vkuiGroup__modeCard,.video_dashboard .page_block,.im-page .page_block,.feed_new_posts,.page_block_header_outer.page_block,.wall_module>.page_block:not(.post):first-child,.audio_page_layout:not(.podcast_page_layout) ._audio_page_content_block,#page_layout .CatalogSection--header_section,#page_layout .CatalogSection--divided,.GamesCatalog--search_page .GamesCatalogHead,.PostBottomAction,.im-mess,.im-navigation__button):before,
-.ProfileIndicatorBadge__badgeAddStory,:is(.redesigned-group-avatar,[class*=CommunityHeader__avatar]) .vkuiImageBaseBadge__backgroundStroke,.ChannelMain>.ChannelMain__content:has(+.ChannelMain__content),.MessageReactionPickerExpandableContainer:not([class*=visible]),.MEAvatar__svg,.VideoCard__thumb:after,:where(.TopHomeLink,#page_header>li:first-child>a) svg>*,.HeaderLogo svg>*,.share_logo svg>*,#top_notify_btn.has_notify svg>*,#top_notify_btn:has(.vkuiCounter__host) svg>*,.audio_search_wrapper .ui_search_filters_pane,html:not(.ns) .search_auto_results .search_auto_sep,.feed_is_empty .stories_feed_wrap,.reply_link_wrap,.docs_bg>*,.docs_fn>*,a[class*=FileCell] .vkuiButtonGroup__host,.liked .like_on svg>*,.like_off svg>*,.PostButtonReactions__iconAnimation,#Container,.article>pre>br,.mv_info .ui_actions_menu_item_sublist,:is(#top_audio_btn_group[style*="display: none"],#top_audio_layer_place+div:has(>div>div))+#top_audio_play,#top_audio_layer_place+div [class*=vkitTopAudioPlayerInfo__title]+div,html.bo body>*,html.vo .PortalNavigation,html.vo #stl_left,html.vo #page_layout,html.vo :is(#page_header>li,.HeaderNav__item)>:not(#top_audio_layer_place),html.vo #top_notify_btn,html.vo .back,html.vo #page_header_cont:before,html.vo #pg_fixed,#album-168874636_0,.article_layer__dark,
+.ProfileIndicatorBadge__badgeAddStory,:is(.redesigned-group-avatar,[class*=CommunityHeader__avatar]) .vkuiImageBaseBadge__backgroundStroke,.ChannelMain>.ChannelMain__content:has(+.ChannelMain__content),.MessageReactionPickerExpandableContainer:not([class*=visible]),.MEAvatar__svg,.VideoCard__thumb:after,:where(.TopHomeLink,#page_header>li:first-child>a) svg>*,.HeaderLogo svg>*,.share_logo svg>*,#top_notify_btn.has_notify svg>*,#top_notify_btn:has(.vkuiCounter__host) svg>*,.audio_search_wrapper .ui_search_filters_pane,html:not(.ns) .search_auto_results .search_auto_sep,.feed_is_empty .stories_feed_wrap,.docs_bg>*,.docs_fn>*,a[class*=FileCell] .vkuiButtonGroup__host,.liked .like_on svg>*,.like_off svg>*,.PostButtonReactions__iconAnimation,#Container,.article>pre>br,.mv_info .ui_actions_menu_item_sublist,:is(#top_audio_btn_group[style*="display: none"],#top_audio_layer_place+div:has(>div>div))+#top_audio_play,#top_audio_layer_place+div [class*=vkitTopAudioPlayerInfo__title]+div,html.bo body>*,html.vo .PortalNavigation,html.vo #stl_left,html.vo #page_layout,html.vo :is(#page_header>li,.HeaderNav__item)>:not(#top_audio_layer_place),html.vo #top_notify_btn,html.vo .back,html.vo #page_header_cont:before,html.vo #pg_fixed,#album-168874636_0,.article_layer__dark,
 :is(#side_bar,#layout_sidebar) ol li>:first-child .vkuiTappable__ripple,:is(#side_bar,#layout_sidebar) ol li>:last-child:not(:only-child) svg,html.mm :is(#side_bar,#layout_sidebar) ol li>:last-child:not(:only-child),html.mm :is(#side_bar,#layout_sidebar) ol li>:first-child>:nth-child(2),html.mm .side_bar_nav_wrap~*,html.mm #layout_sidebar ol~*,html.mm :is(#side_bar,#layout_sidebar) [id$=_left],html.mm .left_menu_nav_wrap,.AudioPlayerBlock__root [class*=playbackSpeed],.landing_author_guide_header__footer,.im-mess--actions,img:before,img:after{
 	display:none!important
 }
@@ -1284,7 +1295,7 @@ div[data-testid=rightmenu-in] [class*=RightMenuItem__container]:not([class*=Hove
 #page_header_wrap>ul>li>div>button,:is(.SearchHeaderForm,.TopSearchAnonymousRoot) .vkuiTappable__stateLayer,.vkuiPopover__in [class*=EcoPlate-module_menu],.ComposerFormattingMenu input,.pedit_redesign__fields,.page_block_header_redesign,.ProfileEditAvatar,.AppStoreLinkApk,.AskQuestionModal__field,.AskQuestionModal__field::placeholder,.index_page div[class*=PageWrapper__bg],.vkuiGroup__modeCard>[class*=FriendsSearch__root],.VKCOMSettingsContent,.MEApp__noConvo,.MainPanel,.ConvoMain,.ConvoHeader,.ConvoList__top,.ConvoList__footer,.ConvoListFoldersDropdown,.ConvoMain__rightPanelContainer,.ConvoList,.ConvoList__headerContent,.ConvoList__item,.ConvoList__folders,.ConvoList__folderDropDown,.ContentPlaceholder,.ConvoProfileMembers__searchArea,.ConvoProfileMembers__add,.ContactList,.VideoShowcaseCommunityHeader__information,.StickerPickerViewer,.redesigned-group-info,.redesign_web .page_block_header,.ProfileWrapper__root,.ProfileHeader__in,.PostActivityBar,.mv_info_narrow_column,.im_msg_audiomsg--collapse_content,#page_header,.reply_box_more_attaches .ms_item_more_label,.StickerProductsGift__content,.mv_chat_reply_form,.pv_reply_form_wrap,.VideosFeedTitle,#admin_form_table_wrapper,.VerticalVideoLayerInfo__mainInfoWrap>div,.landing_author_guide_content,.feed_row[style*=background-color],.mv_chat,#mv_progress_box,.article_layer__content_footer,.im-audio-message-input,.help_table_question_sa.help_table_question_visible,.playAtHome_header,.playAtHome_content,.ChatCreation .Modal__body,.bookmark_footer,.mv_playlist,.VideoRecomsItem,.TimeCodesList,.TimeCodesList__item,.PredictionWidget,a.ads_edit_link_go,.SideOfficeMenu__navList:after,.Office__content,.Office__content--adsedit,.SideMenu__office,.SideOfficeMenu,#ads_page,.Table__wrapper,.Table__stub:before,.ads_retargeting_price_list_empty,.emoji_list .emoji_cat_title,.stats_cont_browse,.photos_edit_selection_header,.notifications_new_events,.rdrDay,.poster__btns-wrapper,.poster__author-info,.poster_wall-edit,.groups_cover_box .groups_edit_cover_header,#wl_postreach_stat_body,.stat_group_postsreach_empty_placeholder,.apps_app_widget_preview_box_text,.PageSection--gradient:before,.landing_transparencyFooter,.article_dark .article,.vk2017_snippet,.im-page_group .im-page--dcontent,.im-page--chat-header-in:before,.im-page--dialogs--group-status,.group_tokens_row,.tickets_header,.tickets_post_field,.box_body .search_bar,.box_body .group_search_rows,.result_list ul,.ui_rmenu_count.im-right-menu--count,.groups_actions_menu .groups_actions_icons,.im-page_classic.im-page .im-page--chat-body-wrap-inner,.wk_history_tabs,.im-page .im-page--history-new-bar>span,.poster__toolbar,.TemplatesSettings,.TemplatesSettings__content,.TemplatesSettings__footer,.GroupChatInvites,.profile_info_header,.profile_info_edit,.tdd_control,.feedback_row_wrap.reply_box_open,.wall_module .page_media_thumbed_link,.im-page .im-page--dialogs.im-page--dialogs-notice .im-page--header,.im-group-online,.im-page_classic .im-page--top-notice,.audio_pl_snippet2,.ap_layer .audio_pl_snippet .audio_pl_snippet__header_inner,.docs_choose_dropbox_wrap,.wke_pcont,.MessageForward__content,.MessageForward__footer,div.MessageForward__input,.apps_win_instr_try,.article,.mail_box_cont,.article_view,.friends_dropdown__list_item,.gifts_constr_preview,.gifts_constr_options_ready,.ChatSettings__content,.ChatSettingsResetInvitationLink__text,.ChatSettingsInfo,.List,.ChatSettingsMembers,.ChatSettingsMembersWidget,.ChatSettingsMembersWidget__search,.join_box_content,.landings_vkCalls,.audio_page_layout .audio_friends_list,.ChatSettingsInvitationLink,.group_l_row,#stat_group_postsreach_table td,#stat_group_postsreach_table .paginated_table_row.even_row,.im-page--toolsw,.im-page .im-page--search-header,.im-page-pinned,.im-page--chat-header,.im_cal_clear,.im-page--dialogs-search,.im-page .im-page--dialogs-footer.ui_grey_block,.pv_narrow_column_wrap,.pv_cont .narrow_column,.pv_author_block,.poster__loading-wrapper,.ScrollWrapper__left-arrow:after,.ScrollWrapper__right-arrow:after,.wall_module .reply_form,a.ads_inline_dropdown,a.ads_status_link,.Breadcrumbs,.GamesCatalogFeed__rowWrap,.GamesCatalog .ui_tabs_header,.GamesCatalogCardsBlock__header,.GamesCatalogProfileBlock__header,.GamesCatalogProfileBlock__content,.GamesCatalogSearchMainContent,.im-page--history-new-bar,.article_layer,.article_ed__img_wrapper,.apps_main,.apps_footer,#page_header_cont .CatalogBlock--divided,.CatalogSection,.box_body,.Button--tertiary,.flat_button.ui_load_more_btn,.scrollbar_cont,.story_stats_row_header_content,.audio_page_player_track_slider:not(.slider),.audio_page_player_volume_slider:not(.slider),.ui_table_cell_empty,.ui_table_row,.ui_table_cell,.empty_row td,.ads_unions_table,.ads_unions_table>tbody>tr>th,.paginated_table>table>tbody>tr>th,.paginated_table_cell,.ads_union_empty_cell,.ads_edit_page_wrap3,.ads_edit_link_type_card_image_wrapper,.ads_ad_box,.exchange_not_found,#ad_preview_top,.dark_box_cont,#page_layout,.mv_info,.apps_header_wrapper,.box_msg,.media_link:last-child,.thumbed_link__label,.groups_edit_menu_item_settings,.group_apps_edit,.group_apps_list_row_drag_wrapper,.groups_edit_event_log_item_wrap_more_wrap,.ui_tooltipMenu .ui_search input.ui_search_field,.groups_edit_event_log_controls,.prefix_input_wrap.finished,.wall_module :is(.reply_box,.reply_fakebox_wrap),.audio-msg-track .slider .slider_slide,.im-page,.im-page--history,.im-page--dialogs,.im-page_classic .im-page--dcontent,.im-chat-input,.ui_search:not(.page_block):not(.im-page--header):not(.ui_search_fixed):not(.faq_search_form),.box_body .ui_search_new input.ui_search_field,.placeholder .ph_input,.ui_search_new input.ui_search_field,#top_audio_layer_place .audio_page_player2,.reply_fakebox,.group_edit_address_form,.submit_post,#help_table_categories_menu,.audio-msg-track .slider .slider_amount,.LandingsTransparencyTabsScroll__arrow:before,.fakeinput,div[contenteditable=true],.selector_container td.selector input,.payments_money_transfer_amount,#page_wrap,body{
 	background:none!important}
 .VKCOMMessenger__reforgedRoot:has(.VKCOMSettingsScreen),.MEApp,.CollapsibleContainer__widthControllerButton,
-.feed_wall--no-islands:not(.feed_notifications,.feed_found_photos),.vkuiGroup__modeCard:has(#page-wall,#page-searh-wall,section>[class*=PostSkeleton__root]),.vkitInternalTwoColumnLayoutColumn[data-testid=feed_wall]>*>.vkuiGroup__modeCard,.vkitInternalTwoColumnLayoutColumn>[data-testid=feed_main_container]>.vkuiGroup__modeCard,
+.feed_wall--no-islands:not(.feed_notifications,.feed_found_photos),.vkuiGroup__modeCard:has([role=feed],section>[class*=PostSkeleton__root]),.vkitInternalTwoColumnLayoutColumn[data-testid=feed_wall]>*>.vkuiGroup__modeCard,.vkitInternalTwoColumnLayoutColumn>[data-testid=feed_main_container]>.vkuiGroup__modeCard,
 .page_block :is(.page_block,.vkuiGroup__modeCard),.vkuiGroup__modeCard .vkuiGroup__modeCard,.video_dashboard .page_block,.feed_new_posts,.audio_page_layout:not(.podcast_page_layout) ._audio_page_content_block,#audio_layer_tt .page_block,.GamesCatalog--search_page .GamesCatalogHead,html.vo #page_header_cont{
 	background-color:unset!important;
 	backdrop-filter:none!important;
@@ -1579,15 +1590,15 @@ html.ns .video_showcase :is(.VideoLayout__main,#react_rootVideo_page>.vkui__root
 .video_showcase .SearchHeaderForm{width:230px;transition:width .3s}.video_showcase .SearchHeaderForm:has([aria-expanded=true],.vkuiSearch__hasValue){width:330px}
 
 
-html.ns :is(.page_block:last-child,.page_block_cell,.PageBlock,.like_wrap .BadgesStack,.VKCOMMessenger__reforgedRightColumn,.AppsCatalogMainPage,.ShortVideoPage,.ShortVideoPost,.DonutCatalogPromo,.RightMenuBlock,.ProfileHeaderSkeleton,.ProfileSkeleton__layout,.ProfileSkeleton__column+.ProfileSkeleton__column,.ProfileGroupSkeleton){margin:0}
+html.ns .vkuiGroup__modeCard:has([role=feed])>.vkuiGroup__header,html.ns :is(.page_block:last-child,.page_block_cell,.PageBlock,.like_wrap .BadgesStack,.VKCOMMessenger__reforgedRightColumn,.AppsCatalogMainPage,.ShortVideoPage,.ShortVideoPost,.DonutCatalogPromo,.RightMenuBlock,.ProfileHeaderSkeleton,.ProfileSkeleton__layout,.ProfileSkeleton__column+.ProfileSkeleton__column,.ProfileGroupSkeleton){margin:0}
 html.ns :is(.feed_wall--no-islands,.page_block,._playlist_page_content_block,.faq_search_form,.stories_feed_wrap,.posting_feed_wrap,.PostingReactBlock__root .vkui__root>*){margin:0!important}
 html.ns .VKCOMSettingsContent{width:auto}
 html.ns .Profile .RedesignedPageBlockContainer,html.ns #page_layout .CatalogBlock--divided:not(:first-child),html.ns .im-page_classic #im_dialogs{margin-top:0}
 html.ns :is(.im-page,.VKCOMMessenger__reforgedRoot){margin:0;padding:0;height:calc(100vh - var(--header-height))}
 html.ns .im-right-menu{margin-left:550px}
-html.ns .vkitInternalTwoColumnLayoutColumn+.vkitInternalTwoColumnLayoutColumn{margin-left:0!important}
-html.ns :is(.Profile .ScrollStickyWrapper .vkuiGroup__modeCard:last-of-type,.im-page:not(.im-page_group)+.im-right-menu .ui_rmenu,.RightMenuBlock,.vkitInternalTwoColumnLayoutColumn+.vkitInternalTwoColumnLayoutColumn>div>.vkuiGroup__modeCard:last-of-type,.VKCOMMessenger__reforgedRightColumn .vkuiGroup__modeCard,.wide_column_left :is(.narrow_column>:last-child>:last-child .vkuiGroup__modeCard,.narrow_column>:last-child .page_block:last-child,.narrow_column>.page_block:last-child)){border-radius:0 0 20px 0!important}
-html.ns :is(.vkitInternalTwoColumnLayoutColumn+.vkitInternalTwoColumnLayoutColumn>div,.Profile .ScrollStickyWrapper>div,.im-right-menu,.wide_column_left .narrow_column):before{content:'';position:absolute;bottom:-20px;left:0;width:20px;height:20px;background:var(--nsRightCorner)}
+html.ns .vkitInternalTwoColumnLayoutColumn:has(+.vkitInternalTwoColumnLayoutColumn){margin-left:0!important}
+html.ns :is(.Profile .ScrollStickyWrapper .vkuiGroup__modeCard:last-of-type,.im-page:not(.im-page_group)+.im-right-menu .ui_rmenu,.RightMenuBlock,.vkitInternalTwoColumnLayoutColumn:has(+.vkitInternalTwoColumnLayoutColumn)>div>.vkuiGroup__modeCard:last-of-type,.VKCOMMessenger__reforgedRightColumn .vkuiGroup__modeCard,.wide_column_left :is(.narrow_column>:last-child>:last-child .vkuiGroup__modeCard,.narrow_column>:last-child .page_block:last-child,.narrow_column>.page_block:last-child)){border-radius:0 0 20px 0!important}
+html.ns :is(.vkitInternalTwoColumnLayoutColumn:has(+.vkitInternalTwoColumnLayoutColumn)>div,.Profile .ScrollStickyWrapper>div,.im-right-menu,.wide_column_left .narrow_column):before{content:'';position:absolute;bottom:-20px;left:0;width:20px;height:20px;background:var(--nsRightCorner)}
 html.ns .wide_column_right .wide_column_wrap{margin-left:var(--narrow-column-width)}
 html.ns .wide_column_left .wide_column_wrap{margin-right:var(--narrow-column-width)}
 html.ns .vkitInternalTwoColumnLayoutColumn:has(div[class*=ClipsCarousel__root]){background:var(--n15e);backdrop-filter:var(--blb)}
@@ -1595,8 +1606,8 @@ html.ns div[class*=FeedLayout__rightWrapper]{padding-top:0;height:calc(100vh - v
 html.ns div[class*=ClipsCarousel__startGapItemWrapper]{align-items:flex-start}
 html.ns .Profile .WallLegacy{padding-top:0!important;margin-top:0!important}
 html.ns .Profile .ScrollStickyWrapper{margin-left:0!important;margin-right:0!important;flex-grow:0}
-html.ns :is(.Profile .ScrollStickyWrapper>[style*="top: 64px"],.vkitInternalTwoColumnLayoutColumn+.vkitInternalTwoColumnLayoutColumn>div:is([style*="top: 64px"],[style*="position: sticky"])){top:var(--header-height,48px)!important}
-html.ns [data-testid=feed_main_container]>[class*=Spacing],html.ns #spa_root .vkui__root>:first-child[class*=Spacing],html.ns .vkitInternalTwoColumnLayoutColumn+.vkitInternalTwoColumnLayoutColumn>div>[class*=Spacing],html.ns .ProfileGroupSkeleton:after,html.ns div[class*=Spacing]:has(+.vkuiGroup__modeCard,+.ProfileHeader),html.ns .ProfileHeader+div[class*=Spacing],html.ns .vkuiGroup__separatorSibling{display:none!important}
+html.ns :is(.Profile .ScrollStickyWrapper>[style*="top: 64px"],.vkitInternalTwoColumnLayoutColumn:has(+.vkitInternalTwoColumnLayoutColumn)>div:is([style*="top: 64px"],[style*="position: sticky"])){top:var(--header-height,48px)!important}
+html.ns [data-testid=feed_main_container]>[class*=Spacing],html.ns #spa_root .vkui__root>:first-child[class*=Spacing],html.ns .vkitInternalTwoColumnLayoutColumn:has(+.vkitInternalTwoColumnLayoutColumn)>div>[class*=Spacing],html.ns .ProfileGroupSkeleton:after,html.ns div[class*=Spacing]:has(+.vkuiGroup__modeCard,+.ProfileHeader),html.ns .ProfileHeader+div[class*=Spacing],html.ns .vkuiGroup__separatorSibling{display:none!important}
 html.ns .feed_reposts_more_link{margin:0;width:100%;border-radius:0}
 html.ns :is(.page_block,.PageBlock,.ReplyBoxDonut,.ShortVideoPost,#page_layout .CatalogBlock--divided,#page_layout .audio_section,.faq_search_form){border-radius:0!important}
 html.ns :is(#page_header,#page_layout,.im-page_classic :is(.im-group-online,.im-page--header,.im-page--chat-header)){padding:0!important}
@@ -1612,7 +1623,7 @@ html.rb :is(body,.vkui--vkBase--light,.vkui--vkCom--light){
 	--br:10px;--brp:20px}
 .audio_row_content,.ActionButton--shuffle,:is(#side_bar,#layout_sidebar) ol li>:first-child,:is(#side_bar,#layout_sidebar) ol li>:first-child object span,:is(#side_bar,#layout_sidebar) ol li>:first-child span:nth-child(3):not(.vkuiTappable__ripple){
 	border-radius:var(--br)!important}
-.vkitInternalTwoColumnLayoutColumn [role=feed]>article,.page_block,.RightPanel__container,:is(#side_bar_inner,#layout_sidebar>div),.im-page,.mv_minimized,.mv_minimized #mv_box,.scrollbar_inner,.box_layout,.group-info-box,.audio_page_content_block_wrap,#page_layout .audio_section,#page_layout .CatalogSection,#page_layout .CatalogBlock--divided,.im-page--back-btn,.ShortVideoPage__container--empty,.ShortVideoPost,html.rb .wall_card__close,.poster-uploader__overlay{
+.vkuiGroup__modeCard [role=feed]>article,.page_block,.RightPanel__container,:is(#side_bar_inner,#layout_sidebar>div),.im-page,.mv_minimized,.mv_minimized #mv_box,.scrollbar_inner,.box_layout,.group-info-box,.audio_page_content_block_wrap,#page_layout .audio_section,#page_layout .CatalogSection,#page_layout .CatalogBlock--divided,.im-page--back-btn,.ShortVideoPage__container--empty,.ShortVideoPost,html.rb .wall_card__close,.poster-uploader__overlay{
 	border-radius:var(--brp)!important}
 .profile_warning_img,.cal_table .day.sel{
 	border-radius:5px!important}
@@ -1700,6 +1711,15 @@ html.rm .nim-dialog.nim-dialog_selected{box-shadow:inset 3px 0 0 0 var(--g3)}
 .im-page_group .ui_search_custom_ctrl{position:absolute!important;right:15px}
 .im-page_group #cp_imc{display:flex;float:left;position:absolute;right:5px;height:48px;width:32px;opacity:.7;cursor:pointer}
 
+.ConvoComposer__templates{
+	position:fixed;bottom:95px;width:360px;margin-left:200px;max-height:calc(100vh - 225px);background:var(--n15b);backdrop-filter:var(--blb);border-radius:var(--br);border:none;box-shadow:0 4px 16px #0005;z-index:1;
+	.Templates__header{background:none}
+	[data-scrollbar=cropped]{max-height:calc(100vh - 269px)!important}
+	.vkuiSimpleCell__middle .vkuiSimpleCell__overTitle{color:var(--g2);font-weight:500}
+	.vkuiSimpleCell__middle .vkuiSimpleCell__content{color:var(--n999);>*{font-size:13px}}
+}
+html.ns .ConvoComposer__templates{bottom:80px}
+
 .TemplatesDropDown__wrapper{pointer-events:all!important}
 .TemplatesDropDown__container{height:auto}
 .TemplatesDropDown__scroll-wrapper{max-height:calc(100vh - 130px)}
@@ -1765,21 +1785,21 @@ html.Pl :is(#side_bar,#layout_sidebar){float:right;order:1}
 html.Pl.mm :is(#side_bar,#layout_sidebar) ol li>:first-child>:nth-child(3):not(.vkuiTappable__ripple){left:35px;right:unset}
 html.Pl.mb.mm :is(#side_bar,#layout_sidebar) ol li>:first-child>:nth-child(3):not(.vkuiTappable__ripple){left:39px}
 
-html.Pl.ns .vkitInternalTwoColumnLayoutColumn+.vkitInternalTwoColumnLayoutColumn>div:before,html.Pl.ns .Profile .ScrollStickyWrapper>:before,html.Pl.ns .im-right-menu:before,html.Pl.ns .wide_column_left .narrow_column:before{left:unset;right:0;background:var(--nsLeftCorner)}
+html.Pl.ns .vkitInternalTwoColumnLayoutColumn:has(+.vkitInternalTwoColumnLayoutColumn)>div:before,html.Pl.ns .Profile .ScrollStickyWrapper>:before,html.Pl.ns .im-right-menu:before,html.Pl.ns .wide_column_left .narrow_column:before{left:unset;right:0;background:var(--nsLeftCorner)}
 html.Pl.mm .head_nav{padding-right:110px}
 html.Pl .top_home_link{width:34px;margin:0 10px 0 0}
 
 html.Pl .audio_page_layout .CatalogSection__leftColumn{padding:0 0 0 20px;border-left:1px var(--n29e) solid;border-right:unset}
 html.Pl .audio_page_layout .CatalogSection__rightColumn{padding:0 20px 0 0}
 html.Pl .audio_page_layout .CatalogSection__columns,html.Pl .Profile .vkuiSplitLayout__inner,html.Pl #spa_root .vkitInternalTwoColumnLayout{flex-direction:row-reverse}
-html.Pl .Profile .ScrollStickyWrapper,html.Pl:not(.ns) .vkitInternalTwoColumnLayoutColumn+.vkitInternalTwoColumnLayoutColumn{margin-left:unset;margin-right:var(--page-block-offset)}
+html.Pl .Profile .ScrollStickyWrapper,html.Pl:not(.ns) .vkitInternalTwoColumnLayoutColumn:has(+.vkitInternalTwoColumnLayoutColumn){margin-left:unset;margin-right:var(--page-block-offset)}
 html.Pl .wide_column_left .narrow_column_wrap{float:left}
 html.Pl .wide_column_left .wide_column_wrap{margin-left:calc(var(--narrow-column-width) + var(--page-block-offset));margin-right:unset}
 html.Pl.ns .wide_column_left .wide_column_wrap{margin-left:var(--narrow-column-width)}
 html.Pl .im-right-menu{margin:0 565px 0 0}
 html.Pl.ns .im-right-menu{margin:0 550px 0 var(--page-block-offset)}
 html.Pl .im-page_classic{float:right}
-html.Pl.ns .vkitInternalTwoColumnLayoutColumn+.vkitInternalTwoColumnLayoutColumn>div>.vkuiGroup__modeCard:last-of-type,html.Pl.ns .VKCOMMessenger__reforgedRightColumn .vkuiGroup__modeCard,html.Pl.ns .ProfileGroup:last-child>.vkuiGroup__inner,html.Pl.ns .im-page:not(.im-page_group)+.im-right-menu .ui_rmenu,html.Pl.ns .RightMenuBlock,
+html.Pl.ns .vkitInternalTwoColumnLayoutColumn:has(+.vkitInternalTwoColumnLayoutColumn)>div>.vkuiGroup__modeCard:last-of-type,html.Pl.ns .VKCOMMessenger__reforgedRightColumn .vkuiGroup__modeCard,html.Pl.ns .ProfileGroup:last-child>.vkuiGroup__inner,html.Pl.ns .im-page:not(.im-page_group)+.im-right-menu .ui_rmenu,html.Pl.ns .RightMenuBlock,
 html.Pl.ns .wide_column_left .narrow_column>:last-child>:last-child .vkuiGroup__modeCard,html.Pl.ns .wide_column_left .narrow_column>:last-child .page_block:last-child,html.Pl.ns .wide_column_left .narrow_column>.page_block:last-child{border-radius:0 0 0 20px!important}
 html.Pl #stl_left{right:0;left:unset}
 html.Pl #stl_bg{float:right}
@@ -1789,6 +1809,7 @@ html.Pl #stl_bg{float:right}
 html.sl .PostBottomAction{padding-left:0!important}
 html.sl .PostBottomAction__icon svg{height:18px!important}
 html.sl [class*=PostFooterAction] svg{width:18px!important}
+html.sl [data-testid=post_footer_action_like][data-user-reaction="0"] [class*=ReactionImage__image]{width:18px;background-size:16px}
 html.sl .PostButtonReactions__icon{height:19px;background-size:16px}
 html.sl .PostButtonReactions__iconAnimation{height:22px}
 
@@ -1798,7 +1819,7 @@ html.sl .ShortVideoPost .like_cont{padding-top:12px!important}
 html.sl .like_button_icon{width:16px;height:16px}
 .like_btn .counter_anim_wrap,.like_btn .counter_wrap{height:100%;overflow:hidden}
 
-html.ol .PostActionStatusBar{display:none!important} 
+html.ol :is(.vkuiPopover__in [class*=ReactionsBar__root],.PostActionStatusBar),[data-testid=post_footer_action_like][data-user-reaction="0"] canvas,.vkuiIcon--like_circle_fill_red_28>*{display:none!important} 
 html.ol .PostButtonReactions>*{pointer-events:none}
 
 .feed_wall--no-islands .post_info .replies{padding-bottom:0!important}
@@ -1815,9 +1836,9 @@ html.op .Post--redesignV3 [class*=PostContentContainer__contentContainer]{
 	.VideoPrimaryAttachment,.VideoPrimaryAttachment__thumbWrapper,.page_post_thumb_wrap{width:auto!important}
 }
 
-html.op .vkitInternalTwoColumnLayoutColumn [role=feed]>article>div>[style="padding: 8px;"]{padding-top:18px!important}
+html.op .vkuiGroup__modeCard [role=feed]>article>div>[style="padding: 8px;"]{padding-top:18px!important}
 html.op .vkitInternalModalBox [data-post-id]>:nth-child(2)>div>div,
-html.op .vkitInternalTwoColumnLayoutColumn [role=feed]>article>div>:nth-child(2)>div>div{
+html.op .vkuiGroup__modeCard [role=feed]>article>div>:nth-child(2)>div>div{
 	display:flex!important;flex-direction:column-reverse!important;
 	>[class*=Spacing]{display:none}
 	>div:not([style="padding: 4px 20px;"]){padding:12px 20px 5px!important;[style*=padding]{padding:unset!important}}
