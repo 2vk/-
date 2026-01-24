@@ -888,18 +888,22 @@ input.ui_search_field{
 :root .feed_row_unshown+.feed_row .page_block{
 	padding-top:49px!important;margin-top:-49px!important;border-radius:var(--brp)!important
 }
-:is(#page-wall,#page-searh-wall)>[role=feed]{margin-top:-64px}
-:is(#page-wall,#page-searh-wall)>[role=feed]>article[style*="translateY(0px)"]{padding-top:64px}
-:is(#page-wall,#page-searh-wall)>[role=feed]>article[style*="translateY(20px)"]{padding-top:64px;margin-top:-20px}
-:is(#page-wall,#page-searh-wall)>[role=feed]>article[style*="translateY(40px)"]{padding-top:64px;margin-top:-40px}
-:is(#page-wall,#page-searh-wall)>[role=feed]>article[style*="translateY(60px)"]{padding-top:64px;margin-top:-60px}
-.vkuiGroup__header+section>:first-child[class*=PostSkeleton__root]{margin-top:-64px;padding-top:64px;z-index:-1;position:relative}
-.Profile .vkuiGroup__modeCard:has(a[href="?w=archive"]) :is(#page-wall,#page-searh-wall)>[role=feed]{margin-top:-175px}
-.Profile .vkuiGroup__modeCard:has(a[href="?w=archive"]) :is(#page-wall,#page-searh-wall)>[role=feed]>article[style*="translateY(0px)"]{padding-top:175px}
-.Profile .vkuiGroup__modeCard:has(a[href="?w=archive"]) section>:first-child[class*=PostSkeleton__root]{margin-top:-175px;padding-top:175px;z-index:-1;position:relative}
 
-.vkuiGroup__modeCard:has([role=feed]) .vkuiGroup__header,
-.Profile .vkuiGroup__modeCard:has(a[href="?w=archive"]) .vkuiGroup__header+div,
+.vkuiDiv__host+section>:first-child[class*=PostSkeleton__root],
+.vkuiGroup__modeCard:has([role=feed])>.vkuiDiv__host+:is(#page-wall,#page-searh-wall){--pt:108px}
+.Profile .vkuiGroup__modeCard:has(a[href="?w=archive"]) section>:first-child[class*=PostSkeleton__root],
+.Profile .vkuiGroup__modeCard:has(a[href="?w=archive"]) :is(#page-wall,#page-searh-wall){--pt:175px}
+.vkuiDiv__host+div[class*=Spacing]+section>:first-child[class*=PostSkeleton__root],
+.vkuiGroup__modeCard:has([role=feed])>.vkuiDiv__host+div[class*=Spacing]+:is(#page-wall,#page-searh-wall){--pt:50px}
+
+:is(#page-wall,#page-searh-wall)>[role=feed]{margin-top:calc(var(--pt,64px) * -1)}
+:is(#page-wall,#page-searh-wall)>[role=feed]>article[style*="translateY(0px)"]{padding-top:var(--pt,64px)}
+:is(#page-wall,#page-searh-wall)>[role=feed]>article[style*="translateY(20px)"]{padding-top:var(--pt,64px);margin-top:-20px}
+:is(#page-wall,#page-searh-wall)>[role=feed]>article[style*="translateY(40px)"]{padding-top:var(--pt,64px);margin-top:-40px}
+:is(#page-wall,#page-searh-wall)>[role=feed]>article[style*="translateY(60px)"]{padding-top:var(--pt,64px);margin-top:-60px}
+section>:first-child[class*=PostSkeleton__root]{margin-top:calc(var(--pt,64px) * -1);padding-top:var(--pt,64px);z-index:-1;position:relative}
+
+.vkuiGroup__modeCard:has([role=feed])>:not(#page-wall,#page-searh-wall),
 .feed_new_posts,.VideosFeedTitle,.EcommSkeleton__block--tabs,.EcommSkeleton__block--breadcrumbs{position:relative;z-index:3!important}
 .ShortVideoPage__container--empty,.ShortVideoPost:first-child{
 	margin-top:-60px!important;padding-top:75px!important;
@@ -1746,7 +1750,7 @@ html.op .Post--redesignV3 [class*=PostContentContainer__contentContainer]{
 }
 
 html.op .vkuiGroup__modeCard [role=feed]>article>div>[style="padding: 8px;"]{padding-top:18px!important}
-html.op .vkitInternalModalBox [data-post-id]>:nth-child(2)>div>div,
+html.op [data-post-id]>:nth-child(2)>div>div,
 html.op .vkuiGroup__modeCard [role=feed]>article>div>:nth-child(2)>div>div{
 	display:flex!important;flex-direction:column-reverse!important;
 	>[class*=Spacing]{display:none}
