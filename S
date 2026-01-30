@@ -444,8 +444,8 @@ html.nl .mv_top_button:hover,html.nl .wk_right_nav:hover .wk_close,html.nl .wk_a
 	transition:opacity .2s}
 .audio_row__current .audio_row_content{
 	transition:background .5s}
-.reply_content .reply_footer>:nth-child(n+3),article .vkuiDiv__host [class*=CommentBase__in] [class*=Comment__infoLeft]>:nth-child(n+2){opacity:0;transition:opacity .4s .15s}
-.reply_content:hover .reply_footer>:nth-child(n+3),article .vkuiDiv__host [class*=CommentBase__in]:hover [class*=Comment__infoLeft]>:nth-child(n+2){opacity:1}
+.reply_content .reply_footer>:nth-child(n+3),:is(article,#post-layer) .vkuiDiv__host [class*=CommentBase__in] [class*=Comment__infoLeft]>:nth-child(n+2){opacity:0;transition:opacity .4s .15s}
+.reply_content:hover .reply_footer>:nth-child(n+3),:is(article,#post-layer) .vkuiDiv__host [class*=CommentBase__in]:hover [class*=Comment__infoLeft]>:nth-child(n+2){opacity:1}
 .vkuiTappable__hoverShadow{
 	opacity:.1}
 :is(#side_bar,#layout_sidebar) ol li:hover>:last-child:not(:only-child),.video_showcase #autocompleteSuggest{
