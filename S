@@ -1619,9 +1619,8 @@ html.sl .like_button_icon{width:16px;height:16px}
 html.ol :is(.stReactionsBar__root,.PostActionStatusBar),[data-testid=post_footer_action_like][data-user-reaction="0"] canvas,.vkuiIcon--like_circle_fill_red_28>*{display:none!important} 
 html.ol .PostButtonReactions>*{pointer-events:none}
 
-html.op .vkuiGroup__modeCard [role=feed]>article>div>[style="padding: 8px;"]{padding-top:18px!important}
-html.op [data-post-id]:not(.reply,.replies_wrap_deep)>:nth-child(2)>div>div,
-html.op .vkuiGroup__modeCard [role=feed]>article>div>:nth-child(2)>div>div{
+html.op [role=feed]>article>div>[style="padding: 8px;"]{padding-top:18px!important}
+html.op [data-testid=post-content-container]>div>div{
 	display:flex!important;flex-direction:column-reverse!important;
 	>.stSpacing__root{display:none}
 	>div:not([style="padding: 4px 20px;"]){padding:12px 20px 5px!important;[style*=padding]{padding:unset!important}}
