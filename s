@@ -164,7 +164,7 @@ html::-webkit-scrollbar-button,html::-webkit-scrollbar-corner{display:none}
 		background-color:var(--n15e)!important
 	}
 	.layout__header{
-		background-color:var(--hc)!important
+		background-color:var(--n15f)!important
 	}
 	.mhb_logo,.basis__header,.leftMenu__header,.mailHat{
 		background-color:unset!important
@@ -191,9 +191,6 @@ html::-webkit-scrollbar-button,html::-webkit-scrollbar-corner{display:none}
 }
 .scroller_wrap:before{
 	background:linear-gradient(90deg,var(--n15e),transparent)!important
-}
-.SkeletonLine_header,.SkeletonCircle_header,.SkeletonSearch_header{
-	background-image:linear-gradient(90deg,transparent,var(--hc2) 300px,transparent)!important
 }
 .SkeletonCircle,.SkeletonSquare,.SkeletonLine,.SkeletonSearch{
 	background-image:linear-gradient(90deg,transparent,var(--n15) 300px,transparent)!important
